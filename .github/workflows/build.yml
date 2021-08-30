@@ -26,6 +26,10 @@ jobs:
         deploy-branch: gh-pages
       uses:  NickSchimek/deploy_jamstack_action@main
 
+  create-index:
+    runs-on: ubuntu-latest
+    needs: build-deploy
+    steps:
     - name: Sleep for 30 seconds
       uses: jakejarvis/wait-action@master
       with:
@@ -33,7 +37,6 @@ jobs:
 
     - name: Index docusaurus
       run: |
-        cd docker/docs
         docker run \
           -e APPLICATION_ID=${{ secrets.APPLICATION_ID }} \
           -e API_KEY=${{ secrets.API_KEY }} \
