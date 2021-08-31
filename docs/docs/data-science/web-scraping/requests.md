@@ -15,10 +15,10 @@ requests.post(url, headers=auth_headers, data=payload)
 ```python
 import requests
 
-filename = urlparse(url).path.split('/')[-1].replace('%20', ' ')
+filename = urlparse(url).path.split("/")[-1].replace("%20", " ")
 f = requests.get(url)
 
-with open(filename, 'wb') as file_obj:
+with open(filename, "wb") as file_obj:
     file_obj.write(f.content)
 ```
 

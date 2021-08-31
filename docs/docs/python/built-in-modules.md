@@ -11,18 +11,22 @@ with open('online_listing.json', 'w') as f:
 
 ### Mass re-encode file
 ```python
-def change_encoding(encoding_from='cp874', encoding_to='utf-8', files=files):
-    print('===== Start conversion from {} to {} ====='.format(encoding_from, encoding_to))
+def change_encoding(encoding_from="cp874", encoding_to="utf-8", files=files):
+    print(
+        "===== Start conversion from {} to {} =====".format(encoding_from, encoding_to)
+    )
     for i in files:
         print(i)
 
-        with open(i, 'r', encoding=encoding_from, errors='ignore') as f: # open Thai file
+        with open(
+            i, "r", encoding=encoding_from, errors="ignore"
+        ) as f:  # open Thai file
             data = f.read()
-            data = data.encode(encoding_to, 'ignore') # convert to UTF-8
+            data = data.encode(encoding_to, "ignore")  # convert to UTF-8
 
         # print(data)
 
-        with open(i, 'wb') as f: # SAVE
+        with open(i, "wb") as f:  # SAVE
             f.write(data)
 ```
 

@@ -9,11 +9,11 @@ import pandas as pd
 import geopandas as gpd
 from shapely.geometry import Point
 
-project = pd.read_csv('project.csv').dropna(subset=['latitude'])
+project = pd.read_csv("project.csv").dropna(subset=["latitude"])
 project
 
 geometry = [Point(xy) for xy in zip(project.longitude, project.latitude)]
-crs = {'init': 'epsg:4326'}
+crs = {"init": "epsg:4326"}
 project = gpd.GeoDataFrame(project, crs=crs, geometry=geometry)
 ```
 
@@ -44,27 +44,30 @@ from sqlalchemy import create_engine
 from shapely.wkt import loads as wkt_to_geom
 
 # Set up database connection engine
-engine = create_engine('postgresql://{}:{}@{}:5432/{}'.format(DB_USERNAME, DB_PASSWORD, DB_HOSTNAME, DB_NAME))
+engine = create_engine(
+    "postgresql://{}:{}@{}:5432/{}".format(
+        DB_USERNAME, DB_PASSWORD, DB_HOSTNAME, DB_NAME
+    )
+)
 
 # Load data into GeoDataFrame, e.g. from shapefile
 geodata = gpd.GeoDataFrame(df)
-geodata['geometry'] = geodata['geom'].apply(lambda x: wkt_to_geom(x))
+geodata["geometry"] = geodata["geom"].apply(lambda x: wkt_to_geom(x))
 
 # GeoDataFrame to PostGIS
-geodata.to_postgis(
-    con=engine,
-    name="boundary_test_write"
-)
+geodata.to_postgis(con=engine, name="boundary_test_write")
 ```
 
 ## Find nearest point
 ```python
 from shapely.ops import nearest_points
 
-nearest = project.geometry == nearest_points(
-    Point(100.5197637498, 13.8590163404),
-    project.geometry.unary_union)\
-    [1]
+nearest = (
+    project.geometry
+    == nearest_points(
+        Point(100.5197637498, 13.8590163404), project.geometry.unary_union
+    )[1]
+)
 
 project[nearest]
 ```
@@ -75,10 +78,9 @@ import geopandas as gpd
 import numpy as np
 from shapely.geometry import Polygon
 
-############
 
-urban = gpd.read_file('urban_175m.shp')
-xmin,ymin,xmax,ymax = urban.total_bounds
+urban = gpd.read_file("urban_175m.shp")
+xmin, ymin, xmax, ymax = urban.total_bounds
 
 length = 0.00157
 width = 0.00157
@@ -92,12 +94,14 @@ rows.reverse()
 polygons = []
 for x in cols:
     for y in rows:
-        polygons.append( Polygon([(x,y), (x+wide, y), (x+wide, y-lenght), (x, y-lenght)]) )
+        polygons.append(
+            Polygon([(x, y), (x + wide, y), (x + wide, y - lenght), (x, y - lenght)])
+        )
 
 g = gpd.GeoDataFrame(
-    {"data1": list(range(len(polygons))), "data2": list(range(10, 10+len(polygons)))},
+    {"data1": list(range(len(polygons))), "data2": list(range(10, 10 + len(polygons)))},
     geometry=polygons,
-    crs={"init": "epsg:4326"}
+    crs={"init": "epsg:4326"},
 )
 g.to_file("temp.shp")
 ```

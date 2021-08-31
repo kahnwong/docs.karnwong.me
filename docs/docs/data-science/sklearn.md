@@ -8,18 +8,22 @@ from sklearn.manifold import TSNE
 import seaborn as sns
 
 import warnings
-warnings.simplefilter(action='ignore')
+
+warnings.simplefilter(action="ignore")
 
 #####################
 for i in categ_columns:
-    df[i] = df[i].astype('category').cat.codes
+    df[i] = df[i].astype("category").cat.codes
 
 tsne = TSNE()
 X_embedded = tsne.fit_transform(df[numer_columns])
 
 #####################
-sns.set(rc={'figure.figsize':(11.7,8.27)})
-sns.scatterplot(X_embedded[:,0], X_embedded[:,1], hue=df['PACKAGENAME'], legend='full')
+sns.set(rc={"figure.figsize": (11.7, 8.27)})
+sns.scatterplot(
+    X_embedded[:, 0], X_embedded[:, 1], hue=df["PACKAGENAME"], legend="full"
+)
+
 ```
 
 ## Model training using linux

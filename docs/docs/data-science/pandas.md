@@ -8,22 +8,25 @@ title: Pandas
 pd.read_json(FILENAME)
 
 ### read excel
-pd.read_excel(FILE, engine='openpyxl')
+pd.read_excel(FILE, engine="openpyxl")
 
 ### read in chunk
 for index, chunk in enumerate(pd.read_csv(i, chunksize=chunksize)):
-    print(print('======= #{} ======='.format(i)))
+    print(print("======= #{} =======".format(i)))
     df = chunk
 
 ### quote string in csv
 import csv
-pd.DataFrame(d).to_csv('debug.csv', quoting=csv.QUOTE_NONNUMERIC)
+
+pd.DataFrame(d).to_csv("debug.csv", quoting=csv.QUOTE_NONNUMERIC)
 
 ### convert to bytes
 df.to_csv(index=False).encode()
 
 ### read sample dataset
-df = pd.read_csv('https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv')
+df = pd.read_csv(
+    "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv"
+)
 ```
 
 ### Save Excel worksheets
@@ -103,16 +106,18 @@ region.assign(key=1)\ ## cartesian cross-join
 ### Apply function
 ```python
 ## apply lambda
-df_page_paths[df_page_paths['pagePath'].apply(lambda x: '?' in x and x[:2] != '/?')]
+df_page_paths[df_page_paths["pagePath"].apply(lambda x: "?" in x and x[:2] != "/?")]
 
 ## apply where IN=2 col and OUT=2 col
 def rule(row):
-    lat, lon = utm.to_latlon(row["X"], row["Y"], 45, 'K')
+    lat, lon = utm.to_latlon(row["X"], row["Y"], 45, "K")
     return pd.Series({"lat": lat, "long": long})
-df.merge(df.apply(rule, axis=1), left_index= True, right_index= True)
+
+
+df.merge(df.apply(rule, axis=1), left_index=True, right_index=True)
 
 ## another example
-df.apply(lambda x: my_test(x['a'], x['c']), axis=1)
+df.apply(lambda x: my_test(x["a"], x["c"]), axis=1)
 ```
 
 ### Dtype casting
@@ -130,41 +135,60 @@ df_lead['BIRTHDATE'] = pd.to_datetime(df_lead['BIRTHDATE'], infer_datetime_forma
 ```python
 from sqlalchemy import create_engine, Index
 
-engine = create_engine(
-     'postgresql+psycopg2://USER:PASSWORD@HOST/DB_NAME')
+engine = create_engine("postgresql+psycopg2://USER:PASSWORD@HOST/DB_NAME")
 
-df.to_sql(name=table_name, con=engine, index_label='idx', if_exists='append',
-                  chunksize=chunksize, method='multi')
+df.to_sql(
+    name=table_name,
+    con=engine,
+    index_label="idx",
+    if_exists="append",
+    chunksize=chunksize,
+    method="multi",
+)
 
 # note: if query has % replace it with %%
 df = pd.read_sql(sql, cnxn)
 
-df = psql.read_sql(('select "Timestamp","Value" from "MyTable" '
-                     'where "Timestamp" BETWEEN %(dstart)s AND %(dfinish)s'),
-                   db,params={"dstart":datetime(2014,6,24,16,0),"dfinish":datetime(2014,6,24,17,0)},
-                   index_col=['Timestamp'])
+df = psql.read_sql(
+    (
+        'select "Timestamp","Value" from "MyTable" '
+        'where "Timestamp" BETWEEN %(dstart)s AND %(dfinish)s'
+    ),
+    db,
+    params={
+        "dstart": datetime(2014, 6, 24, 16, 0),
+        "dfinish": datetime(2014, 6, 24, 17, 0),
+    },
+    index_col=["Timestamp"],
+)
+
 ```
 
 ## Visualizations
 ```python
 columns = list(df_area_usable_accr)
-color = [ 'b' for i in columns]
-#highlight usa:
+color = ["b" for i in columns]
+# highlight usa:
 # color[ country_names.index("usa") ] = "b"
-#highlight canada:
+# highlight canada:
 
-color[columns.index("mean_accr_unittype") ] = "r"
-color[columns.index("median_accr_unittype") ] = "r"
+color[columns.index("mean_accr_unittype")] = "r"
+color[columns.index("median_accr_unittype")] = "r"
 
-df_area_usable_accr.iloc[0].plot(kind='barh', title='area_usable accr for home (more is better)', color=color, xlim=(0.75, 0.86))
+df_area_usable_accr.iloc[0].plot(
+    kind="barh",
+    title="area_usable accr for home (more is better)",
+    color=color,
+    xlim=(0.75, 0.86),
+)
 
 ## another example
-law_count.plot.line(x='scrape_period', y='count', rot=90)
+law_count.plot.line(x="scrape_period", y="count", rot=90)
 
 ### template
 import matplotlib.pyplot as plt
 
-gdf.plot(figsize=(50,45)).get_figure().savefig('hello.png')
+gdf.plot(figsize=(50, 45)).get_figure().savefig("hello.png")
 ```
 
 ## Recipes
@@ -172,9 +196,9 @@ gdf.plot(figsize=(50,45)).get_figure().savefig('hello.png')
 ```python
 df = df.replace(0, np.nan)
 counts = df.apply(lambda x: x.isnull().value_counts()).T
-counts.columns = ['not null', 'null']
-counts = counts[['not null']]
-counts = counts[counts['not null'] >= 1000]
+counts.columns = ["not null", "null"]
+counts = counts[["not null"]]
+counts = counts[counts["not null"] >= 1000]
 counts
 ```
 
@@ -182,20 +206,18 @@ counts
 ```python
 # https://www.mikulskibartosz.name/how-to-split-a-list-inside-a-dataframe-cell-into-rows-in-pandas/
 
-data.ingredients.apply(pd.Series) \
-    .merge(data, right_index = True, left_index = True) \
-    .drop(["ingredients"], axis = 1) \
-    .melt(id_vars = ['cuisine', 'id'], value_name = "ingredient") \
-    .drop("variable", axis = 1) \
-    .dropna()
+data.ingredients.apply(pd.Series).merge(data, right_index=True, left_index=True).drop(
+    ["ingredients"], axis=1
+).melt(id_vars=["cuisine", "id"], value_name="ingredient").drop(
+    "variable", axis=1
+).dropna()
 ```
 
 ### Group by & get max value-rows only
 ```python
-df_out = df[df['ratio'] == df.groupby(['comp_string1'])[
-        'ratio'].transform(max)]
+df_out = df[df["ratio"] == df.groupby(["comp_string1"])["ratio"].transform(max)]
 
-df.groupby('project_name')['similarity_score'].nlargest(10)
+df.groupby("project_name")["similarity_score"].nlargest(10)
 ```
 
 ### Fill na from another column
@@ -203,5 +225,5 @@ combining two columns
 
 ```python
 df.bar.combine_first(df.foo)
-df['bar'] = np.where(pd.isnull(df['bar']),df['foo'],df['bar'])
+df["bar"] = np.where(pd.isnull(df["bar"]), df["foo"], df["bar"])
 ```

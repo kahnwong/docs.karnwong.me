@@ -103,9 +103,10 @@ MONGO_DATABASE = 'data'
 import logging
 import pymongo
 
+
 class MongoPipeline(object):
 
-    collection_name = 'population'
+    collection_name = "population"
     # flat_collection_name = 'test_flat'
 
     def __init__(self, mongo_uri, mongo_db):
@@ -116,8 +117,8 @@ class MongoPipeline(object):
     def from_crawler(cls, crawler):
         ## pull in information from settings.py
         return cls(
-            mongo_uri=crawler.settings.get('MONGO_URI'),
-            mongo_db=crawler.settings.get('MONGO_DATABASE')
+            mongo_uri=crawler.settings.get("MONGO_URI"),
+            mongo_db=crawler.settings.get("MONGO_DATABASE"),
         )
 
     def open_spider(self, spider):
@@ -125,7 +126,7 @@ class MongoPipeline(object):
         ## opening db connection
         self.client = pymongo.MongoClient(self.mongo_uri)
         self.db = self.client[self.mongo_db]
-        if hasattr(spider, 'collection_name'):
+        if hasattr(spider, "collection_name"):
             self.collection_name = spider.collection_name
         # if hasattr(spider, 'flat_collection_name'):
         #     self.flat_collection_name = spider.flat_collection_name
@@ -135,10 +136,13 @@ class MongoPipeline(object):
         self.client.close()
 
     def process_item(self, item, spider):
-        self.db[self.collection_name].update({'_id': item['_id']}, dict(item), upsert=True)
+        self.db[self.collection_name].update(
+            {"_id": item["_id"]}, dict(item), upsert=True
+        )
 
         logging.debug("Post added to MongoDB")
         return item
+
 ```
 
 ## Middleware
