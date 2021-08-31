@@ -91,7 +91,7 @@ title: Data Science
 - [h3](https://github.com/uber/h3) - Hexagonal hierarchical geospatial indexing system.
 - [kepler.gl](https://kepler.gl/demo) - A data-agnostic, high-performance web-based application for visual exploration of large-scale geolocation data sets.
 - [OpenStreetMap Data Extracts](http://download.geofabrik.de/index.html)
-
+- [prettymaps](https://github.com/marceloprates/prettymaps) - A small set of Python functions to draw pretty maps from OpenStreetMap data. Based on osmnx, matplotlib and shapely libraries.
 
 ## MLOps
 - [Awesome production machine learning](https://github.com/EthicalML/awesome-production-machine-learning) - A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning.
@@ -141,6 +141,8 @@ title: Data Science
 ## Misc
 - [Awkward Array](https://awkward-array.org/what-is-awkward.html) - Awkward Array is a library for nested, variable-sized data, including arbitrary-length lists, records, mixed types, and missing data, using NumPy-like idioms.
 - [Math Inspector](https://mathinspector.com) - A Visual Programming Environment for Scientific Computing.
+- [MLNotify](https://mlnotify.aporia.com) - Get notified when train() is complete.
+- [The LF AI & Data Foundation](https://landscape.lfai.foundation)
 
 ### Pandas
 - [dovpanda](https://github.com/dovpanda-dev/dovpanda) - Directions overlay for working with pandas in an analysis environment.

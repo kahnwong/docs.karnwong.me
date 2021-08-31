@@ -4,20 +4,13 @@ module.exports = {
             label: 'Tools',
             collapsed: true,
             items: [
-                'docs/tools/aws',
-                'docs/tools/docker',
-                'docs/tools/git',
-                'docs/tools/kubernetes',
                 'docs/tools/postgis',
                 'docs/tools/postgres',
-                'docs/tools/unix',
                 {
                     type: 'category',
                     label: 'Misc',
                     items: [
                         'docs/tools/android',
-                        'docs/tools/apache2',
-                        'docs/tools/caddy',
                         'docs/tools/ffmpeg',
                         'docs/tools/fish',
                         'docs/tools/osx',
@@ -62,6 +55,20 @@ module.exports = {
                 },
             ]
         },
+         {
+            type: 'category',
+            label: 'DevOps',
+            items: [
+                'docs/devops/apache2',
+                'docs/devops/aws',
+                'docs/devops/caddy',
+                'docs/devops/docker',
+                'docs/devops/git',
+                'docs/devops/kubernetes',
+                'docs/devops/terraform',
+                'docs/devops/unix',
+            ]
+        },
         {
             type: 'category',
             label: 'Python',
@@ -98,8 +105,8 @@ module.exports = {
     career: [
                 'career/one-on-one',
                 'career/career-path',
-            
-    
+
+
     ],
     recipes: [{
         type: 'category',

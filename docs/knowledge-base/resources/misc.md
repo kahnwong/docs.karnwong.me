@@ -32,10 +32,6 @@ title: Misc
 - [Cufon Fonts](https://www.cufonfonts.com/) - The world's most comprehensive Webfonts supported free font archive. For designers and developers.
 - [Fontesk](https://fontesk.com/) - Download thousands of free fonts for commercial and personal use. A unique collection of free fonts to download, the best and new serif, sans serif, script typefaces.
 
-## Git
-- [Git Explorer](https://gitexplorer.com)
-- [Oh Shit, Git!?!](https://ohshitgit.com)
-
 ## Hosts File
 - [The Big Blocklist Collection](https://firebog.net)
 
@@ -86,12 +82,17 @@ title: Misc
 - [wger](https://github.com/wger-project/docker) - Self hosted FLOSS fitness/workout, nutrition and weight tracker.
 - [WireHole](https://github.com/IAmStoxe/wirehole) - WireGuard, Pi-hole, and Unbound combo.
 
+## Typing
+- [Monkeytype](https://monkeytype.com) - Monkeytype is a minimalistic typing test, featuring many test modes, an account system to save your typing speed history and user configurable features like themes, a smooth caret and more.
+
+
 ## Userscript
 - [ClearURL](https://github.com/ClearURLs/Addon/) - ClearURLs is an add-on based on the new WebExtensions technology and will automatically remove tracking elements from URLs to help protect your privacy.
 - [HTML5 Audio/Video Keyboard Shortcuts With OSD](https://greasyfork.org/en/scripts/390508-html5-audio-video-keyboard-shortcuts-with-osd)
 
 ## Utilities
 - [alive-progress](https://github.com/rsalmei/alive-progress) - A new kind of Progress Bar, with real time throughput, eta and very cool animations!
+- [browsh](https://github.com/browsh-org/browsh) - A fully-modern text-based browser, rendering to TTY and browsers.
 - [carbon-now-cli](https://github.com/mixn/carbon-now-cli) - Beautiful images of your code — from right inside your terminal.
 - [cbonsai](https://gitlab.com/jallbrit/cbonsai) - grow bonsai trees in your terminal.
 - [Crontab.guru](https://crontab.guru/) - An easy to use editor for crontab schedules.

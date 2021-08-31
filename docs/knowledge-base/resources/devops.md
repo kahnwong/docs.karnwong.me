@@ -25,17 +25,33 @@ title: DevOps
 - [lazydocker](https://github.com/jesseduffield/lazydocker) - A simple terminal UI for both docker and docker-compose, written in Go with the gocui library.
 - [composerize](https://www.composerize.com) - docker run asdlksjfksdf > docker-composerize up.
 
+### Resources
+- [The Compose Specification](https://github.com/compose-spec/compose-spec/blob/master/spec.md) - The Compose specification establishes a standard for the definition of multi-container platform-agnostic applications.
+
 ## Git
  - [git-split-diffs](https://github.com/banga/git-split-diffs) - GitHub style split diffs in your terminal.
  - [repostat](https://github.com/vifactor/repostat) - Inspired by gitstats project: git repository desktop analyzer.
 
+### Resources
+- [Git Explorer](https://gitexplorer.com)
+- [Oh Shit, Git!?!](https://ohshitgit.com)
+
 ## IaC
 - [driftctl](https://github.com/cloudskiff/driftctl) - Detect, track and alert on infrastructure drift.
 - [terraform](https://github.com/hashicorp/terraform)
+  - [infracost](https://github.com/infracost/infracost) - Cloud cost estimates for Terraform in pull requests💰📉 Love your cloud bill!
+  - [regula](https://github.com/fugue/regula) - Regula checks infrastructure as code templates (Terraform, CloudFormation) for AWS, Azure and Google Cloud security and compliance using Open Policy Agent/Rego.
+  - [terraform-docs](https://terraform-docs.io) - Generate Terraform modules documentation in various formats.
+  - [terraformer](https://github.com/GoogleCloudPlatform/terraformer/blob/master/docs/aws.md) - CLI tool to generate terraform files from existing infrastructure (reverse Terraform). Infrastructure to Code.
+  - [terragrunt](https://terragrunt.gruntwork.io/docs/getting-started/quick-start/) - Terragrunt is a thin wrapper that provides extra tools for keeping your configurations DRY, working with multiple Terraform modules, and managing remote state.
+  - [terrascan](https://github.com/accurics/terrascan) - Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure.
   - [tflint](https://github.com/terraform-linters/tflint) - A Pluggable Terraform Linter.
 
 ## Kubernetes
+- [k0s](https://docs.k0sproject.io/) - k0s is an all-inclusive Kubernetes distribution, configured with all of the features needed to build a Kubernetes cluster simply by copying and running an executable file on each target host.
 - [Lens](https://k8slens.dev) - the kubernetes ide for debugging.
+- [MicroK8s](https://microk8s.io) - Low-ops, minimal production Kubernetes, for devs, cloud, clusters, workstations, Edge and IoT.
+
 
 ## Monitoring
 - [Uptime Kuma](https://github.com/louislam/uptime-kuma) - A fancy self-hosted monitoring tool.

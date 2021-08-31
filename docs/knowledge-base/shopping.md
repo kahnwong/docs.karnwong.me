@@ -24,6 +24,7 @@ title: Shopping
 - [Olivos](https://shopee.co.th/gennotech)
 - [Organics Buddy](https://organicsbuddy.com/official-store?productType=official-store-personal-care)
 - [Petitscents](https://www.petitscents.com/products)
+- [Shan Organic](https://www.shanorganic.com)
 - [Soap for Soul](https://shopee.co.th/shop/27256077/search)
 - [Soft Cream Store Homemade Soap](http://www.softcreamstore.com/category)
 - [พร้าวไทย](http://www.prowthai.com/index.php/th/2015-12-09-14-42-16/soap-prowthai)
@@ -33,6 +34,7 @@ title: Shopping
 - [Readery](https://readery.co/)
 
 ## Clothing
+- [ERR-OR Design](https://www.err-orclothing.com)
 - [jweep](https://www.jweep.com/products) - Experimental garments.
 - [planeta](https://focomo.myshopify.com/collections/planeta?page=4)
 
