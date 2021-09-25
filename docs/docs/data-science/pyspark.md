@@ -238,6 +238,9 @@ df.withColumn(
         df.email.rlike("^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"), True
     ).otherwise(False),
 )
+
+# convert to JSON
+df.withColumn(c, F.to_json(c))
 ```
 
 ## Cookbook

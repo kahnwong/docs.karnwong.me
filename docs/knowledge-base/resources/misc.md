@@ -55,10 +55,9 @@ title: Misc
 - [PrivacyTools](https://www.privacytools.io)
 
 ## Python
-- [black](https://github.com/psf/black) - The uncompromising Python code formatter.
+- [borb](https://github.com/jorisschellekens/borb) - borb is a library for reading, creating and manipulating PDF files in python.
 - [icecream](https://github.com/gruns/icecream) - Never use print() to debug again.
 - [Scalene](https://github.com/plasma-umass/scalene) - A high-performance, high-precision CPU, GPU, and memory profiler for Python.
-- [sourcery](https://sourcery.ai) - Instant Python refactoring.
 - [typer](https://github.com/tiangolo/typer) - Typer, build great CLIs. Easy to code. Based on Python type hints.
 
 ### Learning
@@ -99,6 +98,7 @@ title: Misc
 - [deskreen](https://github.com/pavlobu/deskreen) - Deskreen turns any device with a web browser into a secondary screen for your computer.
 - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) - Good-lookin' diffs. Actually… nah… The best-lookin' diffs.
 - [duf](https://github.com/muesli/duf) - Disk Usage/Free Utility - a better 'df' alternative - muesli/duf.
+- [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to 'find'.
 - [gping](https://github.com/orf/gping) - Ping, but with a graph.
 - [InstaLooter](https://github.com/althonos/InstaLooter) - Another API-less Instagram pictures and videos downloader.
 - [iponmap](https://github.com/nogizhopaboroda/iponmap) - commandline IP location finder.

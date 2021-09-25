@@ -29,6 +29,7 @@ title: DevOps
 - [The Compose Specification](https://github.com/compose-spec/compose-spec/blob/master/spec.md) - The Compose specification establishes a standard for the definition of multi-container platform-agnostic applications.
 
 ## Git
+ - [git cheatsheet](http://ndpsoftware.com/git-cheatsheet.html) - Interactive cheatsheet, visualization of git.
  - [git-split-diffs](https://github.com/banga/git-split-diffs) - GitHub style split diffs in your terminal.
  - [repostat](https://github.com/vifactor/repostat) - Inspired by gitstats project: git repository desktop analyzer.
 
@@ -57,6 +58,7 @@ title: DevOps
 - [Uptime Kuma](https://github.com/louislam/uptime-kuma) - A fancy self-hosted monitoring tool.
 
 ## Networking
+- [headscale](https://github.com/juanfont/headscale) - An open source, self-hosted implementation of the Tailscale control server.
 - [tailscale](https://tailscale.com) - A secure network that just works.
 
 ## Security
