@@ -43,11 +43,13 @@ title: DevOps
 - [terraform](https://github.com/hashicorp/terraform)
   - [infracost](https://github.com/infracost/infracost) - Cloud cost estimates for Terraform in pull requests💰📉 Love your cloud bill!
   - [regula](https://github.com/fugue/regula) - Regula checks infrastructure as code templates (Terraform, CloudFormation) for AWS, Azure and Google Cloud security and compliance using Open Policy Agent/Rego.
+  - [terraform-compliance](https://terraform-compliance.com) - A lightweight, security and compliance focused test framework against terraform to enable negative testing capability for your infrastructure-as-code.
   - [terraform-docs](https://terraform-docs.io) - Generate Terraform modules documentation in various formats.
   - [terraformer](https://github.com/GoogleCloudPlatform/terraformer/blob/master/docs/aws.md) - CLI tool to generate terraform files from existing infrastructure (reverse Terraform). Infrastructure to Code.
   - [terragrunt](https://terragrunt.gruntwork.io/docs/getting-started/quick-start/) - Terragrunt is a thin wrapper that provides extra tools for keeping your configurations DRY, working with multiple Terraform modules, and managing remote state.
   - [terrascan](https://github.com/accurics/terrascan) - Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure.
   - [tflint](https://github.com/terraform-linters/tflint) - A Pluggable Terraform Linter.
+  - [tfsec](https://tfsec.dev/docs/usage/) - A static analysis security scanner for your Terraform code.
 
 ## Kubernetes
 - [k0s](https://docs.k0sproject.io/) - k0s is an all-inclusive Kubernetes distribution, configured with all of the features needed to build a Kubernetes cluster simply by copying and running an executable file on each target host.

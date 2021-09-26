@@ -66,15 +66,30 @@ services:
 
 ### Windows misc
 ```bash
-# restart wsl to take back memory
+### restart wsl to take back memory
 wsl --shutdown
 
-# change disk image location
+### change disk image location
 wsl --shutdown
 wsl --export docker-desktop-data docker-desktop-data.tar
 wsl --unregister docker-desktop-data
 wsl --import docker-desktop-data X:\path\to X:\path\to\docker-desktop-data.tar --version 2
 # wsl --import docker-desktop-data D:\docker D:\docker\docker-desktop-data.tar --version 2
+
+### elevate privilege so you don't have to start Docker twice
+# https://stackoverflow.com/questions/40459280/docker-cannot-start-on-windows/61062715#61062715
+1. Open Powershell as administrator
+2. Launch command: `& 'C:\Program Files\Docker\Docker\DockerCli.exe' -SwitchDaemon`
+
+### reduce docker image size
+# https://stackoverflow.com/questions/64068185/docker-image-taking-up-space-after-deletion
+wsl --shutdown
+diskpart
+select vdisk file="C:\Users\{YourUser}\AppData\Local\Docker\wsl\data\ext4.vhdx"
+attach vdisk readonly
+compact vdisk
+detach vdisk
+exit
 ```
 
 ### Notes

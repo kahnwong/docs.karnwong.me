@@ -12,6 +12,9 @@ title: Misc
 ## Algorithms
 - [The Arcane Algorithm Archive](https://www.algorithm-archive.org)
 
+## Android
+- [Google Camera Port](https://www.celsoazevedo.com/files/android/google-camera/)
+
 ## Dashboard
 - [bfetch](https://gitlab.com/nautilor/bfetch) - Simple Fetch program written in bash.
 - [WTF](https://wtfutil.com) - the terminal dashboard.
@@ -42,6 +45,9 @@ title: Misc
 - [gron](https://github.com/tomnomnom/gron) - Make JSON greppable!
 - [jiq](https://github.com/fiatjaf/jiq) - jid on jq - interactive JSON query tool using jq expressions.
 - [quick look JSON](http://www.sagtau.com/quicklookjson.html) - quick look json is a useful quick look plugin to preview JSON files. It will render files with a colorful view, and will allow to expand or compress nodes in the JSON tree.
+
+## Linux
+- [The LiveCD List](https://livecdlist.com)
 
 ## OSX
 - [MacOS WLAN Driver for Broadcom 4360](https://github.com/alessandro893/MacOS-WLAN-Driver) - Modified MacOS WLAN Drivers with hardcoded country code value.

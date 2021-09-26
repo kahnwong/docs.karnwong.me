@@ -116,8 +116,8 @@ def rule(row):
 
 df.merge(df.apply(rule, axis=1), left_index=True, right_index=True)
 
-## another example
-df.apply(lambda x: my_test(x["a"], x["c"]), axis=1)
+## two input cols, 1 output col
+df['newcolumn'] = df.apply(lambda x: fxy(x['A'], x['B']), axis=1)
 ```
 
 ### Dtype casting

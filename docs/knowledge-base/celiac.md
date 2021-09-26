@@ -44,11 +44,13 @@ Notes:
 | 🍣    | [Omakanesh](https://www.facebook.com/omakanesh/)                                                      |                                                                                                                                                   |
 | 🍬    | [Neurogum](https://getneuro.com)                                                                      |                                                                                                                                                   |
 | 🍯    | [Mekhala](https://www.mekhalaliving.com/products)                                                     |                                                                                                                                                   |
+| 🍜    | [Nimnim](https://www.nimnimnoodle.com)                                                                |                                                                                                                                                   |
 
 
 ## Vendors
 - [iHerb](https://th.iherb.com/)
 - [Villa Market](https://shoponline.villamarket.com/home)
+- [Healthy Allergy](https://www.healthyallergy.com/shop-category/)
 
 ## Cosmetics
 | Brand           | Details |
