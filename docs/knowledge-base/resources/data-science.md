@@ -47,6 +47,9 @@ title: Data Science
 - [Franchise](https://github.com/HVF/franchise) - A lightweight but powerful SQL tool with a notebook interface.
 - [handcalcs](https://github.com/connorferster/handcalcs) - Render Python calculation code to more human-readable format.
 
+### Reports
+- [Knowledge Repo](https://github.com/airbnb/knowledge-repo) - A next-generation curated knowledge sharing platform for data scientists and other technical professions.
+
 ### Time-series
 - [darts](https://github.com/unit8co/darts/) - A python library for easy manipulation and forecasting of time series.
 - [greykite](https://github.com/linkedin/greykite) - A flexible, intuitive and fast forecasting library.
@@ -70,6 +73,7 @@ title: Data Science
 - [R2D3](http://www.r2d3.us) - A visual introduction to machine learning.
 - [Simulated Annealing](https://github.com/skylergrammer/SimulatedAnnealing)
 - [Sky Towner](https://skytowner.com) - Served bite-sized with streamlined search and unparalleled UI/UX.
+- [Twelve Quick Tips for Software Design](https://github.com/gvwilson/12-design) - Ten Quick Software Design Tips for Data Scientists.
 
 ## Database
 ### Postgres

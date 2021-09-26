@@ -32,6 +32,7 @@ title: DevOps
  - [git cheatsheet](http://ndpsoftware.com/git-cheatsheet.html) - Interactive cheatsheet, visualization of git.
  - [git-split-diffs](https://github.com/banga/git-split-diffs) - GitHub style split diffs in your terminal.
  - [repostat](https://github.com/vifactor/repostat) - Inspired by gitstats project: git repository desktop analyzer.
+ - [git-cliff](https://github.com/orhun/git-cliff) - A highly customizable Changelog Generator that follows Conventional Commit specifications ⛰️.
 
 ### Resources
 - [Git Explorer](https://gitexplorer.com)
@@ -73,6 +74,7 @@ title: DevOps
 ## Misc
 - [MinIO](https://github.com/minio/minio) - High Performance, Kubernetes Native Object Storage.
 - [Stack on a budget](https://github.com/255kb/stack-on-a-budget) - A collection of services with great free tiers for developers on a budget.
+- [vladgh/s3sync](https://hub.docker.com/r/vladgh/s3sync) - This container keeps a local directory synced to an AWS S3 bucket.
 
 ## Resources
 - [DevOps Bookmarks](https://www.devopsbookmarks.org)

@@ -41,6 +41,7 @@ title: Career path
 - [Developer Career Ladder in text form](https://docs.google.com/document/d/1SxmQBrDZvj16veuc2OVO0wUX7a7vEKPM-57dNLXhuEk/edit)
 - [Dropbox Engineering Career Framework](https://dropbox.github.io/dbx-career-framework/)
 - [Software Development/Leadership Ladder](https://docs.google.com/spreadsheets/d/1k4sO6pyCl_YYnf0PAXSBcX776rNcTjSOqDxZ5SDty-4/edit#gid=0)
+- [Introduction to Machine Learning Interviews](https://huyenchip.com/ml-interviews-book/)
 
 ## Interview
 - [Questions to ask Companies](https://old.reddit.com/r/ExperiencedDevs/comments/p14sc4/questions_to_ask_companies/)
