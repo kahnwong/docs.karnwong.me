@@ -30,17 +30,20 @@ title: DevOps
 
 ## Git
  - [git cheatsheet](http://ndpsoftware.com/git-cheatsheet.html) - Interactive cheatsheet, visualization of git.
+ - [git-cliff](https://github.com/orhun/git-cliff) - A highly customizable Changelog Generator that follows Conventional Commit specifications ⛰️.
+ - [git-of-theseus](https://github.com/erikbern/git-of-theseus) - Analyze how a Git repo grows over time.
  - [git-split-diffs](https://github.com/banga/git-split-diffs) - GitHub style split diffs in your terminal.
  - [repostat](https://github.com/vifactor/repostat) - Inspired by gitstats project: git repository desktop analyzer.
- - [git-cliff](https://github.com/orhun/git-cliff) - A highly customizable Changelog Generator that follows Conventional Commit specifications ⛰️.
 
 ### Resources
 - [Git Explorer](https://gitexplorer.com)
 - [Oh Shit, Git!?!](https://ohshitgit.com)
+- [Trunk Based Development](https://trunkbaseddevelopment.com)
 
 ## IaC
 - [driftctl](https://github.com/cloudskiff/driftctl) - Detect, track and alert on infrastructure drift.
 - [terraform](https://github.com/hashicorp/terraform)
+  - [iam-policy-json-to-terraform](https://github.com/flosell/iam-policy-json-to-terraform) - Small tool to convert an IAM Policy in JSON format into a Terraform aws_iam_policy_document.
   - [infracost](https://github.com/infracost/infracost) - Cloud cost estimates for Terraform in pull requests💰📉 Love your cloud bill!
   - [regula](https://github.com/fugue/regula) - Regula checks infrastructure as code templates (Terraform, CloudFormation) for AWS, Azure and Google Cloud security and compliance using Open Policy Agent/Rego.
   - [terraform-compliance](https://terraform-compliance.com) - A lightweight, security and compliance focused test framework against terraform to enable negative testing capability for your infrastructure-as-code.
@@ -80,4 +83,5 @@ title: DevOps
 
 ## Resources
 - [DevOps Bookmarks](https://www.devopsbookmarks.org)
+- [DevOps Exercises](https://github.com/bregman-arie/devops-exercises#python)
 - [DevOps Roadmap](https://roadmap.sh/devops)

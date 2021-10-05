@@ -21,3 +21,6 @@ slug: /career
 - think big
 - attitude
 - teamwork
+
+## Links
+- [How to Get Your Silent 1-on-1s Back on Track](https://codecapsule.com/2021/09/09/how-to-get-your-silent-1-on-1s-back-on-track/)

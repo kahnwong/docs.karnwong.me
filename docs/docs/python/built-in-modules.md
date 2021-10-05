@@ -365,3 +365,22 @@ class Logger:
 >>> log.info('test')
 [INFO] test
 ```
+
+## Misc
+```python
+if __name__ == "__main__":
+    files = [
+        "tests/testcases/getPrice-Input-C.json",
+        "tests/testcases/getPrice-Input-H.json",
+    ]
+    for i in files:
+        with open(i, encoding="utf-8") as f:
+
+            print("===============")
+            event = json.load(f)
+            d = handler(event, None)
+
+            from pprint import pprint
+
+            pprint(d)
+```

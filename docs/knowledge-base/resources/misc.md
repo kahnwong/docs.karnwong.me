@@ -58,7 +58,7 @@ title: Misc
 - [sli.dev](https://sli.dev) - Presentation Slides for Developers.
 
 ## Privacy
-- [PrivacyTools](https://www.privacytools.io)
+- [Privacy Guides](https://privacyguides.org)
 
 ## Python
 - [borb](https://github.com/jorisschellekens/borb) - borb is a library for reading, creating and manipulating PDF files in python.
@@ -97,17 +97,20 @@ title: Misc
 
 ## Utilities
 - [alive-progress](https://github.com/rsalmei/alive-progress) - A new kind of Progress Bar, with real time throughput, eta and very cool animations!
+- [bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings.
 - [browsh](https://github.com/browsh-org/browsh) - A fully-modern text-based browser, rendering to TTY and browsers.
 - [carbon-now-cli](https://github.com/mixn/carbon-now-cli) - Beautiful images of your code — from right inside your terminal.
 - [cbonsai](https://gitlab.com/jallbrit/cbonsai) - grow bonsai trees in your terminal.
 - [Crontab.guru](https://crontab.guru/) - An easy to use editor for crontab schedules.
 - [deskreen](https://github.com/pavlobu/deskreen) - Deskreen turns any device with a web browser into a secondary screen for your computer.
-- [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) - Good-lookin' diffs. Actually… nah… The best-lookin' diffs.
 - [duf](https://github.com/muesli/duf) - Disk Usage/Free Utility - a better 'df' alternative - muesli/duf.
 - [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to 'find'.
 - [gping](https://github.com/orf/gping) - Ping, but with a graph.
+- [htmlq](https://github.com/mgdm/htmlq) - Like jq, but for HTML.
 - [InstaLooter](https://github.com/althonos/InstaLooter) - Another API-less Instagram pictures and videos downloader.
 - [iponmap](https://github.com/nogizhopaboroda/iponmap) - commandline IP location finder.
 - [kalker](https://github.com/PaddiM8/kalker) - Kalker/kalk is a calculator with math syntax that supports user-defined variables and functions, complex numbers, and estimation of derivatives and integrals.
 - [progress](https://github.com/Xfennec/progress) - Linux tool to show progress for cp, mv, dd, ...
 - [subtitle](https://github.com/ihciah/subtitle) - A cli tool to download subtitles.
+- [Tiddy Viewer](https://github.com/alexhallam/tv) - Tidy Viewer is a cross-platform CLI csv pretty printer that uses column styling to maximize viewer enjoyment.
+- [visidata](https://github.com/saulpw/visidata) - A terminal spreadsheet multitool for discovering and arranging data.

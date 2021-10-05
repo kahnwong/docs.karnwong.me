@@ -70,6 +70,7 @@ title: Data Science
 - [Color Palettes in Seaborn](https://chrisalbon.com/python/data_visualization/seaborn_color_palettes/)
 - [Elements of AI](https://www.elementsofai.com) - A free online introduction to artificial intelligence for non-experts.
 - [Interactive Gaussian Process Visualization](http://www.infinitecuriosity.org/vizgp/)
+- [Principles and Techniques of Data Science](http://www.textbook.ds100.org/intro.html)
 - [R2D3](http://www.r2d3.us) - A visual introduction to machine learning.
 - [Simulated Annealing](https://github.com/skylergrammer/SimulatedAnnealing)
 - [Sky Towner](https://skytowner.com) - Served bite-sized with streamlined search and unparalleled UI/UX.
