@@ -62,11 +62,6 @@ title: Shopping
 - [KBDfans](https://kbdfans.com/)
 - [KEMISTRY](https://kemistry.in.th/index.php)
 
-## Grocery
-- [Capital Organic](https://www.capital-organic.com/catalog.aspx) - Noodles
-- [HATCH](https://www.facebook.com/hatchgoodies) - Rice
-- [KC Maharaja](https://shopee.co.th/shop/7163184) - Spices
-- [Organic Pavillion](https://shopee.co.th/organicpavilion)
 
 ## Stationery
 - [Baronfig](https://www.baronfig.com/accessories/vanguard-softcover-notebook)

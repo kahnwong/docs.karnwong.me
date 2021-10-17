@@ -15,6 +15,9 @@ title: Misc
 ## Android
 - [Google Camera Port](https://www.celsoazevedo.com/files/android/google-camera/)
 
+## Cloud storage
+- [dbxcli](https://github.com/dropbox/dbxcli) - A command line client for Dropbox built using the Go SDK.
+
 ## Dashboard
 - [bfetch](https://gitlab.com/nautilor/bfetch) - Simple Fetch program written in bash.
 - [WTF](https://wtfutil.com) - the terminal dashboard.
@@ -105,6 +108,7 @@ title: Misc
 - [deskreen](https://github.com/pavlobu/deskreen) - Deskreen turns any device with a web browser into a secondary screen for your computer.
 - [duf](https://github.com/muesli/duf) - Disk Usage/Free Utility - a better 'df' alternative - muesli/duf.
 - [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to 'find'.
+- [glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz! 💅🏻
 - [gping](https://github.com/orf/gping) - Ping, but with a graph.
 - [htmlq](https://github.com/mgdm/htmlq) - Like jq, but for HTML.
 - [InstaLooter](https://github.com/althonos/InstaLooter) - Another API-less Instagram pictures and videos downloader.

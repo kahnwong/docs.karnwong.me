@@ -22,8 +22,9 @@ title: DevOps
 - [swimlanes](https://swimlanes.io) - A simple online tool for creating sequence diagrams.
 
 ## Docker
-- [lazydocker](https://github.com/jesseduffield/lazydocker) - A simple terminal UI for both docker and docker-compose, written in Go with the gocui library.
 - [composerize](https://www.composerize.com) - docker run asdlksjfksdf > docker-composerize up.
+- [jupyter docker-stacks](https://github.com/jupyter/docker-stacks) - Ready-to-run Docker images containing Jupyter applications.
+- [lazydocker](https://github.com/jesseduffield/lazydocker) - A simple terminal UI for both docker and docker-compose, written in Go with the gocui library.
 
 ### Resources
 - [The Compose Specification](https://github.com/compose-spec/compose-spec/blob/master/spec.md) - The Compose specification establishes a standard for the definition of multi-container platform-agnostic applications.
@@ -68,6 +69,7 @@ title: DevOps
 - [tailscale](https://tailscale.com) - A secure network that just works.
 
 ## Security
+- [Hardenize](https://www.hardenize.com/) - Automated Discovery and Monitoring of Your Entire Network Perimeter.
 - [Vault](https://www.vaultproject.io) - Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API.
 
 ## Tracking

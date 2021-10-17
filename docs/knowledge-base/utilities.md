@@ -34,6 +34,7 @@ title: Utilities
 ## Media
 - [GetRSSFeed](https://getrssfeed.com)
 - [iTunes Artwork Finder](https://bendodson.com/projects/itunes-artwork-finder/)
+- [12ft](https://12ft.io) - Remove paywalls.
 
 
 ## Movies

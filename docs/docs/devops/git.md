@@ -40,6 +40,18 @@ git submodule foreach git pull origin master
 git rebase --onto Y B
 ```
 
+## List untracked files
+`git status --ignored` OR `git clean -ndX`
+
+```bash
+$ git help clean
+
+git-clean - Remove untracked files from the working tree
+-n, --dry-run - Don't actually remove anything, just show what would be done.
+-d - Remove untracked directories in addition to untracked files.
+-X - Remove only files ignored by Git.
+```
+
 ## GitHub Actions
 ```yaml
 name: Deploy
@@ -59,4 +71,11 @@ Notes: use python3.7
 ```
 $ npm i -g gitinspector
 $ gitinspector -F html --timeline=TRUE > stats.html
+```
+
+## GH CLI
+### Delete repo alias
+```bash
+gh alias set repo-delete 'api -X DELETE "repos/$1"'
+gh repo-delete vilmibm/deleteme
 ```
