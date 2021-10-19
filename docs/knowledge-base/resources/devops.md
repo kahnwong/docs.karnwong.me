@@ -3,13 +3,16 @@ title: DevOps
 ---
 
 ## AWS
+- [saws](https://github.com/donnemartin/saws#installation) - A supercharged AWS command line interface (CLI).
+
+### Resources
 - [Amazon EC2 Instance Comparison](https://ec2instances.info)
 - [Amazon EMR 6.x Release Versions](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-6x.html) - Lists application versions, components, and release notes for each Amazon EMR release in the 6.x series.
 - [Amazon Web Services](https://adayinthelifeof.nl/2020/05/20/aws.html) - Description for AWS services.
 - [AWS Fargate ECS Pricing Calculator](https://www.fargate.org/)
 - [AWS Lambda quotas](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html) - Maximum sizes, limits, and quotas for AWS Lambda functions and related resources.
 - [AWS Pricing Calculator](https://calculator.aws/#/estimate) - AWS Pricing Calculator lets you explore AWS services, and create an estimate for the cost of your use cases on AWS.
-- [saws](https://github.com/donnemartin/saws#installation) - A supercharged AWS command line interface (CLI).
+
 
 ## Database
 - [dbmate](https://github.com/amacneil/dbmate) - A lightweight, framework-agnostic database migration tool.
@@ -61,9 +64,6 @@ title: DevOps
 - [MicroK8s](https://microk8s.io) - Low-ops, minimal production Kubernetes, for devs, cloud, clusters, workstations, Edge and IoT.
 
 
-## Monitoring
-- [Uptime Kuma](https://github.com/louislam/uptime-kuma) - A fancy self-hosted monitoring tool.
-
 ## Networking
 - [headscale](https://github.com/juanfont/headscale) - An open source, self-hosted implementation of the Tailscale control server.
 - [tailscale](https://tailscale.com) - A secure network that just works.
@@ -83,7 +83,7 @@ title: DevOps
 - [Stack on a budget](https://github.com/255kb/stack-on-a-budget) - A collection of services with great free tiers for developers on a budget.
 - [vladgh/s3sync](https://hub.docker.com/r/vladgh/s3sync) - This container keeps a local directory synced to an AWS S3 bucket.
 
-## Resources
+### Resources
 - [DevOps Bookmarks](https://www.devopsbookmarks.org)
 - [DevOps Exercises](https://github.com/bregman-arie/devops-exercises#python)
 - [DevOps Roadmap](https://roadmap.sh/devops)

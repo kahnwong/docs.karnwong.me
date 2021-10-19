@@ -7,7 +7,6 @@ title: Data Science
 - [datamechanics/spark](https://hub.docker.com/r/datamechanics/spark/tags) - Public optimized Docker images for Apache Spark, by Data Mechanics.
 - [dbt](https://www.getdbt.com) - Analytics engineering tools designed for analysts.
 - [Great Expectations](https://github.com/great-expectations/great_expectations) - Always know what to expect from your data.
-- [lakeFS](https://github.com/treeverse/lakeFS) - Git-like capabilities for your object storage.
 
 ### Resources
 - [Awesome Data Engineering](https://awesomedataengineering.com)
@@ -18,7 +17,6 @@ title: Data Science
 ## Data Science
 ### Dashboard
 - [Gradio](https://www.gradio.app) - Generate an easy-to-use UI for your ML model, function, or API with only a few lines of code. Integrate directly into your Python notebook, or share a link with anyone.
-- [Opyrator](https://github.com/ml-tooling/opyrator) - 🪄 Turns your machine learning code into microservices with web API, interactive GUI, and more.
 - [streamlit](https://github.com/streamlit/streamlit) - Streamlit — The fastest way to build data apps in Python.
 - [Voilà](https://github.com/voila-dashboards/voila) - Voilà turns Jupyter notebooks into standalone web applications.
 
@@ -30,7 +28,6 @@ title: Data Science
 
 ### EDA
 - [data ⎰ describe](https://github.com/data-describe/data-describe) - data-describe is a Python toolkit for Exploratory Data Analysis (EDA). It aims to accelerate data exploration and analysis by providing automated and polished analysis widgets.
-- [Data Profiler](https://github.com/capitalone/DataProfiler) - What's in your data? Extract schema, statistics and entities from datasets.
 - [Lux](https://github.com/lux-org/lux) - Python API for Intelligent Visual Data Discovery.
 - [missingno](https://github.com/ResidentMario/missingno) - missingno provides a small toolset of flexible and easy-to-use missing data visualizations and utilities that allows you to get a quick visual summary of the completeness (or lack thereof) of your dataset.
 - [Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling) - Generates profile reports from a pandas DataFrame.
@@ -44,7 +41,6 @@ title: Data Science
 - [explainerdashboard](https://github.com/oegedijk/explainerdashboard) - Quickly build Explainable AI dashboards that show the inner workings of so-called "blackbox" machine learning models.
 
 ### Notebooks
-- [Franchise](https://github.com/HVF/franchise) - A lightweight but powerful SQL tool with a notebook interface.
 - [handcalcs](https://github.com/connorferster/handcalcs) - Render Python calculation code to more human-readable format.
 
 ### Reports
@@ -99,15 +95,16 @@ title: Data Science
 - [prettymaps](https://github.com/marceloprates/prettymaps) - A small set of Python functions to draw pretty maps from OpenStreetMap data. Based on osmnx, matplotlib and shapely libraries.
 
 ## MLOps
-- [Awesome production machine learning](https://github.com/EthicalML/awesome-production-machine-learning) - A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning.
 - [DVC](https://dvc.org/doc/start/data-and-model-versioning) - Data Version Control, or DVC, is a data and ML experiment management tool that takes advantage of the existing engineering toolset that you're already familiar with (Git, CI/CD, etc.).
 - [Evidently](https://github.com/evidentlyai/evidently) - Interactive reports to analyze machine learning models during validation or production monitoring.
-- [ML Ops](https://ml-ops.org)
 - [MLflow](https://github.com/mlflow/mlflow) - Open source platform for the machine learning lifecycle.
 
 ### Resources
+- [Awesome production machine learning](https://github.com/EthicalML/awesome-production-machine-learning) - A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning.
 - [Feature Stores for ML](https://www.featurestore.org)
+- [ML Ops](https://ml-ops.org)
 - [MLOps Toys](https://mlops.toys)
+
 
 ## NLP
 - [Automatic text summarizer](https://github.com/miso-belica/sumy)
