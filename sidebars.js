@@ -93,6 +93,7 @@ module.exports = {
             items: [
                 "knowledge-base/resources/data-science",
                 "knowledge-base/resources/devops",
+                "knowledge-base/resources/learning",
                 "knowledge-base/resources/data",
                 "knowledge-base/resources/misc",
             ],

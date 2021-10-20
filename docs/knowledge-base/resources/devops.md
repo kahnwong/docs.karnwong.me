@@ -70,6 +70,7 @@ title: DevOps
 
 ## Security
 - [Hardenize](https://www.hardenize.com/) - Automated Discovery and Monitoring of Your Entire Network Perimeter.
+- [SSL Server Test](https://www.ssllabs.com/ssltest/) - A comprehensive free SSL test for your public web servers.
 - [Vault](https://www.vaultproject.io) - Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API.
 
 ## Tracking
@@ -85,5 +86,3 @@ title: DevOps
 
 ### Resources
 - [DevOps Bookmarks](https://www.devopsbookmarks.org)
-- [DevOps Exercises](https://github.com/bregman-arie/devops-exercises#python)
-- [DevOps Roadmap](https://roadmap.sh/devops)

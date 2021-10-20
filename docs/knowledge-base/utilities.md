@@ -54,3 +54,6 @@ title: Utilities
 - [Rome2rio](https://www.rome2rio.com/) - Discover how to get anywhere by searching plane, train, bus, car and ferry routes.
 - [80days](https://eightydays.me/) - Booking Eurotrips made easy.
 - [Ultimate Travel Packing List](https://www.budgetdirect.com.au/interactives/packinglist/)
+
+## Typing
+- [Monkeytype](https://monkeytype.com) - Monkeytype is a minimalistic typing test, featuring many test modes, an account system to save your typing speed history and user configurable features like themes, a smooth caret and more.

@@ -29,6 +29,9 @@ title: Shopping
 - [Soft Cream Store Homemade Soap](http://www.softcreamstore.com/category)
 - [พร้าวไทย](http://www.prowthai.com/index.php/th/2015-12-09-14-42-16/soap-prowthai)
 
+## Bagpack
+- [5.11](https://www.511tactical.com)
+
 ## Books
 - [Book Depository](https://www.bookdepository.com/)
 - [Readery](https://readery.co/)
@@ -41,6 +44,11 @@ title: Shopping
 ## Cobbler
 - [Ballet Shoes](https://th-th.facebook.com/BalletShoesOriginal/)
 - [TMD Premium Footware](https://www.facebook.com/TMDPremiumFootwear)
+
+## Earplugs
+- [Phol Online](https://www.pholonline.com/ppe/ear-plugs/ear-plugs.html)
+- [Ear plug superstore](https://www.earplugstore.com)
+- [Happy Ears](https://www.happyearsearplugs.com)
 
 ## Electronics
 - [Advice.co.th](https://www.advice.co.th/)

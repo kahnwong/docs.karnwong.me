@@ -9,9 +9,6 @@ title: Data Science
 - [Great Expectations](https://github.com/great-expectations/great_expectations) - Always know what to expect from your data.
 
 ### Resources
-- [Awesome Data Engineering](https://awesomedataengineering.com)
-- [Data Engineer Roadmap](https://github.com/datastacktv/data-engineer-roadmap)
-- [Gently Down the Stream](http://www.gentlydownthe.stream/#/30) - A gentle introduction to Apache Kafka.
 - [PySpark Style Guide](https://github.com/palantir/pyspark-style-guide)
 
 ## Data Science
@@ -62,12 +59,7 @@ title: Data Science
 - [PyViz](https://pyviz.org/overviews/index.html)
 
 ### Resources
-- [A Beginner's Guide to Clean Data](https://b-greve.gitbook.io/beginners-guide-to-clean-data/)
 - [Color Palettes in Seaborn](https://chrisalbon.com/python/data_visualization/seaborn_color_palettes/)
-- [Elements of AI](https://www.elementsofai.com) - A free online introduction to artificial intelligence for non-experts.
-- [Interactive Gaussian Process Visualization](http://www.infinitecuriosity.org/vizgp/)
-- [Principles and Techniques of Data Science](http://www.textbook.ds100.org/intro.html)
-- [R2D3](http://www.r2d3.us) - A visual introduction to machine learning.
 - [Simulated Annealing](https://github.com/skylergrammer/SimulatedAnnealing)
 - [Sky Towner](https://skytowner.com) - Served bite-sized with streamlined search and unparalleled UI/UX.
 - [Twelve Quick Tips for Software Design](https://github.com/gvwilson/12-design) - Ten Quick Software Design Tips for Data Scientists.
@@ -78,9 +70,7 @@ title: Data Science
 - [Parquet S3 Foreign Data Wrapper for PostgreSQL](https://github.com/pgspider/parquet_s3_fdw)
 
 ### Resources
-- [Mode SQL Tutorial](https://mode.com/sql-tutorial/)
 - [SQL Snippets](https://sql-snippets.count.co/c/postgresql-snippets/7)
-- [SQLBolt](https://sqlbolt.com) - Learn SQL with simple, interactive exercises.
 
 ## Distributed Computing
 - [Koalas](https://koalas.readthedocs.io/en/latest/index.html) - pandas API on Apache Spark.
@@ -102,7 +92,6 @@ title: Data Science
 ### Resources
 - [Awesome production machine learning](https://github.com/EthicalML/awesome-production-machine-learning) - A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning.
 - [Feature Stores for ML](https://www.featurestore.org)
-- [ML Ops](https://ml-ops.org)
 - [MLOps Toys](https://mlops.toys)
 
 
@@ -114,12 +103,6 @@ title: Data Science
 
 ### Resources
 - [The Big Bad NLP Database](https://datasets.quantumstat.com)
-
-## Regex
-- [regexper](https://regexper.com) - Regular Expression Visualization Site.
-
-### Resources
-- [regexr](https://regexr.com) - RegExr is an online tool to learn, build, & test Regular Expressions (RegEx / RegExp).
 
 
 ## Web-Scraping
