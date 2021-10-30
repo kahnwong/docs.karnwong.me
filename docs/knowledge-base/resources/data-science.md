@@ -9,6 +9,9 @@ title: Data Science
 - [Great Expectations](https://github.com/great-expectations/great_expectations) - Always know what to expect from your data.
 
 ### Resources
+- [Data Stack](https://www.moderndatastack.xyz/stacks) - Learn how some of the most amazing companies in the world are organising their data stack. Learn more about the tools that they are using and why.
+
+### Resources
 - [PySpark Style Guide](https://github.com/palantir/pyspark-style-guide)
 
 ## Data Science
@@ -61,7 +64,6 @@ title: Data Science
 ### Resources
 - [Color Palettes in Seaborn](https://chrisalbon.com/python/data_visualization/seaborn_color_palettes/)
 - [Simulated Annealing](https://github.com/skylergrammer/SimulatedAnnealing)
-- [Sky Towner](https://skytowner.com) - Served bite-sized with streamlined search and unparalleled UI/UX.
 - [Twelve Quick Tips for Software Design](https://github.com/gvwilson/12-design) - Ten Quick Software Design Tips for Data Scientists.
 
 ## Database

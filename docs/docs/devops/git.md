@@ -38,9 +38,12 @@ git submodule foreach git pull origin master
 #### X - Y - A - B - Z    (<--dev)
 ### the current branch points to Z and you want to get rid of commits A and B (and make Z a child of Y), the Git command you are looking for is:
 git rebase --onto Y B
+
+git fsck # Verifies the connectivity and validity of the objects in the database
 ```
 
-## List untracked files
+## Recipes
+### List untracked files
 `git status --ignored` OR `git clean -ndX`
 
 ```bash
@@ -50,6 +53,34 @@ git-clean - Remove untracked files from the working tree
 -n, --dry-run - Don't actually remove anything, just show what would be done.
 -d - Remove untracked directories in addition to untracked files.
 -X - Remove only files ignored by Git.
+```
+
+### Copy commits from one repo to another
+https://stackoverflow.com/questions/37471740/how-to-copy-commits-from-one-git-repo-to-another
+
+```bash
+# add the old repo as a remote repository
+git remote add oldrepo https://github.com/path/to/oldrepo
+
+# get the old repo commits
+git remote update
+
+# examine the whole tree
+git log --all --oneline --graph --decorate
+
+# copy (cherry-pick) the commits from the old repo into your new local one
+git cherry-pick sha-of-commit-one
+git cherry-pick sha-of-commit-two
+git cherry-pick sha-of-commit-three
+
+# check your local repo is correct
+git log
+
+# send your new tree (repo state) to github
+git push origin master
+
+# remove the now-unneeded reference to oldrepo
+git remote remove oldrepo
 ```
 
 ## GitHub Actions

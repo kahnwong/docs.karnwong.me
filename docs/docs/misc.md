@@ -96,3 +96,8 @@ $ choco search [package name]
 ```bash title="recipe"
 cinst -y 7zip.install ccleaner cdburnerxp defraggler ditto f.lux fastcopy filezilla flac focuswriter foxitreader freefilesync fsviewer geany googlechrome googledrive handbrake itunes mkvtoolnix mp3tag nexusfile notepadplusplus.install recuva sharex steam sumatrapdf vlc windirstat winrar crystaldiskinfo
 ```
+
+## CalDAV
+> https://superuser.com/questions/756697/sync-a-single-google-calendar-with-caldav
+
+for google calendar: `https://apidata.googleusercontent.com/caldav/v2/$calendarID/events`

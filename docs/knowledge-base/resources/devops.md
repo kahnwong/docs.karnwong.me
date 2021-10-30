@@ -13,15 +13,19 @@ title: DevOps
 - [AWS Lambda quotas](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html) - Maximum sizes, limits, and quotas for AWS Lambda functions and related resources.
 - [AWS Pricing Calculator](https://calculator.aws/#/estimate) - AWS Pricing Calculator lets you explore AWS services, and create an estimate for the cost of your use cases on AWS.
 
+## CI/CD
+- [Codecov](https://about.codecov.io) - Ship healthier code faster with less risk.
 
 ## Database
 - [dbmate](https://github.com/amacneil/dbmate) - A lightweight, framework-agnostic database migration tool.
 - [Octo CLI](https://github.com/octoproject/octo-cli) - CLI tool to expose data from any database as a serverless web service.
 
 ## Diagrams
+- [Cloudcraft](https://www.cloudcraft.co) - Visualize your cloud architecture like a pro.
 - [dbdocs](https://dbdocs.io) - A free & simple tool to create web-based database documentation using DSL code. Designed for developers. Integrate seamlessly with your development workflow.
 - [Diagrams](https://diagrams.mingrammer.com) - Diagrams lets you draw the cloud system architecture in Python code.
   - https://github.com/mingrammer/diagrams/issues/466
+- [drawSQL](https://drawsql.app) - Create, visualize and collaborate on your database entity relationship diagrams.
 - [swimlanes](https://swimlanes.io) - A simple online tool for creating sequence diagrams.
 
 ## Docker
@@ -58,10 +62,16 @@ title: DevOps
   - [tflint](https://github.com/terraform-linters/tflint) - A Pluggable Terraform Linter.
   - [tfsec](https://tfsec.dev/docs/usage/) - A static analysis security scanner for your Terraform code.
 
+### Resources
+- [rotate AWS IAM secrets with terraform](https://cloud.gov/docs/ops/runbook/rotating-iam-users/)
+
 ## Kubernetes
 - [k0s](https://docs.k0sproject.io/) - k0s is an all-inclusive Kubernetes distribution, configured with all of the features needed to build a Kubernetes cluster simply by copying and running an executable file on each target host.
 - [Lens](https://k8slens.dev) - the kubernetes ide for debugging.
 - [MicroK8s](https://microk8s.io) - Low-ops, minimal production Kubernetes, for devs, cloud, clusters, workstations, Edge and IoT.
+
+## Monitoring
+- [Loki](https://github.com/grafana/loki) - Like Prometheus, but for logs.
 
 
 ## Networking

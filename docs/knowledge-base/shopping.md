@@ -59,6 +59,8 @@ title: Shopping
 - [JIB](https://www.jib.co.th/web/)
 
 ## Furnitures
+- [boxbox](https://www.weareboxbox.com)
+- [Pana objects](http://www.pana-objects.com)
 - [The Wood's Tale](https://www.thewoodstale.com)
 
 ### Headphones
@@ -73,7 +75,12 @@ title: Shopping
 
 ## Stationery
 - [Baronfig](https://www.baronfig.com/accessories/vanguard-softcover-notebook)
+- [GREY RAY](https://www.grey-ray.com/shop)
 - [LEUCHTTURM1917](https://www.leuchtturm1917.us/)
+- [Lig Goods](https://liggoods.com)
 - [Midori Notebook](https://www.midori-japan.co.jp/md/en/products/mdnote/)
 - [Milligram](https://milligram.com/)
 - [ZEQUENZ](https://www.zequenz.com/)
+
+## Tea
+- [Matchazuki](https://matchazuki.com)

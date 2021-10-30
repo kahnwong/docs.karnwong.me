@@ -40,15 +40,22 @@ title: Misc
 - [Tiddy Viewer](https://github.com/alexhallam/tv) - Tidy Viewer is a cross-platform CLI csv pretty printer that uses column styling to maximize viewer enjoyment.
 
 
+## Database
+- [tile38](https://github.com/tidwall/tile38) - Real-time Geospatial and Geofencing.
+
+## Documentation
+- [devhints](https://devhints.io)
+- [Sky Towner](https://skytowner.com) - Served bite-sized with streamlined search and unparalleled UI/UX.
 
 ## Design
 ### Emoji packs
 - [openess](https://emoji.openess.dev)
 - [Slackmojis](https://slackmojis.com)
 
-### Fonts
+## Fonts & Icons
 - [Cufon Fonts](https://www.cufonfonts.com/) - The world's most comprehensive Webfonts supported free font archive. For designers and developers.
 - [Fontesk](https://fontesk.com/) - Download thousands of free fonts for commercial and personal use. A unique collection of free fonts to download, the best and new serif, sans serif, script typefaces.
+- [Simple Icons](https://simpleicons.org)
 
 ## Installers
 - [AdoptOpenJDK](https://adoptopenjdk.net) - Prebuilt OpenJDK Binaries.
@@ -96,7 +103,9 @@ title: Misc
 ## Tools
 - [Crontab.guru](https://crontab.guru/) - An easy to use editor for crontab schedules.
 - [deskreen](https://github.com/pavlobu/deskreen) - Deskreen turns any device with a web browser into a secondary screen for your computer.
+- [markmap](https://markmap.js.org) - markdown + mindmap
 - [regexper](https://regexper.com) - Regular Expression Visualization Site.
 - [reveal.js](https://revealjs.com) - The HTML Presentation Framework.
 - [rumps](https://github.com/jaredks/rumps) - Ridiculously Uncomplicated macOS Python Statusbar apps.
 - [sli.dev](https://sli.dev) - Presentation Slides for Developers.
+- [vscode.dev](https://vscode.dev) - vscode online
