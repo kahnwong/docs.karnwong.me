@@ -3,6 +3,7 @@ title: Food
 ---
 
 ## Dish
+- [Arroz caldo](https://en.wikipedia.org/wiki/Arroz_caldo)
 - [Caprese salad](https://en.wikipedia.org/wiki/Caprese_salad)
 - [Goulash](https://en.wikipedia.org/wiki/Goulash)
 - [Imarti](https://en.wikipedia.org/wiki/Imarti)

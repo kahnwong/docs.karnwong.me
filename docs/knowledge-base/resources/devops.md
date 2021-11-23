@@ -15,6 +15,10 @@ title: DevOps
 
 ## CI/CD
 - [Codecov](https://about.codecov.io) - Ship healthier code faster with less risk.
+- [Should I Deploy Today](https://shouldideploy.today/)
+
+### Resources
+- [awesome actions](https://github.com/sdras/awesome-actions)
 
 ## Database
 - [dbmate](https://github.com/amacneil/dbmate) - A lightweight, framework-agnostic database migration tool.
@@ -34,6 +38,7 @@ title: DevOps
 - [lazydocker](https://github.com/jesseduffield/lazydocker) - A simple terminal UI for both docker and docker-compose, written in Go with the gocui library.
 
 ### Resources
+- [contains.dev](https://contains.dev/) - Explore your images, view their files, layers and dependencies.
 - [The Compose Specification](https://github.com/compose-spec/compose-spec/blob/master/spec.md) - The Compose specification establishes a standard for the definition of multi-container platform-agnostic applications.
 
 ## Git

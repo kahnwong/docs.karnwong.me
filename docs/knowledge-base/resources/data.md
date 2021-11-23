@@ -12,6 +12,7 @@ title: Data
 ## AirBnB
 - [Airbnb Data Scraping API](https://www.airbnb.com/sitemaps/v2)
 - [Airbnb Listings Search Data Scraping API](https://www.airbnb.com/sitemaps/v2)
+- [Inside Airbnb](http://insideairbnb.com/get-the-data.html) - Adding data to the debate.
 - [nderkach/airbnb-python](https://www.airbnb.com/sitemaps/v2) - A Python wrapper around the Airbnb API (unofficial).
 - [Pricing for Vacation Rental Data Products](https://www.airbnb.com/sitemaps/v2) - Find the right vacation rental data product for your unique needs. Explore pricing for MarketMinder, Investment Explorer and our enterprise data solutions.
 - [Sitemap - Airbnb](https://www.airbnb.com/sitemaps/v2) - The Airbnb sitemap includes links to some of our most popular locations, organized by country and city destination.

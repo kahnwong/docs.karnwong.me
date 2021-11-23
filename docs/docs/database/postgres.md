@@ -119,3 +119,31 @@ to_char(timestamp_column, 'YYYY-MM')
 -- timedelta
 WHERE date_created < (NOW() - '3 months'::interval)::TEXT
 ```
+
+### CTE
+A common table expression is a temporary result set which you can reference within another SQL statement including SELECT, INSERT, UPDATE or DELETE.
+
+```sql
+WITH cte_film AS (
+    SELECT
+        film_id,
+        title,
+        (CASE
+            WHEN length < 30 THEN 'Short'
+            WHEN length < 90 THEN 'Medium'
+            ELSE 'Long'
+        END) length
+    FROM
+        film
+)
+SELECT
+    film_id,
+    title,
+    length
+FROM
+    cte_film
+WHERE
+    length = 'Long'
+ORDER BY
+    title;
+```

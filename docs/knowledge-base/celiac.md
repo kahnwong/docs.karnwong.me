@@ -47,10 +47,11 @@ Notes:
 - Vitamilk
 
 ### Noodles
-- Mama (วุ้นเส้นต้มยำ / เส้นเล็กรสน้ำยาปู)
 - [Capital Organic](https://www.capital-organic.com/catalog.aspx) - Noodles
+- [China Organic](https://www.chitaorganicfood.co.th/category)
 - [Nimnim](https://www.nimnimnoodle.com)
 - [Organic Pavillion](https://shopee.co.th/organicpavilion)
+- Mama (วุ้นเส้นต้มยำ / เส้นเล็กรสน้ำยาปู)
 
 ### Seeds & Nuts
 - Flowerfoods (sunflower / pumpkin seeds)

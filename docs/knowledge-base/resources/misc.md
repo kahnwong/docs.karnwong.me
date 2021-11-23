@@ -7,17 +7,15 @@ title: Misc
 
 ### Dashboard
 - [bfetch](https://gitlab.com/nautilor/bfetch) - Simple Fetch program written in bash.
+- [tldr](https://github.com/tldr-pages/tldr) - 📚 Collaborative cheatsheets for console commands .
 - [WTF](https://wtfutil.com) - the terminal dashboard.
 
 ### JSON
 - [gron](https://github.com/tomnomnom/gron) - Make JSON greppable!
 - [jiq](https://github.com/fiatjaf/jiq) - jid on jq - interactive JSON query tool using jq expressions.
 
-
 ### Unix tools alternative
-- [bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings.
-- [duf](https://github.com/muesli/duf) - Disk Usage/Free Utility - a better 'df' alternative - muesli/duf.
-- [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to 'find'.
+- [Modern Unix](https://github.com/ibraheemdev/modern-unix)
 
 ### Tools
 - [alive-progress](https://github.com/rsalmei/alive-progress) - A new kind of Progress Bar, with real time throughput, eta and very cool animations!
@@ -86,6 +84,8 @@ title: Misc
 - [Scalene](https://github.com/plasma-umass/scalene) - A high-performance, high-precision CPU, GPU, and memory profiler for Python.
 - [typer](https://github.com/tiangolo/typer) - Typer, build great CLIs. Easy to code. Based on Python type hints.
 
+## SDK
+- [bolt-python](https://github.com/slackapi/bolt-python) - A framework to build Slack apps using Python.
 
 ## Self-Hosting
 - [Calendso](https://calendso.com) - The open-source Calendly alternative.

@@ -44,4 +44,5 @@ title: Career path
 - [Introduction to Machine Learning Interviews](https://huyenchip.com/ml-interviews-book/)
 
 ## Interview
+- [Questions I've asked during interviews](https://old.reddit.com/r/ExperiencedDevs/comments/qrmwpc/questions_ive_asked_during_interviews/)
 - [Questions to ask Companies](https://old.reddit.com/r/ExperiencedDevs/comments/p14sc4/questions_to_ask_companies/)

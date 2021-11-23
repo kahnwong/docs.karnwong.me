@@ -14,6 +14,7 @@ title: Shopping
 - [Peylaa](http://peylaa.com)
 - [Reunrom](https://www.reunrom.com)
 - [Sabai-arom](https://sabai-arom.com/)
+- [Thaniya](https://thaniya1988.com/scent-library/)
 - [Wax Valley Candle Co.](https://happeningandfriends.com/shop/waxvalley?lang=th)
 - [ยักษียักษา](https://www.facebook.com/yaksriyaksaa/)
 
@@ -57,6 +58,9 @@ title: Shopping
 - [Element 14 Thailand](https://th.element14.com/)
 - [eReaders - Rakuten Kobo eReader Store](https://gl.kobobooks.com/collections/ereaders)
 - [JIB](https://www.jib.co.th/web/)
+
+## Entertainment
+- [yesasia](https://www.yesasia.com/global/en/home.html)
 
 ## Furnitures
 - [boxbox](https://www.weareboxbox.com)
