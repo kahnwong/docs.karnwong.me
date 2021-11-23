@@ -14,13 +14,31 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    ################################
+    # Setup node
+    ################################
     - name: Setup node
       uses: actions/setup-node@v2
       with:
         node-version: 15
 
+    - name: Cache dependencies
+      uses: actions/cache@v2
+      with:
+        path: ./node_modules
+        key: ${{ runner.os }}-node-${{ steps.setup-node.outputs.node-version }}-${{ hashFiles('package-lock.json') }}
+        restore-keys: |
+                ${{ runner.os }}-npm
+
+    - name: Install requirements
+      if: steps.cache-dependencies.outputs.cache-hit != 'true'
+      run: |
+            npm install
+
+    ################################
+    # Build & deploy
+    ################################
     - run: |
-        npm install
         npm run build
         echo "docs.karnwong.me" > build/CNAME
 
@@ -34,10 +52,10 @@ jobs:
     runs-on: ubuntu-latest
     needs: build-deploy
     steps:
-    - name: Sleep for 10 seconds
+    - name: Sleep for 5 seconds
       uses: jakejarvis/wait-action@master
       with:
-        time: '10s'
+        time: '5s'
 
     - uses: actions/checkout@v2
     - name: Index docusaurus
