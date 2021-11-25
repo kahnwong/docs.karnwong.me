@@ -43,7 +43,7 @@ $ for i in *.csv; do zip `basename $i .csv`.zip $i; done
 for i in *; do zip -r `basename $i`.cbz $i; done
 ```
 
-## Bash
+## bash
 ### Loop
 ```bash
 ### loop
@@ -147,7 +147,7 @@ youtube-dl-audio() {
 }
 ```
 
-## Curl
+## curl
 ```bash
 ### POST w payload from file
 curl -X POST -d @get_price_condo_input.json http://example.com/path/to/resource
@@ -157,6 +157,20 @@ curl --data "param1=value1&param2=value2" https://example.com/resource.cgi
 
 ### specify header
 --header "Content-Type:application/json"
+```
+
+## ftp
+Upload file to FTP
+
+```bash
+ftp -n $FTP_HOST <<END_SCRIPT
+quote USER $FTP_USER
+quote PASS $FTP_PASSWORD
+binary
+cd Media/self-hosted-backup
+put $wallabag_backup_filename
+put $wallabag_sqldump_filename
+END_SCRIPT
 ```
 
 ## Mount & Umount

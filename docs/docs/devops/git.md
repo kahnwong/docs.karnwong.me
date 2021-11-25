@@ -95,6 +95,16 @@ on:
   workflow_dispatch:
 ```
 
+### Create ENV for short SHA
+```yaml
+- name: Add SHORT_SHA to env
+  run: echo "SHORT_SHA=`echo ${GITHUB_SHA::7}`" >> $GITHUB_ENV
+
+- uses: appleboy/docker-ecr-action@master
+  with:
+    tags: latest,${{ env.SHORT_SHA }}
+```
+
 ## Visualize
 ### gitinspector
 Notes: use python3.7
@@ -103,6 +113,10 @@ Notes: use python3.7
 $ npm i -g gitinspector
 $ gitinspector -F html --timeline=TRUE > stats.html
 ```
+
+or
+
+`docker run --rm -v $(pwd):/repo felix/gitinspector:0.4.4 --format=html --timeline=TRUE > stats.html`
 
 ## GH CLI
 ### Delete repo alias

@@ -1,16 +1,5 @@
 module.exports = {
-    docs: [{
-            type: "category",
-            label: "Tools",
-            collapsed: true,
-            items: [
-                "docs/tools/android",
-                "docs/tools/ffmpeg",
-                "docs/tools/osx",
-                "docs/tools/pandoc",
-                "docs/tools/youtube-dl",
-            ],
-        },
+    docs: [
         {
             type: "category",
             label: "Data Science",
@@ -55,6 +44,7 @@ module.exports = {
         {
             type: "category",
             label: "DevOps",
+            collapsed: false,
             items: [
                 "docs/devops/apache2",
                 "docs/devops/aws",
@@ -84,7 +74,22 @@ module.exports = {
             label: "Shell",
             items: ["docs/shell/fish", "docs/shell/iterm", "docs/shell/hyperjs"],
         },
+        {
+            type: "category",
+            label: "Tools",
+            collapsed: true,
+            items: [
+                "docs/tools/android",
+                "docs/tools/ffmpeg",
+                "docs/tools/neovim",
+                "docs/tools/osx",
+                "docs/tools/pandoc",
+                "docs/tools/youtube-dl",
+            ],
+        },
         "docs/misc",
+
+
     ],
     knowledgeBase: [{
             type: "category",
@@ -110,7 +115,7 @@ module.exports = {
     recipes: [{
         type: "category",
         label: "Menu",
-        items: ["recipes/easy", "recipes/food"],
+        items: ["recipes/easy", "recipes/desserts", "recipes/food"],
     }, ],
     languagues: ["languages/russian", "languages/thai"],
 };
