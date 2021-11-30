@@ -1,5 +1,5 @@
 ---
-title: Built-in modules
+title: Snippets
 ---
 
 ## JSON
@@ -366,7 +366,7 @@ class Logger:
 [INFO] test
 ```
 
-## Misc
+## Run code from invoking  the script directly
 ```python
 if __name__ == "__main__":
     files = [

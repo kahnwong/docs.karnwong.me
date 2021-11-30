@@ -10,23 +10,18 @@ title: Misc
 - [tldr](https://github.com/tldr-pages/tldr) - 📚 Collaborative cheatsheets for console commands .
 - [WTF](https://wtfutil.com) - the terminal dashboard.
 
-### JSON
-- [gron](https://github.com/tomnomnom/gron) - Make JSON greppable!
-- [jiq](https://github.com/fiatjaf/jiq) - jid on jq - interactive JSON query tool using jq expressions.
-
-### Unix tools alternative
-- [Modern Unix](https://github.com/ibraheemdev/modern-unix)
-
 ### Tools
 - [alive-progress](https://github.com/rsalmei/alive-progress) - A new kind of Progress Bar, with real time throughput, eta and very cool animations!
 - [cbonsai](https://gitlab.com/jallbrit/cbonsai) - grow bonsai trees in your terminal.
 - [glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz! 💅🏻
 - [gping](https://github.com/orf/gping) - Ping, but with a graph.
+- [gron](https://github.com/tomnomnom/gron) - Make JSON greppable!
 - [htmlq](https://github.com/mgdm/htmlq) - Like jq, but for HTML.
 - [iponmap](https://github.com/nogizhopaboroda/iponmap) - commandline IP location finder.
+- [jiq](https://github.com/fiatjaf/jiq) - jid on jq - interactive JSON query tool using jq expressions.
+- [Modern Unix](https://github.com/ibraheemdev/modern-unix)
 - [progress](https://github.com/Xfennec/progress) - Linux tool to show progress for cp, mv, dd, ...
 - [visidata](https://github.com/saulpw/visidata) - A terminal spreadsheet multitool for discovering and arranging data.
-
 
 ### Misc
 - [carbon-now-cli](https://github.com/mixn/carbon-now-cli) - Beautiful images of your code — from right inside your terminal.
@@ -38,9 +33,6 @@ title: Misc
 - [Tiddy Viewer](https://github.com/alexhallam/tv) - Tidy Viewer is a cross-platform CLI csv pretty printer that uses column styling to maximize viewer enjoyment.
 
 
-## Database
-- [tile38](https://github.com/tidwall/tile38) - Real-time Geospatial and Geofencing.
-
 ## Documentation
 - [devhints](https://devhints.io)
 - [Sky Towner](https://skytowner.com) - Served bite-sized with streamlined search and unparalleled UI/UX.
@@ -50,7 +42,7 @@ title: Misc
 - [openess](https://emoji.openess.dev)
 - [Slackmojis](https://slackmojis.com)
 
-## Fonts & Icons
+### Fonts & Icons
 - [Cufon Fonts](https://www.cufonfonts.com/) - The world's most comprehensive Webfonts supported free font archive. For designers and developers.
 - [Fontesk](https://fontesk.com/) - Download thousands of free fonts for commercial and personal use. A unique collection of free fonts to download, the best and new serif, sans serif, script typefaces.
 - [Simple Icons](https://simpleicons.org)
@@ -79,25 +71,20 @@ title: Misc
 
 
 ## Python
+- [bolt-python](https://github.com/slackapi/bolt-python) - A framework to build Slack apps using Python.
 - [borb](https://github.com/jorisschellekens/borb) - borb is a library for reading, creating and manipulating PDF files in python.
 - [icecream](https://github.com/gruns/icecream) - Never use print() to debug again.
 - [Scalene](https://github.com/plasma-umass/scalene) - A high-performance, high-precision CPU, GPU, and memory profiler for Python.
 - [typer](https://github.com/tiangolo/typer) - Typer, build great CLIs. Easy to code. Based on Python type hints.
 
-## SDK
-- [bolt-python](https://github.com/slackapi/bolt-python) - A framework to build Slack apps using Python.
-
 ## Self-Hosting
 - [Calendso](https://calendso.com) - The open-source Calendly alternative.
 - [Crater](https://craterapp.com) - Free Open-Source Invoice app for freelancers & small businesses.
-- [LibrePhotos](https://github.com/LibrePhotos/librephotos) - Self hosted alternative to Google Photos.
 - [MissionKontrol](https://github.com/Mission-Kontrol/MissionKontrol) - A modern, self-hosted admin panel that supports MySQL & PostGres DBs good alternative to rails admin or phpmyadmin.
 - [nocodb](https://github.com/nocodb/nocodb) - The Open Source Airtable alternative.
 - [Papermerge](https://github.com/ciur/papermerge) - Open Source Document Management System for Digital Archives (Scanned Documents).
-- [Photoprism](https://github.com/photoprism/photoprism) - Personal Photo Management powered by Go and Google TensorFlow.
 - [TimeOff.Management](https://github.com/timeoff-management/timeoff-management-application) - Simple yet powerful absence management software for small and medium size business (community edition).
 - [wger](https://github.com/wger-project/docker) - Self hosted FLOSS fitness/workout, nutrition and weight tracker.
-- [WireHole](https://github.com/IAmStoxe/wirehole) - WireGuard, Pi-hole, and Unbound combo.
 
 
 ## Tools

@@ -10,21 +10,12 @@ title: Data Science
 
 ### Resources
 - [Data Stack](https://www.moderndatastack.xyz/stacks) - Learn how some of the most amazing companies in the world are organising their data stack. Learn more about the tools that they are using and why.
-
-### Resources
 - [PySpark Style Guide](https://github.com/palantir/pyspark-style-guide)
 
 ## Data Science
 ### Dashboard
 - [Gradio](https://www.gradio.app) - Generate an easy-to-use UI for your ML model, function, or API with only a few lines of code. Integrate directly into your Python notebook, or share a link with anyone.
 - [streamlit](https://github.com/streamlit/streamlit) - Streamlit — The fastest way to build data apps in Python.
-- [Voilà](https://github.com/voila-dashboards/voila) - Voilà turns Jupyter notebooks into standalone web applications.
-
-### Data
-- [Faker](https://github.com/joke2k/faker) - Faker is a Python package that generates fake data for you.
-
-### Documentation
-- [Model Card Toolkit](https://github.com/tensorflow/model-card-toolkit) - Streamlines and automates generation of Model Cards, machine learning documents that provide context and transparency into a model's development and performance.
 
 ### EDA
 - [data ⎰ describe](https://github.com/data-describe/data-describe) - data-describe is a Python toolkit for Exploratory Data Analysis (EDA). It aims to accelerate data exploration and analysis by providing automated and polished analysis widgets.
@@ -34,19 +25,20 @@ title: Data Science
 - [sweetviz](https://github.com/fbdesignpro/sweetviz) - Generates beautiful, high-density visualizations to kickstart EDA (Exploratory Data Analysis) with just two lines of code.
 
 ### Machine Learning
-- [scikit-learn](https://github.com/scikit-learn/scikit-learn) - scikit-learn: machine learning in Python.
-
-### Model visualizations
 - [clustergram](https://github.com/martinfleis/clustergram) - Visualization and diagnostics for cluster analysis in Python.
 - [explainerdashboard](https://github.com/oegedijk/explainerdashboard) - Quickly build Explainable AI dashboards that show the inner workings of so-called "blackbox" machine learning models.
+- [scikit-learn](https://github.com/scikit-learn/scikit-learn) - scikit-learn: machine learning in Python.
 
-### Notebooks
-- [handcalcs](https://github.com/connorferster/handcalcs) - Render Python calculation code to more human-readable format.
+### NLP
+- [Automatic text summarizer](https://github.com/miso-belica/sumy)
+- [FuzzyWuzzy](https://github.com/seatgeek/fuzzywuzzy) - Fuzzy string matching like a boss.
+- [thaiaddress](https://github.com/425degree-developers/thaiaddress) - Parser for Thai address.
+- [wisesight-sentiment](https://github.com/PyThaiNLP/wisesight-sentiment) - Thai sentiment analysis.
 
-### Reports
-- [Knowledge Repo](https://github.com/airbnb/knowledge-repo) - A next-generation curated knowledge sharing platform for data scientists and other technical professions.
+#### Resources
+- [SQL Snippets](https://sql-snippets.count.co/c/postgresql-snippets/7)
 
-### Time-series
+#### Time-series
 - [darts](https://github.com/unit8co/darts/) - A python library for easy manipulation and forecasting of time series.
 - [greykite](https://github.com/linkedin/greykite) - A flexible, intuitive and fast forecasting library.
 - [Kats](https://github.com/facebookresearch/Kats) - Kats, a kit to analyze time series data, a lightweight, easy-to-use, generalizable, and extendable framework to perform time series analysis, from understanding the key statistics and characteristics, detecting change points and anomalies, to forecasting future trends.
@@ -61,6 +53,16 @@ title: Data Science
 - [plotly](https://plotly.com/python/)
 - [PyViz](https://pyviz.org/overviews/index.html)
 
+### Misc
+- [dovpanda](https://github.com/dovpanda-dev/dovpanda) - Directions overlay for working with pandas in an analysis environment.
+- [Faker](https://github.com/joke2k/faker) - Faker is a Python package that generates fake data for you.
+- [handcalcs](https://github.com/connorferster/handcalcs) - Render Python calculation code to more human-readable format.
+- [Knowledge Repo](https://github.com/airbnb/knowledge-repo) - A next-generation curated knowledge sharing platform for data scientists and other technical professions.
+- [Model Card Toolkit](https://github.com/tensorflow/model-card-toolkit) - Streamlines and automates generation of Model Cards, machine learning documents that provide context and transparency into a model's development and performance.
+- [Modin](https://github.com/modin-project/modin) - Modin: Speed up your Pandas workflows by changing a single line of code.
+- [swifter](https://github.com/jmcarpenter2/swifter) - A package which efficiently applies any function to a pandas dataframe or series in the fastest available manner.
+
+
 ### Resources
 - [Color Palettes in Seaborn](https://chrisalbon.com/python/data_visualization/seaborn_color_palettes/)
 - [Simulated Annealing](https://github.com/skylergrammer/SimulatedAnnealing)
@@ -71,12 +73,6 @@ title: Data Science
 - [parquet_fdw](https://github.com/adjust/parquet_fdw) - Parquet foreign data wrapper for PostgreSQL.
 - [Parquet S3 Foreign Data Wrapper for PostgreSQL](https://github.com/pgspider/parquet_s3_fdw)
 
-### Resources
-- [SQL Snippets](https://sql-snippets.count.co/c/postgresql-snippets/7)
-
-## Distributed Computing
-- [Koalas](https://koalas.readthedocs.io/en/latest/index.html) - pandas API on Apache Spark.
-
 ## GIS
 - [deck.gl](https://github.com/visgl/deck.gl) - WebGL2 powered geospatial visualization layers.
 - [docker-cartodb](https://github.com/sverhoeven/docker-cartodb) - Dockerized CartoDB.
@@ -85,6 +81,7 @@ title: Data Science
 - [kepler.gl](https://kepler.gl/demo) - A data-agnostic, high-performance web-based application for visual exploration of large-scale geolocation data sets.
 - [OpenStreetMap Data Extracts](http://download.geofabrik.de/index.html)
 - [prettymaps](https://github.com/marceloprates/prettymaps) - A small set of Python functions to draw pretty maps from OpenStreetMap data. Based on osmnx, matplotlib and shapely libraries.
+- [tile38](https://github.com/tidwall/tile38) - Real-time Geospatial and Geofencing.
 
 ## MLOps
 - [DVC](https://dvc.org/doc/start/data-and-model-versioning) - Data Version Control, or DVC, is a data and ML experiment management tool that takes advantage of the existing engineering toolset that you're already familiar with (Git, CI/CD, etc.).
@@ -95,13 +92,6 @@ title: Data Science
 - [Awesome production machine learning](https://github.com/EthicalML/awesome-production-machine-learning) - A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning.
 - [Feature Stores for ML](https://www.featurestore.org)
 - [MLOps Toys](https://mlops.toys)
-
-
-## NLP
-- [Automatic text summarizer](https://github.com/miso-belica/sumy)
-- [FuzzyWuzzy](https://github.com/seatgeek/fuzzywuzzy) - Fuzzy string matching like a boss.
-- [thaiaddress](https://github.com/425degree-developers/thaiaddress) - Parser for Thai address.
-- [wisesight-sentiment](https://github.com/PyThaiNLP/wisesight-sentiment) - Thai sentiment analysis.
 
 ### Resources
 - [The Big Bad NLP Database](https://datasets.quantumstat.com)
@@ -130,8 +120,3 @@ title: Data Science
 - [Math Inspector](https://mathinspector.com) - A Visual Programming Environment for Scientific Computing.
 - [MLNotify](https://mlnotify.aporia.com) - Get notified when train() is complete.
 - [The LF AI & Data Foundation](https://landscape.lfai.foundation)
-
-### Pandas
-- [dovpanda](https://github.com/dovpanda-dev/dovpanda) - Directions overlay for working with pandas in an analysis environment.
-- [Modin](https://github.com/modin-project/modin) - Modin: Speed up your Pandas workflows by changing a single line of code.
-- [swifter](https://github.com/jmcarpenter2/swifter) - A package which efficiently applies any function to a pandas dataframe or series in the fastest available manner.

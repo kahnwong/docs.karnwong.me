@@ -10,6 +10,10 @@ title: Utilities
 - [The Ultimate Headphones Test](https://www.audiocheck.net/soundtests_headphones.php) - This page helps you evaluate headphones (or earphones) and determine which one offers the best performance when comparing different pairs.
 - [Video and audio encoding for playback in Android and iOS devices](https://gist.github.com/pinge/b9f9ce1e4d399503f7c80df4c5d09f22) - Video and audio encoding for playback in Android and iOS devices.
 
+## Background noise
+- [I Miss My Bar](http://imissmybar.com/)
+- [Sounds of the Pub](https://soundsofthepub.com/)
+
 ## CRM
 - [hunter](https://hunter.io) - Hunter lets you find professional email addresses in seconds and connect with the people that matter for your business.
 

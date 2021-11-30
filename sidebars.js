@@ -1,9 +1,8 @@
 module.exports = {
-    docs: [
-        {
+    docs: [{
             type: "category",
             label: "Data Science",
-            collapsed: false,
+            collapsed: true,
             items: [
                 "docs/data-science/dvc",
                 "docs/data-science/jupyter",
@@ -38,7 +37,7 @@ module.exports = {
         {
             type: "category",
             label: "Database",
-            collapsed: false,
+            collapsed: true,
             items: ["docs/database/postgres", "docs/database/postgis"],
         },
         {
@@ -62,7 +61,7 @@ module.exports = {
             items: [
                 "docs/python/environment",
                 "docs/python/modules",
-                "docs/python/built-in-modules",
+                "docs/python/snippets",
                 "docs/python/database",
                 "docs/python/pdf",
                 "docs/python/termcolor",

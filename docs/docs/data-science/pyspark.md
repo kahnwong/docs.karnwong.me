@@ -1,6 +1,5 @@
 ---
 title: PySpark
-slug: /
 ---
 
 ## Install

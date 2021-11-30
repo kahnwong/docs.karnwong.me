@@ -2,27 +2,6 @@
 title: Environment
 ---
 
-## Conda
-```bash
-# list env
-conda env list
-
-# create new env and specify packages
-conda create -n ENV_NAME python=3.6
-conda install -n ENV_NAME scipy=0.15.0
-
-# deactivate env (weird behaviors, better explicitly use conda activate ENV_NAME)
-conda deactivate
-
-# remove environment
-conda env remove -n ENV_NAME
-
-# example
-conda create -n pymongo python=3.7
-conda install -n pymongo pymongo
-conda activate pymongo
-```
-
 ## Pyenv
 * [managing-virtual-environment-with-pyenv](https://towardsdatascience.com/managing-virtual-environment-with-pyenv-ae6f3fb835f8)
 * [pyenv](https://github.com/pyenv/pyenv)

@@ -67,11 +67,11 @@ title: Shopping
 - [Pana objects](http://www.pana-objects.com)
 - [The Wood's Tale](https://www.thewoodstale.com)
 
-### Headphones
+## Headphones
 - [Munkonggadget](https://www.munkonggadget.com/)
 - [SHENZHENAUDIO](https://shenzhenaudio.com/)
 
-### Keyboards
+## Keyboards
 - [Dwarf Factory](https://www.dwarf-factory.com/) - Artisan keycaps.
 - [KBDfans](https://kbdfans.com/)
 - [KEMISTRY](https://kemistry.in.th/index.php)

@@ -1,5 +1,6 @@
 ---
 title: Git
+slug: /
 ---
 
 ## Usage
