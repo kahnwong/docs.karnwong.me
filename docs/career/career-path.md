@@ -46,3 +46,4 @@ title: Career path
 ## Interview
 - [Questions I've asked during interviews](https://old.reddit.com/r/ExperiencedDevs/comments/qrmwpc/questions_ive_asked_during_interviews/)
 - [Questions to ask Companies](https://old.reddit.com/r/ExperiencedDevs/comments/p14sc4/questions_to_ask_companies/)
+- [Questions to ask when interviewing someone to be your manager](https://old.reddit.com/r/ExperiencedDevs/comments/qyzw29/questions_to_ask_when_interviewing_someone_to_be/)

@@ -9,11 +9,14 @@ title: DevOps
 - [Amazon EC2 Instance Comparison](https://ec2instances.info)
 - [Amazon EMR 6.x Release Versions](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-6x.html) - Lists application versions, components, and release notes for each Amazon EMR release in the 6.x series.
 - [Amazon Web Services](https://adayinthelifeof.nl/2020/05/20/aws.html) - Description for AWS services.
+- [AWS Compute Optimizer](https://aws.amazon.com/blogs/aws/new-for-aws-compute-optimizer-resource-efficiency-metrics-to-estimate-savings-opportunities-and-performance-risks/)
 - [AWS Fargate ECS Pricing Calculator](https://www.fargate.org/)
 - [AWS Lambda quotas](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html) - Maximum sizes, limits, and quotas for AWS Lambda functions and related resources.
 - [AWS Pricing Calculator](https://calculator.aws/#/estimate) - AWS Pricing Calculator lets you explore AWS services, and create an estimate for the cost of your use cases on AWS.
+- [AWS Savings Plan Calculator](https://cloudshim.com/calculator)
 
 ## CI/CD
+- [Buildkite](https://buildkite.com/)
 - [Codecov](https://about.codecov.io) - Ship healthier code faster with less risk.
 - [Should I Deploy Today](https://shouldideploy.today/)
 
@@ -68,7 +71,11 @@ title: DevOps
   - [tfsec](https://tfsec.dev/docs/usage/) - A static analysis security scanner for your Terraform code.
 
 ### Resources
+- [My Terraform Development Workflow](https://brendanthompson.com/posts/2021/11/my-terraform-development-workflow)
+- [My Terraform Standards](https://brendanthompson.com/posts/2021/11/my-terraform-standards)
 - [rotate AWS IAM secrets with terraform](https://cloud.gov/docs/ops/runbook/rotating-iam-users/)
+- [Terraform Opinion #23: Use list of objects over map of maps](https://jq1.io/posts/opinion_23/)
+
 
 ## Kubernetes
 - [k0s](https://docs.k0sproject.io/) - k0s is an all-inclusive Kubernetes distribution, configured with all of the features needed to build a Kubernetes cluster simply by copying and running an executable file on each target host.
@@ -76,16 +83,20 @@ title: DevOps
 - [MicroK8s](https://microk8s.io) - Low-ops, minimal production Kubernetes, for devs, cloud, clusters, workstations, Edge and IoT.
 
 ## Monitoring
+- [dockprom](https://github.com/stefanprodan/dockprom) - Docker hosts and containers monitoring with Prometheus, Grafana, cAdvisor, NodeExporter and AlertManager.
 - [Loki](https://github.com/grafana/loki) - Like Prometheus, but for logs.
 
 
 ## Networking
+- [firezone](https://github.com/firezone/firezone) - WireGuard-based VPN server and firewall.
 - [headscale](https://github.com/juanfont/headscale) - An open source, self-hosted implementation of the Tailscale control server.
 - [tailscale](https://tailscale.com) - A secure network that just works.
 
 ## Security
 - [Hardenize](https://www.hardenize.com/) - Automated Discovery and Monitoring of Your Entire Network Perimeter.
+- [ngrok](https://ngrok.com/) - ngrok allows you to expose a web server running on your local machine to the internet. Just tell ngrok what port your web server is listening on.
 - [SSL Server Test](https://www.ssllabs.com/ssltest/) - A comprehensive free SSL test for your public web servers.
+- [The Twelve-Factor App](https://12factor.net/)
 - [Vault](https://www.vaultproject.io) - Secure, store and tightly control access to tokens, passwords, certificates, encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API.
 
 ## Tracking

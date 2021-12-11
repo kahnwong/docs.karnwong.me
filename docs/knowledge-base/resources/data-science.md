@@ -18,14 +18,10 @@ title: Data Science
 - [streamlit](https://github.com/streamlit/streamlit) - Streamlit — The fastest way to build data apps in Python.
 
 ### EDA
-- [data ⎰ describe](https://github.com/data-describe/data-describe) - data-describe is a Python toolkit for Exploratory Data Analysis (EDA). It aims to accelerate data exploration and analysis by providing automated and polished analysis widgets.
-- [Lux](https://github.com/lux-org/lux) - Python API for Intelligent Visual Data Discovery.
 - [missingno](https://github.com/ResidentMario/missingno) - missingno provides a small toolset of flexible and easy-to-use missing data visualizations and utilities that allows you to get a quick visual summary of the completeness (or lack thereof) of your dataset.
-- [Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling) - Generates profile reports from a pandas DataFrame.
 - [sweetviz](https://github.com/fbdesignpro/sweetviz) - Generates beautiful, high-density visualizations to kickstart EDA (Exploratory Data Analysis) with just two lines of code.
 
 ### Machine Learning
-- [clustergram](https://github.com/martinfleis/clustergram) - Visualization and diagnostics for cluster analysis in Python.
 - [explainerdashboard](https://github.com/oegedijk/explainerdashboard) - Quickly build Explainable AI dashboards that show the inner workings of so-called "blackbox" machine learning models.
 - [scikit-learn](https://github.com/scikit-learn/scikit-learn) - scikit-learn: machine learning in Python.
 
@@ -36,9 +32,10 @@ title: Data Science
 - [wisesight-sentiment](https://github.com/PyThaiNLP/wisesight-sentiment) - Thai sentiment analysis.
 
 #### Resources
-- [SQL Snippets](https://sql-snippets.count.co/c/postgresql-snippets/7)
+- [The Big Bad NLP Database](https://datasets.quantumstat.com)
 
-#### Time-series
+
+### Time-series
 - [darts](https://github.com/unit8co/darts/) - A python library for easy manipulation and forecasting of time series.
 - [greykite](https://github.com/linkedin/greykite) - A flexible, intuitive and fast forecasting library.
 - [Kats](https://github.com/facebookresearch/Kats) - Kats, a kit to analyze time series data, a lightweight, easy-to-use, generalizable, and extendable framework to perform time series analysis, from understanding the key statistics and characteristics, detecting change points and anomalies, to forecasting future trends.
@@ -54,13 +51,10 @@ title: Data Science
 - [PyViz](https://pyviz.org/overviews/index.html)
 
 ### Misc
-- [dovpanda](https://github.com/dovpanda-dev/dovpanda) - Directions overlay for working with pandas in an analysis environment.
 - [Faker](https://github.com/joke2k/faker) - Faker is a Python package that generates fake data for you.
 - [handcalcs](https://github.com/connorferster/handcalcs) - Render Python calculation code to more human-readable format.
 - [Knowledge Repo](https://github.com/airbnb/knowledge-repo) - A next-generation curated knowledge sharing platform for data scientists and other technical professions.
 - [Model Card Toolkit](https://github.com/tensorflow/model-card-toolkit) - Streamlines and automates generation of Model Cards, machine learning documents that provide context and transparency into a model's development and performance.
-- [Modin](https://github.com/modin-project/modin) - Modin: Speed up your Pandas workflows by changing a single line of code.
-- [swifter](https://github.com/jmcarpenter2/swifter) - A package which efficiently applies any function to a pandas dataframe or series in the fastest available manner.
 
 
 ### Resources
@@ -93,9 +87,6 @@ title: Data Science
 - [Feature Stores for ML](https://www.featurestore.org)
 - [MLOps Toys](https://mlops.toys)
 
-### Resources
-- [The Big Bad NLP Database](https://datasets.quantumstat.com)
-
 
 ## Web-Scraping
 - [cloudscraper](https://github.com/venomous/cloudscraper) - A Python module to bypass Cloudflare's anti-bot page.
@@ -111,9 +102,11 @@ title: Data Science
 - [Scrapy Random User-Agent](https://github.com/cnu/scrapy-random-useragent) - Scrapy Middleware to set a random User-Agent for every Request.
 - [scrapy-rotating-proxies](https://github.com/TeamHG-Memex/scrapy-rotating-proxies) - use multiple proxies with Scrapy.
 
-
 ### User agents
 - [GitHub - scrapedia/scrapy-useragents: A downloader middleware to change user-agent of scrapy](https://github.com/scrapedia/scrapy-useragents)
+
+### Resources
+- [Avoiding bot detection: How to scrape the web without getting blocked?](https://github.com/niespodd/browser-fingerprinting)
 
 ## Misc
 - [Awkward Array](https://awkward-array.org/what-is-awkward.html) - Awkward Array is a library for nested, variable-sized data, including arbitrary-length lists, records, mixed types, and missing data, using NumPy-like idioms.

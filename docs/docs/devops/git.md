@@ -84,6 +84,19 @@ git push origin master
 git remote remove oldrepo
 ```
 
+### Remove submodule
+```
+git rm -r the_submodule
+rm -rf .git/modules/the_submodule
+```
+
+### get total additions and deletions on a given branch for an given author in git
+```
+git log --author=$USER --shortstat $BRANCH | \
+awk '/^ [0-9]/ { f += $1; i += $4; d += $6 } \
+END { printf("%d files changed, %d insertions(+), %d deletions(-)", f, i, d) }'
+```
+
 ## GitHub Actions
 ```yaml
 name: Deploy

@@ -2,9 +2,6 @@
 title: Utilities
 ---
 
-- [10 Minute Mail](https://10minutemail.com/)
-
-
 ## A/V
 - [ABX High Fidelity Test list](http://abx.digitalfeed.net/list.html) - A set of browser-based ABX tests comparing lossless and lossy music samples.
 - [The Ultimate Headphones Test](https://www.audiocheck.net/soundtests_headphones.php) - This page helps you evaluate headphones (or earphones) and determine which one offers the best performance when comparing different pairs.
@@ -13,9 +10,6 @@ title: Utilities
 ## Background noise
 - [I Miss My Bar](http://imissmybar.com/)
 - [Sounds of the Pub](https://soundsofthepub.com/)
-
-## CRM
-- [hunter](https://hunter.io) - Hunter lets you find professional email addresses in seconds and connect with the people that matter for your business.
 
 ## Devices
 - [Phone Sized](https://phonesized.com/) - Phone size comparison website, allowing users to visually compare sizes of mobile phones and tablet devices side by side or stacked up one on top of the other.
@@ -34,6 +28,10 @@ title: Utilities
 - [redux Theme](http://themes.rockbox.org/index.php?themeid=2162&target=ipod6g)
 - [MinimalX Theme](http://themes.rockbox.org/index.php?themeid=1962&target=ipod6g)
 - [iVideo Theme](http://themes.rockbox.org/index.php?themeid=1309&target=ipod6g)
+
+## Meetings
+- [MiroTalk](https://mirotalk.up.railway.app/)
+
 
 ## Media
 - [GetRSSFeed](https://getrssfeed.com)
@@ -59,5 +57,8 @@ title: Utilities
 - [80days](https://eightydays.me/) - Booking Eurotrips made easy.
 - [Ultimate Travel Packing List](https://www.budgetdirect.com.au/interactives/packinglist/)
 
-## Typing
+## Misc
+- [10 Minute Mail](https://10minutemail.com/)
+- [hunter](https://hunter.io) - Hunter lets you find professional email addresses in seconds and connect with the people that matter for your business.
 - [Monkeytype](https://monkeytype.com) - Monkeytype is a minimalistic typing test, featuring many test modes, an account system to save your typing speed history and user configurable features like themes, a smooth caret and more.
+- [Notion style avatar generator](http://cvbox.org/)

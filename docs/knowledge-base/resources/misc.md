@@ -7,30 +7,29 @@ title: Misc
 
 ### Dashboard
 - [bfetch](https://gitlab.com/nautilor/bfetch) - Simple Fetch program written in bash.
-- [tldr](https://github.com/tldr-pages/tldr) - 📚 Collaborative cheatsheets for console commands .
 - [WTF](https://wtfutil.com) - the terminal dashboard.
 
 ### Tools
 - [alive-progress](https://github.com/rsalmei/alive-progress) - A new kind of Progress Bar, with real time throughput, eta and very cool animations!
+- [carbon-now-cli](https://github.com/mixn/carbon-now-cli) - Beautiful images of your code — from right inside your terminal.
 - [cbonsai](https://gitlab.com/jallbrit/cbonsai) - grow bonsai trees in your terminal.
+- [dbxcli](https://github.com/dropbox/dbxcli) - A command line client for Dropbox built using the Go SDK.
+- [DocTo](https://github.com/tobya/DocTo) - Simple command line utility for converting .doc & .xls files to any supported format such as Text, RTF, CSV or PDF.
 - [glow](https://github.com/charmbracelet/glow) - Render markdown on the CLI, with pizzazz! 💅🏻
 - [gping](https://github.com/orf/gping) - Ping, but with a graph.
 - [gron](https://github.com/tomnomnom/gron) - Make JSON greppable!
 - [htmlq](https://github.com/mgdm/htmlq) - Like jq, but for HTML.
+- [InstaLooter](https://github.com/althonos/InstaLooter) - Another API-less Instagram pictures and videos downloader.
 - [iponmap](https://github.com/nogizhopaboroda/iponmap) - commandline IP location finder.
 - [jiq](https://github.com/fiatjaf/jiq) - jid on jq - interactive JSON query tool using jq expressions.
-- [Modern Unix](https://github.com/ibraheemdev/modern-unix)
-- [progress](https://github.com/Xfennec/progress) - Linux tool to show progress for cp, mv, dd, ...
-- [visidata](https://github.com/saulpw/visidata) - A terminal spreadsheet multitool for discovering and arranging data.
-
-### Misc
-- [carbon-now-cli](https://github.com/mixn/carbon-now-cli) - Beautiful images of your code — from right inside your terminal.
-- [dbxcli](https://github.com/dropbox/dbxcli) - A command line client for Dropbox built using the Go SDK.
-- [DocTo](https://github.com/tobya/DocTo) - Simple command line utility for converting .doc & .xls files to any supported format such as Text, RTF, CSV or PDF.
-- [InstaLooter](https://github.com/althonos/InstaLooter) - Another API-less Instagram pictures and videos downloader.
 - [kalker](https://github.com/PaddiM8/kalker) - Kalker/kalk is a calculator with math syntax that supports user-defined variables and functions, complex numbers, and estimation of derivatives and integrals.
+- [Modern Unix](https://github.com/ibraheemdev/modern-unix)
+- [ntfy](https://ntfy.sh/) - ntfy (pronounce: notify) is a simple HTTP-based pub-sub notification service. It allows you to send notifications to your phone or desktop via scripts from any computer, entirely without signup, cost or setup.
+- [progress](https://github.com/Xfennec/progress) - Linux tool to show progress for cp, mv, dd, ...
 - [subtitle](https://github.com/ihciah/subtitle) - A cli tool to download subtitles.
 - [Tiddy Viewer](https://github.com/alexhallam/tv) - Tidy Viewer is a cross-platform CLI csv pretty printer that uses column styling to maximize viewer enjoyment.
+- [tldr](https://github.com/tldr-pages/tldr) - 📚 Collaborative cheatsheets for console commands .
+- [visidata](https://github.com/saulpw/visidata) - A terminal spreadsheet multitool for discovering and arranging data.
 
 
 ## Documentation

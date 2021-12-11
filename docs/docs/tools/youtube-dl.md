@@ -2,6 +2,8 @@
 title: youtube-dl
 ---
 
+https://github.com/yt-dlp/yt-dlp
+
 ## Sample commands
 ```
 youtube-dl -o "%(playlist_index)s. %(title)s.%(ext)s" --playlist-start 20 https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr

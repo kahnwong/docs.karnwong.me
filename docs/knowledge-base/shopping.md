@@ -9,6 +9,7 @@ title: Shopping
 - [BLITH](https://shopee.co.th/shop/309249088/search?page=0&shopCollection=101315921)
 - [donna-chang](https://donna-chang.co.th/)
 - [hibi](https://hibi-jp.com/en/)
+- [Malapinn](http://malapinn.com/)
 - [NUAYNARD](https://www.nuaynardhandcraft.com/)
 - [PAÑPURI](https://www.panpuri.com/th)
 - [Peylaa](http://peylaa.com)
@@ -38,6 +39,7 @@ title: Shopping
 - [Readery](https://readery.co/)
 
 ## Clothing
+- [Baisri](https://www.facebook.com/baisrishop/)
 - [ERR-OR Design](https://www.err-orclothing.com)
 - [jweep](https://www.jweep.com/products) - Experimental garments.
 - [planeta](https://focomo.myshopify.com/collections/planeta?page=4)
@@ -64,6 +66,7 @@ title: Shopping
 
 ## Furnitures
 - [boxbox](https://www.weareboxbox.com)
+- [Lukyang](https://www.lukyang.com/)
 - [Pana objects](http://www.pana-objects.com)
 - [The Wood's Tale](https://www.thewoodstale.com)
 
