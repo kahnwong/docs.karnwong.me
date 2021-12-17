@@ -38,7 +38,6 @@ title: DevOps
 ## Docker
 - [composerize](https://www.composerize.com) - docker run asdlksjfksdf > docker-composerize up.
 - [jupyter docker-stacks](https://github.com/jupyter/docker-stacks) - Ready-to-run Docker images containing Jupyter applications.
-- [lazydocker](https://github.com/jesseduffield/lazydocker) - A simple terminal UI for both docker and docker-compose, written in Go with the gocui library.
 
 ### Resources
 - [contains.dev](https://contains.dev/) - Explore your images, view their files, layers and dependencies.

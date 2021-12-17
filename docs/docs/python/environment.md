@@ -48,19 +48,6 @@ No global python version has been set yet. Please set the global version by typi
 pyenv global 3.7.2
 ```
 
-### Notes
-```bash title="default PATH"
-set fish_user_paths /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-set PATH /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/Library/Python/3.8/bin:/Users/kahnwong/.pyenv/versions/data-science/bin
-```
-
-1. Add `system python path` to use stuff installed via python that came with the system (less complicated than add multiple `global` virtualenv)
-2. Also add `Jupyter-lab` path installed to an environment somewhere, so you can activate Jupyter env across virtualenv, see:
-	* https://github.com/aiguofer/pyenv-jupyter-kernel
-
-#### Set up linting in vscode
-[Blog / Visual Studio Code with Python, pyenv and pylint | Ondrej Zeman](https://ondrejzeman.com/blog/vscode-python-pyenv-and-pylint)
-
 ## Pipenv
 
 ```bash

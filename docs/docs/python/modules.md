@@ -10,7 +10,7 @@ RUN apt-get install libssl-dev python3-dev gcc libc-dev libxml2-dev libxslt1-dev
 
 ## Modules List
 ### CLI
-`pip3 install topydo topydo[columns] youtube-dlc fava visidata pipenv`
+`pip3 install topydo topydo[columns]`
 
 ### Visualizations
 ```
