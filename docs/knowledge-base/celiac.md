@@ -84,34 +84,15 @@ Notes:
 | Brand                                                                                             | Location | Details                                        |
 | ------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------- |
 | [Adagio Teas](https://www.adagio.com)                                                             | 🇺🇸     | ALL 👍                                        |
-| [Ahmad Tea](https://uk.ahmadtea.com)                                                              | 🇬🇧     |                                                |
 | [Basilur](https://www.basilurtea.com/)                                                            | 🇱🇰     |                                                |
-| [Camellia Sinensis](https://camellia-sinensis.com/en)                                             | 🇨🇦     | not certified by prob no gluten                |
 | [Cha Lin](https://th-th.facebook.com/pg/LhinTeaShop2/shop/?referral_code=page_shop_tab&preview=1) | 🇹🇭     | partially                                      |
 | [Char Flower Tea](https://www.charflowertea.com )                                                 | 🇹🇭     | ALL 👍                                        |
 | [Dilmah](https://shop.dilmahteathailand.com/en/)                                                  | 🇹🇭     | ALL 👍                                        |
 | [Harney & Sons](https://harneyteasthailand.com)                                                   | 🇹🇭     | ALL 👍                                        |
 | [Nepali Tea Traders](https://www.nepaliteatraders.com/collections/black-tea)                      | 🇳🇵     |                                                |
 | [Siam Mandalay](https://www.facebook.com/SiamMandalayHealthandWellness/)                          | 🇹🇭     | ALL 👍                                        |
-| [Suwirun](http://www.suwirunteashop.com/index.php?lay=show&ac=cat_showcat_spc&cid=1777)           | 🇹🇭     | ALL 👍                                        |
-| [Taj Mahal Tea House](https://www.tajmahalteahouse.com/products/)                                 | 🇮🇳     |                                                |
-| [Tea Box](https://www.teabox.com)                                                                 | 🇮🇳     |                                                |
-| [The Tea Spot](https://www.theteaspot.com)                                                        | 🇺🇸     | very very likely gluten free but not certified |
-| [ชาตรามือ](https://www.cha-thai.com)                                                              | 🇹🇭     |                                                |
-| 🔸 [Chado Tea](https://www.chadotea.com/collections/black-tea)                                   | 🇺🇸     |                                                |
-| 🔸 [Lupicia](https://usa.lupicia.com)                                                            | 🇺🇸     |                                                |
-| 🔸 [Murchie's Fine Tea & Coffee](https://www.murchies.com/fine-tea/format/loose-tea/)            | 🇨🇦     |                                                |
-| 🔸 [Par Avion](https://www.paraviontea.com/bestsellers)                                          | 🇺🇸     |                                                |
-| 🔸 [Sazen Tea](https://www.sazentea.com/en/)                                                     | 🇯🇵     |                                                |
-| 🔸 [Tea Kruthi](https://teakruthi.com/collections/our-teas)                                      | 🇱🇰     | have to ask...                                 |
-| 🔸 [Tea Trekker](https://www.teatrekker.com)                                                     | 🇺🇸     |                                                |
-| 🔸 [The Tea Makers of London](https://www.theteamakers.co.uk/black-tea.html)                     | 🇬🇧     |                                                |
-| 🔸 [Udyan Tea](https://www.udyantea.com)                                                         | 🇮🇳     |                                                |
-| 🔸 [Vadham](https://www.vahdam.com)                                                              | 🇮🇳     | Never replied                                  |
-| 🔸 [Verdant Tea](https://verdanttea.com)                                                         | 🇺🇸     |                                                |
-| 🔸 [What-Cha](https://what-cha.com)                                                              | 🇬🇧     |                                                |
-| 🚨 [Choose the Loose](https://choosetheloose.com/collections/loose-leaves)                       | 🇹🇭     |                                                |
-| 🔸 [Lapsangstore](https://lapsangstore.com)                                                      | 🇨🇳     |                                                |
+| [Suwirun](http://www.suwirunteashop.com/)           | 🇹🇭     | ALL 👍                                        |
+| 🔸 [Tea Kruthi](https://teakruthi.com/collections/our-teas)                                      | 🇱🇰     | shipping $15                                 |
 
 
 ## Resources

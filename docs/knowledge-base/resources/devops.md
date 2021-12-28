@@ -6,7 +6,7 @@ title: DevOps
 - [saws](https://github.com/donnemartin/saws#installation) - A supercharged AWS command line interface (CLI).
 
 ### Resources
-- [Amazon EC2 Instance Comparison](https://ec2instances.info)
+- [Amazon EC2 Instance Comparison](https://ec2instances.github.io/)
 - [Amazon EMR 6.x Release Versions](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-6x.html) - Lists application versions, components, and release notes for each Amazon EMR release in the 6.x series.
 - [Amazon Web Services](https://adayinthelifeof.nl/2020/05/20/aws.html) - Description for AWS services.
 - [AWS Compute Optimizer](https://aws.amazon.com/blogs/aws/new-for-aws-compute-optimizer-resource-efficiency-metrics-to-estimate-savings-opportunities-and-performance-risks/)
@@ -18,6 +18,7 @@ title: DevOps
 ## CI/CD
 - [Buildkite](https://buildkite.com/)
 - [Codecov](https://about.codecov.io) - Ship healthier code faster with less risk.
+- [LaunchDarkly](https://launchdarkly.com/) - Feature flags toggle.
 - [Should I Deploy Today](https://shouldideploy.today/)
 
 ### Resources
@@ -90,6 +91,7 @@ title: DevOps
 - [firezone](https://github.com/firezone/firezone) - WireGuard-based VPN server and firewall.
 - [headscale](https://github.com/juanfont/headscale) - An open source, self-hosted implementation of the Tailscale control server.
 - [tailscale](https://tailscale.com) - A secure network that just works.
+- [geonet](https://geonet.shodan.io/) - Run Network Tools from Multiple Geographic Locations
 
 ## Security
 - [Hardenize](https://www.hardenize.com/) - Automated Discovery and Monitoring of Your Entire Network Perimeter.

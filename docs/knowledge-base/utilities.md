@@ -51,6 +51,7 @@ title: Utilities
 - [Ebook Reader for web](https://www.loudreader.com/)
 - [Read Ruler](https://readruler.com/) - View your Pocket articles listed by reading time and automatically add reading time tags to your Pocket articles.
 - [reddit2kindle](https://reddit2kindle.com/) - Send reddit directly to your kindle
+- [PDFCombo](https://apps.apple.com/us/app/pdfcombo/id1030461463?mt=12)
 
 ## Travel
 - [Rome2rio](https://www.rome2rio.com/) - Discover how to get anywhere by searching plane, train, bus, car and ferry routes.
