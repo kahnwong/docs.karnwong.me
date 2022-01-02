@@ -72,7 +72,7 @@ title: Misc
 - [typer](https://github.com/tiangolo/typer) - Typer, build great CLIs. Easy to code. Based on Python type hints.
 
 ## Self-Hosting
-- [Calendso](https://calendso.com) - The open-source Calendly alternative.
+- [Cal.com](https://cal.com/) - The open-source Calendly alternative.
 - [Crater](https://craterapp.com) - Free Open-Source Invoice app for freelancers & small businesses.
 - [MissionKontrol](https://github.com/Mission-Kontrol/MissionKontrol) - A modern, self-hosted admin panel that supports MySQL & PostGres DBs good alternative to rails admin or phpmyadmin.
 - [nocodb](https://github.com/nocodb/nocodb) - The Open Source Airtable alternative.

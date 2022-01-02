@@ -48,7 +48,6 @@ title: DevOps
  - [git cheatsheet](http://ndpsoftware.com/git-cheatsheet.html) - Interactive cheatsheet, visualization of git.
  - [git-cliff](https://github.com/orhun/git-cliff) - A highly customizable Changelog Generator that follows Conventional Commit specifications ⛰️.
  - [git-of-theseus](https://github.com/erikbern/git-of-theseus) - Analyze how a Git repo grows over time.
- - [git-split-diffs](https://github.com/banga/git-split-diffs) - GitHub style split diffs in your terminal.
  - [repostat](https://github.com/vifactor/repostat) - Inspired by gitstats project: git repository desktop analyzer.
 
 ### Resources
