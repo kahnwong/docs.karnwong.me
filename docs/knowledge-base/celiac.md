@@ -86,7 +86,6 @@ Notes:
 | [Adagio Teas](https://www.adagio.com)                                                             | 🇺🇸     | ALL 👍                                        |
 | [Basilur](https://www.basilurtea.com/)                                                            | 🇱🇰     |                                                |
 | [Cha Lin](https://th-th.facebook.com/pg/LhinTeaShop2/shop/?referral_code=page_shop_tab&preview=1) | 🇹🇭     | partially                                      |
-| [Char Flower Tea](https://www.charflowertea.com )                                                 | 🇹🇭     | ALL 👍                                        |
 | [Dilmah](https://shop.dilmahteathailand.com/en/)                                                  | 🇹🇭     | ALL 👍                                        |
 | [Harney & Sons](https://harneyteasthailand.com)                                                   | 🇹🇭     | ALL 👍                                        |
 | [Nepali Tea Traders](https://www.nepaliteatraders.com/collections/black-tea)                      | 🇳🇵     |                                                |
