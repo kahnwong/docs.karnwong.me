@@ -7,6 +7,7 @@ on:
       - '.github/**'
       - 'package.json'
       - 'package-lock.json'
+  workflow_dispatch:
 
 jobs:
   build-deploy:
@@ -20,20 +21,10 @@ jobs:
     - name: Setup node
       uses: actions/setup-node@v2
       with:
-        node-version: 15
-
-    - name: Cache dependencies
-      uses: actions/cache@v2
-      with:
-        path: ./node_modules
-        key: ${{ runner.os }}-node-${{ steps.setup-node.outputs.node-version }}-${{ hashFiles('package-lock.json') }}
-        restore-keys: |
-                ${{ runner.os }}-npm
-
+        node-version: '15'
+        cache: 'npm'
     - name: Install requirements
-      if: steps.cache-dependencies.outputs.cache-hit != 'true'
-      run: |
-            npm install
+      run: npm install
 
     ################################
     # Build & deploy
