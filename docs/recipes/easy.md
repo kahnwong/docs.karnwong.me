@@ -112,3 +112,9 @@ For the honey Dijon vinaigrette
 4. Brush chicken with canola oil; season with salt and pepper, to taste. Add chicken to grill, and cook, turning occasionally, until chicken is completely cooked through, reaching an internal temperature of 165 degrees F, about 10 minutes.
 5. To assemble the salad, place kale in a large bowl; top with bacon, chicken, apple, figs, celery, almonds and goat cheese. Pour the honey Dijon vinaigrette on top of the salad and gently toss to combine.
 6. Serve immediately.
+
+
+## Rice
+1. Cook rice on high heat for 5 minutes
+2. Simmer on low heat for 5-7 minutes
+3. Turn off the heat, close the lid for 5 minutes

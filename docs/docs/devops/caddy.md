@@ -7,6 +7,21 @@ title: Caddy
 /var/lib/caddy/.local/share/caddy
 ```
 
+## Basic auth
+```bash
+# create password hash
+caddy hash-password --algorithm bcrypt
+```
+
+```javascript title="Caddyfile"
+site.example.com {
+    basicauth * {
+        $USERNAME $PASSWORD_HASH
+    }
+    reverse_proxy 127.0.0.1:$PORT
+}
+```
+
 ## Filter IP
 ```python title="Caddyfile"
 # https://gist.github.com/morph027/b771fb579c36ae550ebb2764581a1d0e
