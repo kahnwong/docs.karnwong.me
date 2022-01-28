@@ -26,25 +26,19 @@ sns.scatterplot(
 
 ```
 
-## Model training using linux
-1. Install Ubuntu subsystem on Windows
-2. Update repo by running `sudo apt update`
-3. `python3` is preinstalled on Linux, but `pip` isn't, so run `sudo apt install python3-pip` and select `y`
-4. Install modules via `pip3 install pandas numpy sklearn`
-5. Create a text file via nano `FILE.py` and type in:
-   ```python
-    import numpy as np
-    from sklearn.naive_bayes import GaussianNB
+## Test snippet
+```python
+import numpy as np
+from sklearn.naive_bayes import GaussianNB
 
-    X = np.array([[-1, -1], [-2, -1], [-3, -2], [1, 1], [2, 1], [3, 2]])
-    Y = np.array([1, 1, 1, 2, 2, 2])
+X = np.array([[-1, -1], [-2, -1], [-3, -2], [1, 1], [2, 1], [3, 2]])
+Y = np.array([1, 1, 1, 2, 2, 2])
 
-    clf = GaussianNB()
-    clf.fit(X, Y)
+clf = GaussianNB()
+clf.fit(X, Y)
 
-    ### save model artifact
-    import joblib
+### save model artifact
+import joblib
 
-    joblib.dump(MODEL, FILENAME)
-   ```
-6. Run with `python3 FILE.py`
+joblib.dump(MODEL, FILENAME)
+```

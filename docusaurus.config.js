@@ -9,6 +9,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'kahnwong', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
+  trailingSlash: false,
   themeConfig: {
     navbar: {
       title: 'Docs',
@@ -47,12 +48,12 @@ module.exports = {
           position: 'right',
         },
       ],
-      
+
     },
     footer: {
       style: 'dark',
       links: [
- 
+
         // {
         //   title: 'More',
         //   items: [
@@ -96,7 +97,6 @@ module.exports = {
         sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
-          trailingSlash: false,
         },
       },
     ],

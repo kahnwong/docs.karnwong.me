@@ -221,9 +221,8 @@ df.groupby("project_name")["similarity_score"].nlargest(10)
 ```
 
 ### Fill na from another column
-combining two columns
-
 ```python
+# combining two columns
 df.bar.combine_first(df.foo)
 df["bar"] = np.where(pd.isnull(df["bar"]), df["foo"], df["bar"])
 ```

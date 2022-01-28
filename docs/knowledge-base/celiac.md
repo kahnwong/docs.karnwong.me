@@ -11,32 +11,16 @@ Notes:
 | 🍦  | [Many Cups](http://www.manycups.com) | All froyo safe, except tofu and chocolate ice cream. Use separate equipments for froyo and ice cream |
 
 ## Grocery
-
-### Canned Fish
-- Nautilus
-- Sealect
-
-### Chips
-- Lay's
-- Snack Jack
-
 ### Chocolate
 - [Böhnchen & Co.](https://www.facebook.com/boehnchenchocolate/)
 - [Pana Organic](https://pana-organic.com)
 - Enjoy Life
 
-### Congee
-- Mama (ข้าวต้มรสกุ้งกระเทียม, ข้าวต้มรสซุปไข่สาหร่าย, โจ๊กหมู, โจ๊กคัพต้มยำ, ข้าวต้มรสเล้งแซ่บ, โจ๊กกุ้ง)
-
 ### Drops
 - Fisherman's friend
 
-### Fish
-- [ร้านคนจับปลา Fisherfolk](https://www.facebook.com/FisherfolkSE/)
-
 ### Ice cream
 - Buds
-- Ete (partially)
 - Haagen daz (partially)
 - Magnum (Pint only, excld. cookie & cream)
 - [Ize Coco](http://www.izecoco.com/product.html)
@@ -48,7 +32,7 @@ Notes:
 
 ### Noodles
 - [Capital Organic](https://www.capital-organic.com/catalog.aspx) - Noodles
-- [China Organic](https://www.chitaorganicfood.co.th/category)
+- [Chita Organic](https://www.chitaorganicfood.co.th/category)
 - [Nimnim](https://www.nimnimnoodle.com)
 - [Organic Pavillion](https://shopee.co.th/organicpavilion)
 - Mama (วุ้นเส้นต้มยำ / เส้นเล็กรสน้ำยาปู)
@@ -59,7 +43,6 @@ Notes:
 - เมล็ดฟักทองตรามือ
 
 ### Misc
-- S&P (ทองม้วน)
 - Toro Popcorn
 - [HATCH](https://www.facebook.com/hatchgoodies) - Rice
 - [KC Maharaja](https://shopee.co.th/shop/7163184) - Spices

@@ -4,31 +4,15 @@ module.exports = {
             label: "Data Science",
             collapsed: true,
             items: [
-                "docs/data-science/dvc",
                 "docs/data-science/jupyter",
-                "docs/data-science/numpy",
-                "docs/data-science/pandas",
                 "docs/data-science/pyspark",
                 "docs/data-science/sklearn",
-                "docs/data-science/visualizations",
-                {
-                    type: "category",
-                    label: "GIS",
-                    items: [
-                        "docs/data-science/gis/folium",
-                        "docs/data-science/gis/geopandas",
-                        "docs/data-science/gis/shapely",
-                        "docs/data-science/gis/gdal",
-                        "docs/data-science/gis/references",
-                    ],
-                },
+                "docs/data-science/gis",
                 {
                     type: "category",
                     label: "Web Scraping",
                     items: [
-                        "docs/data-science/web-scraping/requests",
                         "docs/data-science/web-scraping/scrapy",
-                        "docs/data-science/web-scraping/selenium",
                         "docs/data-science/web-scraping/references",
                     ],
                 },
@@ -45,7 +29,6 @@ module.exports = {
             label: "DevOps",
             collapsed: false,
             items: [
-                "docs/devops/apache2",
                 "docs/devops/aws",
                 "docs/devops/caddy",
                 "docs/devops/docker",
@@ -60,12 +43,9 @@ module.exports = {
             label: "Python",
             items: [
                 "docs/python/environment",
-                "docs/python/modules",
+                "docs/python/dependencies",
                 "docs/python/snippets",
                 "docs/python/database",
-                "docs/python/pdf",
-                "docs/python/termcolor",
-                "docs/python/tqdm",
             ],
         },
         {
@@ -78,7 +58,6 @@ module.exports = {
             label: "Tools",
             collapsed: true,
             items: [
-                "docs/tools/android",
                 "docs/tools/ffmpeg",
                 "docs/tools/neovim",
                 "docs/tools/osx",
@@ -97,12 +76,10 @@ module.exports = {
             items: [
                 "knowledge-base/resources/data-science",
                 "knowledge-base/resources/devops",
-                "knowledge-base/resources/learning",
                 "knowledge-base/resources/data",
                 "knowledge-base/resources/misc",
             ],
         },
-        "knowledge-base/etl-saas-intel",
         "knowledge-base/celiac",
         "knowledge-base/languages",
         "knowledge-base/repair-shops",

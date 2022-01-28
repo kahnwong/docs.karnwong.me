@@ -5,26 +5,17 @@ title: Misc
 
 ## CLI tools
 
-### Dashboard
-- [bfetch](https://gitlab.com/nautilor/bfetch) - Simple Fetch program written in bash.
-- [WTF](https://wtfutil.com) - the terminal dashboard.
 
 ### Tools
-- [alive-progress](https://github.com/rsalmei/alive-progress) - A new kind of Progress Bar, with real time throughput, eta and very cool animations!
 - [carbon-now-cli](https://github.com/mixn/carbon-now-cli) - Beautiful images of your code — from right inside your terminal.
 - [cbonsai](https://gitlab.com/jallbrit/cbonsai) - grow bonsai trees in your terminal.
 - [dbxcli](https://github.com/dropbox/dbxcli) - A command line client for Dropbox built using the Go SDK.
-- [DocTo](https://github.com/tobya/DocTo) - Simple command line utility for converting .doc & .xls files to any supported format such as Text, RTF, CSV or PDF.
 - [gron](https://github.com/tomnomnom/gron) - Make JSON greppable!
 - [htmlq](https://github.com/mgdm/htmlq) - Like jq, but for HTML.
 - [InstaLooter](https://github.com/althonos/InstaLooter) - Another API-less Instagram pictures and videos downloader.
 - [iponmap](https://github.com/nogizhopaboroda/iponmap) - commandline IP location finder.
-- [kalker](https://github.com/PaddiM8/kalker) - Kalker/kalk is a calculator with math syntax that supports user-defined variables and functions, complex numbers, and estimation of derivatives and integrals.
 - [Modern Unix](https://github.com/ibraheemdev/modern-unix)
 - [ntfy](https://ntfy.sh/) - ntfy (pronounce: notify) is a simple HTTP-based pub-sub notification service. It allows you to send notifications to your phone or desktop via scripts from any computer, entirely without signup, cost or setup.
-- [progress](https://github.com/Xfennec/progress) - Linux tool to show progress for cp, mv, dd, ...
-- [subtitle](https://github.com/ihciah/subtitle) - A cli tool to download subtitles.
-- [Tiddy Viewer](https://github.com/alexhallam/tv) - Tidy Viewer is a cross-platform CLI csv pretty printer that uses column styling to maximize viewer enjoyment.
 
 
 ## Documentation
@@ -65,16 +56,13 @@ title: Misc
 
 
 ## Python
-- [bolt-python](https://github.com/slackapi/bolt-python) - A framework to build Slack apps using Python.
-- [borb](https://github.com/jorisschellekens/borb) - borb is a library for reading, creating and manipulating PDF files in python.
-- [icecream](https://github.com/gruns/icecream) - Never use print() to debug again.
-- [Scalene](https://github.com/plasma-umass/scalene) - A high-performance, high-precision CPU, GPU, and memory profiler for Python.
+- [CodingBat](https://codingbat.com/python) - Python exercises.
 - [typer](https://github.com/tiangolo/typer) - Typer, build great CLIs. Easy to code. Based on Python type hints.
+
 
 ## Self-Hosting
 - [Cal.com](https://cal.com/) - The open-source Calendly alternative.
 - [Crater](https://craterapp.com) - Free Open-Source Invoice app for freelancers & small businesses.
-- [MissionKontrol](https://github.com/Mission-Kontrol/MissionKontrol) - A modern, self-hosted admin panel that supports MySQL & PostGres DBs good alternative to rails admin or phpmyadmin.
 - [nocodb](https://github.com/nocodb/nocodb) - The Open Source Airtable alternative.
 - [Papermerge](https://github.com/ciur/papermerge) - Open Source Document Management System for Digital Archives (Scanned Documents).
 - [TimeOff.Management](https://github.com/timeoff-management/timeoff-management-application) - Simple yet powerful absence management software for small and medium size business (community edition).
@@ -90,3 +78,7 @@ title: Misc
 - [rumps](https://github.com/jaredks/rumps) - Ridiculously Uncomplicated macOS Python Statusbar apps.
 - [sli.dev](https://sli.dev) - Presentation Slides for Developers.
 - [vscode.dev](https://vscode.dev) - vscode online
+
+## Misc
+- [regexr](https://regexr.com) - RegExr is an online tool to learn, build, & test Regular Expressions (RegEx / RegExp).
+- [The Arcane Algorithm Archive](https://www.algorithm-archive.org)

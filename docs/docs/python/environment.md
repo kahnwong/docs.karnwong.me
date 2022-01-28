@@ -27,7 +27,7 @@ pyenv virtualenv 3.8.0 my-data-project
 pyenv local my-data-project
 ```
 
-## Pipenv
+## pipenv
 
 ```bash
 # pipenv to requirements.txt
