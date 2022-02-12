@@ -1,59 +1,57 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Fringe Division',
+  title: "Fringe Division",
   // tagline: 'The tagline of my site',
-  url: 'https://docs.karnwong.me',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'kahnwong', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  url: "https://docs.karnwong.me",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "kahnwong", // Usually your GitHub org/user name.
+  projectName: "docs", // Usually your repo name.
   trailingSlash: false,
   themeConfig: {
     navbar: {
-      title: 'Docs',
+      title: "Docs",
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: "My Site Logo",
+        src: "img/logo.svg",
       },
       items: [
         {
-          to: 'knowledge-base/',
-          activeBasePath: 'knowledge-base',
-          label: 'Knowledge Base',
-          position: 'left',
+          to: "knowledge-base/",
+          activeBasePath: "knowledge-base",
+          label: "Knowledge Base",
+          position: "left",
         },
         {
-          to: 'career/',
-          activeBasePath: 'career',
-          label: 'Career',
-          position: 'left',
+          to: "recipes/",
+          activeBasePath: "recipes",
+          label: "Recipes",
+          position: "left",
+        },
+        // {
+        //   to: 'languages/',
+        //   activeBasePath: 'languages',
+        //   label: 'Languages',
+        //   position: 'left',
+        // },
+        {
+          to: "notes/",
+          activeBasePath: "recipenotess",
+          label: "Notes",
+          position: "left",
         },
         {
-          to: 'recipes/',
-          activeBasePath: 'recipes',
-          label: 'Recipes',
-          position: 'left',
-        },
-        {
-          to: 'languages/',
-          activeBasePath: 'languages',
-          label: 'Languages',
-          position: 'left',
-        },
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/facebook/docusaurus",
+          label: "GitHub",
+          position: "right",
         },
       ],
-
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
-
         // {
         //   title: 'More',
         //   items: [
@@ -71,31 +69,31 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Fringe Division. Built with Docusaurus.`,
     },
     algolia: {
-      apiKey: '3211c2ba91e4ed60dd3d7fbb64647fbe',
-      indexName: 'docusaurus-2',
-      appId: 'YRGQIFKA99',
+      apiKey: "3211c2ba91e4ed60dd3d7fbb64647fbe",
+      indexName: "docusaurus-2",
+      appId: "YRGQIFKA99",
     },
     prism: {
-      theme: require('prism-react-renderer/themes/okaidia'),
-      darkTheme: require('prism-react-renderer/themes/vsLight'),
-    }
+      theme: require("prism-react-renderer/themes/okaidia"),
+      darkTheme: require("prism-react-renderer/themes/vsLight"),
+    },
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // editUrl:
           //   'https://github.com/facebook/docusaurus/edit/master/website/',
-          routeBasePath: '/'
+          routeBasePath: "/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
         sitemap: {
-          changefreq: 'weekly',
+          changefreq: "weekly",
           priority: 0.5,
         },
       },

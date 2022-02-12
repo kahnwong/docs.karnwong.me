@@ -1,6 +1,5 @@
 ---
 title: 1-on-1
-slug: /career
 ---
 
 ## About manager
