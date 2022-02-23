@@ -3,10 +3,6 @@ name: Deploy gh pages
 on:
   push:
     branches: [ master ]
-    paths-ignore:
-      - '.github/**'
-      - 'package.json'
-      - 'package-lock.json'
   workflow_dispatch:
 
 jobs:
