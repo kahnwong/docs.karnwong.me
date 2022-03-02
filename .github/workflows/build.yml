@@ -9,7 +9,7 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     ################################
     # Setup node
@@ -44,7 +44,7 @@ jobs:
       with:
         time: '5s'
 
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Index docusaurus
       run: |
         docker run \
