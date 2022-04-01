@@ -10,6 +10,8 @@ slug: /knowledge-base
 - [AWS Lambda quotas](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html) - Maximum sizes, limits, and quotas for AWS Lambda functions and related resources.
 - [AWS Pricing Calculator](https://calculator.aws/) - AWS Pricing Calculator lets you explore AWS services, and create an estimate for the cost of your use cases on AWS.
 - [AWS Savings Plan Calculator](https://cloudshim.com/calculator)
+- [Is AWS Down](https://www.taloflow.ai/is-aws-down)
+- [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
 
 
 ## Database
@@ -21,7 +23,9 @@ slug: /knowledge-base
 ## DevOps
 - [DevOps Bookmarks](https://www.devopsbookmarks.org)
 - [DevOps Exercises](https://github.com/bregman-arie/devops-exercises#python)
+- [DevOps Job Interview Questions](https://github.com/DNXLabs/DevOps-Interview-Questions)
 - [DevOps Roadmap](https://roadmap.sh/devops)
+- [DevSecOps-Playbook](https://github.com/6mile/DevSecOps-Playbook)
 - [LaunchDarkly](https://launchdarkly.com/) - Feature flags toggle.
 - [Loki](https://github.com/grafana/loki) - Like Prometheus, but for logs.
 - [Server Admin for Programmers](https://serversforhackers.com/)

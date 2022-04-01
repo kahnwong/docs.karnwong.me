@@ -74,9 +74,19 @@ module.exports = {
       label: "Resources",
       collapsed: false,
       items: [
-        "knowledge-base/resources/data-science",
+        {
+          type: "category",
+          label: "Data",
+          collapsed: false,
+          items: [
+            "knowledge-base/resources/data-engineering",
+            "knowledge-base/resources/data-science",
+            "knowledge-base/resources/mlops",
+            "knowledge-base/resources/data",
+          ],
+        },
         "knowledge-base/resources/devops",
-        "knowledge-base/resources/data",
+        "knowledge-base/resources/software-engineering",
         "knowledge-base/resources/misc",
       ],
     },
@@ -86,7 +96,7 @@ module.exports = {
       collapsed: false,
       items: [
         "knowledge-base/career/one-on-one",
-        "knowledge-base/career/career-path",
+        "knowledge-base/career/career",
       ],
     },
     "knowledge-base/celiac",

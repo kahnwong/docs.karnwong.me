@@ -14,8 +14,11 @@ $ terraform state mv \
 $ terraform state push dev.tfstate
 ```
 
+## Importers
+- [terracognita](https://github.com/cycloidio/terracognita) - Reads from existing Cloud Providers (reverse Terraform) and generates your infrastructure as code on Terraform configuration .
+- [terraformer](https://github.com/GoogleCloudPlatform/terraformer)
 
-## Terraformer
+### Terraformer
 https://github.com/GoogleCloudPlatform/terraformer/blob/master/docs/aws.md
 
 ```bash
@@ -26,14 +29,18 @@ $ terraform state replace-provider -auto-approve registry.terraform.io/-/aws has
 
 ## Tools
 - [driftctl](https://github.com/cloudskiff/driftctl) - Detect, track and alert on infrastructure drift.
-- [terraform](https://github.com/hashicorp/terraform)
-  - [iam-policy-json-to-terraform](https://github.com/flosell/iam-policy-json-to-terraform) - Small tool to convert an IAM Policy in JSON format into a Terraform aws_iam_policy_document.
-  - [regula](https://github.com/fugue/regula) - Regula checks infrastructure as code templates (Terraform, CloudFormation) for AWS, Azure and Google Cloud security and compliance using Open Policy Agent/Rego.
-  - [terraform-compliance](https://terraform-compliance.com) - A lightweight, security and compliance focused test framework against terraform to enable negative testing capability for your infrastructure-as-code.
-  - [terragrunt](https://terragrunt.gruntwork.io/docs/getting-started/quick-start/) - Terragrunt is a thin wrapper that provides extra tools for keeping your configurations DRY, working with multiple Terraform modules, and managing remote state.
-  - [terrascan](https://github.com/accurics/terrascan) - Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure.
-  - [tflint](https://github.com/terraform-linters/tflint) - A Pluggable Terraform Linter.
-  - [tfsec](https://tfsec.dev/docs/usage/) - A static analysis security scanner for your Terraform code.
+- [terragrunt](https://terragrunt.gruntwork.io/docs/getting-started/quick-start/) - Terragrunt is a thin wrapper that provides extra tools for keeping your configurations DRY, working with multiple Terraform modules, and managing remote state.
+- [tfrefactor](https://github.com/craftvscruft/tfrefactor) - Automated refactoring for Terraform.
+
+### AWS
+- [iam-policy-json-to-terraform](https://github.com/flosell/iam-policy-json-to-terraform) - Small tool to convert an IAM Policy in JSON format into a Terraform aws_iam_policy_document.
+
+### Linters
+- [regula](https://github.com/fugue/regula) - Regula checks infrastructure as code templates (Terraform, CloudFormation) for AWS, Azure and Google Cloud security and compliance using Open Policy Agent/Rego.
+- [terraform-compliance](https://terraform-compliance.com) - A lightweight, security and compliance focused test framework against terraform to enable negative testing capability for your infrastructure-as-code.
+- [terrascan](https://github.com/accurics/terrascan) - Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure.
+- [tflint](https://github.com/terraform-linters/tflint) - A Pluggable Terraform Linter.
+- [tfsec](https://tfsec.dev/docs/usage/) - A static analysis security scanner for your Terraform code.
 
 
 ### Resources

@@ -15,7 +15,9 @@ title: Food
 - [Moussaka](https://en.wikipedia.org/wiki/Moussaka)
 - [Pez or Kanjee](https://www.hildastouchofspice.com/2014/04/pez-or-kanjee-goan-rice-gruel.html)
 - [Pilaf](https://en.wikipedia.org/wiki/Pilaf)
+- [Pupusa](https://en.m.wikipedia.org/wiki/Pupusa)
 - [Sütlü Nuriye](https://en.wikipedia.org/wiki/S%C3%BCtl%C3%BC_Nuriye)
 
 ## Cookbook
 - [Baharat Cookbook](https://baharatcookbook.com/) - A collection of Turkish and Syrian cuisine inspired by IOM Turkey's Protection and Psychosocial programme's socio-cultural activities.
+- [Lowly Food](https://www.lowlyfood.com/)

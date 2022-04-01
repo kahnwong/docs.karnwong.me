@@ -15,6 +15,12 @@ FROM pg_stat_activity
 order by runtime;
 ```
 
+## Create user
+```sql
+postgres=# CREATE USER $USER WITH ENCRYPTED PASSWORD '$PASSWORD';
+postgres=# GRANT ALL PRIVILEGES ON DATABASE mydb TO $USER;
+```
+
 ## Get table size
 ```sql
 SELECT

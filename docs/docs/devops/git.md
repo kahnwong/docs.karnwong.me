@@ -5,6 +5,7 @@ slug: /
 
 ### Resources
 - [Git Explorer](https://gitexplorer.com)
+- [Git guide](https://github.com/dbt-labs/corp/blob/main/git-guide.md)
 - [Oh Shit, Git!?!](https://ohshitgit.com)
 - [Trunk Based Development](https://trunkbaseddevelopment.com)
 
@@ -37,6 +38,9 @@ git rebase -i HEAD~N
 
 # Verifies the connectivity and validity of the objects in the database
 git fsck
+
+# show staged changes
+git diff --cached
 ```
 
 ## Recipes
