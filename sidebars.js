@@ -114,5 +114,5 @@ module.exports = {
     },
   ],
   // languagues: ["languages/russian", "languages/thai"],
-  notes: ["notes/witcher3", "notes/skyrim-mod-list"],
+  notes: ["notes/witcher3", "notes/skyrim-mod-list", "notes/thesims4"],
 };

@@ -14,8 +14,10 @@ title: Misc
 - [htmlq](https://github.com/mgdm/htmlq) - Like jq, but for HTML.
 - [InstaLooter](https://github.com/althonos/InstaLooter) - Another API-less Instagram pictures and videos downloader.
 - [iponmap](https://github.com/nogizhopaboroda/iponmap) - commandline IP location finder.
+- [JSON Visio](https://github.com/AykutSarac/jsonvisio.com) - Visualize your JSON data onto graphs seamlessly.
 - [Modern Unix](https://github.com/ibraheemdev/modern-unix)
 - [ntfy](https://ntfy.sh/) - ntfy (pronounce: notify) is a simple HTTP-based pub-sub notification service. It allows you to send notifications to your phone or desktop via scripts from any computer, entirely without signup, cost or setup.
+- [transfer.sh](https://transfer.sh/) - Easy file sharing from the command line.
 
 
 ## Documentation
@@ -31,6 +33,9 @@ title: Misc
 - [Cufon Fonts](https://www.cufonfonts.com/) - The world's most comprehensive Webfonts supported free font archive. For designers and developers.
 - [Fontesk](https://fontesk.com/) - Download thousands of free fonts for commercial and personal use. A unique collection of free fonts to download, the best and new serif, sans serif, script typefaces.
 - [Simple Icons](https://simpleicons.org)
+
+### Badges
+- [For the badge](https://forthebadge.com/)
 
 ## Installers
 - [AdoptOpenJDK](https://adoptopenjdk.net) - Prebuilt OpenJDK Binaries.

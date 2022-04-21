@@ -11,13 +11,14 @@ Notes:
 | 🍦  | [Many Cups](http://www.manycups.com) | All froyo safe, except tofu and chocolate ice cream. Use separate equipments for froyo and ice cream |
 
 ## Grocery
+## Vendors
+- [Chita Organic](https://www.chitaorganicfood.co.th/category)
+- [Organic Pavillion](https://shopee.co.th/organicpavilion)
+
 ### Chocolate
 - [Böhnchen & Co.](https://www.facebook.com/boehnchenchocolate/)
 - [Pana Organic](https://pana-organic.com)
 - Enjoy Life
-
-### Drops
-- Fisherman's friend
 
 ### Ice cream
 - Buds
@@ -31,29 +32,26 @@ Notes:
 - Vitamilk
 
 ### Noodles
-- [Capital Organic](https://www.capital-organic.com/catalog.aspx) - Noodles
-- [Chita Organic](https://www.chitaorganicfood.co.th/category)
+- [Capital Organic](https://www.capital-organic.com/catalog.aspx)
 - [Nimnim](https://www.nimnimnoodle.com)
-- [Organic Pavillion](https://shopee.co.th/organicpavilion)
-- Mama (วุ้นเส้นต้มยำ / เส้นเล็กรสน้ำยาปู)
+- Mama (เส้นเล็กรสน้ำยาปู)
 
 ### Seeds & Nuts
-- Flowerfoods (sunflower / pumpkin seeds)
-- Heritage snacks and foods
+- [Flowerfoods](https://www.flowerfoodth.com/category)
 - เมล็ดฟักทองตรามือ
 
 ### Misc
-- Toro Popcorn
+- [Bio Asia](https://www.bioasia.co.th/pdf) - Crackers
 - [HATCH](https://www.facebook.com/hatchgoodies) - Rice
 - [KC Maharaja](https://shopee.co.th/shop/7163184) - Spices
+- [Omakanesh](https://www.facebook.com/omakanesh/) - Uni only
+- Fisherman's friend - Drops
+- Toro Popcorn
+- [Anna Thai Snacks](https://fatherman.co.th/en/anna-thai-snacks-en/) - Snacks
+- [The Gold Green](http://www.thegoldgreenthailand.com/#fruit) - Dried fruits
 
-## Vendors
-- [iHerb](https://th.iherb.com/)
-- [Villa Market](https://shoponline.villamarket.com/home)
-- [Healthy Allergy](https://www.healthyallergy.com/shop-category/)
-- [The Oven Farm](https://www.theovenfarm.com/products)
-- [Omakanesh](https://www.facebook.com/omakanesh/) (Uni only)
-
+## Legal
+- [Food Allergens - International Regulatory Chart](https://farrp.unl.edu/IRChart)
 
 
 ## Cosmetics

@@ -33,3 +33,6 @@ DEGREE = KM / 111.319
 4 km = 0.036 degree
 3 km = 0.027 degree
 ```
+
+## Basemap tile
+https://github.com/CartoDB/basemap-styles

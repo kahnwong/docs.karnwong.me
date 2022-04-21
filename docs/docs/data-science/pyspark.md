@@ -204,6 +204,9 @@ df.withColumn("tmp", F.explode("tmp")).select(
 
 # convert to JSON
 F.to_json(c)
+
+# convert to list
+df.select("mvv").rdd.flatMap(lambda x: x).collect()
 ```
 
 ### datetime

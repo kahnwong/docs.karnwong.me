@@ -13,6 +13,8 @@ slug: /knowledge-base
 - [Is AWS Down](https://www.taloflow.ai/is-aws-down)
 - [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
 
+## GCP
+- [Google Cloud Developer Cheat Sheet](https://googlecloudcheatsheet.withgoogle.com/)
 
 ## Database
 - [dbdocs](https://dbdocs.io) - A free & simple tool to create web-based database documentation using DSL code. Designed for developers. Integrate seamlessly with your development workflow.
@@ -31,6 +33,7 @@ slug: /knowledge-base
 - [Server Admin for Programmers](https://serversforhackers.com/)
 - [System Administrator's Guide](https://docs.rockylinux.org/books/admin_guide/01-presentation/)
 - [The Twelve-Factor App](https://12factor.net/)
+- [Truss Engineering Playbook](https://playbook.truss.dev/docs)
 - [Tuple’s Pair Programming Guide](https://tuple.app/pair-programming-guide)
 
 
@@ -47,6 +50,9 @@ slug: /knowledge-base
 - [Hardenize](https://www.hardenize.com/) - Automated Discovery and Monitoring of Your Entire Network Perimeter.
 - [ngrok](https://ngrok.com/) - ngrok allows you to expose a web server running on your local machine to the internet. Just tell ngrok what port your web server is listening on.
 - [SSL Server Test](https://www.ssllabs.com/ssltest/) - A comprehensive free SSL test for your public web servers.
+- [The DevOps Security Checklist Redux](https://www.goldfiglabs.com/guide/devops-security-checklist/)
+- [The SaaS CTO Security Checklist Redux](https://www.goldfiglabs.com/guide/saas-cto-security-checklist/)
+- [The twelve-factor app](https://12factor.net/)
 
 
 ## Tracking
