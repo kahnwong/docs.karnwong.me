@@ -16,8 +16,8 @@ Notes:
 - [Organic Pavillion](https://shopee.co.th/organicpavilion)
 
 ### Chocolate
-- [Böhnchen & Co.](https://www.facebook.com/boehnchenchocolate/)
 - [Pana Organic](https://pana-organic.com)
+- [Siamaya Chocolate](https://siamayachocolate.com)
 - Enjoy Life
 
 ### Ice cream
@@ -49,6 +49,7 @@ Notes:
 - Toro Popcorn
 - [Anna Thai Snacks](https://fatherman.co.th/en/anna-thai-snacks-en/) - Snacks
 - [The Gold Green](http://www.thegoldgreenthailand.com/#fruit) - Dried fruits
+- ทอฟฟี่นมแสงไทย
 
 ## Legal
 - [Food Allergens - International Regulatory Chart](https://farrp.unl.edu/IRChart)

@@ -43,6 +43,8 @@ $ terraform state replace-provider -auto-approve registry.terraform.io/-/aws has
 - [tfsec](https://tfsec.dev/docs/usage/) - A static analysis security scanner for your Terraform code.
 
 
+## Examples
+- [partinfra-terraform](https://github.com/mozilla/partinfra-terraform) - Terraform configuration for Participation Infrastructure.
 ### Resources
 - [My Terraform Development Workflow](https://brendanthompson.com/posts/2021/11/my-terraform-development-workflow)
 - [My Terraform Standards](https://brendanthompson.com/posts/2021/11/my-terraform-standards)

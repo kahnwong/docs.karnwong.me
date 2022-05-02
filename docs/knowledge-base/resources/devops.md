@@ -13,6 +13,10 @@ slug: /knowledge-base
 - [Is AWS Down](https://www.taloflow.ai/is-aws-down)
 - [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
 
+### Security
+- [Prowler](https://github.com/prowler-cloud/prowler) - Prowler is an Open Source security tool to perform AWS security best practices assessments, audits, incident response, continuous monitoring, hardening and forensics readiness. It contains more than 200 controls covering CIS, PCI-DSS, ISO27001, GDPR, HIPAA, FFIEC, SOC2, AWS FTR, ENS and custom security frameworks.
+
+
 ## GCP
 - [Google Cloud Developer Cheat Sheet](https://googlecloudcheatsheet.withgoogle.com/)
 
@@ -28,6 +32,7 @@ slug: /knowledge-base
 - [DevOps Job Interview Questions](https://github.com/DNXLabs/DevOps-Interview-Questions)
 - [DevOps Roadmap](https://roadmap.sh/devops)
 - [DevSecOps-Playbook](https://github.com/6mile/DevSecOps-Playbook)
+- [GitHub Learning Lab](https://lab.github.com/)
 - [LaunchDarkly](https://launchdarkly.com/) - Feature flags toggle.
 - [Loki](https://github.com/grafana/loki) - Like Prometheus, but for logs.
 - [Server Admin for Programmers](https://serversforhackers.com/)

@@ -62,6 +62,10 @@ title: Misc
 
 ## Python
 - [CodingBat](https://codingbat.com/python) - Python exercises.
+- [handcals](https://github.com/connorferster/handcalcs) - Python library for converting Python calculations into rendered latex.
+- [icecream](https://github.com/gruns/icecream) - 🍦 Never use print() to debug again.
+- [memray](https://github.com/bloomberg/memray) - Memray is a memory profiler for Python.
+- [moto](https://github.com/spulec/moto) - A library that allows you to easily mock out tests based on AWS infrastructure.
 - [typer](https://github.com/tiangolo/typer) - Typer, build great CLIs. Easy to code. Based on Python type hints.
 
 
