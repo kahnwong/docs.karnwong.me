@@ -5,14 +5,16 @@ title: Data Engineering
 - [Awesome Data Engineering](https://awesomedataengineering.com)
 - [Data Engineering Wiki](https://dataengineering.wiki)
 
-## Analytics Engineering
-- [dbt](https://www.getdbt.com) - Analytics engineering tools designed for analysts.
 
 ## Data Platform Engineering
 - [Awesome Data Discovery and Observability](https://github.com/opendatadiscovery/awesome-data-catalogs)
 - [Data Engineer Roadmap](https://github.com/datastacktv/data-engineer-roadmap)
 - [Data Stack](https://www.moderndatastack.xyz/stacks) - Learn how some of the most amazing companies in the world are organising their data stack. Learn more about the tools that they are using and why.
 - [Modern Data Stack Glossary](https://www.secoda.co/glossary)
+
+## Analytics Engineering
+- [dbt](https://www.getdbt.com) - Analytics engineering tools designed for analysts.
+
 
 ## Data Connectors
 - [Airbyte](https://airbyte.io) - Open data integration for modern data teams.

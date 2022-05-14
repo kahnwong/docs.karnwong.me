@@ -12,7 +12,7 @@ GROUP BY usename,datname;
 
 SELECT pid, datname, usename, query_start, now() - query_start as runtime, query
 FROM pg_stat_activity
-order by runtime;
+ORDER BY runtime;
 ```
 
 ## Create user

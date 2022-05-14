@@ -7,12 +7,6 @@ title: Docker
 $ brew install --cask docker
 ```
 
-## Resources
-- [composerize](https://www.composerize.com) - docker run asdlksjfksdf > docker-composerize up.
-- [contains.dev](https://contains.dev/) - Explore your images, view their files, layers and dependencies.
-- [The Compose Specification](https://github.com/compose-spec/compose-spec/blob/master/spec.md) - The Compose specification establishes a standard for the definition of multi-container platform-agnostic applications.
-
-
 ## Usage
 ```bash
 # pull image and run stuff through it
@@ -68,3 +62,8 @@ services:
     environment:
     - JUPYTER_ENABLE_LAB=yes
 ```
+
+## Resources
+- [composerize](https://www.composerize.com) - docker run asdlksjfksdf > docker-composerize up.
+- [contains.dev](https://contains.dev/) - Explore your images, view their files, layers and dependencies.
+- [The Compose Specification](https://github.com/compose-spec/compose-spec/blob/master/spec.md) - The Compose specification establishes a standard for the definition of multi-container platform-agnostic applications.

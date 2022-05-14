@@ -18,10 +18,11 @@ pip3 install pyspark
 
 ### Test snippet
 ```python
-from pyspark import SparkContext, SparkConf
-import numpy as np
 from operator import itemgetter
+
+import numpy as np
 from matplotlib import pyplot as plt
+from pyspark import SparkContext
 
 
 sc = SparkContext.getOrCreate()
@@ -68,18 +69,19 @@ plt.scatter(Xout, Yout)
 
 ## Init
 ```python
-from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, when, lit, coalesce
-from pyspark.sql.types import (
-    StructType,
-    StructField,
-    IntegerType,
-    DoubleType,
-    StringType,
-    TimestampType,
-)
-from pyspark.sql.window import Window
 import pyspark.sql.functions as F
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import coalesce
+from pyspark.sql.functions import col
+from pyspark.sql.functions import lit
+from pyspark.sql.functions import when
+from pyspark.sql.types import DoubleType
+from pyspark.sql.types import IntegerType
+from pyspark.sql.types import StringType
+from pyspark.sql.types import StructField
+from pyspark.sql.types import StructType
+from pyspark.sql.types import TimestampType
+from pyspark.sql.window import Window
 
 spark = (
     SparkSession.builder.appName("Pyspark playground")
@@ -109,17 +111,20 @@ os.environ['PYSPARK_SUBMIT_ARGS'] = '--packages "org.apache.hadoop:hadoop-aws:2.
 # CSV / TSV
 project = spark.read.csv(
     project_file,
-    header='true',
-    inferSchema='true',
+    header="true",
+    inferSchema="true",
     sep="\t",
-    nullValue=r'\N',
-    timestampFormat="yyyy-MM-dd HH:mm:ss"
+    nullValue=r"\N",
+    timestampFormat="yyyy-MM-dd HH:mm:ss",
 )
 spark.write.csv(output_path, header=True)
 
 # JSON
-spark.read.json("data/DMP_HIVE/all_listing.json") # add .option("multiLine", True) for multi-line
-spark.write.json(OUTPATH, compression='gzip')
+spark.read.json(
+    "data/DMP_HIVE/all_listing.json"
+)  # add .option("multiLine", True) for multi-line
+spark.write.json(OUTPATH, compression="gzip")
+
 ```
 
 ## DataFrame
@@ -159,7 +164,7 @@ df.withColumn("col_name", df["col_name"].cast(IntegerType()))
 df.groupBy(groupby_col).agg(F.collect_list(col_name))
 
 # select elem by name from array column
-F.col(col_name)["$elem_key"])
+F.col(col_name)["elem_key"]
 
 ## by index
 F.col(col_name).getItem(0)
@@ -241,7 +246,6 @@ w = Window().partitionBy(partition_col).orderBy(F.desc(order_by_key))
     .filter(col("rank") == 1)
     .drop(col("rank"))
 )
-
 ```
 
 
@@ -283,9 +287,8 @@ Therefore, we will temporarily use 'dynamic' within the context of writing files
 https://stackoverflow.com/a/57951114
 
 ```python
-from math import exp
-from random import randint
 from datetime import datetime
+from math import exp
 
 
 def count_elements(splitIndex, iterator):

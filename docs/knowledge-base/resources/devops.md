@@ -34,10 +34,8 @@ slug: /knowledge-base
 - [DevSecOps-Playbook](https://github.com/6mile/DevSecOps-Playbook)
 - [GitHub Learning Lab](https://lab.github.com/)
 - [LaunchDarkly](https://launchdarkly.com/) - Feature flags toggle.
-- [Loki](https://github.com/grafana/loki) - Like Prometheus, but for logs.
 - [Server Admin for Programmers](https://serversforhackers.com/)
 - [System Administrator's Guide](https://docs.rockylinux.org/books/admin_guide/01-presentation/)
-- [The Twelve-Factor App](https://12factor.net/)
 - [Truss Engineering Playbook](https://playbook.truss.dev/docs)
 - [Tuple’s Pair Programming Guide](https://tuple.app/pair-programming-guide)
 
@@ -59,9 +57,6 @@ slug: /knowledge-base
 - [The SaaS CTO Security Checklist Redux](https://www.goldfiglabs.com/guide/saas-cto-security-checklist/)
 - [The twelve-factor app](https://12factor.net/)
 
-
-## Tracking
-- [clientjs](https://github.com/jackspirou/clientjs) - Device information and digital fingerprinting written in pure JavaScript.
 
 
 ## Misc

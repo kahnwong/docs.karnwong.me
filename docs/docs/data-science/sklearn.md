@@ -23,7 +23,6 @@ sns.set(rc={"figure.figsize": (11.7, 8.27)})
 sns.scatterplot(
     X_embedded[:, 0], X_embedded[:, 1], hue=df["PACKAGENAME"], legend="full"
 )
-
 ```
 
 ## Test snippet

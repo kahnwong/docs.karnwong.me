@@ -18,10 +18,10 @@ $ terraform state push dev.tfstate
 - [terracognita](https://github.com/cycloidio/terracognita) - Reads from existing Cloud Providers (reverse Terraform) and generates your infrastructure as code on Terraform configuration .
 - [terraformer](https://github.com/GoogleCloudPlatform/terraformer)
 
-### Terraformer
-https://github.com/GoogleCloudPlatform/terraformer/blob/master/docs/aws.md
 
 ```bash
+# https://github.com/GoogleCloudPlatform/terraformer/blob/master/docs/aws.md
+
 $ terraformer import aws --resources=api_gateway --connect=true --regions=ap-southeast-1
 $ terraform state replace-provider -auto-approve registry.terraform.io/-/aws hashicorp/aws
 ```
@@ -43,11 +43,13 @@ $ terraform state replace-provider -auto-approve registry.terraform.io/-/aws has
 - [tfsec](https://tfsec.dev/docs/usage/) - A static analysis security scanner for your Terraform code.
 
 
-## Examples
-- [partinfra-terraform](https://github.com/mozilla/partinfra-terraform) - Terraform configuration for Participation Infrastructure.
-### Resources
+
+## Resources
 - [My Terraform Development Workflow](https://brendanthompson.com/posts/2021/11/my-terraform-development-workflow)
 - [My Terraform Standards](https://brendanthompson.com/posts/2021/11/my-terraform-standards)
 - [rotate AWS IAM secrets with terraform](https://cloud.gov/docs/ops/runbook/rotating-iam-users/)
 - [Terraform Best Practices](https://www.terraform-best-practices.com/)
 - [Terraform Opinion #23: Use list of objects over map of maps](https://jq1.io/posts/opinion_23/)
+
+### Examples
+- [partinfra-terraform](https://github.com/mozilla/partinfra-terraform) - Terraform configuration for Participation Infrastructure.

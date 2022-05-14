@@ -3,19 +3,7 @@ title: Git
 slug: /
 ---
 
-## Resources
-- [Git Explorer](https://gitexplorer.com)
-- [Git guide](https://github.com/dbt-labs/corp/blob/main/git-guide.md)
-- [GitHub Learning Lab](https://lab.github.com/)
-- [Oh Shit, Git!?!](https://ohshitgit.com)
 
-### Development flow
-- [Trunk Based Development](https://trunkbaseddevelopment.com)
-- [Git Organized: A Better Git Flow](https://render.com/blog/git-organized-a-better-git-flow)
-
-### Code Review
-- [Code Review Guidelines for Data Science Teams](https://tdhopper.com/blog/code-review-guidelines)
-- [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
 
 
 ## Usage
@@ -78,17 +66,15 @@ END { printf("%d files changed, %d insertions(+), %d deletions(-)", f, i, d) }'
 ```
 
 ## Visualize
-### gitinspector
 Notes: use python3.7
 
 ```bash
 $ npm i -g gitinspector
 $ gitinspector -F html --timeline=TRUE > stats.html
+
+# or
+$ docker run --rm -v $(pwd):/repo felix/gitinspector:0.4.4 --format=html --timeline=TRUE > stats.html
 ```
-
-or
-
-`docker run --rm -v $(pwd):/repo felix/gitinspector:0.4.4 --format=html --timeline=TRUE > stats.html`
 
 ## GH CLI
 ### Delete repo alias
@@ -96,3 +82,20 @@ or
 gh alias set repo-delete 'api -X DELETE "repos/$1"'
 gh repo-delete vilmibm/deleteme
 ```
+
+## Resources
+### General
+
+- [Git Explorer](https://gitexplorer.com)
+- [Git guide](https://github.com/dbt-labs/corp/blob/main/git-guide.md)
+- [GitHub Learning Lab](https://lab.github.com/)
+- [Oh Shit, Git!?!](https://ohshitgit.com)
+
+
+### Development flow
+- [Trunk Based Development](https://trunkbaseddevelopment.com)
+- [Git Organized: A Better Git Flow](https://render.com/blog/git-organized-a-better-git-flow)
+
+### Code Review
+- [Code Review Guidelines for Data Science Teams](https://tdhopper.com/blog/code-review-guidelines)
+- [How to Write a Git Commit Message](https://cbea.ms/git-commit/)

@@ -43,7 +43,6 @@ Notes:
 ### Misc
 - [Bio Asia](https://www.bioasia.co.th/pdf) - Crackers
 - [HATCH](https://www.facebook.com/hatchgoodies) - Rice
-- [KC Maharaja](https://shopee.co.th/shop/7163184) - Spices
 - [Omakanesh](https://www.facebook.com/omakanesh/) - Uni only
 - Fisherman's friend - Drops
 - Toro Popcorn

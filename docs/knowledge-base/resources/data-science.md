@@ -2,16 +2,6 @@
 title: Data Science
 ---
 
-## Resources
-- [A Beginner's Guide to Clean Data](https://b-greve.gitbook.io/beginners-guide-to-clean-data/)
-- [Elements of AI](https://www.elementsofai.com) - A free online introduction to artificial intelligence for non-experts.
-- [Interactive Gaussian Process Visualization](http://www.infinitecuriosity.org/vizgp/)
-- [Model Card Toolkit](https://github.com/tensorflow/model-card-toolkit) - Streamlines and automates generation of Model Cards, machine learning documents that provide context and transparency into a model's development and performance.
-- [Principles and Techniques of Data Science](http://www.textbook.ds100.org/intro.html)
-- [R2D3](http://www.r2d3.us) - A visual introduction to machine learning.
-- [Simulated Annealing](https://github.com/skylergrammer/SimulatedAnnealing)
-- [The Big Bad NLP Database](https://datasets.quantumstat.com)
-- [Twelve Quick Tips for Software Design](https://github.com/gvwilson/12-design) - Ten Quick Software Design Tips for Data Scientists.
 
 ## Dashboard
 - [streamlit](https://github.com/streamlit/streamlit) - Streamlit — The fastest way to build data apps in Python.
@@ -35,3 +25,15 @@ title: Data Science
 - [kepler.gl](https://kepler.gl/demo) - A data-agnostic, high-performance web-based application for visual exploration of large-scale geolocation data sets.
 - [OpenStreetMap Data Extracts](http://download.geofabrik.de/index.html)
 - [prettymaps](https://github.com/marceloprates/prettymaps) - A small set of Python functions to draw pretty maps from OpenStreetMap data. Based on osmnx, matplotlib and shapely libraries.
+
+
+## Resources
+- [A Beginner's Guide to Clean Data](https://b-greve.gitbook.io/beginners-guide-to-clean-data/)
+- [Elements of AI](https://www.elementsofai.com) - A free online introduction to artificial intelligence for non-experts.
+- [Interactive Gaussian Process Visualization](http://www.infinitecuriosity.org/vizgp/)
+- [Model Card Toolkit](https://github.com/tensorflow/model-card-toolkit) - Streamlines and automates generation of Model Cards, machine learning documents that provide context and transparency into a model's development and performance.
+- [Principles and Techniques of Data Science](http://www.textbook.ds100.org/intro.html)
+- [R2D3](http://www.r2d3.us) - A visual introduction to machine learning.
+- [Simulated Annealing](https://github.com/skylergrammer/SimulatedAnnealing)
+- [The Big Bad NLP Database](https://datasets.quantumstat.com)
+- [Twelve Quick Tips for Software Design](https://github.com/gvwilson/12-design) - Ten Quick Software Design Tips for Data Scientists.
