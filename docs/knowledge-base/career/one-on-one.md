@@ -3,6 +3,7 @@ title: 1-on-1
 ---
 
 ## About manager
+
 - Are there any obstacles I can remove for you?
 - As your manager, what would you like me to stop, start, or continue doing?
 - At what point in the past week were you most frustrated with or discouraged by your work? What can I do to help you manage that?
@@ -16,14 +17,17 @@ title: 1-on-1
 - What’s your favorite thing I do as a manager of this team I should keep doing?
 
 ## Performance review metrics
+
 - business
 - think big
 - attitude
 - teamwork
 
 ## Format
+
 - update-vent-disaster
 
 ## Links
+
 - [How to Get Your Silent 1-on-1s Back on Track](https://codecapsule.com/2021/09/09/how-to-get-your-silent-1-on-1s-back-on-track/)
 - [GitLab Handbook: Leadership: 1-1](https://about.gitlab.com/handbook/leadership/1-1/)

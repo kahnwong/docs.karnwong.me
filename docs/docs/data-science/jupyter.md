@@ -3,7 +3,9 @@ title: Jupyter
 ---
 
 ## Jupyter magics
+
 ### Set max  in-line rows / cols
+
 ```python
 import pandas as pd
 
@@ -13,6 +15,7 @@ pd.set_option("display.width", 1000)
 ```
 
 ### Display JSON
+
 ```python
 from IPython.display import JSON
 JSON(
@@ -24,13 +27,14 @@ JSON(
 ```
 
 ### Auto refresh module
+
 ```python
 %load_ext autoreload
 %autoreload 2
 ```
 
-
 ### Auto formatting
+
 ```python
 !pip install nb_black
 
@@ -38,12 +42,13 @@ JSON(
 ```
 
 ### Autocomplete
+
 ```bash
 pip install jupyterlab_tabnine
 ```
 
-
 ## Convert to markdown
+
 ```bash
 jupyter nbconvert notebook.ipynb --to markdown
 ```

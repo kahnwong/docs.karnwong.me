@@ -6,14 +6,15 @@ title: Unix
 
 
 ## Archive
+
 | Kind | Compression                                    | Extraction                   |
 | ---- | ---------------------------------------------- | ---------------------------- |
 | tar  | `-czvf ARCHIVE.tar.gz FILE_OR_FOLDER`          | `-xzvf TAR_FILE -C OUT_PATH` |
 | gzip | `FILE`                                         |                              |
 | zip  | `ARCHIVE.zip FILE` or `-r ARCHIVE.zip PATTERN` |                              |
 
-
 ### Recipes
+
 ```bash
 # compress each file as gzip
 for i in */*.jl; do echo "$i" && gzip "$i"; done
@@ -26,15 +27,16 @@ for i in *; do zip -r `basename $i`.cbz $i; done
 ```
 
 ## bash
+
 ```bash
 # loop
 for file in *.txt; do cat $file; done
 
 # if-else
 if [ $(whoami) = 'root' ]; then
-	echo "You are root"
+ echo "You are root"
 else
-	echo "You are not root"
+ echo "You are not root"
 fi
 
 # split file
@@ -53,6 +55,7 @@ grep -l 'Subject: \[SPAM\]' | xargs -I '{}' mv '{}' DIR
 ```
 
 ## Mount & Umount
+
 ```bash
 $ apt install ntfs-3g
 
@@ -68,6 +71,7 @@ UUID=D424912B2491119A /mnt/media FILE_SYSTEM uid=1000,gid=1000,nofail,umask=0 0 
 ```
 
 ## rsync
+
 ```bash
 # copy with progress bar
 rsync -ah --progress source-file destination-file
@@ -77,6 +81,7 @@ rsync -ah --progress source-file destination-file
 ```
 
 ## SSH
+
 ```bash
 # create SSH key
 ssh-keygen -b 2048 -t rsa
@@ -99,6 +104,7 @@ ssh -L 5000:targethost:5000 NAME@TUNNEL_HOST
 ```
 
 ## wget
+
 ```bash
 # download from file
 wget -i links.txt
@@ -108,6 +114,7 @@ wget --recursive --no-parent -w 3 --random-wait -c -i urls.txt
 ```
 
 ## System
+
 ```bash
 # kill all task containing a name
 pkill -9

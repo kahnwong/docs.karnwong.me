@@ -7,6 +7,7 @@ title: Misc
 - [BT_BlockLists](https://github.com/Naunter/BT_BlockLists) - Transmission block list.
 
 ## ASICS stores with foot measurement
-*   ladphrao
-*   icon siam
-*   central world
+
+- ladphrao
+- icon siam
+- central world

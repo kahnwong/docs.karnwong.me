@@ -3,12 +3,14 @@ title: Scrapy
 ---
 
 ## Tools
+
 - [Curl to Scrapy traslator](https://michael-shub.github.io/curl2scrapy/)
 - [curlconverter](https://curl.trillworks.com) - convert curl commands to Python, JavaScript, PHP, R, Go, Rust, Dart, JSON, Ansible, Elixir.
 - [ratelimiter](https://github.com/RazerM/ratelimiter) - Simple Python module providing rate limiting.
 - [Scrapy S3 Pipeline](https://github.com/orangain/scrapy-s3pipeline) - Scrapy pipeline to store chunked items into Amazon S3 or Google Cloud Storage bucket.
 
 ## Spider
+
 ```python
 import scrapy
 
@@ -24,6 +26,7 @@ class SampleSpider(scrapy.Spider):
 ```
 
 ### Override / add settings
+
 ```python
 custom_settings = {
         'SOME_SETTING': 'some value',
@@ -31,7 +34,9 @@ custom_settings = {
 ```
 
 ## Make requests
+
 ### GET
+
 ```python
 yield scrapy.Request(
     url=url,
@@ -55,6 +60,7 @@ yield scrapy.FormRequest(
 ```
 
 ### POST
+
 ```python
 yield scrapy.Request(url=start_url,
     method='POST',
@@ -74,7 +80,9 @@ yield scrapy.FormRequest(
 ```
 
 ## Pipelines
+
 ### Write as single-line JSON
+
 ```python
 import json
 
@@ -94,9 +102,10 @@ class JsonWriterPipeline:
         return item
 ```
 
-
 ## Middleware
+
 ### Custom downloader
+
 ```python title=middleware.py
 from scrapy.http import HtmlResponse
 
@@ -124,7 +133,9 @@ import cloudscraper
 ```
 
 ## shell
+
 ### Set header for shell
+
 ```python
 $ scrapy shell
 >>> from scrapy import Request
@@ -133,12 +144,13 @@ $ scrapy shell
 ```
 
 ### Use local html file
+
 ```
 scrapy shell file:///path/to/file.html
 ```
 
-
 ## Misc
+
 ```python
 # change response encoding
 response.replace(encoding='utf-8')

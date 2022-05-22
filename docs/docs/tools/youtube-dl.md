@@ -2,9 +2,10 @@
 title: youtube-dl
 ---
 
-https://github.com/yt-dlp/yt-dlp
+<https://github.com/yt-dlp/yt-dlp>
 
 ## Sample commands
+
 ```
 youtube-dl -o "%(playlist_index)s. %(title)s.%(ext)s" --playlist-start 20 https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr
 
@@ -16,6 +17,7 @@ youtube-dl --all-subs -o "Polish Witcher Audiobook Samples/%(playlist_index)s. %
 ```
 
 ## Usage
+
 ```bash
 # default video settings
 -f 'bestvideo[vcodec *= av01]+bestaudio/bestvideo[vcodec *= vp9]+bestaudio/bestvideo+bestaudio/best'
@@ -65,6 +67,7 @@ youtube-dl -a list
 ```
 
 ## Config
+
 ```bash title="location"
 # osx
 ~/.config/youtube-dl/config

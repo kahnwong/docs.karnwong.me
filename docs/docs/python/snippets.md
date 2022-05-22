@@ -3,12 +3,14 @@ title: Snippets
 ---
 
 ## List
+
 ```python
 ### split list every n chunk
 [data[x:x+100] for x in range(0, len(data), 100)]
 ```
 
 ## CSV
+
 ```python
 # read CSV as dict
 with open('params.csv', 'r') as csvfile:
@@ -17,7 +19,9 @@ with open('params.csv', 'r') as csvfile:
 ```
 
 ## Regex
+
 ### Usage
+
 ```python
 import re
 
@@ -26,6 +30,7 @@ numbers = re.search(regex, str).group(0).replace(',', '')
 ```
 
 ### Lookahead & lookbehind
+
 Given the string `foobarbarfoo`
 
 | Regex       | Description                                                   |
@@ -35,8 +40,8 @@ Given the string `foobarbarfoo`
 | (?<=foo)bar | finds the 1st bar ("bar" which has "foo" before it)           |
 | (?<!foo)bar | finds the 2nd bar ("bar" which does not have "foo" before it) |
 
-
 ## Datetime
+
 ```python
 from datetime import datetime, timedelta
 from dateutil.parser import parse
@@ -76,6 +81,7 @@ datetime.now().astimezone(utc)
 ```
 
 ## Threading
+
 ```python
 from multiprocessing.dummy import Pool as ThreadPool
 
@@ -96,7 +102,9 @@ p.map(f, [1,2,3])
 ```
 
 ## Time
+
 ### Find elapsed time
+
 ```python
 import time
 
@@ -118,6 +126,7 @@ print('Time: ', stop - start)
 ```
 
 ### Countdown function
+
 ```python
 def countdown(t):
     print('--- SLEEP ---')
@@ -130,6 +139,7 @@ def countdown(t):
 ```
 
 ### Time decorator
+
 ```python
 from horology import timed # pip install horology
 
@@ -150,7 +160,9 @@ compute_magic(10000000)
 ```
 
 ## Exception
+
 ### Print stacktrace
+
 ```python
 except Exception as e:
     import traceback
@@ -161,6 +173,7 @@ except Exception as e:
 ```
 
 ## Dict
+
 ```python
 # sort dict based on value
 sorted(list_to_be_sorted, key=lambda k: k['name'])
@@ -170,6 +183,7 @@ list(set(keep_keys)-set(input_keys))
 ```
 
 ## Sys
+
 ```python
 # add prefix for system path
 import sys
@@ -177,6 +191,7 @@ sys.path.insert(0, "../..")
 ```
 
 ## Run code from invoking  the script directly
+
 ```python
 if __name__ == "__main__":
     # do stuff

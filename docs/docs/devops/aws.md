@@ -3,9 +3,11 @@ title: AWS
 ---
 
 ## Install
-https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+<https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html>
 
 ## Usage
+
 ```bash
 # set config
 aws configure

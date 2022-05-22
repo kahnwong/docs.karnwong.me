@@ -8,6 +8,7 @@ title: Caddy
 ```
 
 ## Basic auth
+
 ```bash
 # create password hash
 caddy hash-password --algorithm bcrypt
@@ -23,6 +24,7 @@ site.example.com {
 ```
 
 ## Filter IP
+
 ```python title="Caddyfile"
 # https://gist.github.com/morph027/b771fb579c36ae550ebb2764581a1d0e
 

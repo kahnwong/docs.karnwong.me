@@ -3,6 +3,7 @@ title: PySpark
 ---
 
 ## Install
+
 :::info
 make sure pyspark version is same as spark version
 :::
@@ -13,10 +14,11 @@ pip3 install pyspark
 ```
 
 ## Resources
+
 - [PySpark Style Guide](https://github.com/palantir/pyspark-style-guide)
 
-
 ### Test snippet
+
 ```python
 from operator import itemgetter
 
@@ -68,6 +70,7 @@ plt.scatter(Xout, Yout)
 ```
 
 ## Init
+
 ```python
 import pyspark.sql.functions as F
 from pyspark.sql import SparkSession
@@ -100,6 +103,7 @@ spark.sparkContext.setCheckpointDir("checkpoint")  # [DEBUG]
 ```
 
 ### Add JARs at runtine
+
 ```python
 import os
 
@@ -107,6 +111,7 @@ os.environ['PYSPARK_SUBMIT_ARGS'] = '--packages "org.apache.hadoop:hadoop-aws:2.
 ```
 
 ## I/O
+
 ```python
 # CSV / TSV
 project = spark.read.csv(
@@ -128,6 +133,7 @@ spark.write.json(OUTPATH, compression="gzip")
 ```
 
 ## DataFrame
+
 ```python
 # describe dataframe
 df.printSchema()  # .columns(), .dtypes(), describe() also exists
@@ -150,6 +156,7 @@ df.show(n=3, truncate=False, vertical=True)
 ```
 
 ## Transformations
+
 ```python
 # rename columns
 df.withColumnRenamed("old_name", "new_name")
@@ -186,6 +193,7 @@ df.join(
 ```
 
 ### functions
+
 ```python
 # combine cols to array
 F.array("x_1", "x_2"))
@@ -215,6 +223,7 @@ df.select("mvv").rdd.flatMap(lambda x: x).collect()
 ```
 
 ### datetime
+
 ```python
 # epoch to timestamp
 F.from_unixtime(df.column / 1000)
@@ -226,14 +235,16 @@ F.to_date("listing_update")
 F.from_utc_timestamp("datetime_utc", "CST")
 ```
 
-
 ## Cookbook
+
 ### Count missing values  + groupby
+
 ```python
 df.select([F.count(F.when(F.col(c).isNull(), c)).alias(c) for c in df.columns])
 ```
 
 ### Filter by order
+
 ```python
 from pyspark.sql.window import Window
 
@@ -248,9 +259,10 @@ w = Window().partitionBy(partition_col).orderBy(F.desc(order_by_key))
 )
 ```
 
-
 ## Optimization
+
 ### Caching
+
 [More details](https://stackoverflow.com/questions/26870537/what-is-the-difference-between-cache-and-persist)
 
 :::info
@@ -265,12 +277,14 @@ spark.catalog.clearCache()
 ```
 
 ### Repartition + partition data
+
 ```python
 df.repartition(4)
 df.write.partitionBy(*partition_columns).parquet(base_path, mode=write_mode)
 ```
 
 ### Dynamic partition write mode
+
 ```python
 """
 Note: Why do we have to change partitionOverwriteMode?
@@ -282,9 +296,9 @@ Therefore, we will temporarily use 'dynamic' within the context of writing files
 """
 ```
 
-
 ### Skew join optimization
-https://stackoverflow.com/a/57951114
+
+<https://stackoverflow.com/a/57951114>
 
 ```python
 from datetime import datetime
@@ -343,11 +357,13 @@ print("The direct join takes %s" % (str(datetime.now() - t0)))
 ```
 
 ## JDBC
+
 :::info
 To overwrite without losing schema & permission, use `truncate`
 :::
 
 ### Postgres
+
 ```python
 (
     spark.read.format("jdbc")
@@ -373,6 +389,7 @@ To overwrite without losing schema & permission, use `truncate`
 ```
 
 ### MongoDB
+
 ```python
 import os
 
@@ -396,8 +413,8 @@ spark = (
 )
 ```
 
-
 ## spark-submit
+
 ```bash
 spark-submit --conf spark.driver.memory=25gb --executor-memory 13g --num-executors 50 --driver-memory 20g FILE.PY
 
@@ -412,6 +429,7 @@ spark-submit --deploy-mode cluster s3://<PATH TO FILE>/sparky.py
 ```
 
 ## Misc
+
 ```bash
 # get spark location
 echo 'sc.getConf.get("spark.home")' | spark-shell

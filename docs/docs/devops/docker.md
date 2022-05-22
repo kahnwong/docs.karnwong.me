@@ -3,11 +3,13 @@ title: Docker
 ---
 
 ## Install
+
 ```bash
-$ brew install --cask docker
+brew install --cask docker
 ```
 
 ## Usage
+
 ```bash
 # pull image and run stuff through it
 docker pull IMAGE_NAME
@@ -49,6 +51,7 @@ docker run -d -v hello:/container/path/for/volume container_image my_command
 ```
 
 ### docker-compose
+
 ```yaml
 version: '3'
 services:
@@ -64,6 +67,7 @@ services:
 ```
 
 ## Resources
+
 - [composerize](https://www.composerize.com) - docker run asdlksjfksdf > docker-composerize up.
 - [contains.dev](https://contains.dev/) - Explore your images, view their files, layers and dependencies.
 - [The Compose Specification](https://github.com/compose-spec/compose-spec/blob/master/spec.md) - The Compose specification establishes a standard for the definition of multi-container platform-agnostic applications.

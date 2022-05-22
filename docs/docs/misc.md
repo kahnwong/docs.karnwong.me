@@ -3,6 +3,7 @@ title: Misc
 ---
 
 ## Calibre
+
 ### Plugboards
 
 ```t title="default"
@@ -15,28 +16,35 @@ title: Misc
 ```
 
 #### Save to disk template
+
 ```
 {author}/{series} #{series_index} - {title}/{title} - {authors}
 ```
+
 #### To kindle via KOReader
+
 ```
 {authors} - {title}
 ```
 
 ## Fixes
+
 ### Android bluetooth keyboard pairing
 
-https://www.reddit.com/r/GooglePixelC/comments/5resoy/keyboard_no_longer_pairing/dk5dr4v/
+<https://www.reddit.com/r/GooglePixelC/comments/5resoy/keyboard_no_longer_pairing/dk5dr4v/>
 
 It sounds dumb and fake, but if you connect the tablet to the keyboard and then hold `Left Shift + P + A + I + R` at the same time for 2 seconds it fixes the issue and allows you to pair the keyboard! I found the fix posted on Reddit so make sure to thank the user.
 
 ### Bluetooth audio delay
+
 `150ms` delay
 
 ### Windows network share
+
 In Windows 10. Go to credential manager (click start and type "credential manager" or find it in control panel), click windows credentials and in windows credentials add your server share address with username and password. If you cannot see the share, just type your server and share address in the windows address field: `\server name\share name` or `\192.198.x.x\share name`.
 
 ### LINE Ads DNS
+
 ```
 0.0.0.0 a.line.me
 0.0.0.0 a.line.me.akadns.net
@@ -49,12 +57,15 @@ In Windows 10. Go to credential manager (click start and type "credential manage
 ```
 
 ### vscode SSH connection timeout
+
 add this in settings:
+
 ```json
 "remote.SSH.useLocalServer": false
 ```
 
 ## Mp3Tag
+
 ```
 # output path
 %albumartist% - %album%\%discnumber%\$num(%track%,2). %title%
@@ -64,6 +75,7 @@ add this in settings:
 ```
 
 ## foobar
+
 ```
 # sort
 %album artist% - %DATE% - %ALBUM% - %DISCNUMBER% - %TRACKNUMBER% - %TITLE%
@@ -78,7 +90,9 @@ add this in settings:
 ```
 
 ## Chocolatey
+
 ### Install
+
 PowerShell only
 
 ```
@@ -86,11 +100,12 @@ iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.p
 ```
 
 ### Usage
+
 ```bash
-$ choco uninstall $app
-$ clist -lo
-$ cinst -y [package names]
-$ choco search [package name]
+choco uninstall $app
+clist -lo
+cinst -y [package names]
+choco search [package name]
 ```
 
 ```bash title="recipe"
@@ -98,6 +113,7 @@ cinst -y 7zip.install ccleaner cdburnerxp defraggler ditto f.lux fastcopy filezi
 ```
 
 ## CalDAV
-> https://superuser.com/questions/756697/sync-a-single-google-calendar-with-caldav
+
+> <https://superuser.com/questions/756697/sync-a-single-google-calendar-with-caldav>
 
 for google calendar: `https://apidata.googleusercontent.com/caldav/v2/$calendarID/events`

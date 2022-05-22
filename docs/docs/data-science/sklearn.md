@@ -3,6 +3,7 @@ title: Sklearn
 ---
 
 ## Visualize dataset cluster via t-nse
+
 ```python
 from sklearn.manifold import TSNE
 import seaborn as sns
@@ -26,6 +27,7 @@ sns.scatterplot(
 ```
 
 ## Test snippet
+
 ```python
 import numpy as np
 from sklearn.naive_bayes import GaussianNB

@@ -3,6 +3,7 @@ title: Dependencies
 ---
 
 ## Pre-reqs for gcc on linux
+
 ```bash
 # docker
 RUN apt update

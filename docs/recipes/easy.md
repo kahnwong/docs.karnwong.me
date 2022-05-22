@@ -4,8 +4,8 @@ slug: /recipes
 ---
 import Mermaid from '@theme/Mermaid';
 
-
 ## Potatoes
+
 ```
 # baked
 Three heads. Two hours. Don't Peel.
@@ -18,7 +18,7 @@ Three heads. Two hours. Don't Peel.
 ## Green chicken curry
 <!-- ,color:#F4F8FA -->
 <Mermaid chart={`
-	flowchart TD;
+ flowchart TD;
         classDef steps stroke:#4a985a,stroke-width:6px
         classDef spices stroke:#336791,stroke-width:6px
         classDef ingredients stroke:#e09444,stroke-width:6px
@@ -46,25 +46,26 @@ Three heads. Two hours. Don't Peel.
         class Boiling1,Boiling2,Boiling3,Cooked1,Cooked2 steps;
 `}/>
 
-
 ## Fried rice
+
 <Mermaid chart={`
-	flowchart TD;
+ flowchart TD;
         classDef steps stroke:#4a985a,stroke-width:6px
         classDef spices stroke:#336791,stroke-width:6px
         classDef ingredients stroke:#e09444,stroke-width:6px
-		Oil-->|pan|Stir([Stir]);
-		Garlic-->Stir;
-		Shrimps-->Stir;
-		Egg-->Stir-->Fry([Fry]);
-		Rice-->Fry;
-		OysterSauce-->Fry-->Serve>Serve];
+  Oil-->|pan|Stir([Stir]);
+  Garlic-->Stir;
+  Shrimps-->Stir;
+  Egg-->Stir-->Fry([Fry]);
+  Rice-->Fry;
+  OysterSauce-->Fry-->Serve>Serve];
         class Oil,Garlic,Shrimps,Egg,Rice,OysterSauce ingredients;
         class Salt,Sugar spices;
         class Stir,Fry steps;
 `}/>
 
 ## Japanese rice hangover snack
+
 <Mermaid chart={`
         flowchart TD;
         classDef steps stroke:#4a985a,stroke-width:6px
@@ -77,11 +78,12 @@ Three heads. Two hours. Don't Peel.
         class Microwave,Stir steps;
 `}/>
 
-
 ## Chicken Harvest Salad
+
 Yield: 4-6 servings
 
 ### Ingredients
+
 - 4 slices bacon, cut into thirds
 - 1 1/2 pounds boneless, skinless chicken thighs
 - 2 teaspoons chopped fresh thyme leaves
@@ -106,6 +108,7 @@ For the honey Dijon vinaigrette
 - Kosher salt freshly ground black pepper, to taste
 
 ### Directions
+
 1. In a medium bowl, whisk together olive oil, vinegar, Dijon, honey and thyme; season with salt and pepper, to taste. Set aside.
 2. Heat a large skillet over medium high heat. Add bacon and cook until brown and crispy, about 6-8 minutes. Drain excess fat; transfer bacon to a paper towel-lined plate.
 3. Preheat grill to medium heat. Season chicken with thyme, onion powder and garlic powder.
@@ -113,8 +116,8 @@ For the honey Dijon vinaigrette
 5. To assemble the salad, place kale in a large bowl; top with bacon, chicken, apple, figs, celery, almonds and goat cheese. Pour the honey Dijon vinaigrette on top of the salad and gently toss to combine.
 6. Serve immediately.
 
-
 ## Rice
+
 1. Cook rice on high heat for 5 minutes
 2. Simmer on low heat for 5-7 minutes
 3. Turn off the heat, close the lid for 5 minutes

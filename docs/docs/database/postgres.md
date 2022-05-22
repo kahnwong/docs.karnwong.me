@@ -2,9 +2,10 @@
 title: Postgres
 ---
 
-various util queries: https://github.com/pawurb/python-pg-extras/tree/master/pg_extras/queries
+various util queries: <https://github.com/pawurb/python-pg-extras/tree/master/pg_extras/queries>
 
 ## Get activity log
+
 ```sql
 SELECT usename,datname,count(*)
 FROM pg_stat_activity
@@ -16,12 +17,14 @@ ORDER BY runtime;
 ```
 
 ## Create user
+
 ```sql
 postgres=# CREATE USER $USER WITH ENCRYPTED PASSWORD '$PASSWORD';
 postgres=# GRANT ALL PRIVILEGES ON DATABASE mydb TO $USER;
 ```
 
 ## Get table size
+
 ```sql
 SELECT
     table_name,
@@ -36,6 +39,7 @@ ORDER BY
 ```
 
 ## See progress
+
 ```sql
 SELECT n_live_tup, n_dead_tup, relname FROM pg_stat_all_tables;
 
@@ -57,12 +61,14 @@ LEFT JOIN pg_stat_all_indexes ai on ai.relid = p.relid AND ai.indexrelid = p.ind
 ```
 
 ## Terminate process
+
 ```sql
 SELECT * FROM pg_stat_activity;
 SELECT pg_terminate_backend(${PID});
 ```
 
 ## Permissions
+
 ```sql
 -- admin
 GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public TO {ROLE};
@@ -75,6 +81,7 @@ GRANT SELECT ON {SCHEMA} TO {ROLE};
 ```
 
 ## Backup and restore
+
 ```bash
 # backup
 $ pg_dump --host HOST --port 5432 --username USERNAME --format plain --verbose --file OUTFILE.sql --table public.TABLE_NAME DB_NAME
@@ -87,6 +94,7 @@ $ pg_restore -h HOST -U USERNAME -d DB_NAME -C -c BACKUP.sql.gz
 ```
 
 ## PSQL
+
 ```bash
 # list tables
 \dt
@@ -111,13 +119,16 @@ db> \copy (SELECT  * FROM district_boundary) TO '~/Downloads/file.tsv' WITH (FOR
 ```
 
 ## SQL
+
 ### CRUD
+
 ```sql
 -- rename table
 ALTER TABLE OG_NAME rename TO NEW_NAME;
 ```
 
 ### Transformations
+
 ```sql
 -- cast string to datetime
 TO_TIMESTAMP(date_created,'YYYY-MM-DD HH:MI:SS')
@@ -130,6 +141,7 @@ WHERE date_created < (NOW() - '3 months'::interval)::TEXT
 ```
 
 ### CTE
+
 A common table expression is a temporary result set which you can reference within another SQL statement including SELECT, INSERT, UPDATE or DELETE.
 
 ```sql
