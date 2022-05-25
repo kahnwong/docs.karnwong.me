@@ -91,6 +91,7 @@ title: Misc
 - [Crontab.guru](https://crontab.guru/) - An easy to use editor for crontab schedules.
 - [deskreen](https://github.com/pavlobu/deskreen) - Deskreen turns any device with a web browser into a secondary screen for your computer.
 - [markmap](https://markmap.js.org) - markdown + mindmap
+- [Pinging](https://www.pinging.net/)
 - [regexper](https://regexper.com) - Regular Expression Visualization Site.
 - [reveal.js](https://revealjs.com) - The HTML Presentation Framework.
 - [rumps](https://github.com/jaredks/rumps) - Ridiculously Uncomplicated macOS Python Statusbar apps.

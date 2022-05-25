@@ -66,6 +66,12 @@ services:
     - JUPYTER_ENABLE_LAB=yes
 ```
 
+## Useful snippets
+```bash
+# remove docker images based on name
+docker rmi $(docker images | grep 'imagename')
+```
+
 ## Resources
 
 - [composerize](https://www.composerize.com) - docker run asdlksjfksdf > docker-composerize up.

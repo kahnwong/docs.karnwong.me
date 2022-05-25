@@ -35,6 +35,7 @@ module.exports = {
         "docs/devops/docker",
         "docs/devops/git",
         "docs/devops/kubernetes",
+        "docs/devops/packer",
         "docs/devops/terraform",
         "docs/devops/unix",
       ],

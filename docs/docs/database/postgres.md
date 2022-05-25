@@ -23,6 +23,12 @@ postgres=# CREATE USER $USER WITH ENCRYPTED PASSWORD '$PASSWORD';
 postgres=# GRANT ALL PRIVILEGES ON DATABASE mydb TO $USER;
 ```
 
+## Grant access
+```sql
+postgres=# GRANT SELECT ON ALL TABLES IN SCHEMA public TO user;
+postgres=# GRANT EXECUTE ON ALL FUNCTIONS IN SCHEMA public TO user;
+``
+
 ## Get table size
 
 ```sql

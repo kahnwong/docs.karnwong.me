@@ -2,9 +2,6 @@
 title: Git
 ---
 
-
-
-
 ## Usage
 
 ```bash
@@ -37,6 +34,9 @@ git fsck
 
 # show staged changes
 git diff --cached
+
+# checkout file from another branch
+git checkout $REVISION -- $FILENAME
 ```
 
 ## Recipes

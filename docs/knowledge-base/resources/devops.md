@@ -13,6 +13,8 @@ slug: /knowledge-base
 - [AWS Savings Plan Calculator](https://cloudshim.com/calculator)
 - [Is AWS Down](https://www.taloflow.ai/is-aws-down)
 - [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
+- [Containers on AWS](https://containersonaws.com/)
+- [unused-amis.sh](https://gist.github.com/ilpianista/a8dfe8f7042d61abb8524571be910403)
 
 ### IAM
 
@@ -47,6 +49,7 @@ slug: /knowledge-base
 - [System Administrator's Guide](https://docs.rockylinux.org/books/admin_guide/01-presentation/)
 - [Truss Engineering Playbook](https://playbook.truss.dev/docs)
 - [Tuple’s Pair Programming Guide](https://tuple.app/pair-programming-guide)
+- [CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/)
 
 ## Diagrams
 
@@ -65,6 +68,7 @@ slug: /knowledge-base
 - [The DevOps Security Checklist Redux](https://www.goldfiglabs.com/guide/devops-security-checklist/)
 - [The SaaS CTO Security Checklist Redux](https://www.goldfiglabs.com/guide/saas-cto-security-checklist/)
 - [The twelve-factor app](https://12factor.net/)
+- [OAuth 2.0 Simplified](https://www.oauth.com/)
 
 ## Misc
 

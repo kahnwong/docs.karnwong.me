@@ -42,8 +42,10 @@ $ terraform state replace-provider -auto-approve registry.terraform.io/-/aws has
 - [tflint](https://github.com/terraform-linters/tflint) - A Pluggable Terraform Linter.
 - [tfsec](https://tfsec.dev/docs/usage/) - A static analysis security scanner for your Terraform code.
 
+
 ## Resources
 
+- [How Terraform Works: A Visual Intro](https://towardsdev.com/how-terraform-works-a-visual-intro-6328cddbe067)
 - [My Terraform Development Workflow](https://brendanthompson.com/posts/2021/11/my-terraform-development-workflow)
 - [My Terraform Standards](https://brendanthompson.com/posts/2021/11/my-terraform-standards)
 - [rotate AWS IAM secrets with terraform](https://cloud.gov/docs/ops/runbook/rotating-iam-users/)

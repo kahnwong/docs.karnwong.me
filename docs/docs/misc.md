@@ -117,3 +117,10 @@ cinst -y 7zip.install ccleaner cdburnerxp defraggler ditto f.lux fastcopy filezi
 > <https://superuser.com/questions/756697/sync-a-single-google-calendar-with-caldav>
 
 for google calendar: `https://apidata.googleusercontent.com/caldav/v2/$calendarID/events`
+
+
+## MacOS
+```bash
+# fix "App is damaged and can't be opened. You should move it to the trash"
+sudo xattr -rd com.apple.quarantine /Applications/Coherence\ Pro.app
+```

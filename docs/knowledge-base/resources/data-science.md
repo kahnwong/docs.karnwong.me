@@ -29,12 +29,17 @@ title: Data Science
 - [OpenStreetMap Data Extracts](http://download.geofabrik.de/index.html)
 - [prettymaps](https://github.com/marceloprates/prettymaps) - A small set of Python functions to draw pretty maps from OpenStreetMap data. Based on osmnx, matplotlib and shapely libraries.
 
+## Interviews
+- [Expedia: Data Science Interview Questions](https://interviewleaks.medium.com/expedia-leaked-data-science-interview-questions-f779de41a0a)
+
 ## Resources
 
 - [A Beginner's Guide to Clean Data](https://b-greve.gitbook.io/beginners-guide-to-clean-data/)
 - [Elements of AI](https://www.elementsofai.com) - A free online introduction to artificial intelligence for non-experts.
 - [Interactive Gaussian Process Visualization](http://www.infinitecuriosity.org/vizgp/)
 - [Model Card Toolkit](https://github.com/tensorflow/model-card-toolkit) - Streamlines and automates generation of Model Cards, machine learning documents that provide context and transparency into a model's development and performance.
+- [Pandas Tutor](https://pandastutor.com/) - Lets you write Python pandas code in your browser and see how it transforms your data step-by-step.
+- [Practical Deep Learning for Coders](https://course.fast.ai/)
 - [Principles and Techniques of Data Science](http://www.textbook.ds100.org/intro.html)
 - [R2D3](http://www.r2d3.us) - A visual introduction to machine learning.
 - [Simulated Annealing](https://github.com/skylergrammer/SimulatedAnnealing)
