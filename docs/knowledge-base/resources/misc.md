@@ -76,6 +76,7 @@ title: Misc
 - [memray](https://github.com/bloomberg/memray) - Memray is a memory profiler for Python.
 - [moto](https://github.com/spulec/moto) - A library that allows you to easily mock out tests based on AWS infrastructure.
 - [typer](https://github.com/tiangolo/typer) - Typer, build great CLIs. Easy to code. Based on Python type hints.
+- [pyscript](https://github.com/pyscript/pyscript) - PyScript is a Pythonic alternative to Scratch, JSFiddle, and other "easy to use" programming frameworks, with the goal of making the web a friendly, hackable place where anyone can author interesting and interactive applications.
 
 ## Self-Hosting
 

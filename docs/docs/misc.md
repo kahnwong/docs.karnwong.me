@@ -45,14 +45,15 @@ In Windows 10. Go to credential manager (click start and type "credential manage
 
 ### LINE Ads DNS
 
-```
+```sh
+# need to disable some hosts otherwise can't login on PC
 0.0.0.0 a.line.me
 0.0.0.0 a.line.me.akadns.net
-0.0.0.0 gwz.line.naver.jp
+# 0.0.0.0 gwz.line.naver.jp
 0.0.0.0 lan.line.me
 0.0.0.0 lan.line.me.akadns.net
-0.0.0.0 legy-gslb.line-apps.com.akadns.net
-0.0.0.0 legy-gslb.line.naver.jp
+# 0.0.0.0 legy-gslb.line-apps.com.akadns.net
+# 0.0.0.0 legy-gslb.line.naver.jp
 0.0.0.0 nelo2-col.linecorp.com
 ```
 

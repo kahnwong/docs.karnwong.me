@@ -15,6 +15,7 @@ slug: /knowledge-base
 - [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
 - [Containers on AWS](https://containersonaws.com/)
 - [unused-amis.sh](https://gist.github.com/ilpianista/a8dfe8f7042d61abb8524571be910403)
+- [download_all_lambda_function](https://github.com/sambhajis-gdb/download_all_lambda_function/blob/master/get_all_lambda-functions.sh)
 
 ### IAM
 
@@ -69,6 +70,7 @@ slug: /knowledge-base
 - [The SaaS CTO Security Checklist Redux](https://www.goldfiglabs.com/guide/saas-cto-security-checklist/)
 - [The twelve-factor app](https://12factor.net/)
 - [OAuth 2.0 Simplified](https://www.oauth.com/)
+- [No Secrets! 🤫](https://sourcegraph-community.github.io/no-secrets/) - Find secrets in your GitHub repo.
 
 ## Misc
 

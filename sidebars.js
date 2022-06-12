@@ -8,7 +8,15 @@ module.exports = {
         "docs/data-science/jupyter",
         "docs/data-science/pyspark",
         "docs/data-science/sklearn",
-        "docs/data-science/gis",
+        {
+          type: "category",
+          label: "GIS",
+          items: [
+            "docs/data-science/gis/gis",
+            "docs/data-science/gis/geopandas",
+            "docs/data-science/gis/shapely",
+          ],
+        },
         {
           type: "category",
           label: "Web Scraping",
@@ -31,12 +39,13 @@ module.exports = {
       collapsed: false,
       items: [
         "docs/devops/aws",
-        "docs/devops/caddy",
-        "docs/devops/docker",
+        "docs/devops/github",
         "docs/devops/git",
+        "docs/devops/docker",
         "docs/devops/kubernetes",
-        "docs/devops/packer",
         "docs/devops/terraform",
+        "docs/devops/packer",
+        "docs/devops/caddy",
         "docs/devops/unix",
       ],
     },

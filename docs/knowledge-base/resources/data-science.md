@@ -45,3 +45,5 @@ title: Data Science
 - [Simulated Annealing](https://github.com/skylergrammer/SimulatedAnnealing)
 - [The Big Bad NLP Database](https://datasets.quantumstat.com)
 - [Twelve Quick Tips for Software Design](https://github.com/gvwilson/12-design) - Ten Quick Software Design Tips for Data Scientists.
+- [Mathematics for Machine Learning](https://github.com/dair-ai/Mathematics-for-ML)
+- [ossu/data-science](https://github.com/ossu/data-science)

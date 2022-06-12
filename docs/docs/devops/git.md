@@ -81,15 +81,6 @@ $ gitinspector -F html --timeline=TRUE > stats.html
 $ docker run --rm -v $(pwd):/repo felix/gitinspector:0.4.4 --format=html --timeline=TRUE > stats.html
 ```
 
-## GH CLI
-
-### Delete repo alias
-
-```bash
-gh alias set repo-delete 'api -X DELETE "repos/$1"'
-gh repo-delete vilmibm/deleteme
-```
-
 ## Resources
 
 ### General
