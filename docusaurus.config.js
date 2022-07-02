@@ -12,38 +12,26 @@ module.exports = {
   trailingSlash: false,
   themeConfig: {
     navbar: {
-      title: "Docs",
+      title: "Knowledge Base",
       logo: {
         alt: "My Site Logo",
         src: "img/logo.svg",
       },
       items: [
         {
-          to: "knowledge-base/",
-          activeBasePath: "knowledge-base",
-          label: "Knowledge Base",
+          to: "life/",
+          activeBasePath: "life",
+          label: "Life",
           position: "left",
         },
         {
-          to: "recipes/",
-          activeBasePath: "recipes",
-          label: "Recipes",
-          position: "left",
-        },
-        // {
-        //   to: 'languages/',
-        //   activeBasePath: 'languages',
-        //   label: 'Languages',
-        //   position: 'left',
-        // },
-        {
-          to: "notes/",
-          activeBasePath: "recipenotess",
-          label: "Notes",
+          to: "food/",
+          activeBasePath: "food",
+          label: "Food",
           position: "left",
         },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/kahnwong/docs",
           label: "GitHub",
           position: "right",
         },
