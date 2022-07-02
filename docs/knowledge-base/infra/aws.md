@@ -46,12 +46,21 @@ aws s3 sync s3://S3PATH/ . --dryrun
 - [unused-amis.sh](https://gist.github.com/ilpianista/a8dfe8f7042d61abb8524571be910403)
 - [Amazon EC2 Instance Comparison](https://ec2instances.github.io/)
 
+### EMR
+
+- [Spark with correct aws jars version](https://github.com/YotpoLtd/metorikku/blob/master/docker/spark/k8s/Dockerfile)
+
+### Fargate
+
+- [Fargate task size](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html#fargate-tasks-size)
+
 ## Pricing
 
 - [Amazon EMR 6.x Release Versions](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-release-6x.html) - Lists application versions, components, and release notes for each Amazon EMR release in the 6.x series.
-- [AWS Fargate ECS Pricing Calculator](https://www.fargate.org/)
+- [AWS Fargate ECS Pricing Calculator](http://fargate-pricing-calculator.site.s3-website-us-east-1.amazonaws.com/)
 - [AWS Pricing Calculator](https://calculator.aws/) - AWS Pricing Calculator lets you explore AWS services, and create an estimate for the cost of your use cases on AWS.
 - [AWS Savings Plan Calculator](https://cloudshim.com/calculator)
+- [EC2 Pricing with Cost Savings](https://ec2pricing.usage.ai/)
 
 ## Services uptime
 
@@ -60,8 +69,11 @@ aws s3 sync s3://S3PATH/ . --dryrun
 ## Security
 
 - [Prowler](https://github.com/prowler-cloud/prowler) - Prowler is an Open Source security tool to perform AWS security best practices assessments, audits, incident response, continuous monitoring, hardening and forensics readiness. It contains more than 200 controls covering CIS, PCI-DSS, ISO27001, GDPR, HIPAA, FFIEC, SOC2, AWS FTR, ENS and custom security frameworks.
+- [S3 Bucket Scanner](https://purpleleaf.io/s3-scanner/)
 
 ## Resources
 
 - [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
 - [Containers on AWS](https://containersonaws.com/)
+- [AWS Well-Architected Framework](https://wa.aws.amazon.com/wat.map.en.html)
+- [Easily Switch Accounts in AWS](https://gist.github.com/noahcoad/370f004d3be248778dca41a1abc53543)

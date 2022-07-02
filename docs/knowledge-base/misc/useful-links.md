@@ -62,6 +62,7 @@ title: Useful Links
 ## Misc
 
 - [10 Minute Mail](https://10minutemail.com/)
+- [MiniMail](https://minimail.eu.org/) - Another disposable email
 - [endoflife.date](https://endoflife.date/) - endoflife.date is a community-maintained project to document end-of-life dates, and support lifecycles of various products.
 - [ExitReviews](https://www.exitreviews.com/) - Learn how long products last, where they break, and how to fix them.
 - [hunter](https://hunter.io) - Hunter lets you find professional email addresses in seconds and connect with the people that matter for your business.
@@ -69,6 +70,7 @@ title: Useful Links
 - [Monkeytype](https://monkeytype.com) - Monkeytype is a minimalistic typing test, featuring many test modes, an account system to save your typing speed history and user configurable features like themes, a smooth caret and more.
 - [Notion style avatar generator](http://cvbox.org/)
 - [Omni Calculator](https://www.omnicalculator.com)
+- [Untools](https://untools.co/) - Collection of thinking tools and frameworks to help you solve problems, make decisions and understand systems.
 
 ## Languages
 

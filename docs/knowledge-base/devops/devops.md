@@ -28,6 +28,12 @@ title: DevOps
 ### Status
 
 - [Pinging](https://www.pinging.net/)
+- [Global Response Time Checker](https://checker.ddosify.com/)
+
+## Monitoring / SRE
+
+- [Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems/#xref_monitoring_golden-signals)
+- [The practical guide to incident management](https://incident.io/guide/)
 
 ## Security
 
@@ -44,6 +50,7 @@ title: DevOps
 
 - [CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/)
 - [Crontab.guru](https://crontab.guru/) - An easy to use editor for crontab schedules.
+- [Production Readiness Checklist](https://gruntwork.io/devops-checklist)
 
 ### Learning
 
