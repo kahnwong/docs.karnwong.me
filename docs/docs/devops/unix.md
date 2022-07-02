@@ -49,6 +49,9 @@ sed -i 's/old-text/new-text/g' input.txt
 ## osx
 sed -i .bak 's/old-text/new-text/g' input.txt
 
+## recursive
+grep -rl old-text . | xargs sed -i '' 's/old-text/new-text/g'
+
 # send grep output to mv
 grep -l 'Subject: \[SPAM\]' | xargs -I '{}' mv '{}' DIR
 
