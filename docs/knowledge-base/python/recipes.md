@@ -204,3 +204,44 @@ sys.path.insert(0, "../..")
 if __name__ == "__main__":
     print("Hello")
 ```
+
+## Logging
+
+```python
+import logging
+
+
+# https://stackoverflow.com/questions/37703609/using-python-logging-with-aws-lambda
+if logging.getLogger().hasHandlers():
+    # The Lambda environment pre-configures a handler logging to stderr. If a handler is already configured,
+    # `.basicConfig` does not execute. Thus we set the level directly.
+    log = logging.getLogger()
+    log.setLevel(logging.INFO)
+    print("local log")
+else:
+    import logging as log
+
+    log.basicConfig(format="%(asctime)s - [%(levelname)s] %(message)s", level=log.DEBUG)
+    print("lambda log")
+```
+
+## Subprocess
+
+### Return stdout stream
+
+```python
+import subprocess
+
+
+procExe = subprocess.Popen(
+    ".//run.sh",
+    shell=True,
+    stdout=subprocess.PIPE,
+    stderr=subprocess.PIPE,
+    universal_newlines=True,
+)
+
+while procExe.poll() is None:
+    line = procExe.stdout.readline()
+    st.write(line)
+```

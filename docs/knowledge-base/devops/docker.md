@@ -50,7 +50,7 @@ docker volume create --name hello
 docker run -d -v hello:/container/path/for/volume container_image my_command
 ```
 
-### docker-compose
+## docker-compose
 
 ```yaml
 version: "3"
@@ -66,11 +66,24 @@ services:
       - JUPYTER_ENABLE_LAB=yes
 ```
 
+### network to host from docker on linux
+
+```yaml
+   environment:
+      NC_DB: "pg://localhost:5432?u=postgres&p=password&d=root_db"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    network_mode: host
+```
+
 ## Useful snippets
 
 ```bash
 # remove docker images based on name
 docker rmi $(docker images | grep 'imagename')
+
+# use amd64 when you're on arm64
+export DOCKER_DEFAULT_PLATFORM=linux/amd64
 ```
 
 ## Resources

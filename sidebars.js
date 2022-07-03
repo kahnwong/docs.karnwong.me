@@ -187,6 +187,7 @@ module.exports = {
       items: [
         "knowledge-base/career/career",
         "knowledge-base/career/one-on-one",
+        "knowledge-base/career/standup",
       ],
     },
   ],
