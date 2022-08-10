@@ -45,6 +45,7 @@ Notes:
 
 - [Capital Organic](https://www.capital-organic.com/catalog.aspx)
 - [Nimnim](https://www.nimnimnoodle.com) - TBA
+- [Perfect Earth](https://perfectearthfoods.in.th/)
 - Mama (เส้นเล็กรสน้ำยาปู)
 
 ### Seeds & Nuts

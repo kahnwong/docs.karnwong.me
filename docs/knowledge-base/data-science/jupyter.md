@@ -48,6 +48,15 @@ JSON(
 !pip install jupyterlab_tabnine
 ```
 
+### Load environment variables
+
+```
+!pip install python-dotenv
+
+%load_ext dotenv
+%dotenv
+```
+
 ## Convert to markdown
 
 ```bash

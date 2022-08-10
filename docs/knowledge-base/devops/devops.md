@@ -9,6 +9,7 @@ title: DevOps
 ## Diagrams
 
 - [Cloudcraft](https://www.cloudcraft.co) - Visualize your cloud architecture like a pro.
+- [sequencediagram](https://sequencediagram.org/)
 - [swimlanes](https://swimlanes.io) - A simple online tool for creating sequence diagrams.
 
 ## Networking
@@ -32,7 +33,7 @@ title: DevOps
 
 ## Monitoring / SRE
 
-- [Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems/#xref_monitoring_golden-signals)
+- [Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems/)
 - [The practical guide to incident management](https://incident.io/guide/)
 
 ## Security

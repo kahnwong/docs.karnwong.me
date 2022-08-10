@@ -30,7 +30,9 @@ title: Data Engineering
 ## Data Platform Engineering
 
 - [Awesome Data Discovery and Observability](https://github.com/opendatadiscovery/awesome-data-catalogs)
+- [Building Modern Data Teams](https://amplifypartners.com/moderndatateamshub/)
 - [Data Engineer Roadmap](https://github.com/datastacktv/data-engineer-roadmap)
+- [Data Mesh Architecture](https://www.datamesh-architecture.com/)
 - [Data Stack](https://www.moderndatastack.xyz/stacks) - Learn how some of the most amazing companies in the world are organising their data stack. Learn more about the tools that they are using and why.
 - [Modern Data Stack Glossary](https://www.secoda.co/glossary)
 

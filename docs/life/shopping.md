@@ -90,6 +90,7 @@ title: Shopping
 - [Dwarf Factory](https://www.dwarf-factory.com/) - Artisan keycaps.
 - [KBDfans](https://kbdfans.com/)
 - [KEMISTRY](https://kemistry.in.th/index.php)
+- [Loga](https://www.logaworld.com/)
 
 ## Stationery
 

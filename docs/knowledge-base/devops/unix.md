@@ -52,6 +52,8 @@ grep -rl old-text . | xargs sed -i '' 's/old-text/new-text/g'
 # send grep output to mv
 grep -l 'Subject: \[SPAM\]' | xargs -I '{}' mv '{}' DIR
 
+# base64 binary decode
+echo "$myImgStr" | base64 -d > image2.jpg
 ```
 
 ## Mount & Umount

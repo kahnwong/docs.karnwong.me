@@ -20,4 +20,5 @@ title: Career
 - [Engineering Ladders](http://www.engineeringladders.com/)
 - [Engineering Lead Handbook](https://nimblehq.co/compass/team/roles/engineering-lead/)
 - [Introduction to Machine Learning Interviews](https://huyenchip.com/ml-interviews-book/)
+- [Progression at Kevala](https://kevala-progression.herokuapp.com/)
 - [Software Development/Leadership Ladder](https://docs.google.com/spreadsheets/d/1k4sO6pyCl_YYnf0PAXSBcX776rNcTjSOqDxZ5SDty-4/edit#gid=0)

@@ -61,6 +61,7 @@ aws s3 sync s3://S3PATH/ . --dryrun
 - [AWS Pricing Calculator](https://calculator.aws/) - AWS Pricing Calculator lets you explore AWS services, and create an estimate for the cost of your use cases on AWS.
 - [AWS Savings Plan Calculator](https://cloudshim.com/calculator)
 - [EC2 Pricing with Cost Savings](https://ec2pricing.usage.ai/)
+- [EC2Instances.info](https://instances.vantage.sh/)
 
 ## Services uptime
 
@@ -73,7 +74,9 @@ aws s3 sync s3://S3PATH/ . --dryrun
 
 ## Resources
 
-- [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
-- [Containers on AWS](https://containersonaws.com/)
+- [AWS Glossary](https://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
 - [AWS Well-Architected Framework](https://wa.aws.amazon.com/wat.map.en.html)
+- [AWS Workshops](https://workshops.aws/)
+- [Containers on AWS](https://containersonaws.com/)
 - [Easily Switch Accounts in AWS](https://gist.github.com/noahcoad/370f004d3be248778dca41a1abc53543)
+- [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
