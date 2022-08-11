@@ -1,75 +1,35 @@
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
-module.exports = {
+// @ts-check
+// Note: type annotations allow type checking and IDEs autocompletion
+
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+
+/** @type {import('@docusaurus/types').Config} */
+const config = {
   title: "Fringe Division",
-  // tagline: 'The tagline of my site',
+  // tagline: "Dinosaurs are cool",
   url: "https://docs.karnwong.me",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
+
   organizationName: "kahnwong", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
-  trailingSlash: false,
-  themeConfig: {
-    navbar: {
-      title: "Knowledge Base",
-      logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
-      },
-      items: [
-        {
-          to: "life/",
-          activeBasePath: "life",
-          label: "Life",
-          position: "left",
-        },
-        {
-          to: "food/",
-          activeBasePath: "food",
-          label: "Food",
-          position: "left",
-        },
-        {
-          href: "https://github.com/kahnwong/docs",
-          label: "GitHub",
-          position: "right",
-        },
-      ],
-    },
-    footer: {
-      style: "dark",
-      links: [
-        // {
-        //   title: 'More',
-        //   items: [
-        //     {
-        //       label: 'Blog',
-        //       to: 'blog',
-        //     },
-        //     {
-        //       label: 'GitHub',
-        //       href: 'https://github.com/facebook/docusaurus',
-        //     },
-        //   ],
-        // },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Fringe Division. Built with Docusaurus.`,
-    },
-    algolia: {
-      apiKey: "3211c2ba91e4ed60dd3d7fbb64647fbe",
-      indexName: "docusaurus-2",
-      appId: "YRGQIFKA99",
-    },
-    prism: {
-      theme: require("prism-react-renderer/themes/okaidia"),
-      darkTheme: require("prism-react-renderer/themes/vsLight"),
-    },
+
+  // Even if you don't use internalization, you can use this field to set useful
+  // metadata like html lang. For example, if your site is Chinese, you may want
+  // to replace "en" with "zh-Hans".
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en"],
   },
+
   presets: [
     [
-      "@docusaurus/preset-classic",
-      {
+      "classic",
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
@@ -77,14 +37,61 @@ module.exports = {
           //   'https://github.com/facebook/docusaurus/edit/master/website/',
           routeBasePath: "/",
         },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+        // },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-        sitemap: {
-          changefreq: "weekly",
-          priority: 0.5,
-        },
+      }),
+    ],
+    [
+      "docusaurus-preset-shiki-twoslash",
+      {
+        themes: ["nord", "min-light"],
       },
     ],
   ],
+
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
+      navbar: {
+        title: "Knowledge Base",
+        logo: {
+          alt: "My Site Logo",
+          src: "img/logo.svg",
+        },
+        items: [
+          {
+            to: "life/",
+            activeBasePath: "life",
+            label: "Life",
+            position: "left",
+          },
+          {
+            to: "food/",
+            activeBasePath: "food",
+            label: "Food",
+            position: "left",
+          },
+          {
+            href: "https://github.com/kahnwong/docs",
+            label: "GitHub",
+            position: "right",
+          },
+        ],
+      },
+      algolia: {
+        apiKey: "3211c2ba91e4ed60dd3d7fbb64647fbe",
+        indexName: "docusaurus-2",
+        appId: "YRGQIFKA99",
+      },
+    }),
 };
+
+module.exports = config;

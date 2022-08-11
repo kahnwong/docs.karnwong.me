@@ -10,9 +10,6 @@ repos:
       - id: check-added-large-files
       - id: check-case-conflict
       - id: check-executables-have-shebangs
-      - id: check-json
-      - id: check-shebang-scripts-are-executable
-      # - id: pretty-format-json
       - id: check-toml
       - id: fix-byte-order-marker
       - id: mixed-line-ending
