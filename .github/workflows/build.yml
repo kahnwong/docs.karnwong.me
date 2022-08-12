@@ -30,7 +30,7 @@ jobs:
       # Build & deploy
       ################################
       - run: |
-          npm run build
+          yarn run build
           echo "docs.karnwong.me" > build/CNAME
 
       - name: Deploy site
