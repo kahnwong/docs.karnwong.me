@@ -40,6 +40,7 @@ title: DevOps
 
 - [Hardenize](https://www.hardenize.com/) - Automated Discovery and Monitoring of Your Entire Network Perimeter.
 - [No Secrets! 🤫](https://sourcegraph-community.github.io/no-secrets/) - Find secrets in your GitHub repo.
+- [trivy](https://github.com/aquasecurity/trivy) - Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues and hard-coded secrets, also cloud infrastructure as well.
 
 ## Feature flags
 

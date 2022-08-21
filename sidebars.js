@@ -145,6 +145,11 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Golang",
+      items: ["knowledge-base/golang/golang"],
+    },
+    {
+      type: "category",
       label: "Shell",
       items: [
         "knowledge-base/shell/fish",

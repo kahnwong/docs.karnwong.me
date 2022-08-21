@@ -43,3 +43,7 @@ intranet.example.com {
   reverse_proxy / https://intranet.lan
 }
 ```
+
+### Resources
+
+- [Public and internal caddy network setup](https://mrkaran.dev/posts/exposing-services/)
