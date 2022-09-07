@@ -72,6 +72,7 @@ END { printf("%d files changed, %d insertions(+), %d deletions(-)", f, i, d) }'
 ## Tools
 
 - [git-summary](https://github.com/MirkoLedda/git-summary) - Summarizes multiple git repository status within a directory.
+- [gource](https://gource.io/) - Software projects are displayed by Gource as an animated tree with the root directory of the project at its centre. Directories appear as branches with files as leaves. Developers can be seen working on the tree at the times they contributed to the project.
 
 ### Visualize
 

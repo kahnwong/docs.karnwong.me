@@ -75,3 +75,4 @@ for google calendar: `https://apidata.googleusercontent.com/caldav/v2/$calendarI
 - [Crater](https://craterapp.com) - Free Open-Source Invoice app for freelancers & small businesses.
 - [TimeOff.Management](https://github.com/timeoff-management/timeoff-management-application) - Simple yet powerful absence management software for small and medium size business (community edition).
 - [wger](https://github.com/wger-project/docker) - Self hosted FLOSS fitness/workout, nutrition and weight tracker.
+- [scrutiny](https://github.com/AnalogJ/scrutiny) - Hard Drive S.M.A.R.T Monitoring, Historical Trends & Real World Failure Thresholds .

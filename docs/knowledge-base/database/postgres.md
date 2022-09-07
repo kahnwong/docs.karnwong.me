@@ -129,3 +129,4 @@ db> \copy (SELECT  * FROM district_boundary) TO '~/Downloads/file.tsv' WITH (FOR
 ## Resources
 
 - [pg_extras](https://github.com/pawurb/python-pg-extras/tree/master/pg_extras/queries) - various util queries
+- [Postgres Playground](https://www.crunchydata.com/developers/tutorials)

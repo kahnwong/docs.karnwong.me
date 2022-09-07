@@ -16,3 +16,4 @@ title: MLOps
 - [ML Ops](https://ml-ops.org)
 - [MLOps Toys](https://mlops.toys)
 - [The LF AI & Data Foundation](https://landscape.lfai.foundation)
+- [MLOps Platforms](https://github.com/thoughtworks/mlops-platforms)

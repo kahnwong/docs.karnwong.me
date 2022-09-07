@@ -46,7 +46,7 @@ Notes:
 - [Capital Organic](https://www.capital-organic.com/catalog.aspx)
 - [Nimnim](https://www.nimnimnoodle.com) - TBA
 - [Perfect Earth](https://perfectearthfoods.in.th/)
-- Mama (เส้นเล็กรสน้ำยาปู)
+- ~~Mama (เส้นเล็กรสน้ำยาปู)~~
 
 ### Seeds & Nuts
 
@@ -78,17 +78,19 @@ Notes:
 
 ## Tea
 
-| Brand                                                                                             | Location | Details      |
-| ------------------------------------------------------------------------------------------------- | -------- | ------------ |
-| [Adagio Teas](https://www.adagio.com)                                                             | 🇺🇸       | ALL 👍       |
-| [Basilur](https://www.basilurtea.com/)                                                            | 🇱🇰       |              |
-| [Cha Lin](https://th-th.facebook.com/pg/LhinTeaShop2/shop/?referral_code=page_shop_tab&preview=1) | 🇹🇭       | partially    |
-| [Dilmah](https://shop.dilmahteathailand.com/en/)                                                  | 🇹🇭       | ALL 👍       |
-| [Harney & Sons](https://harneyteasthailand.com)                                                   | 🇹🇭       | ALL 👍       |
-| [Nepali Tea Traders](https://www.nepaliteatraders.com/collections/black-tea)                      | 🇳🇵       |              |
-| [Siam Mandalay](https://www.facebook.com/SiamMandalayHealthandWellness/)                          | 🇹🇭       | ALL 👍       |
-| [Suwirun](http://www.suwirunteashop.com/)                                                         | 🇹🇭       | ALL 👍       |
-| 🔸 [Tea Kruthi](https://teakruthi.com/collections/our-teas)                                       | 🇱🇰       | shipping $15 |
+| Brand                                                                        | Location | Details   |
+| ---------------------------------------------------------------------------- | -------- | --------- |
+| [Adagio Teas](https://www.adagio.com)                                        | 🇺🇸       | ALL 👍    |
+| [Basilur](https://www.basilurtea.com/)                                       | 🇱🇰       | ALL 👍    |
+| [ร้านชาสุขใจ](https://www.facebook.com/ChaSookJai)                           | 🇹🇭       | partially |
+| [Dilmah](https://shop.dilmahteathailand.com/en/)                             | 🇹🇭       | ALL 👍    |
+| [Harney & Sons](https://harneyteasthailand.com)                              | 🇹🇭       | ALL 👍    |
+| [Nepali Tea Traders](https://www.nepaliteatraders.com/collections/black-tea) | 🇳🇵       |           |
+| [Siam Mandalay](https://www.facebook.com/SiamMandalayHealthandWellness/)     | 🇹🇭       | ALL 👍    |
+| [Suwirun](http://www.suwirunteashop.com/)                                    | 🇹🇭       | ALL 👍    |
+| [Teaside](https://tea-side.com/)                                             | 🇹🇭       |           |
+| [Monsoon Tea](https://monsoontea.co.th)                                      | 🇹🇭       | ALL 👍    |
+| [Tea Village](https://tea-village.com)                                       | 🇹🇭       |           |
 
 ## Resources
 

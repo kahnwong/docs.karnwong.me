@@ -2,15 +2,17 @@
 title: DevOps
 ---
 
-## Interview
-
-- [DevOps Job Interview Questions](https://github.com/DNXLabs/DevOps-Interview-Questions)
-
 ## Diagrams
 
 - [Cloudcraft](https://www.cloudcraft.co) - Visualize your cloud architecture like a pro.
 - [sequencediagram](https://sequencediagram.org/)
 - [swimlanes](https://swimlanes.io) - A simple online tool for creating sequence diagrams.
+
+## Feature flags
+
+- [LaunchDarkly](https://launchdarkly.com/) - Feature flags toggle.
+- [ngrok](https://ngrok.com/) - ngrok allows you to expose a web server running on your local machine to the internet. Just tell ngrok what port your web server is listening on.
+- [SSL Server Test](https://www.ssllabs.com/ssltest/) - A comprehensive free SSL test for your public web servers.
 
 ## Networking
 
@@ -36,23 +38,33 @@ title: DevOps
 - [Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems/)
 - [The practical guide to incident management](https://incident.io/guide/)
 
+## Platform
+
+- [backstage.io](https://backstage.io/plugins) - Backstage is an open platform for building developer portals.
+
 ## Security
 
 - [Hardenize](https://www.hardenize.com/) - Automated Discovery and Monitoring of Your Entire Network Perimeter.
 - [No Secrets! 🤫](https://sourcegraph-community.github.io/no-secrets/) - Find secrets in your GitHub repo.
 - [trivy](https://github.com/aquasecurity/trivy) - Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues and hard-coded secrets, also cloud infrastructure as well.
 
-## Feature flags
+### VPN
 
-- [LaunchDarkly](https://launchdarkly.com/) - Feature flags toggle.
-- [ngrok](https://ngrok.com/) - ngrok allows you to expose a web server running on your local machine to the internet. Just tell ngrok what port your web server is listening on.
-- [SSL Server Test](https://www.ssllabs.com/ssltest/) - A comprehensive free SSL test for your public web servers.
+- [tailscale](https://tailscale.com/download/linux) - The easiest, most secure way to use WireGuard and 2FA.
+- [wireguard-fast](https://github.com/fastai/wireguard-fast)
+
+## Tools
+
+- [steampipe](https://github.com/turbot/steampipe) - Use SQL to instantly query your cloud services (AWS, Azure, GCP and more). Open source CLI. No DB required.
+- [Ventoy](https://ventoy.net/en/index.html) - A New Bootable USB Solution.
 
 ## Resources
 
 - [CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/)
 - [Crontab.guru](https://crontab.guru/) - An easy to use editor for crontab schedules.
 - [Production Readiness Checklist](https://gruntwork.io/devops-checklist)
+- [command-not-found](https://command-not-found.com)
+- [DontBreakDebian](https://wiki.debian.org/DontBreakDebian) - Advice For New Users On Not Breaking Their Debian System
 
 ### Learning
 
@@ -61,11 +73,16 @@ title: DevOps
 - [Server Admin for Programmers](https://serversforhackers.com/)
 - [System Administrator's Guide](https://docs.rockylinux.org/books/admin_guide/01-presentation/)
 
+### Interview
+
+- [DevOps Job Interview Questions](https://github.com/DNXLabs/DevOps-Interview-Questions)
+
 ### Playbook
 
 - [DevSecOps-Playbook](https://github.com/6mile/DevSecOps-Playbook)
 - [Truss Engineering Playbook](https://playbook.truss.dev/docs)
 - [Tuple’s Pair Programming Guide](https://tuple.app/pair-programming-guide)
+- [CSE Code-With Customer/Partner Engineering Playbook](https://github.com/microsoft/code-with-engineering-playbook)
 
 ### Security
 

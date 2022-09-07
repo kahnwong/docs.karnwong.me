@@ -66,6 +66,7 @@ aws s3 sync s3://S3PATH/ . --dryrun
 ## Services uptime
 
 - [Is AWS Down](https://www.taloflow.ai/is-aws-down)
+- [availabl - aws](https://www.availabl.co/aws)
 
 ## Security
 

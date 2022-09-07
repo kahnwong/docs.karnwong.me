@@ -8,6 +8,10 @@ title: Career
 - [Questions to ask Companies](https://old.reddit.com/r/ExperiencedDevs/comments/p14sc4/questions_to_ask_companies/)
 - [Questions to ask when interviewing someone to be your manager](https://old.reddit.com/r/ExperiencedDevs/comments/qyzw29/questions_to_ask_when_interviewing_someone_to_be/)
 
+## Assesments
+
+- [Realistic engineering hiring assessments](https://www.trytapioca.com/library-of-assessments)
+
 ## Guides
 
 - [Company Interview Guides](https://www.interviewquery.com/companies)
