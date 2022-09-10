@@ -9,6 +9,7 @@ title: CLI Tools
 
 - [dbxcli](https://github.com/dropbox/dbxcli) - A command line client for Dropbox built using the Go SDK.
 - [rclone](https://github.com/rclone/rclone) - "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Yandex Files.
+- [restic](https://github.com/restic/restic) - Fast, secure, efficient backup program.
 
 ## JSON & HTML
 
