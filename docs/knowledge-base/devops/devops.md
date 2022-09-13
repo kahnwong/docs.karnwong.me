@@ -26,7 +26,11 @@ title: DevOps
 - [deSEC](https://desec.io) - Modern DNS Hosting for Everyone.
 - [DuckDNS](https://www.duckdns.org)
 - [freemyip](https://www.freemyip.com)
+
+#### Blocklist
+
 - [The Big Blocklist Collection](https://firebog.net)
+- [FB_Whitelist](https://github.com/zlatco/FB_Whitelist) - A Host file to whitelist as little as possible for Facebook and Messenger, while still making them usable!
 
 ### Status
 
