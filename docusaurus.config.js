@@ -29,7 +29,7 @@ const config = {
     [
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
@@ -47,7 +47,11 @@ const config = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-      }),
+        googleAnalytics: {
+          trackingID: "G-M6K7QN1CF6",
+          anonymizeIP: true,
+        },
+      },
     ],
     [
       "docusaurus-preset-shiki-twoslash",
