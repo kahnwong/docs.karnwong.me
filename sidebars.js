@@ -127,6 +127,12 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Platform Engineering",
+      collapsed: true,
+      items: ["knowledge-base/platform-engineering/platform-engineering"],
+    },
+    {
+      type: "category",
       label: "Python",
       items: [
         "knowledge-base/python/python",
