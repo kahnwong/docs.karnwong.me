@@ -126,7 +126,11 @@ psql -U user -d db_name -c "Copy (Select * From foo_table LIMIT 10) To STDOUT Wi
 db> \copy (SELECT  * FROM district_boundary) TO '~/Downloads/file.tsv' WITH (FORMAT CSV, HEADER, DELIMITER E'\t')
 ```
 
-## Resources
+## Tools
 
 - [pg_extras](https://github.com/pawurb/python-pg-extras/tree/master/pg_extras/queries) - various util queries
+- [pgmonitor](https://github.com/CrunchyData/pgmonitor) - PostgreSQL Monitoring, Metrics Collection and Alerting Resources from Crunchy Data.
+
+## Resources
+
 - [Postgres Playground](https://www.crunchydata.com/developers/tutorials)

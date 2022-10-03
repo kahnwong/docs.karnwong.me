@@ -36,15 +36,13 @@ title: DevOps
 
 - [Pinging](https://www.pinging.net/)
 - [Global Response Time Checker](https://checker.ddosify.com/)
+- [jota-cert-checker](https://github.com/juliojsb/jota-cert-checker) - Check SSL certificate expiration date of a list of sites.
 
 ## Monitoring / SRE
 
 - [Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems/)
 - [The practical guide to incident management](https://incident.io/guide/)
-
-## Platform
-
-- [backstage.io](https://backstage.io/plugins) - Backstage is an open platform for building developer portals.
+- [A List of Post-mortems!](https://github.com/danluu/post-mortems)
 
 ## Security
 

@@ -38,6 +38,7 @@ aws s3 sync s3://S3PATH/ . --dryrun
 
 - [AWS Lambda quotas](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html) - Maximum sizes, limits, and quotas for AWS Lambda functions and related resources.
 - [download_all_lambda_function](https://github.com/sambhajis-gdb/download_all_lambda_function/blob/master/get_all_lambda-functions.sh)
+- [Lambda Cold Starts analysis](https://maxday.github.io/lambda-perf/) - Visualize 10 Cold Starts for each runtime, updated daily.
 
 ## EC2
 
@@ -60,6 +61,7 @@ aws s3 sync s3://S3PATH/ . --dryrun
 - [AWS Savings Plan Calculator](https://cloudshim.com/calculator)
 - [EC2 Pricing with Cost Savings](https://ec2pricing.usage.ai/)
 - [EC2Instances.info](https://instances.vantage.sh/)
+- [Compute Cost Calculator](https://compute-cost.com/)
 
 ## Services uptime
 
@@ -74,6 +76,7 @@ aws s3 sync s3://S3PATH/ . --dryrun
 ## Maintenance
 
 - [aws-nuke](https://github.com/rebuy-de/aws-nuke)
+- [cloud-nuke](https://github.com/gruntwork-io/cloud-nuke)
 
 ## Resources
 
@@ -83,3 +86,4 @@ aws s3 sync s3://S3PATH/ . --dryrun
 - [Containers on AWS](https://containersonaws.com/)
 - [Easily Switch Accounts in AWS](https://gist.github.com/noahcoad/370f004d3be248778dca41a1abc53543)
 - [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
+- [AWS breaking changes and price increases](https://github.com/SummitRoute/aws_breaking_changes)

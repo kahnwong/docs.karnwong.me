@@ -17,10 +17,14 @@ title: Data Engineering
 - [Castled](https://www.castled.io/) - Sync customer and product data in your data warehouse into marketing, sales, or customer success tools without any help from engineering teams.
 - [rudderstack](https://www.rudderstack.com/)
 
-### Data Validation
+### Data Quality
 
 - [Great Expectations](https://github.com/great-expectations/great_expectations) - Always know what to expect from your data.
 - [Pandera](https://github.com/pandera-dev/pandera) - A light-weight, flexible, and expressive data validation library for dataframes.
+
+### Mock Data
+
+- [Replibyte](https://github.com/Qovery/Replibyte) - Seed your development database with real data ⚡️.
 
 ## Resources
 

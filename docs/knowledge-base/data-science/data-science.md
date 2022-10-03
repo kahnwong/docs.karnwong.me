@@ -12,6 +12,9 @@ title: Data Science
 
 - [handcals](https://github.com/connorferster/handcalcs) - Python library for converting Python calculations into rendered latex.
 - [duckDB](https://github.com/duckdb/duckdb) - DuckDB is an in-process SQL OLAP Database Management System.
+- [missingno](https://github.com/ResidentMario/missingno) - Missing data visualization module for Python.
+- [sweetviz](https://github.com/fbdesignpro/sweetviz) - Visualize and compare datasets, target values and associations, with one line of code.
+- [lux](https://github.com/lux-org/lux) - Automatically visualize your pandas dataframe via a single print! 📊 💡
 
 ## Interview
 

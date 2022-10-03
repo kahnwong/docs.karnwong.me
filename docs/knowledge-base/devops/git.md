@@ -23,9 +23,6 @@ git diff branch1..branch2
 # ignore whitespace
 git diff -w
 
-# update submodule
-git submodule foreach git pull origin master
-
 # squash last N commits
 git rebase -i HEAD~N
 
@@ -37,6 +34,18 @@ git diff --cached
 
 # checkout file from another branch
 git checkout $REVISION -- $FILENAME
+```
+
+### Submodule
+
+```bash
+# update submodule
+git submodule foreach git pull origin master
+
+# remove submodule: https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule
+git rm <path-to-submodule>
+rm -rf .git/modules/<path-to-submodule>
+git config --remove-section submodule.<path-to-submodule>.
 ```
 
 ## Recipes
