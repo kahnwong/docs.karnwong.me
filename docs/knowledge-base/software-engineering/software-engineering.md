@@ -23,6 +23,7 @@ title: Software Engineering
 
 - [The Arcane Algorithm Archive](https://www.algorithm-archive.org)
 - [Layers of Bitcoin](https://layers.trudi.group/)
+- [The Algorithms](https://the-algorithms.com/)
 
 ## Regex
 

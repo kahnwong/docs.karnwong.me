@@ -25,6 +25,10 @@ terraform state replace-provider -auto-approve registry.terraform.io/-/aws hashi
 - [tflint](https://github.com/terraform-linters/tflint) - A Pluggable Terraform Linter.
 - [tfsec](https://github.com/aquasecurity/tfsec/) - A static analysis security scanner for your Terraform code.
 
+### Visualizations
+
+- [Terraform graph beautifier](https://github.com/pcasteran/terraform-graph-beautifier)
+
 ## Recipes
 
 ### Migrate Terraform remote tfstates

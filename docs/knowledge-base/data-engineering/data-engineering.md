@@ -39,6 +39,7 @@ title: Data Engineering
 - [Data Mesh Architecture](https://www.datamesh-architecture.com/)
 - [Data Stack](https://www.moderndatastack.xyz/stacks) - Learn how some of the most amazing companies in the world are organising their data stack. Learn more about the tools that they are using and why.
 - [Modern Data Stack Glossary](https://www.secoda.co/glossary)
+- [The data observability dictionary](https://www.bigeye.com/blog/data-observability-dictionary)
 
 ### Streaming
 

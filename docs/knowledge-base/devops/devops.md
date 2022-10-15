@@ -7,6 +7,7 @@ title: DevOps
 - [Cloudcraft](https://www.cloudcraft.co) - Visualize your cloud architecture like a pro.
 - [sequencediagram](https://sequencediagram.org/)
 - [swimlanes](https://swimlanes.io) - A simple online tool for creating sequence diagrams.
+- [diagrams](https://github.com/mingrammer/diagrams) - 🎨 Diagram as Code for prototyping cloud system architectures.
 
 ## Feature flags
 
