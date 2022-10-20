@@ -10,6 +10,7 @@ title: Software Engineering
 - [Web Developer Checklist: Website Launch Checklist](https://www.toptal.com/developers/webdevchecklist)
 - [The Full-Stack Software Design and Architecture Roadmap](https://github.com/stemmlerjs/software-design-and-architecture-roadmap)
 - [Path to a Software Architect](https://github.com/justinamiller/SoftwareArchitect)
+- [Design Sprints](https://designsprintkit.withgoogle.com/) - Transform the way your team works.
 
 ### System Design and Architecture
 

@@ -7,6 +7,7 @@ title: Data Science
 ### Dashboard
 
 - [streamlit](https://github.com/streamlit/streamlit) - Streamlit — The fastest way to build data apps in Python.
+- [Evidence](https://evidence.dev/) - Business intelligence for modern data teams.
 
 ## Libraries
 
@@ -28,3 +29,4 @@ title: Data Science
 - [ossu/data-science](https://github.com/ossu/data-science)
 - [Crash Course: Statistics](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr)
 - [The Data Science Interview Book](https://dipranjan.github.io/dsinterviewqns/intro.html)
+- [SkyTowner](https://www.skytowner.com/) - 1900+ data science docs and recipes.

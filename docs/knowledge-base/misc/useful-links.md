@@ -71,6 +71,7 @@ title: Useful Links
 - [Notion style avatar generator](http://cvbox.org/)
 - [Omni Calculator](https://www.omnicalculator.com)
 - [Untools](https://untools.co/) - Collection of thinking tools and frameworks to help you solve problems, make decisions and understand systems.
+- [Let's Ketchup](https://www.lets-ketchup.com/) - Plan your next social get-together, fun & easy!
 
 ## Languages
 
