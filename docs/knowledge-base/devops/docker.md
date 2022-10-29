@@ -84,6 +84,29 @@ docker rmi $(docker images | grep 'imagename')
 
 # use amd64 when you're on arm64
 export DOCKER_DEFAULT_PLATFORM=linux/amd64
+
+# dummy entrypoint to keep container alive for debugging
+tail -f /dev/null
+```
+
+### Dockerfile snippets
+
+```Dockerfile
+### Dockerfile if-else for multi architecture
+ENV SOPS_VERSION=3.7.2
+ARG TARGETPLATFORM
+RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then ARCHITECTURE=amd64; elif [ "$TARGETPLATFORM" = "linux/arm64" ]; then ARCHITECTURE=arm64; else ARCHITECTURE=amd64; fi \
+    && FILENAME=sops_${SOPS_VERSION}_${ARCHITECTURE}.deb \
+    && wget --progress=dot:mega https://github.com/mozilla/sops/releases/download/v$SOPS_VERSION/$FILENAME \
+    && dpkg -i $FILENAME \
+    && rm $FILENAME
+
+### import base Dockerfile
+# syntax = edrevo/dockerfile-plus
+
+INCLUDE+ Dockerfile.base
+
+RUN whatever
 ```
 
 ## Resources

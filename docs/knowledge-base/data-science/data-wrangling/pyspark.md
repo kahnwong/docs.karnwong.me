@@ -69,6 +69,20 @@ Yout = dotsOut.map(itemgetter(1)).collect()
 plt.scatter(Xout, Yout)
 ```
 
+### Dummy dataframe
+
+```python
+# https://stackoverflow.com/a/57960267/19652796
+
+df = spark.createDataFrame(
+    [
+        (1, "foo"),  # create your data here, be consistent in the types.
+        (2, "bar"),
+    ],
+    ["id", "label"],  # add your column names here
+)
+```
+
 ## Init
 
 ```python

@@ -10,3 +10,7 @@ title: Database
 ## Managed Database
 
 - [upstash](https://upstash.com/) - Serverless Redis and Kafka.
+
+## Playground
+
+- [Supabase WASM](https://wasm.supabase.com/) - PostgreSQL in the Browser

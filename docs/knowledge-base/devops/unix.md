@@ -17,7 +17,7 @@ title: Unix
 for i in */*.jl; do echo "$i" && gzip "$i"; done
 
 ## as zip
-$ for i in *.csv; do zip `basename $i .csv`.zip $i; done
+for i in *.csv; do zip `basename $i .csv`.zip $i; done
 
 # compress each folder
 for i in *; do zip -r `basename $i`.cbz $i; done
@@ -72,6 +72,23 @@ sudo nano /etc/fstab
 UUID=D424912B2491119A /mnt/media FILE_SYSTEM uid=1000,gid=1000,nofail,umask=0 0 0
 ```
 
+## journalctl
+
+```bash
+# set maximum storage for logs
+https://www.digitalocean.com/community/tutorials/how-to-use-journalctl-to-view-and-manipulate-systemd-logs
+
+# prune logs
+journalctl --vacuum-size=1G
+```
+
+## openssl
+
+```bash
+# generate password
+docs openssl rand -base64 24
+```
+
 ## rsync
 
 ```bash
@@ -82,7 +99,7 @@ rsync -ah --progress source-file destination-file
 --remove-source-files
 ```
 
-## SSH
+## ssh
 
 ```bash
 # create SSH key
@@ -129,9 +146,6 @@ killall python3
 
 # check internet speed via terminal
 curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
-
-# set maximum storage for logs
-https://www.digitalocean.com/community/tutorials/how-to-use-journalctl-to-view-and-manipulate-systemd-logs
 
 # disable network interface
 sudo ifconfig wlan0 down
