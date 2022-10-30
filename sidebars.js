@@ -116,6 +116,7 @@ const sidebars = {
       collapsed: true,
       items: [
         "knowledge-base/database/database",
+        "knowledge-base/database/sql",
         "knowledge-base/database/postgres",
       ],
     },
