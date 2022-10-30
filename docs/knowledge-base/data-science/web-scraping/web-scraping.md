@@ -24,3 +24,17 @@ Content-Type: application/json
 # output
 { "foo" : "bar", "name" : "John" }
 ```
+
+## Fetching cookies
+
+```python
+import requests
+
+
+headers = {}
+url = ""
+
+r = requests.get(url, headers=headers, verify=False)
+# print(r.cookies)
+session_id = r.cookies["PHPSESSID"]
+```

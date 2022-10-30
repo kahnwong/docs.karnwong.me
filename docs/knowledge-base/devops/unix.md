@@ -21,6 +21,13 @@ for i in *.csv; do zip `basename $i .csv`.zip $i; done
 
 # compress each folder
 for i in *; do zip -r `basename $i`.cbz $i; done
+
+### loop list from a file
+IFS=$'\n' images=($(cat need_to_process_files.txt))
+for i in ${images[@]}
+do
+    aws s3 cp "s3://$BUCKET_NAME/$i" images/
+done
 ```
 
 ## bash
@@ -97,6 +104,9 @@ rsync -ah --progress source-file destination-file
 
 # move files
 --remove-source-files
+
+# ignore folder
+rsync -avm --exclude='node_modules' --progress $HOST:$PATH $TARGET/
 ```
 
 ## ssh
@@ -120,6 +130,9 @@ $ sudo /etc/init.d/ssh restart
 
 # port forwarding
 ssh -L 5000:targethost:5000 NAME@TUNNEL_HOST
+
+# add key to ssh-agent
+ssh-add --apple-use-keychain $KEY_PATH
 ```
 
 ## wget
@@ -149,4 +162,11 @@ curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.p
 
 # disable network interface
 sudo ifconfig wlan0 down
+```
+
+## Recipes
+
+```bash
+# plot IP location on map
+host spotify.com | iponmap -c
 ```

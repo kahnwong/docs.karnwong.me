@@ -106,6 +106,7 @@ spark = (
     .config("spark.hadoop.fs.s3a.secret.key", SECRET)
     .config("spark.executor.memory", "4g")
     .config("spark.driver.memory", "4g")
+    .config("spark.jars.packages", "")
     .getOrCreate()
 )
 
@@ -232,6 +233,21 @@ F.to_json(c)
 
 # convert to list
 df.select("mvv").rdd.flatMap(lambda x: x).collect()
+
+# udf
+from pyspark.sql.functions import udf
+import pyspark.sql.functions as F
+from pyspark.sql.types import StringType
+
+
+@udf(returnType=StringType())
+def object_id_to_date(object_id: str):
+    object_id = ObjectId(object_id)
+
+    return str(object_id.generation_time.date())
+
+
+df.select(object_id_to_date("_id").alias("creation_date"))
 ```
 
 ### datetime
