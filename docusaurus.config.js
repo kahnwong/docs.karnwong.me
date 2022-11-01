@@ -13,6 +13,7 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
+  trailingSlash: true,
 
   organizationName: "kahnwong", // Usually your GitHub org/user name.
   projectName: "docs", // Usually your repo name.
@@ -47,7 +48,7 @@ const config = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-        googleAnalytics: {
+        gtag: {
           trackingID: "G-M6K7QN1CF6",
           anonymizeIP: true,
         },
