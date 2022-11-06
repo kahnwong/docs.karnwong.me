@@ -89,7 +89,7 @@ export DOCKER_DEFAULT_PLATFORM=linux/amd64
 tail -f /dev/null
 ```
 
-### Dockerfile snippets
+### Dockerfile
 
 ```Dockerfile
 ### Dockerfile if-else for multi architecture
@@ -109,8 +109,17 @@ INCLUDE+ Dockerfile.base
 RUN whatever
 ```
 
+## Tools
+
+- [amazon-ecr-credential-helper](https://github.com/awslabs/amazon-ecr-credential-helper)
+- [docker-credential-gcr](https://github.com/GoogleCloudPlatform/docker-credential-gcr)
+
 ## Resources
 
 - [composerize](https://www.composerize.com) - docker run asdlksjfksdf > docker-composerize up.
 - [contains.dev](https://contains.dev/) - Explore your images, view their files, layers and dependencies.
 - [The Compose Specification](https://github.com/compose-spec/compose-spec/blob/master/spec.md) - The Compose specification establishes a standard for the definition of multi-container platform-agnostic applications.
+
+```
+
+```

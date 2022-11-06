@@ -245,3 +245,15 @@ while procExe.poll() is None:
     line = procExe.stdout.readline()
     st.write(line)
 ```
+
+## yaml
+
+`pip install pyyaml`
+
+```python
+with open(filename, "r") as f:
+    try:
+        d = yaml.safe_load(f)
+    except yaml.YAMLError as e:
+        print(e)
+```

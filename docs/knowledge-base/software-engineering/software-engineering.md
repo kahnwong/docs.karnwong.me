@@ -2,15 +2,11 @@
 title: Software Engineering
 ---
 
-## Resources
+## Computer science
 
-- [Every Programmer Should Know 🤔](https://github.com/mtdvio/every-programmer-should-know)
-- [John Lewis IT Software Engineering Principles](http://engineering-principles.onejl.uk/)
-- [Linguistic Antipatterns](https://www.linguistic-antipatterns.com/) - This is a website to teach you to identify and fix linguistic antipatterns in your code.
-- [Web Developer Checklist: Website Launch Checklist](https://www.toptal.com/developers/webdevchecklist)
-- [The Full-Stack Software Design and Architecture Roadmap](https://github.com/stemmlerjs/software-design-and-architecture-roadmap)
-- [Path to a Software Architect](https://github.com/justinamiller/SoftwareArchitect)
-- [Design Sprints](https://designsprintkit.withgoogle.com/) - Transform the way your team works.
+- [The Arcane Algorithm Archive](https://www.algorithm-archive.org)
+- [Layers of Bitcoin](https://layers.trudi.group/)
+- [The Algorithms](https://the-algorithms.com/)
 
 ### System Design and Architecture
 
@@ -20,12 +16,6 @@ title: Software Engineering
 - [Architecture Notes](https://architecturenotes.co/)
 - [Awesome Software and Architectural Design Patterns](https://github.com/DovAmir/awesome-design-patterns) - A curated list of software and architecture related design patterns.
 
-## Computer science
-
-- [The Arcane Algorithm Archive](https://www.algorithm-archive.org)
-- [Layers of Bitcoin](https://layers.trudi.group/)
-- [The Algorithms](https://the-algorithms.com/)
-
 ## Regex
 
 - [regexper](https://regexper.com) - Regular Expression Visualization Site.
@@ -34,3 +24,17 @@ title: Software Engineering
 ## Utilities
 
 - [Makefile Tutorial](https://makefiletutorial.com/)
+
+## Product / Marketing
+
+- [Email for SaaS 101](https://loops.so/email-for-saas)
+
+## Resources
+
+- [Every Programmer Should Know 🤔](https://github.com/mtdvio/every-programmer-should-know)
+- [John Lewis IT Software Engineering Principles](http://engineering-principles.onejl.uk/)
+- [Linguistic Antipatterns](https://www.linguistic-antipatterns.com/) - This is a website to teach you to identify and fix linguistic antipatterns in your code.
+- [Web Developer Checklist: Website Launch Checklist](https://www.toptal.com/developers/webdevchecklist)
+- [The Full-Stack Software Design and Architecture Roadmap](https://github.com/stemmlerjs/software-design-and-architecture-roadmap)
+- [Path to a Software Architect](https://github.com/justinamiller/SoftwareArchitect)
+- [Design Sprints](https://designsprintkit.withgoogle.com/) - Transform the way your team works.

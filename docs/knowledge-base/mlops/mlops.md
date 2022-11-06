@@ -17,3 +17,4 @@ title: MLOps
 - [MLOps Toys](https://mlops.toys)
 - [The LF AI & Data Foundation](https://landscape.lfai.foundation)
 - [MLOps Platforms](https://github.com/thoughtworks/mlops-platforms)
+- [Beyond Notebooks - Serverless ML](https://github.com/featurestoreorg/serverless-ml-course) - Serverless ML Course for building AI-enabled Prediction Services from models and features.

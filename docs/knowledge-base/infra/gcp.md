@@ -5,6 +5,24 @@ title: GCP
 ## Pricing
 
 - [GCPinstances.info](https://gcpinstances.doit-intl.com/)
+- [DB Cost](https://www.dbcost.com/) - The Simple AWS RDS and Google Cloud SQL Instance Pricing Sheet.
+
+## Administration
+
+- [Regions and zones](https://cloud.google.com/compute/docs/regions-zones)
+- [GCP List of API Services](https://gist.github.com/coryodaniel/13eaee16a87a7fdca5e738123216862a)
+
+## IAM
+
+- [Viewing effective IAM policies](https://cloud.google.com/asset-inventory/docs/view-effective-iam-policies)
+- [IAM basic and predefined roles reference](https://cloud.google.com/iam/docs/understanding-roles)
+- [Analyze IAM policies](https://cloud.google.com/policy-intelligence/docs/analyze-iam-policies)
+- [Overview of role recommendations](https://cloud.google.com/policy-intelligence/docs/role-recommendations-overview)
+
+## VPC
+
+- [Shared VPC](https://cloud.google.com/vpc/docs/shared-vpc)
+- [VPC peering](https://cloud.google.com/vpc/docs/vpc-peering)
 
 ## Resources
 

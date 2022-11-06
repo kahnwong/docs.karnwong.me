@@ -4,18 +4,14 @@ title: Data Engineering
 
 ## Tools
 
-### Analytics Engineering
-
-- [dbt](https://www.getdbt.com) - Analytics engineering tools designed for analysts.
-
-### Data Connectors
-
-- [Airbyte](https://airbyte.io) - Open data integration for modern data teams.
-
 ### Reverse ETL
 
 - [Castled](https://www.castled.io/) - Sync customer and product data in your data warehouse into marketing, sales, or customer success tools without any help from engineering teams.
 - [rudderstack](https://www.rudderstack.com/)
+
+### Data Modeling
+
+- [Naming Conventions](https://www.elastic.co/guide/en/beats/devguide/current/event-conventions.html)
 
 ### Data Quality
 
@@ -25,11 +21,6 @@ title: Data Engineering
 ### Mock Data
 
 - [Replibyte](https://github.com/Qovery/Replibyte) - Seed your development database with real data ⚡️.
-
-## Resources
-
-- [Awesome Data Engineering](https://awesomedataengineering.com)
-- [Data Engineering Wiki](https://dataengineering.wiki)
 
 ## Data Platform Engineering
 
@@ -41,6 +32,8 @@ title: Data Engineering
 - [Modern Data Stack Glossary](https://www.secoda.co/glossary)
 - [The data observability dictionary](https://www.bigeye.com/blog/data-observability-dictionary)
 
-### Streaming
+## Resources
 
+- [Awesome Data Engineering](https://awesomedataengineering.com)
+- [Data Engineering Wiki](https://dataengineering.wiki)
 - [Gently Down the Stream](https://www.gentlydownthe.stream/) - A gentle introduction to Apache Kafka.

@@ -170,3 +170,7 @@ sudo ifconfig wlan0 down
 # plot IP location on map
 host spotify.com | iponmap -c
 ```
+
+## Resources
+
+- [Computing from the Command Line](https://learnbyexample.github.io/cli-computing/preface.html) - 🐧 Linux command line and Scripting guide for beginner to intermediate users.
