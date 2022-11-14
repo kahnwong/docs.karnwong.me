@@ -49,7 +49,7 @@ title: Shopping
 - [jweep](https://www.jweep.com/products) - Experimental garments.
 - [planeta](https://focomo.myshopify.com/collections/planeta?page=4)
 - [Kathmandu](https://www.kathmandu.com.au)
-- [tathata](tathatabrand.com/)
+- [tathata](https://tathatabrand.com/)
 
 ## Cobbler
 
