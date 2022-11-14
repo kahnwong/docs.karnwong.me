@@ -19,6 +19,7 @@ terraform state replace-provider -auto-approve registry.terraform.io/-/aws hashi
 - [terragrunt](https://terragrunt.gruntwork.io/docs/getting-started/quick-start/) - Terragrunt is a thin wrapper that provides extra tools for keeping your configurations DRY, working with multiple Terraform modules, and managing remote state.
 - [tfrefactor](https://github.com/craftvscruft/tfrefactor) - Automated refactoring for Terraform.
 - [tfadd](https://github.com/magodo/tfadd) - Generate valid Terraform configuration from state.
+- [Pluralith](https://pluralith.com/) - Visualize Terraform infrastructure.
 
 ### Linters
 

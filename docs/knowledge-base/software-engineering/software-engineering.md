@@ -29,12 +29,20 @@ title: Software Engineering
 
 - [Email for SaaS 101](https://loops.so/email-for-saas)
 
+## Web development
+
+- [Web Developer Checklist: Website Launch Checklist](https://www.toptal.com/developers/webdevchecklist)
+- [Website Audit Checklist](https://audit.bt.ht/)
+
+## Product / Project
+
+- [PriceOps](https://priceops.org/) - A methodology for pricing model definition and implementation that supports iteration, safety, and organizational alignment.
+- [The Full-Stack Software Design and Architecture Roadmap](https://github.com/stemmlerjs/software-design-and-architecture-roadmap)
+- [Path to a Software Architect](https://github.com/justinamiller/SoftwareArchitect)
+- [Design Sprints](https://designsprintkit.withgoogle.com/) - Transform the way your team works.
+
 ## Resources
 
 - [Every Programmer Should Know 🤔](https://github.com/mtdvio/every-programmer-should-know)
 - [John Lewis IT Software Engineering Principles](http://engineering-principles.onejl.uk/)
 - [Linguistic Antipatterns](https://www.linguistic-antipatterns.com/) - This is a website to teach you to identify and fix linguistic antipatterns in your code.
-- [Web Developer Checklist: Website Launch Checklist](https://www.toptal.com/developers/webdevchecklist)
-- [The Full-Stack Software Design and Architecture Roadmap](https://github.com/stemmlerjs/software-design-and-architecture-roadmap)
-- [Path to a Software Architect](https://github.com/justinamiller/SoftwareArchitect)
-- [Design Sprints](https://designsprintkit.withgoogle.com/) - Transform the way your team works.

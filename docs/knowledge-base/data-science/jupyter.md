@@ -62,3 +62,18 @@ JSON(
 ```bash
 jupyter nbconvert notebook.ipynb --to markdown
 ```
+
+## Jupyter logging
+
+```python
+import logging
+import sys
+
+logging.basicConfig(
+    format="%(asctime)s | %(levelname)s : %(message)s",
+    level=logging.INFO,
+    stream=sys.stdout,
+)
+
+logging.info("Hello world!")
+```

@@ -64,6 +64,7 @@ Notes:
 - [The Gold Green](http://www.thegoldgreenthailand.com/#fruit) - Dried fruits
 - ทอฟฟี่นมแสงไทย
 - [Dever Energy Gel](https://deverenergygel.com/shop/) - Energy gel
+- [Kaew](https://www.kaew.co.th/product) - Crispy coconut rolls
 
 ## Legal
 

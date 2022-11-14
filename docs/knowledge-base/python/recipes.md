@@ -257,3 +257,18 @@ with open(filename, "r") as f:
     except yaml.YAMLError as e:
         print(e)
 ```
+
+## pytest
+
+```bash
+# pip install pytest pytest-cov pytest-xdist
+
+pipenv run pytest -n auto --cov-report html --cov=./
+pipenv run pytest -n auto --cov-report term-missing --cov=./
+```
+
+## profiling
+
+```bash
+python -m cProfile -s cumulative some-code.py
+```

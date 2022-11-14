@@ -63,13 +63,6 @@ git-clean - Remove untracked files from the working tree
 -X - Remove only files ignored by Git.
 ```
 
-### Remove submodule
-
-```bash
-git rm -r the_submodule
-rm -rf .git/modules/the_submodule
-```
-
 ### get total additions and deletions on a given branch for an given author in git
 
 ```bash
