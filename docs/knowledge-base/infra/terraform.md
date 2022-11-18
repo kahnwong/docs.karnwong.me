@@ -47,7 +47,7 @@ terraform state push dev.tfstate
 
 ## Resources
 
-- [How Terraform Works: A Visual Intro](https://towardsdev.com/how-terraform-works-a-visual-intro-6328cddbe067)
+- [How Terraform Works: A Visual Intro](https://betterprogramming.pub/how-terraform-works-a-visual-intro-6328cddbe067)
 - [My Terraform Development Workflow](https://brendanthompson.com/posts/2021/11/my-terraform-development-workflow)
 - [My Terraform Standards](https://brendanthompson.com/posts/2021/11/my-terraform-standards)
 - [Terraform Best Practices](https://www.terraform-best-practices.com/)

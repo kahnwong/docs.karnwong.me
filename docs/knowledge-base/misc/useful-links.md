@@ -84,7 +84,6 @@ title: Useful Links
 
 - [freecourses - German](https://old.reddit.com/r/German/wiki/freecourses)
 - [Hurraki - Wörterbuch für Leichte Sprache](https://hurraki.de/wiki/Hauptseite)
-- [Level A1 | DW](https://www.dw.com/en/learn-german/level-a1/s-13227)
 - [Mein Sprachportal - ÖIF Sprachportal](http://sprachportal.integrationsfonds.at/)
 - [Nachrichtenleicht - Startseite](https://www.nachrichtenleicht.de/)
 - [NEON.de: Aktuelle Artikel & Unnützes Wissen | STERN.de](https://www.stern.de/neon/)
