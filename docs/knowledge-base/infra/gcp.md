@@ -19,10 +19,15 @@ title: GCP
 - [Analyze IAM policies](https://cloud.google.com/policy-intelligence/docs/analyze-iam-policies)
 - [Overview of role recommendations](https://cloud.google.com/policy-intelligence/docs/role-recommendations-overview)
 
-## VPC
+## Networking
 
 - [Shared VPC](https://cloud.google.com/vpc/docs/shared-vpc)
 - [VPC peering](https://cloud.google.com/vpc/docs/vpc-peering)
+- [Subnets](https://cloud.google.com/vpc/docs/subnets)
+
+## Compute
+
+- [Machine families resource and comparison guide](https://cloud.google.com/compute/docs/machine-resource)
 
 ## Resources
 

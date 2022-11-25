@@ -27,3 +27,4 @@ title: Career
 - [Progression at Kevala](https://kevala-progression.herokuapp.com/)
 - [Software Development/Leadership Ladder](https://docs.google.com/spreadsheets/d/1k4sO6pyCl_YYnf0PAXSBcX776rNcTjSOqDxZ5SDty-4/edit#gid=0)
 - [Progression at Monzo](https://github.com/monzo/progression-framework)
+- [re:work](https://rework.withgoogle.com/) - A collection of practices, research, and ideas from Google and others to help you put people first.

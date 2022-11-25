@@ -15,6 +15,7 @@ title: Software Engineering
 - [System Design Course](https://github.com/karanpratapsingh/system-design)
 - [Architecture Notes](https://architecturenotes.co/)
 - [Awesome Software and Architectural Design Patterns](https://github.com/DovAmir/awesome-design-patterns) - A curated list of software and architecture related design patterns.
+- [Command Line Interface Guidelines](https://clig.dev/) - An open-source guide to help you write better command-line programs, taking traditional UNIX principles and updating them for the modern day.
 
 ## Regex
 
@@ -28,6 +29,7 @@ title: Software Engineering
 ## Product / Marketing
 
 - [Email for SaaS 101](https://loops.so/email-for-saas)
+- [A guide to Google Search ranking systems](https://developers.google.com/search/docs/appearance/ranking-systems-guide)
 
 ## Web development
 
@@ -40,9 +42,11 @@ title: Software Engineering
 - [The Full-Stack Software Design and Architecture Roadmap](https://github.com/stemmlerjs/software-design-and-architecture-roadmap)
 - [Path to a Software Architect](https://github.com/justinamiller/SoftwareArchitect)
 - [Design Sprints](https://designsprintkit.withgoogle.com/) - Transform the way your team works.
+- [Awesome Billing](https://github.com/kdeldycke/awesome-billing) - 💰 Billing & Payments Knowledge for Cloud Platforms.
 
 ## Resources
 
 - [Every Programmer Should Know 🤔](https://github.com/mtdvio/every-programmer-should-know)
 - [John Lewis IT Software Engineering Principles](http://engineering-principles.onejl.uk/)
 - [Linguistic Antipatterns](https://www.linguistic-antipatterns.com/) - This is a website to teach you to identify and fix linguistic antipatterns in your code.
+- [xg2xg](https://github.com/jhuangtw/xg2xg) - By ex-googlers, for ex-googlers - a lookup table of similar tech & services.

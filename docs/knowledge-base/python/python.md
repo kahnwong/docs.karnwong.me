@@ -60,6 +60,8 @@ pipenv install -r requirements.txt
 
 ## Resources
 
+- [Python Readiness](https://pyreadiness.org/) - Python support graph for specific Python versions for the most popular Python packages!
+
 ### Learning
 
 - [CodingBat](https://codingbat.com/python) - Python exercises.

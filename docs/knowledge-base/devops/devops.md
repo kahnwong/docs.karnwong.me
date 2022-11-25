@@ -69,6 +69,7 @@ title: DevOps
 - [Production Readiness Checklist](https://gruntwork.io/devops-checklist)
 - [command-not-found](https://command-not-found.com)
 - [DontBreakDebian](https://wiki.debian.org/DontBreakDebian) - Advice For New Users On Not Breaking Their Debian System
+- [Diátaxis](https://diataxis.fr/) - A systematic framework for technical documentation authoring.
 
 ### Learning
 
@@ -76,6 +77,7 @@ title: DevOps
 - [DevOps Roadmap](https://roadmap.sh/devops)
 - [Server Admin for Programmers](https://serversforhackers.com/)
 - [System Administrator's Guide](https://docs.rockylinux.org/books/admin_guide/01-presentation/)
+- [The Cloud Native Wiki](https://www.aquasec.com/cloud-native-academy/)
 
 ### Interview
 

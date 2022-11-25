@@ -18,3 +18,4 @@ title: MLOps
 - [The LF AI & Data Foundation](https://landscape.lfai.foundation)
 - [MLOps Platforms](https://github.com/thoughtworks/mlops-platforms)
 - [Beyond Notebooks - Serverless ML](https://github.com/featurestoreorg/serverless-ml-course) - Serverless ML Course for building AI-enabled Prediction Services from models and features.
+- [The Data Cards Playbook](https://pair-code.github.io/datacardsplaybook/) - Structured summaries of essential facts about various aspects of ML datasets needed by stakeholders across a project's lifecycle for responsible AI development.
