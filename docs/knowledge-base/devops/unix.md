@@ -47,8 +47,11 @@ fi
 split -l 300 file.txt new
 split -b 500m httpd.log
 
-# replace string  in text file
+# replace string in text file
 sed -i 's/old-text/new-text/g' input.txt
+
+## can also use `#` as separator
+sed -i.bak 's#$HOME#/home/runner/work#' scripts/docker-pytest.sh
 
 ## osx
 sed -i .bak 's/old-text/new-text/g' input.txt
@@ -61,6 +64,15 @@ grep -l 'Subject: \[SPAM\]' | xargs -I '{}' mv '{}' DIR
 
 # base64 binary decode
 echo "$myImgStr" | base64 -d > image2.jpg
+
+
+# check if file exists
+if [ -f ".env" ]; then
+	source ./.env
+else
+	echo "env doesn't exist!"
+    exit 1
+fi
 ```
 
 ## Mount & Umount
