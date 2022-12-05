@@ -8,3 +8,4 @@ title: Platform Engineering
 ## Tools
 
 - [backstage.io](https://backstage.io/plugins) - Backstage is an open platform for building developer portals.
+- [Platform engineering ROI calculator](https://humanitec.com/roi)

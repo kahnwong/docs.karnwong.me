@@ -7,6 +7,7 @@ title: Software Engineering
 - [The Arcane Algorithm Archive](https://www.algorithm-archive.org)
 - [Layers of Bitcoin](https://layers.trudi.group/)
 - [The Algorithms](https://the-algorithms.com/)
+- [https://adileo.github.io/awesome-identifiers/](https://adileo.github.io/awesome-identifiers/) - Pick the best database primary key.
 
 ### System Design and Architecture
 
@@ -35,6 +36,10 @@ title: Software Engineering
 
 - [Web Developer Checklist: Website Launch Checklist](https://www.toptal.com/developers/webdevchecklist)
 - [Website Audit Checklist](https://audit.bt.ht/)
+
+## UX/UI
+
+- [The Psychology of Design](https://growth.design/psychology) - 106 Cognitive Biases & Principles That Affect Your UX.
 
 ## Product / Project
 

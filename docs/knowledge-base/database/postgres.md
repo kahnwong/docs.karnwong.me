@@ -130,6 +130,7 @@ db> \copy (SELECT  * FROM district_boundary) TO '~/Downloads/file.tsv' WITH (FOR
 
 - [pg_extras](https://github.com/pawurb/python-pg-extras/tree/master/pg_extras/queries) - various util queries
 - [pgmonitor](https://github.com/CrunchyData/pgmonitor) - PostgreSQL Monitoring, Metrics Collection and Alerting Resources from Crunchy Data.
+- [PostgreSQL Configurator](https://pgconfigurator.cybertec-postgresql.com/)
 
 ## Resources
 

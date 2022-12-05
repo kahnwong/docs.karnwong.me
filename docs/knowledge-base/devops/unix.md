@@ -187,3 +187,5 @@ host spotify.com | iponmap -c
 
 - [Computing from the Command Line](https://learnbyexample.github.io/cli-computing/preface.html) - 🐧 Linux command line and Scripting guide for beginner to intermediate users.
 - [linux-insides](https://0xax.gitbooks.io/linux-insides) - A book-in-progress about the linux kernel and its insides.
+- [Chmod Calculator](https://chmod-calculator.com/)
+- [Unix shell script tactics](https://github.com/SixArm/unix-shell-script-tactics)
