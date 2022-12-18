@@ -28,6 +28,7 @@ const sidebars = {
         "knowledge-base/devops/docker",
         "knowledge-base/devops/git",
         "knowledge-base/devops/github",
+        "knowledge-base/devops/nix",
         "knowledge-base/devops/unix",
       ],
     },

@@ -135,3 +135,4 @@ db> \copy (SELECT  * FROM district_boundary) TO '~/Downloads/file.tsv' WITH (FOR
 ## Resources
 
 - [Postgres Playground](https://www.crunchydata.com/developers/tutorials)
+- [Postgres Tips & Tricks](https://www.crunchydata.com/postgres-tips)

@@ -62,6 +62,11 @@ title: Shopping
 - [Ear plug superstore](https://www.earplugstore.com)
 - [Happy Ears](https://www.happyearsearplugs.com)
 
+## EDC
+
+- [TANKstore](https://www.e-tankstore.com/)
+- [Bangkok Tactical](https://www.bangkoktactical.com/)
+
 ## Electronics
 
 - [Advice.co.th](https://www.advice.co.th/)
@@ -103,6 +108,7 @@ title: Shopping
 - [Midori Notebook](https://www.midori-japan.co.jp/md/en/products/mdnote/)
 - [Milligram](https://milligram.com/)
 - [ZEQUENZ](https://www.zequenz.com/)
+- [STUDIO360](https://www.studio360th.com/)
 
 ## Tea
 

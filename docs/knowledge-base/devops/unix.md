@@ -183,6 +183,10 @@ sudo ifconfig wlan0 down
 host spotify.com | iponmap -c
 ```
 
+## Linux on Macbook
+
+- [troubleshooting not waking up after closing the lid](https://askubuntu.com/a/1020883)
+
 ## Resources
 
 - [Computing from the Command Line](https://learnbyexample.github.io/cli-computing/preface.html) - 🐧 Linux command line and Scripting guide for beginner to intermediate users.

@@ -31,3 +31,4 @@ title: Data Science
 - [The Data Science Interview Book](https://dipranjan.github.io/dsinterviewqns/intro.html)
 - [SkyTowner](https://www.skytowner.com/) - 1900+ data science docs and recipes.
 - [Dashboard Design Patterns](https://dashboarddesignpatterns.github.io/)
+- [Data Team Handbook](https://about.gitlab.com/handbook/business-technology/data-team/)
