@@ -89,10 +89,11 @@ export DOCKER_DEFAULT_PLATFORM=linux/amd64
 tail -f /dev/null
 ```
 
-### Dockerfile
+## Recipes
 
-```Dockerfile
-### Dockerfile if-else for multi architecture
+### if-else for multi architecture
+
+```dockerfile
 ENV SOPS_VERSION=3.7.2
 ARG TARGETPLATFORM
 RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then ARCHITECTURE=amd64; elif [ "$TARGETPLATFORM" = "linux/arm64" ]; then ARCHITECTURE=arm64; else ARCHITECTURE=amd64; fi \
@@ -100,13 +101,34 @@ RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then ARCHITECTURE=amd64; elif [ "$
     && wget --progress=dot:mega https://github.com/mozilla/sops/releases/download/v$SOPS_VERSION/$FILENAME \
     && dpkg -i $FILENAME \
     && rm $FILENAME
+```
 
 ### import base Dockerfile
+
+```dockerfile
 # syntax = edrevo/dockerfile-plus
 
 INCLUDE+ Dockerfile.base
 
 RUN whatever
+```
+
+### Boilerplate Dockerfile
+
+```dockerfile
+FROM python:3.10-slim
+
+RUN pip install pgsync==2.3.3
+
+RUN mkdir -p /opt/pgsync
+WORKDIR /opt/pgsync
+
+ADD schema.json /opt/pgsync
+ADD entrypoint.sh /opt/pgsync
+
+RUN chmod +x entrypoint.sh
+
+ENTRYPOINT ["./entrypoint.sh"]
 ```
 
 ## Tools
@@ -119,7 +141,3 @@ RUN whatever
 - [composerize](https://www.composerize.com) - docker run asdlksjfksdf > docker-composerize up.
 - [contains.dev](https://contains.dev/) - Explore your images, view their files, layers and dependencies.
 - [The Compose Specification](https://github.com/compose-spec/compose-spec/blob/master/spec.md) - The Compose specification establishes a standard for the definition of multi-container platform-agnostic applications.
-
-```
-
-```

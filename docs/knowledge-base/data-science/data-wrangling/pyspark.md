@@ -369,22 +369,24 @@ To overwrite without losing schema & permission, use `truncate`
 ### Postgres
 
 ```python
+### read
 (
     spark.read.format("jdbc")
-    .option("url", "jdbc:postgresql://{}:5432/{}".format(host, db_name))
-    .option("query", query)
-    .option("user", username)
-    .option("password", password)
+    .option("url", uri)
+    .option("dbtable", TABLENAME)
+    .option("user", USERNAME)
+    .option("password", PASSWORD)
     .option("driver", "org.postgresql.Driver")
     .load()
 )
 
+### write
 (
     df.write.format("jdbc")
-    .option("url", "jdbc:postgresql://{}:5432/{}".format(host, db_name))
-    .option("dbtable", table_name)
-    .option("user", username)
-    .option("password", password)
+    .option("url", uri)
+    .option("dbtable", TABLENAME)
+    .option("user", USERNAME)
+    .option("password", PASSWORD)
     .option("driver", "org.postgresql.Driver")
     .option("truncate", "true")
     .mode("overwrite")
@@ -403,17 +405,23 @@ os.environ[
 
 from pyspark.sql import SparkSession
 
-spark = (
-    SparkSession.builder.appName("myApp")
-    .config(
-        "spark.mongodb.input.uri",
-        "mongodb://USER:PASSWORD@HOST:27017/DB.COLLECTION?authSource=admin&readPreference=primary&ssl=false",
-    )
-    .config(
-        "spark.mongodb.input.uri",
-        "mongodb://USER:PASSWORD@HOST:27017/DB.COLLECTION?authSource=admin&readPreference=primary&ssl=false",
-    )
-    .getOrCreate()
+### read
+(
+    spark.read.format("mongodb")
+    .option("connection.uri", uri)
+    .option("database", DBNAME)
+    .option("collection", TABLENAME)
+    .load()
+)
+
+### write
+(
+    df.write.format("mongodb")
+    .option("connection.uri", uri)
+    .option("database", DBNAME)
+    .option("collection", TABLENAME)
+    .mode("overwrite")
+    .save()
 )
 ```
 
@@ -440,6 +448,57 @@ echo 'sc.getConf.get("spark.home")' | spark-shell
 ```
 
 ## Recipes
+
+### Generate fake data
+
+```python
+import uuid
+
+from faker import Faker
+from pyspark import SparkContext
+from tqdm import tqdm
+
+from utils.create_spark_session import get_spark_session
+
+
+### config
+N = 500000
+
+
+### init spark
+spark = get_spark_session()
+
+
+### main
+fake = Faker()
+
+schema = {
+    "id": uuid.uuid4,
+    "name": fake.name,
+    "company": fake.company,
+    "address": fake.address,
+    "latitude": fake.latitude,
+    "longitude": fake.longitude,
+    "phone_number": fake.phone_number,
+    "created_at": fake.date_time,
+    "updated_at": fake.date_time,
+}
+
+values = [
+    tuple(str(i()) if i == uuid.uuid4 else i() for i in schema.values())
+    for _ in tqdm(range(N))
+]
+
+
+### generate seed data
+sc = SparkContext.getOrCreate()
+
+rdd = sc.parallelize(values)
+
+# Create a DataFrame from the RDD
+df = spark.createDataFrame(rdd, list(schema.keys()))
+df.repartition(4).write.parquet("data/seed_data", mode="overwrite")
+```
 
 ### Count missing values + groupby
 

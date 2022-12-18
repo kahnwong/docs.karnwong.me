@@ -42,20 +42,9 @@ Given the string `foobarbarfoo`
 
 ## Datetime
 
+### Parsing
+
 ```python
-from datetime import datetime, timedelta
-from dateutil.parser import parse
-from dateparser import parse as parsethai
-from pytz import timezone
-import os
-
-
-# timedelta
-datetime.now() + timedelta(days=10)
-
-# attach tz to datetime object
-timezone("Asia/Bangkok").localize(datetime.now())
-
 # get current datetime in specified tz
 datetime.now(timezone("Asia/Bangkok"))
 
@@ -65,19 +54,21 @@ datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 # from string
 datetime.strptime(datetime.now(), "%Y-%m-%d")
 
-# replace datetime object attributes
-pubdate.replace(tzinfo=None)
-pubdate.replace(year=pubdate.year - 543)
-
 # from epoch timestamp
 datetime.fromtimestamp(1347517370 / 1000)  # /1000 in case of ValueError
+```
 
-# set system tz env var on-the-fly
-os.environ["TZ"] = "UTC"
+### Generate day bound
 
-# convert datetime value to target tz (eg. 00:00AM to 07:00AM from UTC to Asia/Bangkok)
-utc = timezone("UTC")
-datetime.now().astimezone(utc)
+```python
+os.environ["TZ"] = "Asia/Bangkok"
+
+day_lower_th = parse(day)
+utc = pytz.timezone("UTC")
+
+# bounds (now in UTC)
+day_lower = day_lower_th.astimezone(utc)
+day_upper = day_lower + timedelta(days=1)
 ```
 
 ## Threading
@@ -271,4 +262,17 @@ pipenv run pytest -n auto --cov-report term-missing --cov=./
 
 ```bash
 python -m cProfile -s cumulative some-code.py
+```
+
+## argparse
+
+```python
+import argparse
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("day", help="pipeline run date in `xxxx-xx-xx` format")
+args = parser.parse_args()
+
+day = args.day
 ```
