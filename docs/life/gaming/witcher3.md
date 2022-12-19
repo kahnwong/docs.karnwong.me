@@ -30,7 +30,7 @@ slug: /notes
 * child of the elder blood - go for it
 * Skjall's grave - go with her
 
-## Heart's of stone
+## Hearts of stone
 
 * open sesame
   * the art dealer - yaromir → portrait of a merchant → don’t tell Vivaldi
