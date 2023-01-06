@@ -43,7 +43,6 @@ aws s3 sync s3://S3PATH/ . --dryrun
 ## EC2
 
 - [unused-amis.sh](https://gist.github.com/ilpianista/a8dfe8f7042d61abb8524571be910403)
-- [Amazon EC2 Instance Comparison](https://ec2instances.github.io/)
 
 ## EMR
 
