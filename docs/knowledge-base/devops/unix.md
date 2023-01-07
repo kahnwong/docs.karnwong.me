@@ -101,6 +101,13 @@ https://www.digitalocean.com/community/tutorials/how-to-use-journalctl-to-view-a
 journalctl --vacuum-size=1G
 ```
 
+## jq
+
+```bash
+# parse JSON string
+jq '.c | fromjson | .id' myFile.json
+```
+
 ## openssl
 
 ```bash

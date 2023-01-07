@@ -69,6 +69,7 @@ for google calendar: `https://apidata.googleusercontent.com/caldav/v2/$calendarI
 - [Free for developers](https://free-for.dev/#/)
 - [list.community](https://list.community) - List.community is an easy way to browse curated lists on GitHub.
 - [Privacy Guides](https://privacyguides.org)
+- [European Alternatives](https://european-alternatives.eu/)
 
 ## Self-Hosting
 

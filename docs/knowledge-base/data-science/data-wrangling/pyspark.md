@@ -169,6 +169,10 @@ spark_session.createDataFrame(df)  # pandas to spark
 
 # show in vertical
 df.show(n=3, truncate=False, vertical=True)
+
+# get schema in JSON
+schema = df.schema.jsonValue()
+schema = schema["fields"]
 ```
 
 ## Transformations

@@ -65,3 +65,4 @@ pipenv install -r requirements.txt
 ### Learning
 
 - [CodingBat](https://codingbat.com/python) - Python exercises.
+- [pyroad](https://github.com/amaargiru/pyroad) - Detailed Python developer roadmap.

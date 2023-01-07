@@ -2,6 +2,11 @@
 title: DevOps
 ---
 
+## Deployment
+
+- [LaunchDarkly](https://launchdarkly.com/) - Feature flags toggle.
+- [ngrok](https://ngrok.com/) - ngrok allows you to expose a web server running on your local machine to the internet. Just tell ngrok what port your web server is listening on.
+
 ## Diagrams
 
 - [Cloudcraft](https://www.cloudcraft.co) - Visualize your cloud architecture like a pro.
@@ -12,11 +17,6 @@ title: DevOps
 - [Eraser](https://app.tryeraser.com/all) - An all-in-one ideation tool for distributed teams.
 - [markwhen](https://github.com/mark-when/markwhen) - Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, links, locations, and more.
 
-## Feature flags
-
-- [LaunchDarkly](https://launchdarkly.com/) - Feature flags toggle.
-- [ngrok](https://ngrok.com/) - ngrok allows you to expose a web server running on your local machine to the internet. Just tell ngrok what port your web server is listening on.
-- [SSL Server Test](https://www.ssllabs.com/ssltest/) - A comprehensive free SSL test for your public web servers.
 
 ## Networking
 
@@ -25,39 +25,35 @@ title: DevOps
 - [Fast.com](https://fast.com/) - How fast is your download speed? In seconds, FAST.com's simple Internet speed test will estimate your ISP speed.
 - [CanYouSeeMe](https://canyouseeme.org) - Open Port Check Tool.
 
+### Blocklist
+
+- [The Big Blocklist Collection](https://firebog.net)
+- [FB_Whitelist](https://github.com/zlatco/FB_Whitelist) - A Host file to whitelist as little as possible for Facebook and Messenger, while still making them usable!
+
 ### DNS
 
 - [deSEC](https://desec.io) - Modern DNS Hosting for Everyone.
 - [DuckDNS](https://www.duckdns.org)
 - [freemyip](https://www.freemyip.com)
 
-#### Blocklist
+### VPN
 
-- [The Big Blocklist Collection](https://firebog.net)
-- [FB_Whitelist](https://github.com/zlatco/FB_Whitelist) - A Host file to whitelist as little as possible for Facebook and Messenger, while still making them usable!
+- [tailscale](https://tailscale.com/download/linux) - The easiest, most secure way to use WireGuard and 2FA.
+- [wireguard-fast](https://github.com/fastai/wireguard-fast)
 
-### Status
+## Monitoring
 
 - [Pinging](https://www.pinging.net/)
 - [Global Response Time Checker](https://checker.ddosify.com/)
 - [jota-cert-checker](https://github.com/juliojsb/jota-cert-checker) - Check SSL certificate expiration date of a list of sites.
-
-## Monitoring / SRE
-
-- [Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems/)
-- [The practical guide to incident management](https://incident.io/guide/)
-- [A List of Post-mortems!](https://github.com/danluu/post-mortems)
 
 ## Security
 
 - [Hardenize](https://www.hardenize.com/) - Automated Discovery and Monitoring of Your Entire Network Perimeter.
 - [No Secrets! 🤫](https://sourcegraph-community.github.io/no-secrets/) - Find secrets in your GitHub repo.
 - [trivy](https://github.com/aquasecurity/trivy) - Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues and hard-coded secrets, also cloud infrastructure as well.
+- [SSL Server Test](https://www.ssllabs.com/ssltest/) - A comprehensive free SSL test for your public web servers.
 
-### VPN
-
-- [tailscale](https://tailscale.com/download/linux) - The easiest, most secure way to use WireGuard and 2FA.
-- [wireguard-fast](https://github.com/fastai/wireguard-fast)
 
 ## Tools
 
@@ -66,24 +62,29 @@ title: DevOps
 
 ## Resources
 
+- [Cloud Cost Handbook](https://handbook.vantage.sh/)
 - [CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/)
-- [Crontab.guru](https://crontab.guru/) - An easy to use editor for crontab schedules.
-- [Production Readiness Checklist](https://gruntwork.io/devops-checklist)
 - [command-not-found](https://command-not-found.com)
-- [DontBreakDebian](https://wiki.debian.org/DontBreakDebian) - Advice For New Users On Not Breaking Their Debian System
-- [Diátaxis](https://diataxis.fr/) - A systematic framework for technical documentation authoring.
-
-### Learning
-
+- [Crontab.guru](https://crontab.guru/) - An easy to use editor for crontab schedules.
 - [DevOps Exercises](https://github.com/bregman-arie/devops-exercises)
 - [DevOps Roadmap](https://roadmap.sh/devops)
+- [Diátaxis](https://diataxis.fr/) - A systematic framework for technical documentation authoring.
+- [DontBreakDebian](https://wiki.debian.org/DontBreakDebian) - Advice For New Users On Not Breaking Their Debian System
+- [Production Readiness Checklist](https://gruntwork.io/devops-checklist)
 - [Server Admin for Programmers](https://serversforhackers.com/)
 - [System Administrator's Guide](https://docs.rockylinux.org/books/admin_guide/01-presentation/)
 - [The Cloud Native Wiki](https://www.aquasec.com/cloud-native-academy/)
+- [HTTP Status Dogs](https://httpstatusdogs.com/) - Hypertext Transfer Protocol Response status codes. And dogs.
 
 ### Interview
 
 - [DevOps Job Interview Questions](https://github.com/DNXLabs/DevOps-Interview-Questions)
+
+## Monitoring / SRE
+
+- [Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems/)
+- [The practical guide to incident management](https://incident.io/guide/)
+- [A List of Post-mortems!](https://github.com/danluu/post-mortems)
 
 ### Playbook
 

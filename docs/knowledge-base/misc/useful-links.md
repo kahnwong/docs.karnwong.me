@@ -12,6 +12,13 @@ title: Useful Links
 - [shhhsound](https://www.shhhsound.com/)
 - [Sounds of the Pub](https://soundsofthepub.com/)
 
+## Browser Games
+
+- [Play Snake on Google Maps](https://snake.googlemaps.com/)
+- [Hole.io](https://hole-io.com/)
+- [slither.io](http://slither.io/)
+- [snake.io](https://snake.io/)
+
 ## Devices
 
 - [Phone Sized](https://phonesized.com/) - Phone size comparison website, allowing users to visually compare sizes of mobile phones and tablet devices side by side or stacked up one on top of the other.

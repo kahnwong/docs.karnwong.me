@@ -2,6 +2,10 @@
 title: Machine Learning
 ---
 
+## Neural Networks
+
+- [TabNet](https://github.com/dreamquark-ai/tabnet) - PyTorch implementation of TabNet paper.
+
 ## Resources
 
 - [Elements of AI](https://www.elementsofai.com) - A free online introduction to artificial intelligence for non-experts.
