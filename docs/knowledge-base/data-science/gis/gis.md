@@ -43,6 +43,7 @@ DEGREE = KM / 111.319
 
 - [docker-cartodb](https://github.com/sverhoeven/docker-cartodb) - Dockerized CartoDB.
 - [h3](https://github.com/uber/h3) - Hexagonal hierarchical geospatial indexing system.
+- [h3-viewer](https://github.com/clupasq/h3-viewer) - View Uber H3 Hexagons on a map.
 - [kepler.gl](https://kepler.gl/demo) - A data-agnostic, high-performance web-based application for visual exploration of large-scale geolocation data sets.
 - [prettymaps](https://github.com/marceloprates/prettymaps) - A small set of Python functions to draw pretty maps from OpenStreetMap data. Based on osmnx, matplotlib and shapely libraries.
 - [cartoframes](https://github.com/CartoDB/cartoframes) - CARTO Python package for data scientists.

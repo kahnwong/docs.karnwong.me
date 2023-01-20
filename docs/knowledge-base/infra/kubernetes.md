@@ -28,6 +28,15 @@ kubectl config rename-context default k3s_pi
 - [k3s](https://k3s.io/) - The certified Kubernetes distribution built for IoT & Edge computing.
 - [k3d](https://github.com/k3d-io/k3d) - Little helper to run CNCF's k3s in Docker.
 
+## Packages
+
+- [Artifact Hub](https://artifacthub.io/) - Find, install and publish Kubernetes packages.
+
+
+## Tools
+
+- [kompose](https://kompose.io/) - Kompose is a conversion tool for Docker Compose to container orchestrators such as Kubernetes (or OpenShift).
+
 ## Resources
 
 - [Learn Kubernetes with Google](https://learnkubernetes.withgoogle.com/)

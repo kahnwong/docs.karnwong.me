@@ -86,3 +86,4 @@ aws s3 sync s3://S3PATH/ . --dryrun
 - [Easily Switch Accounts in AWS](https://gist.github.com/noahcoad/370f004d3be248778dca41a1abc53543)
 - [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws)
 - [AWS breaking changes and price increases](https://github.com/SummitRoute/aws_breaking_changes)
+- [Gaining access to inherited AWS EC2 instances](https://wiringbits.net/aws/2022/09/01/gaining-access-to-inherited-aws-ec2-instances.html)

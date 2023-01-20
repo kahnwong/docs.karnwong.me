@@ -200,3 +200,4 @@ host spotify.com | iponmap -c
 - [linux-insides](https://0xax.gitbooks.io/linux-insides) - A book-in-progress about the linux kernel and its insides.
 - [Chmod Calculator](https://chmod-calculator.com/)
 - [Unix shell script tactics](https://github.com/SixArm/unix-shell-script-tactics)
+- [explainshell](https://explainshell.com/) - Write down a command-line to see the help text that matches each argument.

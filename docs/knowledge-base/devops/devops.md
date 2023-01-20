@@ -17,6 +17,10 @@ title: DevOps
 - [Eraser](https://app.tryeraser.com/all) - An all-in-one ideation tool for distributed teams.
 - [markwhen](https://github.com/mark-when/markwhen) - Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, links, locations, and more.
 
+## Documentation
+
+- [Docusaurus](https://docusaurus.io/) - Build optimized websites quickly, focus on your content.
+- [Docusaurus OpenAPI Doc Generator](https://github.com/PaloAltoNetworks/docusaurus-openapi-docs) - 🦝 OpenAPI plugin for generating API reference docs in Docusaurus v2.
 
 ## Networking
 

@@ -17,3 +17,8 @@ plug-vim, type `:PlugInstall` to install. `:PlugClean` to prune
 # replace
 %s/foo/bar/g
 ```
+
+## Resources
+
+- [neovimcraft](https://neovimcraft.com/) - Search through our curated list of neovim plugins.
+- [Vim Awesome](https://vimawesome.com/) - Awesome vim plugins from across the universe.

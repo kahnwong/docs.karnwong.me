@@ -14,3 +14,7 @@ title: Database
 ## Playground
 
 - [Supabase WASM](https://wasm.supabase.com/) - PostgreSQL in the Browser
+
+## Resources
+
+- [Database Glossary](https://www.bytebase.com/database-glossary) - A complete database term dictionary on the internet. We cover general database, MySQL, PostgreSQL as well as Bytebase specific topics.
