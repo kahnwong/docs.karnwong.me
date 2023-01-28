@@ -1,5 +1,5 @@
 ---
-title: iTerm
+title: Cookbook
 ---
 
 ## Bulk remove iTerm2 color schemes

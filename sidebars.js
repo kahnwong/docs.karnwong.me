@@ -7,6 +7,37 @@ const sidebars = {
     "entrypoint",
     {
       type: "category",
+      label: "Data",
+      collapsed: false,
+      items: [
+        "knowledge-base/data/data-engineering",
+        {
+          type: "category",
+          label: "Tools",
+          collapsed: true,
+          items: [
+            "knowledge-base/data/tools/numpy",
+            "knowledge-base/data/tools/pandas",
+            "knowledge-base/data/tools/pyspark",
+
+            {
+              type: "category",
+              label: "GIS",
+              collapsed: true,
+              items: [
+                "knowledge-base/data/tools/gis/folium",
+                "knowledge-base/data/tools/gis/gdal",
+                "knowledge-base/data/tools/gis/geopandas",
+                "knowledge-base/data/tools/gis/postgis",
+                "knowledge-base/data/tools/gis/shapely",
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Infra",
       collapsed: false,
       items: [
@@ -22,9 +53,10 @@ const sidebars = {
       label: "DevOps",
       collapsed: true,
       items: [
-        "knowledge-base/devops/devops",
         "knowledge-base/devops/apache2",
         "knowledge-base/devops/caddy",
+        "knowledge-base/devops/cookbook",
+        "knowledge-base/devops/devops",
         "knowledge-base/devops/docker",
         "knowledge-base/devops/git",
         "knowledge-base/devops/github",
@@ -32,12 +64,7 @@ const sidebars = {
         "knowledge-base/devops/unix",
       ],
     },
-    {
-      type: "category",
-      label: "Data Engineering",
-      collapsed: true,
-      items: ["knowledge-base/data-engineering/data-engineering"],
-    },
+
     {
       type: "category",
       label: "Data Science",
@@ -47,16 +74,6 @@ const sidebars = {
         "knowledge-base/data-science/jupyter",
         "knowledge-base/data-science/visualizations",
         "knowledge-base/data-science/data",
-        {
-          type: "category",
-          label: "Data Wrangling",
-          collapsed: true,
-          items: [
-            "knowledge-base/data-science/data-wrangling/numpy",
-            "knowledge-base/data-science/data-wrangling/pandas",
-            "knowledge-base/data-science/data-wrangling/pyspark",
-          ],
-        },
         {
           type: "category",
           label: "Machine Learning",
@@ -70,14 +87,7 @@ const sidebars = {
           type: "category",
           label: "GIS",
           collapsed: true,
-          items: [
-            "knowledge-base/data-science/gis/gis",
-            "knowledge-base/data-science/gis/postgis",
-            "knowledge-base/data-science/gis/folium",
-            "knowledge-base/data-science/gis/gdal",
-            "knowledge-base/data-science/gis/geopandas",
-            "knowledge-base/data-science/gis/shapely",
-          ],
+          items: ["knowledge-base/data-science/gis/gis"],
         },
         {
           type: "category",
@@ -153,26 +163,13 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Golang",
-      items: ["knowledge-base/golang/golang"],
+      label: "Programming",
+      items: ["knowledge-base/programming/golang"],
     },
     {
       type: "category",
       label: "Shell",
-      items: [
-        "knowledge-base/shell/fish",
-        "knowledge-base/shell/iterm",
-        "knowledge-base/shell/hyperjs",
-      ],
-    },
-    {
-      type: "category",
-      label: "CLI Tools",
-      items: [
-        "knowledge-base/cli-tools/ffmpeg",
-        "knowledge-base/cli-tools/pandoc",
-        "knowledge-base/cli-tools/youtube-dl",
-      ],
+      items: ["knowledge-base/shell/fish"],
     },
     {
       type: "category",
@@ -190,20 +187,16 @@ const sidebars = {
             "knowledge-base/misc/desktop-app/mp3tag",
           ],
         },
+        "knowledge-base/misc/ffmpeg",
         "knowledge-base/misc/android",
         "knowledge-base/misc/neovim",
         "knowledge-base/misc/osx",
+        "knowledge-base/misc/pandoc",
         "knowledge-base/misc/windows",
+        "knowledge-base/misc/youtube-dl",
       ],
     },
-    {
-      type: "category",
-      label: "Career",
-      items: [
-        "knowledge-base/career/one-on-one",
-        "knowledge-base/career/standup",
-      ],
-    },
+    "knowledge-base/career",
   ],
   life: [
     "life/celiac",
