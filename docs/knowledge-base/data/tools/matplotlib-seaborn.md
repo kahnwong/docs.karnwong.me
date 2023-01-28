@@ -1,13 +1,6 @@
 ---
-title: Visualizations
+title: Matplotlib/Seaborn
 ---
-
-- [Dashboard Design Patterns](https://dashboarddesignpatterns.github.io/)
-
-
-## Libraries
-
-- [PyViz](https://pyviz.org/overviews/index.html)
 
 ## Init
 
@@ -22,9 +15,7 @@ sns.set(font="Tahoma")
 plt.rcParams["font.family"] = "cursive"
 ```
 
-## Usage
-
-### Scatter / line plot
+## Scatter / line plot
 
 ```python
 fig = plt.figure(figsize=(10, 6))
@@ -38,20 +29,22 @@ sns.scatterplot(
 ).set_title("yield rate per period")
 ```
 
-### Multiplot
+## Multiplot
 
 ```python
 g = sns.FacetGrid(tips, col="time")
 g.map(plt.hist, "tip")
 ```
 
-### Rotate axis title
+## Misc
 
 ```python
+# Rotate axis title
 plt.xticks(rotation=90)
 ```
 
-## Recipes
+## Cookbook
+
 
 ### Plot dtype hist
 

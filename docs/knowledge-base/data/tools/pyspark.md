@@ -451,7 +451,7 @@ spark-submit --deploy-mode cluster s3://<PATH TO FILE>/sparky.py
 echo 'sc.getConf.get("spark.home")' | spark-shell
 ```
 
-## Recipes
+## Cookbook
 
 ### Generate fake data
 

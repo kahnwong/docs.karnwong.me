@@ -89,7 +89,7 @@ export DOCKER_DEFAULT_PLATFORM=linux/amd64
 tail -f /dev/null
 ```
 
-## Recipes
+## Cookbook
 
 ### if-else for multi architecture
 

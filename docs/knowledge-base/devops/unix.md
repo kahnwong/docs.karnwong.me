@@ -10,7 +10,7 @@ title: Unix
 | gzip | `FILE`                                         |                              |
 | zip  | `ARCHIVE.zip FILE` or `-r ARCHIVE.zip PATTERN` |                              |
 
-### Recipes
+### Cookbook
 
 ```bash
 # compress each file as gzip
@@ -183,7 +183,7 @@ curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.p
 sudo ifconfig wlan0 down
 ```
 
-## Recipes
+## Cookbook
 
 ```bash
 # plot IP location on map

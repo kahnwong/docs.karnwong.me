@@ -30,7 +30,7 @@ terraform state replace-provider -auto-approve registry.terraform.io/-/aws hashi
 
 - [Terraform graph beautifier](https://github.com/pcasteran/terraform-graph-beautifier)
 
-## Recipes
+## Cookbook
 
 ### Migrate Terraform remote tfstates
 

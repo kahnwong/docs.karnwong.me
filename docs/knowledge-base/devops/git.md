@@ -48,7 +48,7 @@ rm -rf .git/modules/<path-to-submodule>
 git config --remove-section submodule.<path-to-submodule>.
 ```
 
-## Recipes
+## Cookbook
 
 ### List untracked files
 

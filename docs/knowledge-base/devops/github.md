@@ -15,7 +15,7 @@ gh repo-delete vilmibm/deleteme
 
 - [GitHub Actions Virtual Environments](https://github.com/actions/virtual-environments)
 
-### Recipes
+### Cookbook
 
 #### Run locally built image
 

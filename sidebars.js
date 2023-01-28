@@ -20,6 +20,7 @@ const sidebars = {
           items: [
             "knowledge-base/data/specialization/gis",
             "knowledge-base/data/specialization/nlp",
+            "knowledge-base/data/specialization/visualization",
             "knowledge-base/data/specialization/web-scraping",
           ],
         },
@@ -28,6 +29,8 @@ const sidebars = {
           label: "Tools",
           collapsed: true,
           items: [
+            "knowledge-base/data/tools/jupyter",
+            "knowledge-base/data/tools/matplotlib-seaborn",
             "knowledge-base/data/tools/numpy",
             "knowledge-base/data/tools/pandas",
             "knowledge-base/data/tools/pyspark",
@@ -57,6 +60,7 @@ const sidebars = {
             },
           ],
         },
+        "knowledge-base/data/misc",
       ],
     },
     {
@@ -88,16 +92,6 @@ const sidebars = {
       ],
     },
 
-    {
-      type: "category",
-      label: "Data Science",
-      collapsed: true,
-      items: [
-        "knowledge-base/data-science/jupyter",
-        "knowledge-base/data-science/visualizations",
-        "knowledge-base/data-science/data",
-      ],
-    },
     {
       type: "category",
       label: "MLOps",

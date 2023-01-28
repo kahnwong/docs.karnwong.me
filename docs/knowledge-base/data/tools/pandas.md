@@ -204,7 +204,7 @@ import matplotlib.pyplot as plt
 gdf.plot(figsize=(50, 45)).get_figure().savefig("hello.png")
 ```
 
-## Recipes
+## Cookbook
 
 ### Get null count for each column
 

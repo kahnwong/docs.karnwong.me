@@ -1,7 +1,6 @@
 ---
-title: Data
+title: Misc
 ---
-
 
 ## POI
 
