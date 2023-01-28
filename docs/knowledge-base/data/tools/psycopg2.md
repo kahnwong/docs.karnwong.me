@@ -1,10 +1,8 @@
 ---
-title: Database
+title: psycopg2
 ---
 
-## psycopg2
-
-### Usage
+## Usage
 
 ```python
 import psycopg2
@@ -27,6 +25,8 @@ def query(QUERY: str):
 
     return [dict(r) for r in cur.fetchall()]
 ```
+
+## Cookbook
 
 ### Bulk insert
 

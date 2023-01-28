@@ -13,7 +13,7 @@ RUN apt-get install libssl-dev python3-dev gcc libc-dev libxml2-dev libxslt1-dev
 apt-get install build-essential g++ gcc libbz2-dev libc-dev liblzma-dev libncurses5-dev libncursesw5-dev libreadline-dev libsqlite3-dev libssl-dev libxml2-dev libxslt1-dev llvm make python3-dev tk-dev wget xz-utils zlib1g-dev -y
 ```
 
-## Environment
+## Virtual Environment
 
 ### [pyenv](https://github.com/pyenv/pyenv)
 
@@ -50,7 +50,7 @@ jq -r '.default | to_entries[] | .key + .value.version ' Pipfile.lock > requirem
 pipenv install -r requirements.txt
 ```
 
-## Libraries
+## Tools
 
 - [grequests](https://github.com/spyoungtech/grequests) - GRequests: Asynchronous Requests.
 - [icecream](https://github.com/gruns/icecream) - 🍦 Never use print() to debug again.
@@ -61,8 +61,5 @@ pipenv install -r requirements.txt
 ## Resources
 
 - [Python Readiness](https://pyreadiness.org/) - Python support graph for specific Python versions for the most popular Python packages!
-
-### Learning
-
 - [CodingBat](https://codingbat.com/python) - Python exercises.
 - [pyroad](https://github.com/amaargiru/pyroad) - Detailed Python developer roadmap.

@@ -38,5 +38,6 @@ title: Data Engineering
 - [Awesome Data Engineering](https://awesomedataengineering.com)
 - [Data Engineer Roadmap](https://github.com/datastacktv/data-engineer-roadmap)
 - [Data Engineering Wiki](https://dataengineering.wiki)
+- [Database Glossary](https://www.bytebase.com/database-glossary)
 - [Modern Data Stack Glossary](https://www.secoda.co/glossary)
 - [The data observability dictionary](https://www.bigeye.com/blog/data-observability-dictionary)

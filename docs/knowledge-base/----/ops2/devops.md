@@ -7,6 +7,15 @@ title: DevOps
 - [LaunchDarkly](https://launchdarkly.com/) - Feature flags toggle.
 - [ngrok](https://ngrok.com/) - ngrok allows you to expose a web server running on your local machine to the internet. Just tell ngrok what port your web server is listening on.
 
+## database
+## Managed Database
+
+- [upstash](https://upstash.com/) - Serverless Redis and Kafka.
+
+## Playground
+
+- [Supabase WASM](https://wasm.supabase.com/) - PostgreSQL in the Browser
+
 ## Diagrams
 
 - [Cloudcraft](https://www.cloudcraft.co) - Visualize your cloud architecture like a pro.
@@ -21,6 +30,19 @@ title: DevOps
 
 - [Docusaurus](https://docusaurus.io/) - Build optimized websites quickly, focus on your content.
 - [Docusaurus OpenAPI Doc Generator](https://github.com/PaloAltoNetworks/docusaurus-openapi-docs) - 🦝 OpenAPI plugin for generating API reference docs in Docusaurus v2.
+- [devhints](https://devhints.io)
+- [markmap](https://markmap.js.org) - markdown + mindmap
+
+## Badges
+
+- [For the badge](https://forthebadge.com/)
+
+
+## Presentation
+
+- [reveal.js](https://revealjs.com) - The HTML Presentation Framework.
+- [sli.dev](https://sli.dev) - Presentation Slides for Developers.
+- [marp]
 
 ## Networking
 
