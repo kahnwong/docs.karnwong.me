@@ -74,6 +74,9 @@ const sidebars = {
         "knowledge-base/ops/platform-engineering",
         "knowledge-base/ops/sre",
         "knowledge-base/ops/devops",
+        "knowledge-base/ops/finops",
+        "knowledge-base/ops/documentation",
+        "knowledge-base/ops/networking",
         "knowledge-base/ops/security",
         {
           type: "category",
