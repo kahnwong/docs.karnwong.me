@@ -11,6 +11,18 @@ const sidebars = {
       collapsed: false,
       items: [
         "knowledge-base/data/data-engineering",
+        "knowledge-base/data/data-science",
+        "knowledge-base/data/machine-learning",
+        {
+          type: "category",
+          label: "Specialization",
+          collapsed: true,
+          items: [
+            "knowledge-base/data/specialization/gis",
+            "knowledge-base/data/specialization/nlp",
+            "knowledge-base/data/specialization/web-scraping",
+          ],
+        },
         {
           type: "category",
           label: "Tools",
@@ -19,7 +31,8 @@ const sidebars = {
             "knowledge-base/data/tools/numpy",
             "knowledge-base/data/tools/pandas",
             "knowledge-base/data/tools/pyspark",
-
+            "knowledge-base/data/tools/sklearn",
+            "knowledge-base/data/tools/sql",
             {
               type: "category",
               label: "GIS",
@@ -30,6 +43,16 @@ const sidebars = {
                 "knowledge-base/data/tools/gis/geopandas",
                 "knowledge-base/data/tools/gis/postgis",
                 "knowledge-base/data/tools/gis/shapely",
+              ],
+            },
+            {
+              type: "category",
+              label: "Web Scraping",
+              collapsed: true,
+              items: [
+                "knowledge-base/data/tools/web-scraping/requests",
+                "knowledge-base/data/tools/web-scraping/selenium",
+                "knowledge-base/data/tools/web-scraping/scrapy",
               ],
             },
           ],
@@ -70,51 +93,11 @@ const sidebars = {
       label: "Data Science",
       collapsed: true,
       items: [
-        "knowledge-base/data-science/data-science",
         "knowledge-base/data-science/jupyter",
         "knowledge-base/data-science/visualizations",
         "knowledge-base/data-science/data",
-        {
-          type: "category",
-          label: "Machine Learning",
-          collapsed: false,
-          items: [
-            "knowledge-base/data-science/machine-learning/machine-learning",
-            "knowledge-base/data-science/machine-learning/sklearn",
-          ],
-        },
-        {
-          type: "category",
-          label: "GIS",
-          collapsed: true,
-          items: ["knowledge-base/data-science/gis/gis"],
-        },
-        {
-          type: "category",
-          label: "NLP",
-          collapsed: true,
-          items: ["knowledge-base/data-science/nlp/nlp"],
-        },
-        {
-          type: "category",
-          label: "SQL",
-          collapsed: true,
-          items: ["knowledge-base/data-science/sql/sql"],
-        },
-        {
-          type: "category",
-          label: "Web Scraping",
-          collapsed: true,
-          items: [
-            "knowledge-base/data-science/web-scraping/web-scraping",
-            "knowledge-base/data-science/web-scraping/requests",
-            "knowledge-base/data-science/web-scraping/selenium",
-            "knowledge-base/data-science/web-scraping/scrapy",
-          ],
-        },
       ],
     },
-
     {
       type: "category",
       label: "MLOps",

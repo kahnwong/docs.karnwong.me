@@ -31,6 +31,7 @@ title: Data Engineering
 ## Management
 
 - [Building Modern Data Teams](https://datateams.amplifypartners.com/)
+- [Data Team Handbook](https://about.gitlab.com/handbook/business-technology/data-team/)
 
 ## Resources
 

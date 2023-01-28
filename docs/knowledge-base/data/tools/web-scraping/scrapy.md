@@ -5,8 +5,6 @@ title: Scrapy
 ## Tools
 
 - [Curl to Scrapy traslator](https://michael-shub.github.io/curl2scrapy/)
-- [curlconverter](https://curl.trillworks.com) - convert curl commands to Python, JavaScript, PHP, R, Go, Rust, Dart, JSON, Ansible, Elixir.
-- [ratelimiter](https://github.com/RazerM/ratelimiter) - Simple Python module providing rate limiting.
 - [Scrapy S3 Pipeline](https://github.com/orangain/scrapy-s3pipeline) - Scrapy pipeline to store chunked items into Amazon S3 or Google Cloud Storage bucket.
 
 ## Spider

@@ -57,6 +57,20 @@ while token:
     print("\tSuccessfully pushed to {}".format(col_name))
 ```
 
+## Fetching cookies
+
+```python
+import requests
+
+
+headers = {}
+url = ""
+
+r = requests.get(url, headers=headers, verify=False)
+# print(r.cookies)
+session_id = r.cookies["PHPSESSID"]
+```
+
 ## Misc
 
 ```python

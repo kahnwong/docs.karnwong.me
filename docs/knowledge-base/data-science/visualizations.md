@@ -2,6 +2,9 @@
 title: Visualizations
 ---
 
+- [Dashboard Design Patterns](https://dashboarddesignpatterns.github.io/)
+
+
 ## Libraries
 
 - [PyViz](https://pyviz.org/overviews/index.html)

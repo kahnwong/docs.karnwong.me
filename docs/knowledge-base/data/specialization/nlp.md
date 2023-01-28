@@ -2,6 +2,8 @@
 title: NLP
 ---
 
+## Tools
+
 - [Automatic text summarizer](https://github.com/miso-belica/sumy)
 - [wisesight-sentiment](https://github.com/PyThaiNLP/wisesight-sentiment) - Thai sentiment analysis.
 
