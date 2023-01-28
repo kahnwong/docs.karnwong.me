@@ -69,11 +69,7 @@ youtube-dl -a list
 ## Config
 
 ```bash title="location"
-# osx
 ~/.config/youtube-dl/config
-
-# linux
-/.config/youtube-dl/config
 ```
 
 ```bash title="settings"

@@ -2,30 +2,29 @@
 title: Data Engineering
 ---
 
-## Tools
-
-### Reverse ETL
-
-- [Castled](https://www.castled.io/) - Sync customer and product data in your data warehouse into marketing, sales, or customer success tools without any help from engineering teams.
-- [rudderstack](https://www.rudderstack.com/)
-
-### Data Modeling
+## Data Modeling
 
 - [Naming Conventions](https://www.elastic.co/guide/en/beats/devguide/current/event-conventions.html)
 
-### Data Quality
+
+## Data Quality
 
 - [Great Expectations](https://github.com/great-expectations/great_expectations) - Always know what to expect from your data.
 - [Pandera](https://github.com/pandera-dev/pandera) - A light-weight, flexible, and expressive data validation library for dataframes.
 
-### Mock Data
+## Mock Data
 
 - [Replibyte](https://github.com/Qovery/Replibyte) - Seed your development database with real data ⚡️.
 
-## Data Platform Engineering
+## Data Platform
 
 - [Awesome Data Discovery and Observability](https://github.com/opendatadiscovery/awesome-data-catalogs)
-- [Building Modern Data Teams](https://amplifypartners.com/moderndatateamshub/)
+
+## Management
+
+- [Building Modern Data Teams](https://datateams.amplifypartners.com/)
+
+
 - [Data Engineer Roadmap](https://github.com/datastacktv/data-engineer-roadmap)
 - [Data Mesh Architecture](https://www.datamesh-architecture.com/)
 - [Data Stack](https://www.moderndatastack.xyz/stacks) - Learn how some of the most amazing companies in the world are organising their data stack. Learn more about the tools that they are using and why.

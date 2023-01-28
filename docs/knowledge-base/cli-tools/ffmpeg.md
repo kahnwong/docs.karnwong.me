@@ -24,7 +24,7 @@ ffmpeg -i input.mp4 -b:v 1M -b:a 192k output.avi
 ```
 
 ```bash title="extract audio"
-ffmpeg -i IN_FILE  -vn -acodec copy OUT_FILE
+ffmpeg -i IN_FILE -vn -acodec copy OUT_FILE
 ```
 
 ## Resources

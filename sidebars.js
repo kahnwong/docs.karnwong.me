@@ -169,8 +169,6 @@ const sidebars = {
       type: "category",
       label: "CLI Tools",
       items: [
-        "knowledge-base/cli-tools/cli-tools",
-        "knowledge-base/cli-tools/chocolatey",
         "knowledge-base/cli-tools/ffmpeg",
         "knowledge-base/cli-tools/pandoc",
         "knowledge-base/cli-tools/youtube-dl",
@@ -202,7 +200,6 @@ const sidebars = {
       type: "category",
       label: "Career",
       items: [
-        "knowledge-base/career/career",
         "knowledge-base/career/one-on-one",
         "knowledge-base/career/standup",
       ],
