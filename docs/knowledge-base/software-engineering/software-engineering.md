@@ -16,25 +16,15 @@ title: Software Engineering
 - [Makefile Tutorial](https://makefiletutorial.com/)
 
 
-## Product / Project
-
-
-
-
-
-
-
-
-
-
 
 ## Resources
 
 - [Every Programmer Should Know 🤔](https://github.com/mtdvio/every-programmer-should-know)
 - [John Lewis IT Software Engineering Principles](http://engineering-principles.onejl.uk/)
 - [Linguistic Antipatterns](https://www.linguistic-antipatterns.com/) - This is a website to teach you to identify and fix linguistic antipatterns in your code.
-- [xg2xg](https://github.com/jhuangtw/xg2xg) - By ex-googlers, for ex-googlers - a lookup table of similar tech & services.
 - [Yes, you need a degree because recruiters ask for it](https://old.reddit.com/r/ProgrammerHumor/comments/zyz5ja/yes_you_need_a_degree_because_recruiters_ask_for/) - On whether you actually need a CS degree for tech jobs or not.
+- [Tuple’s Pair Programming Guide](https://tuple.app/pair-programming-guide)
+
 
 ## Resources
 - [Engineering Lead Handbook](https://nimblehq.co/compass/team/roles/engineering-lead/)

@@ -72,6 +72,29 @@ const sidebars = {
       collapsed: true,
       items: [
         "knowledge-base/ops/platform-engineering",
+        "knowledge-base/ops/sre",
+        "knowledge-base/ops/devops",
+        "knowledge-base/ops/security",
+        {
+          type: "category",
+          label: "Cloud",
+          collapsed: true,
+          items: [
+            "knowledge-base/ops/cloud/aws",
+            "knowledge-base/ops/cloud/gcp",
+            "knowledge-base/ops/cloud/vendors",
+          ],
+        },
+        {
+          type: "category",
+          label: "Infra",
+          collapsed: true,
+          items: [
+            "knowledge-base/ops/infra/kubernetes",
+            "knowledge-base/ops/infra/packer",
+            "knowledge-base/ops/infra/terraform",
+          ],
+        },
         {
           type: "category",
           label: "Unix",

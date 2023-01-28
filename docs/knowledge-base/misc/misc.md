@@ -33,9 +33,11 @@ for google calendar: `https://apidata.googleusercontent.com/caldav/v2/$calendarI
 - [Fontesk](https://fontesk.com/) - Download thousands of free fonts for commercial and personal use. A unique collection of free fonts to download, the best and new serif, sans serif, script typefaces.
 - [Simple Icons](https://simpleicons.org)
 
-## Installers
+## Linux
 
 - [The LiveCD List](https://livecdlist.com)
+- [Ventoy](https://ventoy.net/en/index.html) - A New Bootable USB Solution.
+
 
 ## List
 

@@ -132,6 +132,11 @@ db> \copy (SELECT  * FROM district_boundary) TO '~/Downloads/file.tsv' WITH (FOR
 - [pgmonitor](https://github.com/CrunchyData/pgmonitor) - PostgreSQL Monitoring, Metrics Collection and Alerting Resources from Crunchy Data.
 - [PostgreSQL Configurator](https://pgconfigurator.cybertec-postgresql.com/)
 
+## Playground
+
+- [Supabase WASM](https://wasm.supabase.com/) - PostgreSQL in the Browser
+
+
 ## Resources
 
 - [Postgres Playground](https://www.crunchydata.com/developers/tutorials)
