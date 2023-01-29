@@ -1,5 +1,5 @@
 ---
-title: Computer science
+title: Computer Science
 ---
 
 - [The Arcane Algorithm Archive](https://www.algorithm-archive.org)

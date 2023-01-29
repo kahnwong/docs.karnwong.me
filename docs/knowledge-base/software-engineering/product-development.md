@@ -1,5 +1,5 @@
 ---
-title: Product development
+title: Product Development
 ---
 
 ## Marketing

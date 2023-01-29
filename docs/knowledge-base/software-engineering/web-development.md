@@ -1,5 +1,5 @@
 ---
-title: Web development
+title: Web Development
 ---
 
 - [Web Developer Checklist: Website Launch Checklist](https://www.toptal.com/developers/webdevchecklist)

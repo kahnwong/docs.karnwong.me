@@ -127,7 +127,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Software engineering",
+      label: "Software Engineering",
       collapsed: true,
       items: [
         "knowledge-base/software-engineering/software-engineering",
