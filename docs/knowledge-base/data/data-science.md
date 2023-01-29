@@ -6,6 +6,7 @@ title: Data Science
 
 - [streamlit](https://github.com/streamlit/streamlit) - Streamlit — The fastest way to build data apps in Python.
 - [Evidence](https://evidence.dev/) - Business intelligence for modern data teams.
+- [redash](http://redash.io/) - Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data.
 
 ## EDA
 
