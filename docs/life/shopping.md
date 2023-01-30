@@ -32,6 +32,7 @@ title: Shopping
 - [Soap for Soul](https://shopee.co.th/shop/27256077/search)
 - [Soft Cream Store Homemade Soap](http://www.softcreamstore.com/category)
 - [พร้าวไทย](http://www.prowthai.com/index.php/th/2015-12-09-14-42-16/soap-prowthai)
+- [Your Sustainable Store](https://yoursustainablestore.com/)
 
 ## Bagpack
 

@@ -22,3 +22,4 @@ title: Management
 - [Progression at Kevala](https://kevala-progression.herokuapp.com/)
 - [Progression at Monzo](https://github.com/monzo/progression-framework)
 - [Software Development/Leadership Ladder](https://docs.google.com/spreadsheets/d/1k4sO6pyCl_YYnf0PAXSBcX776rNcTjSOqDxZ5SDty-4/edit#gid=0)
+- [Junior to Senior: Career Advice for the Ambitious Programmer — Holloway](https://www.holloway.com/b/junior-to-senior)
