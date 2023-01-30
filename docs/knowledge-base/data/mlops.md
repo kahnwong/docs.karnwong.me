@@ -7,6 +7,7 @@ title: MLOps
 - [Evidently](https://github.com/evidentlyai/evidently) - Interactive reports to analyze machine learning models during validation or production monitoring.
 - [MLflow](https://github.com/mlflow/mlflow) - Open source platform for the machine learning lifecycle.
 - [MLNotify](https://mlnotify.aporia.com) - Get notified when train() is complete.
+- [CML](https://cml.dev/) - Continuous Machine Learning (CML) is CI/CD for Machine Learning Projects.
 
 ## Resources
 

@@ -21,3 +21,4 @@ title: Machine Learning
 - [Practical Deep Learning for Coders](https://course.fast.ai/)
 - [R2D3](http://www.r2d3.us) - A visual introduction to machine learning.
 - [Simulated Annealing](https://github.com/skylergrammer/SimulatedAnnealing)
+- [The IllustratedMachine Learning](https://illustrated-machine-learning.github.io/index.html)

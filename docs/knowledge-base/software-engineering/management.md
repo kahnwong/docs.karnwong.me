@@ -6,6 +6,7 @@ title: Management
 - [Awesome Leadership and Management Awesome](https://github.com/LappleApple/awesome-leading-and-managing)
 - [Awesome CTO](https://github.com/kuchin/awesome-cto)
 - [Design Sprints](https://designsprintkit.withgoogle.com/) - Transform the way your team works.
+- [Artsy Engineering](https://github.com/artsy/README)
 
 ## Hiring
 
