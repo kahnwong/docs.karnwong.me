@@ -6,6 +6,6 @@ title: Visualization
 
 - [PyViz](https://pyviz.org/overviews/index.html)
 
-# Resources
+## Resources
 
 - [Dashboard Design Patterns](https://dashboarddesignpatterns.github.io/)

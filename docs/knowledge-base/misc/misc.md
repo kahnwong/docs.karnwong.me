@@ -38,7 +38,6 @@ for google calendar: `https://apidata.googleusercontent.com/caldav/v2/$calendarI
 - [The LiveCD List](https://livecdlist.com)
 - [Ventoy](https://ventoy.net/en/index.html) - A New Bootable USB Solution.
 
-
 ## List
 
 - [Free for developers](https://free-for.dev/#/)

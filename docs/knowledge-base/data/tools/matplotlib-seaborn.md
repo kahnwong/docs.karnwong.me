@@ -45,7 +45,6 @@ plt.xticks(rotation=90)
 
 ## Cookbook
 
-
 ### Plot dtype hist
 
 ```python

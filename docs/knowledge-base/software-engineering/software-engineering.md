@@ -15,8 +15,6 @@ title: Software Engineering
 
 - [Makefile Tutorial](https://makefiletutorial.com/)
 
-
-
 ## Resources
 
 - [Every Programmer Should Know 🤔](https://github.com/mtdvio/every-programmer-should-know)
@@ -25,7 +23,7 @@ title: Software Engineering
 - [Yes, you need a degree because recruiters ask for it](https://old.reddit.com/r/ProgrammerHumor/comments/zyz5ja/yes_you_need_a_degree_because_recruiters_ask_for/) - On whether you actually need a CS degree for tech jobs or not.
 - [Tuple’s Pair Programming Guide](https://tuple.app/pair-programming-guide)
 
-
 ## Resources
+
 - [Engineering Lead Handbook](https://nimblehq.co/compass/team/roles/engineering-lead/)
 - [re:work](https://rework.withgoogle.com/) - A collection of practices, research, and ideas from Google and others to help you put people first.

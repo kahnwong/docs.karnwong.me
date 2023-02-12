@@ -11,7 +11,6 @@ pipenv run pytest -n auto --cov-report html --cov=./
 pipenv run pytest -n auto --cov-report term-missing --cov=./
 ```
 
-
 ## Cookbook
 
 ```python

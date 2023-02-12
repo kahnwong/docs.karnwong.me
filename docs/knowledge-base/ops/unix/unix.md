@@ -47,8 +47,6 @@ split -l 300 file.txt new
 split -b 500m httpd.log
 ```
 
-
-
 ## jq
 
 ```bash
@@ -76,22 +74,21 @@ rsync -ah --progress source-file destination-file
 rsync -avm --exclude='node_modules' --progress $HOST:$PATH $TARGET/
 ```
 
-
 ## Cookbook
 
 ### check if file exists
 
 ```bash
 if [ -f ".env" ]; then
-	source ./.env
+ source ./.env
 else
-	echo "env doesn't exist!"
+ echo "env doesn't exist!"
     exit 1
 fi
 ```
 
-
 ### loop list from a file
+
 ```
 IFS=$'\n' images=($(cat need_to_process_files.txt))
 for i in ${images[@]}

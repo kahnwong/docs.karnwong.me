@@ -19,8 +19,6 @@ wget -i links.txt
 wget --recursive --no-parent -w 3 --random-wait -c -i urls.txt
 ```
 
-
-
 ## ssh
 
 ```bash

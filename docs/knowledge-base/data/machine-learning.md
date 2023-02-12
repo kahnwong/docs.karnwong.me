@@ -6,7 +6,6 @@ title: Machine Learning
 
 - [TabNet](https://github.com/dreamquark-ai/tabnet) - PyTorch implementation of TabNet paper.
 
-
 ## Hiring
 
 - [Introduction to Machine Learning Interviews](https://huyenchip.com/ml-interviews-book/)

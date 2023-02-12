@@ -8,7 +8,6 @@ title: Compression
 | gzip | `FILE`                                         |                              |
 | zip  | `ARCHIVE.zip FILE` or `-r ARCHIVE.zip PATTERN` |                              |
 
-
 ```bash
 # compress each file as gzip
 for i in */*.jl; do echo "$i" && gzip "$i"; done

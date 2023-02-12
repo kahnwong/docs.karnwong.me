@@ -18,7 +18,6 @@ title: Networking
 - [tailscale](https://tailscale.com/download/linux) - The easiest, most secure way to use WireGuard and 2FA.
 - [wireguard-fast](https://github.com/fastai/wireguard-fast)
 
-
 ## Tools
 
 - [CanYouSeeMe](https://canyouseeme.org) - Open Port Check Tool.

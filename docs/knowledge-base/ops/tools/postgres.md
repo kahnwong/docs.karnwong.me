@@ -136,7 +136,6 @@ db> \copy (SELECT  * FROM district_boundary) TO '~/Downloads/file.tsv' WITH (FOR
 
 - [Supabase WASM](https://wasm.supabase.com/) - PostgreSQL in the Browser
 
-
 ## Resources
 
 - [Postgres Playground](https://www.crunchydata.com/developers/tutorials)

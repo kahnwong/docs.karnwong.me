@@ -64,7 +64,6 @@ else:
     print("lambda log")
 ```
 
-
 ## Regex
 
 ```python

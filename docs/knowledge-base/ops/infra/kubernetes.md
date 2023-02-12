@@ -32,7 +32,6 @@ kubectl config rename-context default k3s_pi
 
 - [Artifact Hub](https://artifacthub.io/) - Find, install and publish Kubernetes packages.
 
-
 ## Tools
 
 - [kompose](https://kompose.io/) - Kompose is a conversion tool for Docker Compose to container orchestrators such as Kubernetes (or OpenShift).

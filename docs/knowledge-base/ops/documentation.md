@@ -20,7 +20,6 @@ title: Documentation
 - [Voyager](https://voyager.vyne.co/) - A microservices diagramming tool.
 - [tldraw](https://www.tldraw.com/) - A tiny little drawing app.
 
-
 ## Presentation
 
 - [reveal.js](https://revealjs.com) - The HTML Presentation Framework.
@@ -30,7 +29,6 @@ title: Documentation
 ## Whiteboard
 
 - [Eraser](https://app.tryeraser.com/all) - An all-in-one ideation tool for distributed teams.
-
 
 ## Resources
 

@@ -9,7 +9,6 @@ title: Security
 - [trivy](https://github.com/aquasecurity/trivy) - Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues and hard-coded secrets, also cloud infrastructure as well.
 - [SSL Server Test](https://www.ssllabs.com/ssltest/) - A comprehensive free SSL test for your public web servers.
 
-
 ## Resources
 
 - [OAuth 2.0 Simplified](https://www.oauth.com/)
