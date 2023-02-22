@@ -11,8 +11,14 @@ title: OSX
 
 `pmset -g thermlog`
 
-## fix "App is damaged and can't be opened. You should move it to the trash"
+## Fix "App is damaged and can't be opened. You should move it to the trash"
 
 ```bash
 sudo xattr -rd com.apple.quarantine /Applications/Coherence\ Pro.app
+```
+
+## Fix iCloud sync stuck
+
+```bash
+killall bird
 ```

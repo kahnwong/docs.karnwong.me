@@ -12,6 +12,7 @@ title: Machine Learning
 
 ## Resources
 
+- [Deep Learning Tuning Playbook](https://github.com/google-research/tuning_playbook)
 - [Elements of AI](https://www.elementsofai.com) - A free online introduction to artificial intelligence for non-experts.
 - [Interactive Gaussian Process Visualization](http://www.infinitecuriosity.org/vizgp/)
 - [Mathematics for Machine Learning](https://github.com/dair-ai/Mathematics-for-ML)

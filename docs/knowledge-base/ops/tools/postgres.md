@@ -16,6 +16,15 @@ FROM pg_stat_activity
 ORDER BY runtime;
 ```
 
+### Find most used tables
+
+```sql
+SELECT schemaname, relname, seq_scan, idx_scan
+FROM pg_stat_all_tables
+ORDER BY COALESCE(seq_scan, 0) + COALESCE(idx_scan, 0) DESC
+LIMIT 5;
+```
+
 ### Create user
 
 ```sql
@@ -101,6 +110,12 @@ $ pg_dump -Fc -c -h HOST -U USERNAME -d DB_NAME > OUTFILE.sql.gz
 $ pg_restore -h HOST -U USERNAME -d DB_NAME -C -c BACKUP.sql.gz
 ```
 
+### Collation
+
+```bash
+th_TH.UTF-8 # Thai
+```
+
 ## PSQL
 
 ```bash
@@ -135,6 +150,10 @@ db> \copy (SELECT  * FROM district_boundary) TO '~/Downloads/file.tsv' WITH (FOR
 ## Playground
 
 - [Supabase WASM](https://wasm.supabase.com/) - PostgreSQL in the Browser
+
+## Troubleshooting
+
+- [PANIC: could not locate a valid checkpoint record](https://stackoverflow.com/questions/8799474/postgresql-error-panic-could-not-locate-a-valid-checkpoint-record)
 
 ## Resources
 

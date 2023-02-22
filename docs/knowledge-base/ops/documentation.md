@@ -19,6 +19,7 @@ title: Documentation
 - [swimlanes](https://swimlanes.io) - A simple online tool for creating sequence diagrams.
 - [Voyager](https://voyager.vyne.co/) - A microservices diagramming tool.
 - [tldraw](https://www.tldraw.com/) - A tiny little drawing app.
+- [Excalidraw](https://excalidraw.com/) - Hand-drawn look & feel. Collaborative. Secure.
 
 ## Presentation
 

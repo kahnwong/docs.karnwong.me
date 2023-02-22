@@ -34,3 +34,4 @@ Bulk remove iTerm2 color schemes
 ## Nix
 
 - [MyNixOS](https://mynixos.com/) - Build and share reproducible software environments with Nix and NixOS.
+- [Zero to Nix](https://zero-to-nix.com/) - An unofficial, opinionated, gentle introduction to Nix.

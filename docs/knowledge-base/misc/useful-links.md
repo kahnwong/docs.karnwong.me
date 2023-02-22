@@ -44,7 +44,6 @@ title: Useful Links
 
 ## Media
 
-- [GetRSSFeed](https://getrssfeed.com)
 - [iTunes Artwork Finder](https://bendodson.com/projects/itunes-artwork-finder/)
 - [12ft](https://12ft.io) - Remove paywalls.
 
@@ -52,6 +51,11 @@ title: Useful Links
 
 - [Pretentious-O-Meter](http://pretentious-o-meter.co.uk/)
 - [Movieo](https://movieo.me/)
+
+## Podcasts
+
+- [GetRSSFeed](https://getrssfeed.com)
+- [Rephonic](https://rephonic.com/graph) - Explore the Podcast Audience Graph. Find Similar Podcasts.
 
 ## Reading
 

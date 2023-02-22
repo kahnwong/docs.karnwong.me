@@ -29,6 +29,10 @@ title: GCP
 
 - [Machine families resource and comparison guide](https://cloud.google.com/compute/docs/machine-resource)
 
+### Cloud Run
+
+- [Enabling IAP for Cloud Run](https://cloud.google.com/iap/docs/enabling-cloud-run#gcloud)
+
 ## Resources
 
 - [Google Cloud Developer Cheat Sheet](https://googlecloudcheatsheet.withgoogle.com/)

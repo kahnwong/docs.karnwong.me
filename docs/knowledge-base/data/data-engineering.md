@@ -42,3 +42,4 @@ title: Data Engineering
 - [Modern Data Stack Glossary](https://www.secoda.co/glossary)
 - [The data observability dictionary](https://www.bigeye.com/blog/data-observability-dictionary)
 - [Data Pipeline Design Patterns](https://www.startdataengineering.com/post/design-patterns/)
+- [medium-data-bakeoff](https://github.com/EthanRosenthal/medium-data-bakeoff) - A simple benchmark for python-based data processing libraries.

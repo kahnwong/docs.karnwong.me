@@ -55,3 +55,4 @@ DEGREE = KM / 111.319
 ## Resources
 
 - [OpenStreetMap Data Extracts](http://download.geofabrik.de/index.html)
+- [Geocomputation with Python](https://py.geocompx.org/)
