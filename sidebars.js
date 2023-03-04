@@ -12,7 +12,6 @@ const sidebars = {
       items: [
         "knowledge-base/data/data-engineering",
         "knowledge-base/data/data-science",
-        "knowledge-base/data/machine-learning",
         "knowledge-base/data/mlops",
         {
           type: "category",
@@ -33,12 +32,9 @@ const sidebars = {
             "knowledge-base/data/tools/dvc",
             "knowledge-base/data/tools/jupyter",
             "knowledge-base/data/tools/matplotlib-seaborn",
-            "knowledge-base/data/tools/numpy",
-            "knowledge-base/data/tools/pandas",
             "knowledge-base/data/tools/psycopg2",
-            "knowledge-base/data/tools/pyspark",
             "knowledge-base/data/tools/sklearn",
-            "knowledge-base/data/tools/sql",
+
             {
               type: "category",
               label: "GIS",
@@ -60,6 +56,17 @@ const sidebars = {
                 "knowledge-base/data/tools/web-scraping/requests",
                 "knowledge-base/data/tools/web-scraping/selenium",
                 "knowledge-base/data/tools/web-scraping/scrapy",
+              ],
+            },
+            {
+              type: "category",
+              label: "Wrangling",
+              collapsed: true,
+              items: [
+                "knowledge-base/data/tools/wrangling/numpy",
+                "knowledge-base/data/tools/wrangling/pandas",
+                "knowledge-base/data/tools/wrangling/pyspark",
+                "knowledge-base/data/tools/wrangling/sql",
               ],
             },
           ],

@@ -17,12 +17,15 @@ title: Data Engineering
 
 ## Data Quality
 
-- [Great Expectations](https://github.com/great-expectations/great_expectations) - Always know what to expect from your data.
 - [Pandera](https://github.com/pandera-dev/pandera) - A light-weight, flexible, and expressive data validation library for dataframes.
 
 ## Mock Data
 
 - [Replibyte](https://github.com/Qovery/Replibyte) - Seed your development database with real data ⚡️.
+
+## Wrangling
+
+- [duckDB](https://github.com/duckdb/duckdb) - DuckDB is an in-process SQL OLAP Database Management System.
 
 ## Streaming
 

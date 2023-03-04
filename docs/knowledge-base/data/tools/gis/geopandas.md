@@ -11,7 +11,7 @@ import pandas as pd
 import geopandas as gpd
 from shapely.geometry import Point
 
-project = pd.read_csv("project.csv").dropna(subset=["latitude"])
+project = pd.read_csv("project.csv")
 project
 
 geometry = [Point(xy) for xy in zip(project.longitude, project.latitude)]
@@ -29,53 +29,6 @@ gdf.to_crs("epsg:3395")
 
 ```python
 df.to_file("foodpanda.geojson", driver="GeoJSON")
-```
-
-### Write gpd to postgres
-
-```bash title="prerequisites"
-pip install pyarrow
-
-# https://gis.stackexchange.com/questions/239198/adding-geopandas-dataframe-to-postgis-table
-pip install psycopg2-binary
-pip install sqlalchemy
-pip install geoalchemy2
-pip install geopandas
-```
-
-```python title="usage"
-import geopandas
-from sqlalchemy import create_engine
-from shapely.wkt import loads as wkt_to_geom
-
-# Set up database connection engine
-engine = create_engine(
-    "postgresql://{}:{}@{}:5432/{}".format(
-        DB_USERNAME, DB_PASSWORD, DB_HOSTNAME, DB_NAME
-    )
-)
-
-# Load data into GeoDataFrame, e.g. from shapefile
-geodata = gpd.GeoDataFrame(df)
-geodata["geometry"] = geodata["geom"].apply(lambda x: wkt_to_geom(x))
-
-# GeoDataFrame to PostGIS
-geodata.to_postgis(con=engine, name="boundary_test_write")
-```
-
-## Find nearest point
-
-```python
-from shapely.ops import nearest_points
-
-nearest = (
-    project.geometry
-    == nearest_points(
-        Point(100.5197637498, 13.8590163404), project.geometry.unary_union
-    )[1]
-)
-
-project[nearest]
 ```
 
 ## Make square grid

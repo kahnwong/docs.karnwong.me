@@ -1,5 +1,5 @@
 ---
-title: Sklearn
+title: sklearn
 ---
 
 ## Visualize dataset cluster via t-nse

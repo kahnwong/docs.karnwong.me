@@ -62,3 +62,16 @@ food processor- add biscuits, macadamias and butter into the food processor and 
 - once the cream cheese and the white chocolate are both about room temp mix them together(can use an electric whisk or by hand),
 - then pour filling over the crust and top with cherry jam
 - let set in the fridge for 2+ hours
+
+## Mug cake
+
+### Ingredients
+
+- 100 ml brownie mix
+- 1 egg
+- 1 butter
+- 1 tablespoon milk
+
+### Instructions
+
+- Microwave 60-80 seconds; repeat until evenly baked
