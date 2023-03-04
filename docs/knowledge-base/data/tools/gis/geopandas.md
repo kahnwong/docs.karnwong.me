@@ -25,10 +25,16 @@ project = gpd.GeoDataFrame(project, crs=crs, geometry=geometry)
 gdf.to_crs("epsg:3395")
 ```
 
-### Write to file
+### Read
 
 ```python
-df.to_file("foodpanda.geojson", driver="GeoJSON")
+gpd.read_file(i, driver="GeoJson")
+```
+
+### Write
+
+```python
+df.to_file(out_path, driver="GeoJSONSeq")
 ```
 
 ## Make square grid

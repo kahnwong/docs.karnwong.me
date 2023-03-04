@@ -37,9 +37,9 @@ JSON(
 ### Auto formatting
 
 ```
-!pip install nb_black
+!pip install jupyter-black
 
-%load_ext lab_black
+%load_ext jupyter_black
 ```
 
 ### Autocomplete

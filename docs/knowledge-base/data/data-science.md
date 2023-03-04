@@ -11,6 +11,7 @@ title: Data Science
 
 - [lux](https://github.com/lux-org/lux) - Automatically visualize your pandas dataframe via a single print! 📊 💡
 - [missingno](https://github.com/ResidentMario/missingno) - Missing data visualization module for Python.
+- [pygwalker](https://github.com/Kanaries/pygwalker) - PyGWalker: Turn your pandas dataframe into a Tableau-style User Interface for visual analysis.
 - [sweetviz](https://github.com/fbdesignpro/sweetviz) - Visualize and compare datasets, target values and associations, with one line of code.
 
 ## Neural Networks
@@ -48,3 +49,7 @@ title: Data Science
 - [R2D3](http://www.r2d3.us) - A visual introduction to machine learning.
 - [Simulated Annealing](https://github.com/skylergrammer/SimulatedAnnealing)
 - [The Illustrated Machine Learning](https://illustrated-machine-learning.github.io/index.html)
+
+### Ethics
+
+- [Fairness and machine learning: Limitations and Opportunities](https://fairmlbook.org/)

@@ -140,8 +140,9 @@ const sidebars = {
       collapsed: true,
       items: [
         "knowledge-base/software-engineering/software-engineering",
-        "knowledge-base/software-engineering/web-development",
         "knowledge-base/software-engineering/computer-science",
+        "knowledge-base/software-engineering/web-development",
+        "knowledge-base/software-engineering/ux-ui",
         "knowledge-base/software-engineering/product-development",
         "knowledge-base/software-engineering/management",
       ],
@@ -184,11 +185,12 @@ const sidebars = {
       items: [
         "knowledge-base/misc/android",
         "knowledge-base/misc/ffmpeg",
+        "knowledge-base/misc/linux",
         "knowledge-base/misc/osx",
         "knowledge-base/misc/pandoc",
+        "knowledge-base/misc/useful-links",
         "knowledge-base/misc/windows",
         "knowledge-base/misc/youtube-dl",
-        "knowledge-base/misc/useful-links",
         "knowledge-base/misc/misc",
         {
           type: "category",

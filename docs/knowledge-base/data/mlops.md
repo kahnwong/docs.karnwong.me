@@ -21,6 +21,7 @@ title: MLOps
 - [Made with ML](https://madewithml.com/)
 - [ML Ops](https://ml-ops.org)
 - [ML Quality Model](https://bookingcom.github.io/ml-quality-model/) - A Software Quality Model for ML Systems.
+- [ML Recipes](https://ml.recipes/welcome.html) - Increase citations, ease review & collaboration: Better ML in Science
 
 ### Production
 

@@ -36,4 +36,3 @@ title: Career
 ### Links
 
 - [How to Get Your Silent 1-on-1s Back on Track](https://codecapsule.com/2021/09/09/how-to-get-your-silent-1-on-1s-back-on-track/)
-- [GitLab Handbook: Leadership: 1-1](https://about.gitlab.com/handbook/leadership/1-1/)

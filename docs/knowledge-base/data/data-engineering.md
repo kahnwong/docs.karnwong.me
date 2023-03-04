@@ -26,6 +26,7 @@ title: Data Engineering
 ## Wrangling
 
 - [duckDB](https://github.com/duckdb/duckdb) - DuckDB is an in-process SQL OLAP Database Management System.
+- [JSON Crack](https://jsoncrack.com/) - Seamlessly visualize your JSON data instantly into graphs.
 
 ## Streaming
 
@@ -41,8 +42,15 @@ title: Data Engineering
 - [Awesome Data Engineering](https://awesomedataengineering.com)
 - [Data Engineer Roadmap](https://github.com/datastacktv/data-engineer-roadmap)
 - [Data Engineering Wiki](https://dataengineering.wiki)
+- [Data Pipeline Design Patterns](https://www.startdataengineering.com/post/design-patterns/)
+
+### Glossary
+
 - [Database Glossary](https://www.bytebase.com/database-glossary)
 - [Modern Data Stack Glossary](https://www.secoda.co/glossary)
 - [The data observability dictionary](https://www.bigeye.com/blog/data-observability-dictionary)
-- [Data Pipeline Design Patterns](https://www.startdataengineering.com/post/design-patterns/)
+
+### Wrangling
+
 - [medium-data-bakeoff](https://github.com/EthanRosenthal/medium-data-bakeoff) - A simple benchmark for python-based data processing libraries.
+- [Modern Polars](https://kevinheavey.github.io/modern-polars/) - A side-by-side comparison of the Polars and Pandas libraries.

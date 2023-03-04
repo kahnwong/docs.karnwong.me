@@ -38,7 +38,13 @@ DEGREE = KM / 111.319
 
 ## Data
 
+- [geoBoundaries](https://www.geoboundaries.org/)
+- [MapTiler Data](https://data.maptiler.com/downloads/planet/)
 - [OpenStreetMap Data Extracts](http://download.geofabrik.de/index.html)
+
+### Tools
+
+- [OpenMapTiles](https://openmaptiles.org/) - World maps you can self-host - powered by free OpenStreetMap vector tiles and open-source software.
 
 ## Basemap
 

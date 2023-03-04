@@ -267,6 +267,19 @@ F.to_date("listing_update")
 F.from_utc_timestamp("datetime_utc", "CST")
 ```
 
+### SQL
+
+```python
+df.createOrReplaceTempView("foo")
+
+spark.sql(
+    """
+    SELECT *
+    FROM foo
+    """
+)
+```
+
 ## Optimization
 
 ### Caching
