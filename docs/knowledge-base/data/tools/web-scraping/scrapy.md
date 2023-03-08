@@ -81,6 +81,8 @@ yield scrapy.FormRequest(
 ### Write as single-line JSON
 
 ```python
+# pipelines.py
+
 import json
 
 from itemadapter import ItemAdapter
@@ -103,11 +105,15 @@ class JsonWriterPipeline:
 
 ### Custom downloader
 
-```python title=middleware.py
+```python
+# middleware.py
+
 from scrapy.http import HtmlResponse
 
 import cloudscraper
 
+
+class ProjectDownloaderMiddleware:
     def process_request(self, request, spider):
         # Called for each request that goes through the downloader
         # middleware.
@@ -120,7 +126,7 @@ import cloudscraper
         #   installed downloader middleware will be called
         # return None
 
-        if spider.name=='spider_name':
+        if spider.name == "spider_name":
             scraper = cloudscraper.create_scraper()
             r = scraper.get(request.url)
             body = r.content
