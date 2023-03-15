@@ -90,7 +90,7 @@ from itemadapter import ItemAdapter
 
 class JsonWriterPipeline:
     def open_spider(self, spider):
-        self.file = open("items.jl", "w")
+        self.file = open(f"{spider.name}.jl", "w")
 
     def close_spider(self, spider):
         self.file.close()

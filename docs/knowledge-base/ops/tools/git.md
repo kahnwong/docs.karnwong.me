@@ -94,7 +94,6 @@ docker run \
 
 - [Git Explorer](https://gitexplorer.com)
 - [Git guide](https://github.com/dbt-labs/corp/blob/main/git-guide.md)
-- [GitHub Learning Lab](https://lab.github.com/)
 - [Oh Shit, Git!?!](https://ohshitgit.com)
 - [GitHub Skills](https://skills.github.com/)
 

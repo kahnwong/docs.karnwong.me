@@ -46,4 +46,4 @@ intranet.example.com {
 
 ### Resources
 
-- [Public and internal caddy network setup](https://mrkaran.dev/posts/exposing-services/)
+- [Public and internal caddy network setup](https://mrkaran.dev/posts/exposing-services-self-hosting/)

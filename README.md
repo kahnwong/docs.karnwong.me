@@ -19,5 +19,5 @@ yarn start # http://localhost:3000
 
 ```bash
 # npm install -g markdown-link-check
-fd md -0 | xargs -0 -n1 markdown-link-check
+markdown-link-check **/*.md
 ```

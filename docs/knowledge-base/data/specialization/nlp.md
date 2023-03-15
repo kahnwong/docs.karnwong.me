@@ -5,7 +5,6 @@ title: NLP
 ## Regex
 
 - [regexper](https://regexper.com) - Regular Expression Visualization Site.
-- [regexr](https://regexr.com) - RegExr is an online tool to learn, build, & test Regular Expressions (RegEx / RegExp).
 
 ### Lookahead & lookbehind
 

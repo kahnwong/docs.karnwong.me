@@ -53,10 +53,6 @@ terraform state push dev.tfstate
 - [Terraform Best Practices](https://www.terraform-best-practices.com/)
 - [Terraform Opinion #23: Use list of objects over map of maps](https://jq1.io/posts/opinion_23/)
 
-### AWS
-
-- [rotate AWS IAM secrets with terraform](https://cloud.gov/docs/ops/runbook/rotating-iam-users/)
-
 ### Examples
 
 - [GOV.UK Infrastructure](https://github.com/alphagov/govuk-infrastructure)

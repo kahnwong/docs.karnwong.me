@@ -24,7 +24,6 @@ for google calendar: `https://apidata.googleusercontent.com/caldav/v2/$calendarI
 
 ## Emoji packs
 
-- [openess](https://emoji.openess.dev)
 - [Slackmojis](https://slackmojis.com)
 
 ## Fonts & Icons

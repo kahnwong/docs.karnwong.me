@@ -9,7 +9,6 @@ title: Useful Links
 ## Background noise
 
 - [I Miss My Bar](http://imissmybar.com/)
-- [shhhsound](https://www.shhhsound.com/)
 - [Sounds of the Pub](https://soundsofthepub.com/)
 
 ## Browser Games
