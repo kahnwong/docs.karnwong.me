@@ -23,30 +23,6 @@ fi
 echo "$myImgStr" | base64 -d > image2.jpg
 ```
 
-## sed
-
-```bash
-# replace string in text file
-sed -i 's/old-text/new-text/g' input.txt
-
-## can also use `#` as separator
-sed -i.bak 's#$HOME#/home/runner/work#' scripts/docker-pytest.sh
-
-## osx
-sed -i .bak 's/old-text/new-text/g' input.txt
-
-## recursive
-grep -rl old-text . | xargs sed -i '' 's/old-text/new-text/g'
-
-```
-
-## split
-
-```bash
-split -l 300 file.txt new
-split -b 500m httpd.log
-```
-
 ## jq
 
 ```bash
@@ -74,6 +50,30 @@ rsync -ah --progress source-file destination-file
 rsync -avm --exclude='node_modules' --progress $HOST:$PATH $TARGET/
 ```
 
+## sed
+
+```bash
+# replace string in text file
+sed -i 's/old-text/new-text/g' input.txt
+
+## can also use `#` as separator
+sed -i.bak 's#$HOME#/home/runner/work#' scripts/docker-pytest.sh
+
+## osx
+sed -i .bak 's/old-text/new-text/g' input.txt
+
+## recursive
+grep -rl old-text . | xargs sed -i '' 's/old-text/new-text/g'
+
+```
+
+## split
+
+```bash
+split -l 300 file.txt new
+split -b 500m httpd.log
+```
+
 ## Cookbook
 
 ### check if file exists
@@ -89,7 +89,7 @@ fi
 
 ### loop list from a file
 
-```
+```bash
 IFS=$'\n' images=($(cat need_to_process_files.txt))
 for i in ${images[@]}
 do

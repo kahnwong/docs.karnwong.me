@@ -199,6 +199,7 @@ const sidebars = {
           items: [
             "knowledge-base/misc/desktop-app/calibre",
             "knowledge-base/misc/desktop-app/foobar",
+            "knowledge-base/misc/desktop-app/gpodder",
             "knowledge-base/misc/desktop-app/mp3tag",
           ],
         },

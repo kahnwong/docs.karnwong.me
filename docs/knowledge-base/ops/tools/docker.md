@@ -50,6 +50,48 @@ docker volume create --name hello
 docker run -d -v hello:/container/path/for/volume container_image my_command
 ```
 
+## Dockerfile
+
+### Boilerplate
+
+```dockerfile
+FROM python:3.10-slim
+
+RUN pip install pgsync==2.3.3
+
+RUN mkdir -p /opt/pgsync
+WORKDIR /opt/pgsync
+
+ADD schema.json /opt/pgsync
+ADD entrypoint.sh /opt/pgsync
+
+RUN chmod +x entrypoint.sh
+
+ENTRYPOINT ["./entrypoint.sh"]
+```
+
+### if-else for multi architecture
+
+```dockerfile
+ENV SOPS_VERSION=3.7.2
+ARG TARGETPLATFORM
+RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then ARCHITECTURE=amd64; elif [ "$TARGETPLATFORM" = "linux/arm64" ]; then ARCHITECTURE=arm64; else ARCHITECTURE=amd64; fi \
+    && FILENAME=sops_${SOPS_VERSION}_${ARCHITECTURE}.deb \
+    && wget --progress=dot:mega https://github.com/mozilla/sops/releases/download/v$SOPS_VERSION/$FILENAME \
+    && dpkg -i $FILENAME \
+    && rm $FILENAME
+```
+
+### Import base Dockerfile
+
+```dockerfile
+# syntax = edrevo/dockerfile-plus
+
+INCLUDE+ Dockerfile.base
+
+RUN whatever
+```
+
 ## docker-compose
 
 ```yaml
@@ -87,48 +129,10 @@ export DOCKER_DEFAULT_PLATFORM=linux/amd64
 
 # dummy entrypoint to keep container alive for debugging
 tail -f /dev/null
-```
 
-## Cookbook
-
-### if-else for multi architecture
-
-```dockerfile
-ENV SOPS_VERSION=3.7.2
-ARG TARGETPLATFORM
-RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then ARCHITECTURE=amd64; elif [ "$TARGETPLATFORM" = "linux/arm64" ]; then ARCHITECTURE=arm64; else ARCHITECTURE=amd64; fi \
-    && FILENAME=sops_${SOPS_VERSION}_${ARCHITECTURE}.deb \
-    && wget --progress=dot:mega https://github.com/mozilla/sops/releases/download/v$SOPS_VERSION/$FILENAME \
-    && dpkg -i $FILENAME \
-    && rm $FILENAME
-```
-
-### import base Dockerfile
-
-```dockerfile
-# syntax = edrevo/dockerfile-plus
-
-INCLUDE+ Dockerfile.base
-
-RUN whatever
-```
-
-### Boilerplate Dockerfile
-
-```dockerfile
-FROM python:3.10-slim
-
-RUN pip install pgsync==2.3.3
-
-RUN mkdir -p /opt/pgsync
-WORKDIR /opt/pgsync
-
-ADD schema.json /opt/pgsync
-ADD entrypoint.sh /opt/pgsync
-
-RUN chmod +x entrypoint.sh
-
-ENTRYPOINT ["./entrypoint.sh"]
+# allow users to use docker without sudo
+sudo groupadd docker
+sudo usermod -aG docker $USER
 ```
 
 ## Tools
