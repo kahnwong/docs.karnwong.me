@@ -24,6 +24,11 @@ title: Useful Links
 - [Product Chart](https://www.productchart.com/)
 - [WillMyPhoneWork](https://willmyphonework.net/) - Check 2G, 3G, and 4G LTE Network Frequency Compatibility for a Smartphone, Tablet, and Mobile Device in any Country and Mobile Network Carrier.
 - [USB Cheat Sheet](https://fabiensanglard.net/usbcheat/index.html)
+- [AnySwitch](https://www.anyswitch.xyz/) - Find your next favorite linear, tactile, and clicky mechanical key switch!
+
+## EDC
+
+- [KnifeGeek](https://www.knifegeek.io)
 
 ## Gadgets
 

@@ -26,11 +26,6 @@ Bulk remove iTerm2 color schemes
 
 <https://gist.github.com/kecebongsoft/11312110>
 
-## Neovim
-
-- [neovimcraft](https://neovimcraft.com/) - Search through our curated list of neovim plugins.
-- [Vim Awesome](https://vimawesome.com/) - Awesome vim plugins from across the universe.
-
 ## Nix
 
 - [MyNixOS](https://mynixos.com/) - Build and share reproducible software environments with Nix and NixOS.

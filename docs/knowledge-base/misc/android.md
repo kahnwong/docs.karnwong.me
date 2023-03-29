@@ -2,6 +2,10 @@
 title: Android
 ---
 
+## Installers
+
+- [OpenAndroidInstaller](https://openandroidinstaller.org/#getting-started)
+
 ## [APKTool](https://ibotpeaches.github.io/Apktool/documentation)
 
 ```bash

@@ -31,3 +31,4 @@ Content-Type: application/json
 - [Avoiding bot detection: How to scrape the web without getting blocked?](https://github.com/niespodd/browser-fingerprinting)
 - [HTTP Status Codes](https://apps.moire.org/httpstatus/)
 - [HTTP Status Dogs](https://httpstatusdogs.com/) - Hypertext Transfer Protocol Response status codes. And dogs.
+- [HTTP Cats](https://httpcats.com/) - Cats for every HyperText Transfer Protocol response status code.

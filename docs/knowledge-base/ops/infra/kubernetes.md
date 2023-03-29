@@ -2,6 +2,19 @@
 title: Kubernetes
 ---
 
+## Setup
+
+```bash
+# curl -sfL https://get.k3s.io | sh -
+curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC="server --disable traefik" sh # so it frees up port 80 and 443
+
+# export kubeconfig
+k3s kubectl config view --raw # copy this to ~/.kube/config on your local machine
+
+# uninstall
+/usr/local/bin/k3s-uninstall.sh
+```
+
 ## Usage
 
 ```bash
@@ -20,13 +33,6 @@ kubectl config get-contexts
 # rename context
 kubectl config rename-context default k3s_pi
 ```
-
-## Bare metal setup
-
-- [k0s](https://docs.k0sproject.io/) - k0s is an all-inclusive Kubernetes distribution, configured with all of the features needed to build a Kubernetes cluster simply by copying and running an executable file on each target host.
-- [Lens](https://k8slens.dev) - the kubernetes ide for debugging.
-- [k3s](https://k3s.io/) - The certified Kubernetes distribution built for IoT & Edge computing.
-- [k3d](https://github.com/k3d-io/k3d) - Little helper to run CNCF's k3s in Docker.
 
 ## Packages
 
