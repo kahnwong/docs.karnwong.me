@@ -3770,13 +3770,13 @@ dns-packet@^5.2.2:
   dependencies:
     "@leichtgewicht/ip-codec" "^2.0.1"
 
-docusaurus-preset-shiki-twoslash@^1.1.39:
-  version "1.1.39"
-  resolved "https://registry.yarnpkg.com/docusaurus-preset-shiki-twoslash/-/docusaurus-preset-shiki-twoslash-1.1.39.tgz#a798356245a04d982eeb3bbde6f55bd472583f2a"
-  integrity sha512-Z25beVXzlvLdk9c53soUjdvjqF1OeoPmUuX656rkPmh8hYOK75bv/EZRgLxXN9d8CGhC6I4Re4NT2Gh6GwJl3Q==
+docusaurus-preset-shiki-twoslash@^1.1.40:
+  version "1.1.40"
+  resolved "https://registry.yarnpkg.com/docusaurus-preset-shiki-twoslash/-/docusaurus-preset-shiki-twoslash-1.1.40.tgz#031e887c5e78534b150887a72e969d2dfaea8919"
+  integrity sha512-w8rILRonxyMkH3gDJdFvuVCTDKdhdtPkgV996RkA+pir+dOgkE+e8HYX9QUG9ovKfWgWcZFjnSvBYyWR7UDbJA==
   dependencies:
     copy-text-to-clipboard "^3.0.1"
-    remark-shiki-twoslash "3.1.1"
+    remark-shiki-twoslash "3.1.2"
     typescript ">3"
 
 dom-converter@^0.2.0:
@@ -6729,10 +6729,10 @@ remark-parse@8.0.3:
     vfile-location "^3.0.0"
     xtend "^4.0.1"
 
-remark-shiki-twoslash@3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/remark-shiki-twoslash/-/remark-shiki-twoslash-3.1.1.tgz#7c94a0d929d7d71096252a0f3a636783a17089db"
-  integrity sha512-9TKX1mlXT/TGASQVk6+Xt0puKiyWZvYQ5LKcpSAocxhKMbJ19M0a6VCrDYw0IK9w1tiqofDihMXQ6wETnA7awQ==
+remark-shiki-twoslash@3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/remark-shiki-twoslash/-/remark-shiki-twoslash-3.1.2.tgz#a926474e65b8fee6b9939f18c88080e006e6b8d2"
+  integrity sha512-XmJS1SXc4SvwI8F4FjNwhcYn+lxnF7gw3gcPpT6aFuQimLefihfg6CnIHWQXI1uqfFkDVRfLvK6kOmJjm/2ixQ==
   dependencies:
     "@types/unist" "^2.0.0"
     "@typescript/twoslash" "3.1.0"
@@ -7528,12 +7528,7 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@>3:
-  version "4.9.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
-  integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
-
-typescript@^5.0.2:
+typescript@>3, typescript@^5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.0.2.tgz#891e1a90c5189d8506af64b9ef929fca99ba1ee5"
   integrity sha512-wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw==
