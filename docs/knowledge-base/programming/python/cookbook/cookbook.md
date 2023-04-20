@@ -107,10 +107,11 @@ python -m cProfile -s cumulative some-code.py
 ```python
 import argparse
 
-
 parser = argparse.ArgumentParser()
-parser.add_argument("day", help="pipeline run date in `xxxx-xx-xx` format")
+parser.add_argument("--input_path")
+parser.add_argument("--experiment_id")
 args = parser.parse_args()
 
-day = args.day
+input_path = args.input_path
+experiment_id = int(args.experiment_id)
 ```

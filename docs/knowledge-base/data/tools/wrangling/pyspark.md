@@ -132,10 +132,14 @@ F.col(col_name)["elem_key"]
 F.col(col_name).getItem(0)
 
 # find median
-df_spark.approxQuantile(df_spark.columns, [0.5], 0.25)
+df.approxQuantile(df.columns, [0.5], 0.25)
 
 # get percentile
 df.approxQuantile(["Apple", "Oranges"], [0.1, 0.25, 0.5, 0.75, 0.9, 0.95], 0.1)
+
+# get median during groupby
+# https://stackoverflow.com/a/71735997
+df.groupBy("Id").agg(F.percentile_approx("value", 0.5).alias("median_approximate"))
 
 # join
 df.join(

@@ -10,6 +10,8 @@ title: MLOps
 
 ## Resources
 
+- [The Big Dictionary of MLOps](https://www.hopsworks.ai/mlops-dictionary)
+
 ### Governance
 
 - [The Data Cards Playbook](https://pair-code.github.io/datacardsplaybook/) - Structured summaries of essential facts about various aspects of ML datasets needed by stakeholders across a project's lifecycle for responsible AI development.
