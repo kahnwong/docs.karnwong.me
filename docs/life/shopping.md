@@ -2,7 +2,9 @@
 title: Shopping
 ---
 
-## Aroma
+## Bath & Body
+
+### Aroma
 
 - [Akaliko](https://akaliko.co.th/)
 - [AMPHAN](https://www.amphancraft.com/th)
@@ -20,23 +22,14 @@ title: Shopping
 - [Wax Valley Candle Co.](https://happeningandfriends.com/shop/waxvalley?lang=th)
 - [ยักษียักษา](https://www.facebook.com/yaksriyaksaa/)
 
-## Bath
+### Bath
 
-- [Earthborn](https://shopee.co.th/shop/5244692/search?originalCategoryId=102003&page=0)
-- [Irin](http://irin.co.th/Product)
-- [Moisture You](https://www.facebook.com/Moistureyouhome/)
 - [Olivos](https://shopee.co.th/gennotech)
 - [Organics Buddy](https://organicsbuddy.com/official-store?productType=official-store-personal-care)
-- [Petitscents](https://www.petitscents.com/products)
 - [Shan Organic](https://www.shanorganic.com)
 - [Soap for Soul](https://shopee.co.th/shop/27256077/search)
-- [Soft Cream Store Homemade Soap](http://www.softcreamstore.com/category)
-- [พร้าวไทย](http://www.prowthai.com/index.php/th/2015-12-09-14-42-16/soap-prowthai)
 - [Your Sustainable Store](https://yoursustainablestore.com/)
-
-## Bagpack
-
-- [5.11](https://www.511tactical.com)
+- [พร้าวไทย](http://www.prowthai.com/index.php/th/2015-12-09-14-42-16/soap-prowthai)
 
 ## Books
 
@@ -46,27 +39,40 @@ title: Shopping
 ## Clothing
 
 - [Baisri](https://www.facebook.com/baisrishop/)
-- [ERR-OR Design](https://www.err-orclothing.com)
-- [jweep](https://www.jweep.com/products) - Experimental garments.
-- [planeta](https://focomo.myshopify.com/collections/planeta?page=4)
 - [Kathmandu](https://www.kathmandu.com.au)
-- [tathata](https://tathatabrand.com/)
 
 ## Cobbler
 
 - [Ballet Shoes](https://th-th.facebook.com/BalletShoesOriginal/)
 - [TMD Premium Footware](https://www.facebook.com/TMDPremiumFootwear)
 
-## Earplugs
+## EDC
+
+- [Bangkok Tactical](https://www.bangkoktactical.com/)
+- [jweep](htthps://www.jweep.co/) - Experimental garments.
+- [TANKstore](https://www.e-tankstore.com/)
+- [tathata](ttps://tathatabrand.com/)
+
+### Backpack
+
+- [5.11](https://www.511tactical.com)
+
+### Earplugs
 
 - [Phol Online](https://www.pholonline.com/ppe/ear-plugs/ear-plugs.html)
 - [Ear plug superstore](https://www.earplugstore.com)
 - [Happy Ears](https://www.happyearsearplugs.com)
 
-## EDC
+### Stationery
 
-- [TANKstore](https://www.e-tankstore.com/)
-- [Bangkok Tactical](https://www.bangkoktactical.com/)
+- [Baronfig](https://www.baronfig.com/accessories/vanguard-softcover-notebook)
+- [GREY RAY](https://www.grey-ray.com/shop)
+- [LEUCHTTURM1917](https://www.leuchtturm1917.us/)
+- [Lig Goods](https://liggoods.com)
+- [Midori Notebook](https://www.midori-japan.co.jp/md/en/products/mdnote/)
+- [Milligram](https://milligram.com/)
+- [ZEQUENZ](https://www.zequenz.com/)
+- [STUDIO360](https://www.studio360th.com/)
 
 ## Electronics
 
@@ -74,8 +80,19 @@ title: Shopping
 - [AOB second hand](http://aobmobile.net/wc/?cat=20)
 - [DROP](https://www.amazon.com/stores/page/198A3AB4-BDC3-491B-96D1-21870C309FE4)
 - [Element 14 Thailand](https://th.element14.com/)
-- [eReaders - Rakuten Kobo eReader Store](https://gl.kobobooks.com/collections/ereaders)
 - [JIB](https://www.jib.co.th/web/)
+
+### Headphones
+
+- [Munkonggadget](https://www.munkonggadget.com/)
+- [SHENZHENAUDIO](https://shenzhenaudio.com/)
+
+### Keyboards
+
+- [Dwarf Factory](https://www.dwarf-factory.com/) - Artisan keycaps.
+- [KBDfans](https://kbdfans.com/)
+- [KEMISTRY](https://kemistry.in.th/index.php)
+- [Loga](https://www.logaworld.com/)
 
 ## Entertainment
 
@@ -87,30 +104,3 @@ title: Shopping
 - [Lukyang](https://www.lukyang.com/)
 - [Pana objects](http://www.pana-objects.com)
 - [The Wood's Tale](https://www.thewoodstale.com)
-
-## Headphones
-
-- [Munkonggadget](https://www.munkonggadget.com/)
-- [SHENZHENAUDIO](https://shenzhenaudio.com/)
-
-## Keyboards
-
-- [Dwarf Factory](https://www.dwarf-factory.com/) - Artisan keycaps.
-- [KBDfans](https://kbdfans.com/)
-- [KEMISTRY](https://kemistry.in.th/index.php)
-- [Loga](https://www.logaworld.com/)
-
-## Stationery
-
-- [Baronfig](https://www.baronfig.com/accessories/vanguard-softcover-notebook)
-- [GREY RAY](https://www.grey-ray.com/shop)
-- [LEUCHTTURM1917](https://www.leuchtturm1917.us/)
-- [Lig Goods](https://liggoods.com)
-- [Midori Notebook](https://www.midori-japan.co.jp/md/en/products/mdnote/)
-- [Milligram](https://milligram.com/)
-- [ZEQUENZ](https://www.zequenz.com/)
-- [STUDIO360](https://www.studio360th.com/)
-
-## Tea
-
-- [Matchazuki](https://matchazuki.com)

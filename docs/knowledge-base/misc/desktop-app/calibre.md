@@ -8,7 +8,7 @@ title: Calibre
 {author}/{title}/{title} - {authors}
 ```
 
-```
+```t title="custom"
 {authors}{series_index:>3s| — #| of }{series:| the | series }
 {author}/{series} #{series_index} - {title}/{title} - {authors}
 ```

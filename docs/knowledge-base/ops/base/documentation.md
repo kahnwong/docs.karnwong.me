@@ -11,26 +11,13 @@ title: Documentation
 
 ## Diagrams
 
-- [Cloudcraft](https://www.cloudcraft.co) - Visualize your cloud architecture like a pro.
 - [diagrams](https://github.com/mingrammer/diagrams) - 🎨 Diagram as Code for prototyping cloud system architectures.
-- [markmap](https://markmap.js.org) - markdown + mindmap
+- [Eraser](https://app.tryeraser.com/all) - An all-in-one ideation tool for distributed teams.
 - [markwhen](https://github.com/mark-when/markwhen) - Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, links, locations, and more.
-- [sequencediagram](https://sequencediagram.org/)
 - [swimlanes](https://swimlanes.io) - A simple online tool for creating sequence diagrams.
-- [Voyager](https://voyager.vyne.co/) - A microservices diagramming tool.
 - [tldraw](https://www.tldraw.com/) - A tiny little drawing app.
-- [Excalidraw](https://excalidraw.com/) - Hand-drawn look & feel. Collaborative. Secure.
 
 ## Presentation
 
-- [reveal.js](https://revealjs.com) - The HTML Presentation Framework.
 - [sli.dev](https://sli.dev) - Presentation Slides for Developers.
 - [marp](https://marp.app/) - Markdown Presentation Ecosystem.
-
-## Whiteboard
-
-- [Eraser](https://app.tryeraser.com/all) - An all-in-one ideation tool for distributed teams.
-
-## Resources
-
-- [Diátaxis](https://diataxis.fr/) - A systematic framework for technical documentation authoring.

@@ -9,9 +9,6 @@ title: Data Science
 
 ## EDA
 
-- [lux](https://github.com/lux-org/lux) - Automatically visualize your pandas dataframe via a single print! 📊 💡
-- [missingno](https://github.com/ResidentMario/missingno) - Missing data visualization module for Python.
-- [pygwalker](https://github.com/Kanaries/pygwalker) - PyGWalker: Turn your pandas dataframe into a Tableau-style User Interface for visual analysis.
 - [sweetviz](https://github.com/fbdesignpro/sweetviz) - Visualize and compare datasets, target values and associations, with one line of code.
 
 ## Neural Networks
@@ -22,25 +19,13 @@ title: Data Science
 
 - [handcals](https://github.com/connorferster/handcalcs) - Python library for converting Python calculations into rendered latex.
 
-## Hiring
-
-- [The Data Science Interview Book](https://book.thedatascienceinterviewproject.com/)
-- [Introduction to Machine Learning Interviews](https://huyenchip.com/ml-interviews-book/)
-
 ## Resources
 
-- [A Beginner's Guide to Clean Data](https://b-greve.gitbook.io/beginners-guide-to-clean-data/)
 - [Deep Learning Tuning Playbook](https://github.com/google-research/tuning_playbook)
-- [SkyTowner](https://www.skytowner.com/) - 1900+ data science docs and recipes.
 
 ### Foundations
 
 - [Crash Course: Statistics](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr)
-- [Elements of AI](https://www.elementsofai.com) - A free online introduction to artificial intelligence for non-experts.
-- [Mathematics for Machine Learning](https://github.com/dair-ai/Mathematics-for-ML)
-- [ossu/data-science](https://github.com/ossu/data-science)
-- [Practical Deep Learning for Coders](https://course.fast.ai/)
-- [Principles and Techniques of Data Science](http://www.textbook.ds100.org/intro.html)
 
 ### Algorithms
 
@@ -53,3 +38,8 @@ title: Data Science
 ### Ethics
 
 - [Fairness and machine learning: Limitations and Opportunities](https://fairmlbook.org/)
+
+### Hiring
+
+- [The Data Science Interview Book](https://book.thedatascienceinterviewproject.com/)
+- [Introduction to Machine Learning Interviews](https://huyenchip.com/ml-interviews-book/)

@@ -2,7 +2,6 @@
 title: Security
 ---
 
-
 ## Tools
 
 - [Hardenize](https://www.hardenize.com/) - Automated Discovery and Monitoring of Your Entire Network Perimeter.
@@ -14,5 +13,4 @@ title: Security
 - [OAuth 2.0 Simplified](https://www.oauth.com/)
 - [The DevOps Security Checklist Redux](https://www.goldfiglabs.com/guide/devops-security-checklist/)
 - [The SaaS CTO Security Checklist Redux](https://www.goldfiglabs.com/guide/saas-cto-security-checklist/)
-- [DevSecOps-Playbook](https://github.com/6mile/DevSecOps-Playbook)
 - [The Cloud Native Wiki](https://www.aquasec.com/cloud-native-academy/)

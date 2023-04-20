@@ -149,7 +149,6 @@ const sidebars = {
       collapsed: true,
       items: [
         "knowledge-base/software-engineering/software-engineering",
-        "knowledge-base/software-engineering/computer-science",
         "knowledge-base/software-engineering/web-development",
         "knowledge-base/software-engineering/ux-ui",
         "knowledge-base/software-engineering/product-development",
