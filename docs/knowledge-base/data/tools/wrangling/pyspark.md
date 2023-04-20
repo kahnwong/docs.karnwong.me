@@ -17,59 +17,7 @@ pip3 install pyspark
 
 - [PySpark Style Guide](https://github.com/palantir/pyspark-style-guide)
 
-## Test snippet
-
-```python
-from operator import itemgetter
-
-import numpy as np
-from matplotlib import pyplot as plt
-from pyspark import SparkContext
-
-
-sc = SparkContext.getOrCreate()
-
-TOTAL = 100000
-dots = sc.parallelize([2.0 * np.random.random(2) - 1.0 for i in range(TOTAL)]).cache()
-print("Number of random points:", dots.count())
-
-stats = dots.stats()
-print("Mean:", stats.mean())
-print("stdev:", stats.stdev())
-
-plt.figure(figsize=(10, 5))
-
-# Plot 1
-plt.subplot(1, 2, 1)
-plt.xlim((-1.0, 1.0))
-plt.ylim((-1.0, 1.0))
-
-sample = dots.sample(False, 0.01)
-X = sample.map(itemgetter(0)).collect()
-Y = sample.map(itemgetter(1)).collect()
-plt.scatter(X, Y)
-
-# Plot 2
-plt.subplot(1, 2, 2)
-plt.xlim((-1.0, 1.0))
-plt.ylim((-1.0, 1.0))
-
-inCircle = lambda v: np.linalg.norm(v) <= 1.0
-dotsIn = sample.filter(inCircle).cache()
-dotsOut = sample.filter(lambda v: not inCircle(v)).cache()
-
-# inside circle
-Xin = dotsIn.map(itemgetter(0)).collect()
-Yin = dotsIn.map(itemgetter(1)).collect()
-plt.scatter(Xin, Yin, color="r")
-
-# outside circle
-Xout = dotsOut.map(itemgetter(0)).collect()
-Yout = dotsOut.map(itemgetter(1)).collect()
-plt.scatter(Xout, Yout)
-```
-
-### Dummy dataframe
+## Dummy dataframe
 
 ```python
 # https://stackoverflow.com/a/57960267/19652796
@@ -117,16 +65,6 @@ spark.sparkContext.setLogLevel("ERROR")
 spark.sparkContext.setCheckpointDir("checkpoint")  # [DEBUG]
 ```
 
-### Add JARs at runtine
-
-```python
-import os
-
-os.environ[
-    "PYSPARK_SUBMIT_ARGS"
-] = '--packages "org.apache.hadoop:hadoop-aws:2.7.3" pyspark-shell'
-```
-
 ## I/O
 
 ```python
@@ -134,10 +72,7 @@ os.environ[
 project = spark.read.csv(
     project_file,
     header="true",
-    inferSchema="true",
     sep="\t",
-    nullValue=r"\N",
-    timestampFormat="yyyy-MM-dd HH:mm:ss",
 )
 spark.write.csv(output_path, header=True)
 
@@ -151,8 +86,8 @@ spark.write.json(OUTPATH, compression="gzip")
 ## DataFrame
 
 ```python
-# describe dataframe
-df.printSchema()  # .columns(), .dtypes(), describe() also exists
+# metadata
+df.printSchema()  # or .columns
 
 # select columns
 df.select(["a", "b", "c"])
@@ -182,7 +117,7 @@ schema = schema["fields"]
 df.withColumnRenamed("old_name", "new_name")
 
 # add null column
-df.withColumn(col_name, lit(None).cast(col_type))
+df.withColumn(col_name, F.lit(None).cast(col_type))
 
 # dtype casting
 df.withColumn("col_name", df["col_name"].cast(IntegerType()))
@@ -193,7 +128,7 @@ df.groupBy(groupby_col).agg(F.collect_list(col_name))
 # select elem by name from array column
 F.col(col_name)["elem_key"]
 
-## by index
+# select elem by name from array column - by index
 F.col(col_name).getItem(0)
 
 # find median
@@ -315,6 +250,8 @@ data we are writing. That's undesirable and dangerous.
 https://stackoverflow.com/questions/42317738/how-to-partition-and-write-dataframe-in-spark-without-deleting-partitions-with-n
 Therefore, we will temporarily use 'dynamic' within the context of writing files to storage.
 """
+
+spark.conf.set("spark.sql.sources.partitionOverwriteMode", "dynamic")
 ```
 
 ### Skew join optimization
@@ -386,6 +323,8 @@ To overwrite without losing schema & permission, use `truncate`
 ### Postgres
 
 ```python
+uri = "jdbc:postgresql://host.docker.internal:5432/postgres"
+
 ### read
 (
     spark.read.format("jdbc")

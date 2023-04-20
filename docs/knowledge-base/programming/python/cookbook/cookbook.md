@@ -46,22 +46,29 @@ with open("params.csv", "r") as csvfile:
 
 ## Logging
 
+### Default
+
 ```python
 import logging
 
 
-# https://stackoverflow.com/questions/37703609/using-python-logging-with-aws-lambda
-if logging.getLogger().hasHandlers():
-    # The Lambda environment pre-configures a handler logging to stderr. If a handler is already configured,
-    # `.basicConfig` does not execute. Thus we set the level directly.
-    log = logging.getLogger()
-    log.setLevel(logging.INFO)
-    print("local log")
-else:
-    import logging as log
+log = logging.getLogger(__name__)
+handler = logging.StreamHandler()
 
-    log.basicConfig(format="%(asctime)s - [%(levelname)s] %(message)s", level=log.DEBUG)
-    print("lambda log")
+formatter = logging.Formatter("%(asctime)s - [%(levelname)s] - %(name)s - %(message)s")
+handler.setFormatter(formatter)
+log.addHandler(handler)
+
+log.setLevel(logging.INFO)
+```
+
+### AWS Lambda
+
+```python
+from aws_lambda_powertools import Logger
+
+logger = Logger()  # Sets service via env var
+# OR logger = Logger(service="example")
 ```
 
 ## Regex

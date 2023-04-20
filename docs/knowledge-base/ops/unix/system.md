@@ -39,4 +39,7 @@ dmesg
 
 # kill all processes
 killall python3
+
+# kill all processes - from grep
+ps aux | grep "node dist/server.js" | grep -v grep | awk {'print $2'} | xargs kill -9
 ```

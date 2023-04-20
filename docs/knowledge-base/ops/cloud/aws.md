@@ -20,6 +20,14 @@ aws configure
 - [AWS managed policies](https://gist.github.com/gene1wood/55b358748be3c314f956)
 - [AWS Service Principals](https://gist.github.com/shortjared/4c1e3fe52bdfa47522cfe5b41e5d6f22)
 
+#### Commands
+
+```bash
+gcloud auth login
+gcloud config configurations list
+gcloud config configurations activate $ACCOUNT_NAME
+```
+
 ### Cloudwatch
 
 ```sql
