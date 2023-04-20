@@ -200,6 +200,13 @@ F.to_date("listing_update")
 
 # utz to to tz
 F.from_utc_timestamp("datetime_utc", "CST")
+
+# filter between date range
+df.filter(
+    F.col("date_col").between(
+        F.date_add(F.current_date(), -7), F.date_add(F.current_date(), -1)
+    )
+)
 ```
 
 ### SQL
