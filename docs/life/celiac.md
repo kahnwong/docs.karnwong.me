@@ -16,6 +16,10 @@ Notes:
 - [Lemon Farm](https://www.lemonfarm.com/th/online-product.html)
 - [ZVOF](https://www.facebook.com/ZvofCereal/)
 
+### Bakery
+
+- [Tasuko by Ubonsunflowers](https://www.tasukobyubonsunflower.com/)
+
 ### Chocolate
 
 - [Pana Organic](https://pana-organic.com)

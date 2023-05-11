@@ -29,6 +29,7 @@ for google calendar: `https://apidata.googleusercontent.com/caldav/v2/$calendarI
 ## Fonts & Icons
 
 - [Cufon Fonts](https://www.cufonfonts.com/) - The world's most comprehensive Webfonts supported free font archive. For designers and developers.
+- [Emoji Favicon](https://emojifavicon.dev/)
 - [Fontesk](https://fontesk.com/) - Download thousands of free fonts for commercial and personal use. A unique collection of free fonts to download, the best and new serif, sans serif, script typefaces.
 - [Simple Icons](https://simpleicons.org)
 

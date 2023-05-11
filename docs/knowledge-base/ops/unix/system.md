@@ -42,4 +42,17 @@ killall python3
 
 # kill all processes - from grep
 ps aux | grep "node dist/server.js" | grep -v grep | awk {'print $2'} | xargs kill -9
+
+# get resources usage
+top -p $PID
+
+## MacOS
+top -pid $PID
+```
+
+## Sensors
+
+```bash
+sudo apt-get install lm-sensors
+sensors
 ```

@@ -133,6 +133,9 @@ tail -f /dev/null
 # allow users to use docker without sudo
 sudo groupadd docker
 sudo usermod -aG docker $USER
+
+# run local bash script on container init
+cat local_file.sh | docker exec -i container_name bash
 ```
 
 ## Tools

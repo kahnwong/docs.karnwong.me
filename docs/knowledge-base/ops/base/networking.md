@@ -6,6 +6,7 @@ title: Networking
 
 - [deSEC](https://desec.io) - Modern DNS Hosting for Everyone.
 - [DuckDNS](https://www.duckdns.org)
+- [mess with dns](https://messwithdns.net/) - DNS playground.
 
 ### Blocklist
 

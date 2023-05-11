@@ -42,6 +42,13 @@ FROM pg_stat_activity
 ORDER BY runtime;
 ```
 
+### Get session count
+
+```sql
+SELECT count(*)
+FROM pg_stat_activity;
+```
+
 ### Vacuum
 
 ```sql

@@ -26,8 +26,12 @@ echo "$myImgStr" | base64 -d > image2.jpg
 ## jq
 
 ```bash
-# parse JSON string
+# string -> json
 jq '.c | fromjson | .id' myFile.json
+
+
+# json -> string
+echo '{ "foo": [ "bar", "baz" ] }' | jq tostring
 ```
 
 ## openssl
@@ -76,7 +80,13 @@ split -b 500m httpd.log
 
 ## Cookbook
 
-### check if file exists
+### Generate random number
+
+```bash
+r=$(( $RANDOM % 1000 + 1 ))
+```
+
+### Check if file exists
 
 ```bash
 if [ -f ".env" ]; then
@@ -87,7 +97,7 @@ else
 fi
 ```
 
-### loop list from a file
+### Loop list from a file
 
 ```bash
 IFS=$'\n' images=($(cat need_to_process_files.txt))
