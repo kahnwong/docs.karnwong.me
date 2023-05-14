@@ -14,6 +14,15 @@ aws configure
 
 ## Services
 
+### ACM
+
+For certs validation: <https://docs.aws.amazon.com/acm/latest/userguide/setup-caa.html>
+
+```bash
+CAA example.com 0 issue amazon.com
+CAA example.com 0 issuewild amazon.com
+```
+
 ### IAM
 
 - [iam-policy-json-to-terraform](https://github.com/flosell/iam-policy-json-to-terraform) - Small tool to convert an IAM Policy in JSON format into a Terraform aws_iam_policy_document.

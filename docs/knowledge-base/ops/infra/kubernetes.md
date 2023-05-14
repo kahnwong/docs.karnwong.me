@@ -45,6 +45,7 @@ kubectl rollout restart deploy
 
 - [kompose](https://kompose.io/) - Kompose is a conversion tool for Docker Compose to container orchestrators such as Kubernetes (or OpenShift).
 - [skaffold](https://skaffold.dev/) - Easy and Repeatable Kubernetes Development.
+- [Talos Linux](https://www.talos.dev/) - The Kubernetes Operating System.
 
 ## Resources
 
