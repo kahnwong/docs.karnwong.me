@@ -33,7 +33,6 @@ title: Shopping
 
 ## Books
 
-- [Book Depository](https://www.bookdepository.com/)
 - [Readery](https://readery.co/)
 
 ## Clothing
@@ -43,8 +42,7 @@ title: Shopping
 
 ## Cobbler
 
-- [Ballet Shoes](https://th-th.facebook.com/BalletShoesOriginal/)
-- [TMD Premium Footware](https://www.facebook.com/TMDPremiumFootwear)
+- [Gemio Shoes](https://www.facebook.com/thegemio)
 
 ## EDC
 
@@ -85,13 +83,10 @@ title: Shopping
 ### Headphones
 
 - [Munkonggadget](https://www.munkonggadget.com/)
-- [SHENZHENAUDIO](https://shenzhenaudio.com/)
 
 ### Keyboards
 
-- [Dwarf Factory](https://www.dwarf-factory.com/) - Artisan keycaps.
 - [KBDfans](https://kbdfans.com/)
-- [KEMISTRY](https://kemistry.in.th/index.php)
 - [Loga](https://www.logaworld.com/)
 
 ## Entertainment
@@ -104,3 +99,7 @@ title: Shopping
 - [Lukyang](https://www.lukyang.com/)
 - [Pana objects](http://www.pana-objects.com)
 - [The Wood's Tale](https://www.thewoodstale.com)
+
+## Healthcare
+
+- [WSoptics](https://www.facebook.com/wsoptics/) - The ONE-STOP SERVICE for Spectacles and Contact lens.

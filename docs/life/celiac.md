@@ -48,6 +48,11 @@ Notes:
 - [FairD](https://www.facebook.com/FairD.OrganicFairtrade/)
 - ~~Mama (เส้นเล็กรสน้ำยาปู)~~
 
+### Rice
+
+- [Greenliving Camp](https://greenlivingcamp.com/shop/)
+- [HATCH](https://www.facebook.com/hatchgoodies)
+
 ### Seeds & Nuts
 
 - [Flowerfoods](https://www.flowerfoodth.com/category)
@@ -56,7 +61,6 @@ Notes:
 ### Misc
 
 - [Bio Asia](https://www.bioasia.co.th/pdf) - Crackers
-- [HATCH](https://www.facebook.com/hatchgoodies) - Rice
 - [Omakanesh](https://www.facebook.com/omakanesh/) - Uni only
 - Fisherman's friend - Drops
 - Toro Popcorn
