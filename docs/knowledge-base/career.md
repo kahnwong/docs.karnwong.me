@@ -8,6 +8,14 @@ title: Career
 
 ## 1-on-1
 
+### Template
+
+1. Enjoy work?
+2. What can I help to make you have fun at work?
+3. What do you not enjoy about work, and what can I do? (feedback for team)
+4. What do you want to be / alignment (advice from me)
+5. Feedback for ME (what to continue, stop, and start doing)
+
 ### About manager
 
 - Are there any obstacles I can remove for you?
