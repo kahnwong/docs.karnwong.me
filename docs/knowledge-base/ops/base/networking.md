@@ -24,3 +24,15 @@ title: Networking
 - [geonet](https://geonet.shodan.io/) - Run Network Tools from Multiple Geographic Locations
 - [Global Response Time Checker](https://checker.ddosify.com/)
 - [ngrok](https://ngrok.com/) - ngrok allows you to expose a web server running on your local machine to the internet. Just tell ngrok what port your web server is listening on.
+
+## Cookbooks
+
+### Intercepting HTTPS traffic on iOS
+
+<https://www.charlesproxy.com/documentation/using-charles/ssl-certificates/>
+
+1. Start proxy server
+2. Specify proxy for Wi-Fi SSID
+3. Obtain SSL cert via <https://chls.pro/ssl>
+4. Install cert (Settings > General > VPN & Device Management)
+5. Trust cert (Settings > General > About > Certificate Trust Settings)
