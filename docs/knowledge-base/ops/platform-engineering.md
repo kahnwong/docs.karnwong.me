@@ -14,3 +14,4 @@ title: Platform Engineering
 ## Resources
 
 - [CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/)
+- [Internal Developer Platform](https://internaldeveloperplatform.org/)
