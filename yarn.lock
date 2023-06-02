@@ -3796,13 +3796,13 @@ dns-packet@^5.2.2:
   dependencies:
     "@leichtgewicht/ip-codec" "^2.0.1"
 
-docusaurus-preset-shiki-twoslash@^1.1.40:
-  version "1.1.40"
-  resolved "https://registry.yarnpkg.com/docusaurus-preset-shiki-twoslash/-/docusaurus-preset-shiki-twoslash-1.1.40.tgz#031e887c5e78534b150887a72e969d2dfaea8919"
-  integrity sha512-w8rILRonxyMkH3gDJdFvuVCTDKdhdtPkgV996RkA+pir+dOgkE+e8HYX9QUG9ovKfWgWcZFjnSvBYyWR7UDbJA==
+docusaurus-preset-shiki-twoslash@^1.1.41:
+  version "1.1.41"
+  resolved "https://registry.yarnpkg.com/docusaurus-preset-shiki-twoslash/-/docusaurus-preset-shiki-twoslash-1.1.41.tgz#f671573dd6ded6f64c4bdc99e47a82487f6f29b2"
+  integrity sha512-Ny5Ot+r7dMnfkcD+YcdtSmM4LVWoLRGWe/A6AqzcN4h6mqE82EU6KMA53wVI50YqgTOIIrNNI6QJr70rPWebcw==
   dependencies:
     copy-text-to-clipboard "^3.0.1"
-    remark-shiki-twoslash "3.1.2"
+    remark-shiki-twoslash "3.1.3"
     typescript ">3"
 
 dom-converter@^0.2.0:
@@ -6984,10 +6984,10 @@ remark-parse@8.0.3:
     vfile-location "^3.0.0"
     xtend "^4.0.1"
 
-remark-shiki-twoslash@3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/remark-shiki-twoslash/-/remark-shiki-twoslash-3.1.2.tgz#a926474e65b8fee6b9939f18c88080e006e6b8d2"
-  integrity sha512-XmJS1SXc4SvwI8F4FjNwhcYn+lxnF7gw3gcPpT6aFuQimLefihfg6CnIHWQXI1uqfFkDVRfLvK6kOmJjm/2ixQ==
+remark-shiki-twoslash@3.1.3:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/remark-shiki-twoslash/-/remark-shiki-twoslash-3.1.3.tgz#0edc4929a68ca24da2cdd80d662feb7811a6194b"
+  integrity sha512-4e8OH3ySOCw5wUbDcPszokOKjKuebOqlP2WlySvC7ITBOq27BiGsFlq+FNWhxppZ+JzhTWah4gQrnMjX3KDbAQ==
   dependencies:
     "@types/unist" "^2.0.0"
     "@typescript/twoslash" "3.1.0"
@@ -6995,7 +6995,7 @@ remark-shiki-twoslash@3.1.2:
     fenceparser "^1.1.0"
     regenerator-runtime "^0.13.7"
     shiki "0.10.1"
-    shiki-twoslash "3.1.1"
+    shiki-twoslash "3.1.2"
     tslib "2.1.0"
     unist-util-visit "^2.0.0"
 
@@ -7360,10 +7360,10 @@ shelljs@^0.8.5:
     interpret "^1.0.0"
     rechoir "^0.6.2"
 
-shiki-twoslash@3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/shiki-twoslash/-/shiki-twoslash-3.1.1.tgz#52ebb38bb80549600cd268c4a8701454fd6e7d3f"
-  integrity sha512-b2j/2yjEjnj0Yav7purKB7uuSbYBf/EQWmu2f7d4G96NiM+Qmr3Tb3UeHY7faN/IEaLW6ip7aQa7MpZNlU5xkQ==
+shiki-twoslash@3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/shiki-twoslash/-/shiki-twoslash-3.1.2.tgz#fba4a5bf6f055d96543691c1585b04528fe4c486"
+  integrity sha512-JBcRIIizi+exIA/OUhYkV6jtyeZco0ykCkIRd5sgwIt1Pm4pz+maoaRZpm6SkhPwvif4fCA7xOtJOykhpIV64Q==
   dependencies:
     "@typescript/twoslash" "3.1.0"
     "@typescript/vfs" "1.3.4"
