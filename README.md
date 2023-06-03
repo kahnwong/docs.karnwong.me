@@ -1,18 +1,10 @@
 # docs.karnwong.me
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
-
-## Init
-
-```bash
-npm init docusaurus@latest
-```
-
 ## Usage
 
 ```bash
 yarn install
-yarn start # http://localhost:3000
+yarn dev # http://localhost:5173
 ```
 
 ## Validate links
@@ -21,3 +13,11 @@ yarn start # http://localhost:3000
 # npm install -g markdown-link-check
 markdown-link-check **/*.md
 ```
+
+## Algolia resources
+
+<https://github.com/JasperFx/lamar/blob/master/docs/.vitepress/algolia-config.json>
+
+## Notes
+
+- If deploy on Cloud Pages, need to disable `auto minify`.
