@@ -1,6 +1,6 @@
 # Documentation
 
-- [Docusaurus](https://docusaurus.io/) - Build optimized websites quickly, focus on your content.
+- [VitePress](https://vitepress.dev/) - Vite & Vue Powered Static Site Generator.
 - [Docusaurus OpenAPI Doc Generator](https://github.com/PaloAltoNetworks/docusaurus-openapi-docs) - 🦝 OpenAPI plugin for generating API reference docs in Docusaurus v2.
 
 ## Badges

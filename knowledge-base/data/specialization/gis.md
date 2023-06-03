@@ -51,6 +51,7 @@ DEGREE = KM / 111.319
 ### Server
 
 - [tileserver-gl](https://github.com/maptiler/tileserver-gl) - Vector and raster maps with GL styles. Server side rendering by MapLibre GL Native. Map tile server for MapLibre GL JS, Android, iOS, Leaflet, OpenLayers, GIS via WMTS, etc.
+- [QGIS server](https://docs.qgis.org/3.28/en/docs/server_manual/index.html)
 
 ## Indexing
 

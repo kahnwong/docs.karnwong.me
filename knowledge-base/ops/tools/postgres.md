@@ -133,6 +133,9 @@ $ pg_restore -h HOST -U USERNAME -d DB_NAME -C -c BACKUP.sql.gz
 ## PSQL
 
 ```bash
+# list databases
+\l
+
 # list tables
 \dt
 
