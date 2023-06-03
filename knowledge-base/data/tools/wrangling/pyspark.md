@@ -332,6 +332,14 @@ To overwrite without losing schema & permission, use `truncate`
 ### Postgres
 
 ```python
+spark = (
+    SparkSession.builder.appName("Pyspark playground")
+    .config("spark.executor.memory", "16g")
+    .config("spark.driver.memory", "16g")
+    .config("spark.jars.packages", "org.postgresql:postgresql:42.5.0")
+    .getOrCreate()
+)
+
 uri = "jdbc:postgresql://host.docker.internal:5432/postgres"
 
 ### read
@@ -484,4 +492,40 @@ w = Window().partitionBy(partition_col).orderBy(F.desc(order_by_key))
     .filter(col("rank") == 1)
     .drop(col("rank"))
 )
+```
+
+### Sum columns horizontally
+
+```python
+t = spark.createDataFrame(
+    [
+        (1, 2, 4, 0),
+        (2, 5, 4, None),
+        (2, 6, 4, 1),
+    ],
+    ["id", "a", "b", "c"],  # add your column names here
+)
+
+t.withColumn(
+    "count",
+    sum(when(t[col].isNull(), F.lit(0)).otherwise(t[col]) for col in ["a", "b", "c"]),
+).show()
+
+# OR, this one uses `col` instead of `df`
+t.withColumn(
+    "count",
+    sum(when(col(i).isNull(), F.lit(0)).otherwise(col(i)) for i in ["a", "b", "c"]),
+).show()
+```
+
+Output
+
+```
++---+---+---+----+-----+
+| id|  a|  b|   c|count|
++---+---+---+----+-----+
+|  1|  2|  4|   0|    6|
+|  2|  5|  4|null|    9|
+|  2|  6|  4|   1|   11|
++---+---+---+----+-----+
 ```

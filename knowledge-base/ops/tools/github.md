@@ -13,6 +13,58 @@ gh repo-delete vilmibm/deleteme
 
 - [GitHub Actions Virtual Environments](https://github.com/actions/virtual-environments)
 
+### Template
+
+```yaml
+on:
+  push:
+    branches: [master]
+    paths-ignore:
+      - "README.md"
+      - ".github/dependabot.yml"
+
+concurrency:
+  group: environment-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    env:
+      ECR_REPOSITORY: fava
+
+    permissions:
+      id-token: write
+      contents: read
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v2
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v4
+        with:
+          images: ${{ steps.login-ecr.outputs.registry }}/${{ env.ECR_REPOSITORY }}
+          tags: |
+            type=raw,value={{sha}}
+            type=raw,value=latest
+
+      - name: Build, tag, and push image to Amazon ECR
+        uses: docker/build-push-action@v3
+        with:
+          context: .
+          platforms: linux/amd64,linux/arm64
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+```
+
 ### Cookbook
 
 #### Run locally built image

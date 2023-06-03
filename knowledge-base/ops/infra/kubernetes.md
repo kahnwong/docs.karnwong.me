@@ -39,6 +39,10 @@ kubectl rollout restart deploy
 
 - [Artifact Hub](https://artifacthub.io/) - Find, install and publish Kubernetes packages.
 
+## Monitoring & Observability
+
+- [Coroot](https://github.com/coroot/coroot) - Coroot is an open-source eBPF-based observability tool that turns telemetry data into actionable insights, helping you identify and resolve application issues quickly.
+
 ## Tools
 
 - [kompose](https://kompose.io/) - Kompose is a conversion tool for Docker Compose to container orchestrators such as Kubernetes (or OpenShift).
