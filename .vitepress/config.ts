@@ -1,6 +1,6 @@
 import { defineConfig } from "vitepress";
-import { createWriteStream } from "node:fs";
-import { resolve } from "node:path";
+// import { createWriteStream } from "node:fs";
+// import { resolve } from "node:path";
 // import { SitemapStream } from "sitemap";
 
 // const links = [];
@@ -396,4 +396,20 @@ export default defineConfig({
   //   sitemap.end();
   //   await new Promise((r) => writeStream.on("finish", r));
   // },
+
+  // google analytics
+  head: [
+    [
+      "script",
+      {
+        async: true,
+        src: "https://www.googletagmanager.com/gtag/js?id=G-M6K7QN1CF6",
+      },
+    ],
+    [
+      "script",
+      {},
+      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-M6K7QN1CF6');",
+    ],
+  ],
 });
