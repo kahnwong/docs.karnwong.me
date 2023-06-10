@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # Skyrim Mod List
 
 ## Interface Mods

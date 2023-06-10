@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # Platform Engineering
 
 - [Developer Experience Knowledge Base](https://developerexperience.io/)

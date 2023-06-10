@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # Shapely
 
 ## WKB to WKT

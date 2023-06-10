@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # Management
 
 - [Design Sprints](https://designsprintkit.withgoogle.com/) - Transform the way your team works.

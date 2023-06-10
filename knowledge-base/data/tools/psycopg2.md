@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # psycopg2
 
 ## Usage

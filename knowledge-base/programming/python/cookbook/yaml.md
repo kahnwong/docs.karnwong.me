@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # yaml
 
 `pip install pyyaml`

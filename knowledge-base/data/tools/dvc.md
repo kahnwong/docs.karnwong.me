@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # DVC
 
 [Quick start](https://dvc.org/doc/start)

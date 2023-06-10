@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # QGIS
 
 ## Config WFS

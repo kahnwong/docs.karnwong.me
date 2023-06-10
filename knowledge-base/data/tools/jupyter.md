@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # Jupyter
 
 ## Jupyter magic

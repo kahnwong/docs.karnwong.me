@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # SQL
 
 ## Basic syntax

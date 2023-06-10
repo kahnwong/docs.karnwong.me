@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # MP3Tag
 
 ```

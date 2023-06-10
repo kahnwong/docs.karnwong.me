@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # System
 
 ## Mount & Umount

@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # Linux
 
 ## Linux on Macbook

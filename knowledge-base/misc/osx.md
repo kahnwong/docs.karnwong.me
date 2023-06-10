@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # OSX
 
 ## Fix gpg failed to sign data

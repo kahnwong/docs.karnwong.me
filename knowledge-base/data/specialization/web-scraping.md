@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # Web Scraping
 
 ## Formdata & payload

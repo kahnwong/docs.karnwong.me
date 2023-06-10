@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # Compression
 
 | Kind | Compression                                    | Extraction                   |

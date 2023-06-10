@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # Windows
 
 ## Windows network share

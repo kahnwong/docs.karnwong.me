@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # youtube-dl
 
 <https://github.com/yt-dlp/yt-dlp>

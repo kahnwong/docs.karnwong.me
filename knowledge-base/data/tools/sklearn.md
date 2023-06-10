@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # sklearn
 
 ## Visualize dataset cluster via t-nse
