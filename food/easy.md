@@ -1,7 +1,5 @@
 # Easy
 
-import Mermaid from '@theme/Mermaid';
-
 ## Potatoes
 
 ### baked
