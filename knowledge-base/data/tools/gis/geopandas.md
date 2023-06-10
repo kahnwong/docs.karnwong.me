@@ -2,7 +2,7 @@
 
 ## I/O
 
-### Create gpd from df
+### Create gdf from df
 
 ```python
 import pandas as pd
