@@ -306,7 +306,6 @@ export default defineConfig({
             },
           ],
         },
-        { text: "Career", link: "knowledge-base/career" },
         {
           text: "Misc",
           collapsed: true,
