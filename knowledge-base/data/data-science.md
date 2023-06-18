@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # Data Science
 
 ## Dashboard
@@ -5,11 +9,7 @@
 - [streamlit](https://github.com/streamlit/streamlit) - Streamlit — The fastest way to build data apps in Python.
 - [redash](http://redash.io/) - Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data.
 
-## EDA
-
-- [sweetviz](https://github.com/fbdesignpro/sweetviz) - Visualize and compare datasets, target values and associations, with one line of code.
-
-## Neural Networks
+## Machine Learning
 
 - [TabNet](https://github.com/dreamquark-ai/tabnet) - PyTorch implementation of TabNet paper.
 
@@ -19,12 +19,6 @@
 
 ## Resources
 
-- [Deep Learning Tuning Playbook](https://github.com/google-research/tuning_playbook)
-
-### Foundations
-
-- [Crash Course: Statistics](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr)
-
 ### Algorithms
 
 - [Interactive Gaussian Process Visualization](http://www.infinitecuriosity.org/vizgp/)
@@ -33,11 +27,6 @@
 - [Simulated Annealing](https://github.com/skylergrammer/SimulatedAnnealing)
 - [The Illustrated Machine Learning](https://illustrated-machine-learning.github.io/index.html)
 
-### Ethics
+### Management
 
-- [Fairness and machine learning: Limitations and Opportunities](https://fairmlbook.org/)
-
-### Hiring
-
-- [The Data Science Interview Book](https://book.thedatascienceinterviewproject.com/)
 - [Introduction to Machine Learning Interviews](https://huyenchip.com/ml-interviews-book/)
