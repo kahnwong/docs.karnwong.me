@@ -253,11 +253,11 @@ export default defineConfig({
               text: "Web Development",
               link: "knowledge-base/software-engineering/web-development",
             },
-            { text: "UI", link: "knowledge-base/software-engineering/ux-ui" },
             {
               text: "Product Development",
               link: "knowledge-base/software-engineering/product-development",
             },
+            { text: "UI", link: "knowledge-base/software-engineering/ux-ui" },
             {
               text: "Management",
               link: "knowledge-base/software-engineering/management",
@@ -319,37 +319,50 @@ export default defineConfig({
           text: "Misc",
           collapsed: true,
           items: [
-            { text: "Android", link: "knowledge-base/misc/android" },
-            { text: "FFMPEG", link: "knowledge-base/misc/ffmpeg" },
-            { text: "Linux", link: "knowledge-base/misc/linux" },
-            { text: "OSX", link: "knowledge-base/misc/osx" },
-            { text: "Pandoc", link: "knowledge-base/misc/pandoc" },
-            { text: "Useful Links", link: "knowledge-base/misc/useful-links" },
-            { text: "Windows", link: "knowledge-base/misc/windows" },
-            { text: "youtube-dl", link: "knowledge-base/misc/youtube-dl" },
-            { text: "Misc", link: "knowledge-base/misc/misc" },
             {
               text: "Desktop Apps",
               collapsed: true,
               items: [
                 {
                   text: "Calibre",
-                  link: "knowledge-base/misc/desktop-app/calibre",
+                  link: "knowledge-base/misc/desktop-apps/calibre",
                 },
                 {
                   text: "Foobar",
-                  link: "knowledge-base/misc/desktop-app/foobar",
+                  link: "knowledge-base/misc/desktop-apps/foobar",
                 },
                 {
                   text: "gpodder",
-                  link: "knowledge-base/misc/desktop-app/gpodder",
+                  link: "knowledge-base/misc/desktop-apps/gpodder",
                 },
                 {
                   text: "MP3Tag",
-                  link: "knowledge-base/misc/desktop-app/mp3tag",
+                  link: "knowledge-base/misc/desktop-apps/mp3tag",
                 },
               ],
             },
+            {
+              text: "OS",
+              collapsed: true,
+              items: [
+                { text: "Android", link: "knowledge-base/misc/os/android" },
+                { text: "Linux", link: "knowledge-base/misc/os/linux" },
+                { text: "OSX", link: "knowledge-base/misc/os/osx" },
+                { text: "Windows", link: "knowledge-base/misc/os/windows" },
+              ],
+            },
+            {
+              text: "Tools",
+              collapsed: true,
+              items: [
+                { text: "FFMPEG", link: "knowledge-base/misc/tools/ffmpeg" },
+                { text: "Pandoc", link: "knowledge-base/misc/tools/pandoc" },
+                { text: "youtube-dl", link: "knowledge-base/misc/tools/youtube-dl" },
+
+              ],
+            },
+            { text: "Useful Links", link: "knowledge-base/misc/useful-links" },
+            { text: "Misc", link: "knowledge-base/misc/misc" },
           ],
         },
       ],
