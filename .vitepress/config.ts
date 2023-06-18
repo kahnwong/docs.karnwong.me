@@ -230,6 +230,7 @@ export default defineConfig({
                 { text: "Docker", link: "knowledge-base/ops/tools/docker" },
                 { text: "Git", link: "knowledge-base/ops/tools/git" },
                 { text: "GitHub", link: "knowledge-base/ops/tools/github" },
+                { text: "Harbor", link: "knowledge-base/ops/tools/harbor" },
                 { text: "Neovim", link: "knowledge-base/ops/tools/neovim" },
                 { text: "Postgres", link: "knowledge-base/ops/tools/postgres" },
                 {
