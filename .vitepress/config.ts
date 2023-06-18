@@ -57,16 +57,25 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: "DVC", link: "knowledge-base/data/tools/dvc" },
-                { text: "Jupyter", link: "knowledge-base/data/tools/jupyter" },
-                {
-                  text: "Matplotlib / Seaborn",
-                  link: "knowledge-base/data/tools/matplotlib-seaborn",
-                },
+
+
                 {
                   text: "psycopg2",
                   link: "knowledge-base/data/tools/psycopg2",
                 },
-                { text: "Sklearn", link: "knowledge-base/data/tools/sklearn" },
+
+                {
+                  text: "Data Science",
+                  collapsed: true,
+                  items: [
+                    { text: "Jupyter", link: "knowledge-base/data/tools/data-science/jupyter" },
+                    {
+                      text: "Matplotlib / Seaborn",
+                      link: "knowledge-base/data/tools/data-science/matplotlib-seaborn",
+                    },
+                    { text: "Sklearn", link: "knowledge-base/data/tools/data-science/sklearn" },
+                  ],
+                },
                 {
                   text: "GIS",
                   collapsed: true,
