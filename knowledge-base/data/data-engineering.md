@@ -19,6 +19,7 @@ outline: deep
 
 ### Glossary
 
+- [Data Engineering Terms Explained](https://dagster.io/glossary)
 - [Database Glossary](https://www.bytebase.com/database-glossary)
 - [Modern Data Stack Glossary](https://www.secoda.co/glossary)
 - [The data observability dictionary](https://www.bigeye.com/blog/data-observability-dictionary)

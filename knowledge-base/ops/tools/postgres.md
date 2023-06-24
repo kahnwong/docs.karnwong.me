@@ -178,5 +178,6 @@ db> \copy (SELECT  * FROM district_boundary) TO '~/Downloads/file.tsv' WITH (FOR
 
 ## Resources
 
-- [Postgres Tutorials](https://www.crunchydata.com/developers/tutorials)
+- [How to JSON in PostgreSQL](https://ftisiot.net/postgresqljson/main/)
 - [Postgres Tips & Tricks](https://www.crunchydata.com/postgres-tips)
+- [Postgres Tutorials](https://www.crunchydata.com/developers/tutorials)
