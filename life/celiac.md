@@ -13,8 +13,9 @@ Notes:
 - [Lemon Farm](https://www.lemonfarm.com/th/online-product.html)
 - [ZVOF](https://www.facebook.com/ZvofCereal/)
 
-### Bakery
+### Flour
 
+- [Opan](https://www.opanfood.com/product.html)
 - [Tasuko by Ubonsunflowers](https://www.tasukobyubonsunflower.com/)
 
 ### Chocolate
