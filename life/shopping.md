@@ -4,6 +4,8 @@
 
 ### Aroma
 
+#### To-evaluate
+
 - [Akaliko](https://akaliko.co.th/)
 - [AMPHAN](https://www.amphancraft.com/th)
 - [Anona](https://www.anonathailand.com)
@@ -24,9 +26,11 @@
 
 - [Olivos](https://shopee.co.th/gennotech)
 - [Organics Buddy](https://organicsbuddy.com/official-store?productType=official-store-personal-care)
+
+#### To-evaluate
+
 - [Shan Organic](https://www.shanorganic.com)
 - [Soap for Soul](https://shopee.co.th/shop/27256077/search)
-- [Your Sustainable Store](https://yoursustainablestore.com/)
 - [พร้าวไทย](http://www.prowthai.com/index.php/th/2015-12-09-14-42-16/soap-prowthai)
 
 ## Books
@@ -58,7 +62,6 @@
 
 - [Phol Online](https://www.pholonline.com/ppe/ear-plugs/ear-plugs.html)
 - [Ear plug superstore](https://www.earplugstore.com)
-- [Happy Ears](https://www.happyearsearplugs.com)
 
 ### Stationery
 
@@ -102,3 +105,7 @@
 ## Healthcare
 
 - [WSoptics](https://www.facebook.com/wsoptics/) - The ONE-STOP SERVICE for Spectacles and Contact lens.
+
+## Vendors
+
+- [Your Sustainable Store](https://yoursustainablestore.com/)
