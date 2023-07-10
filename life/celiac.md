@@ -56,16 +56,18 @@ Notes:
 - [Flowerfoods](https://www.flowerfoodth.com/category)
 - เมล็ดฟักทองตรามือ
 
-### Misc
+### Snacks
 
 - [Bio Asia](https://www.bioasia.co.th/pdf) - Crackers
-- [Omakanesh](https://www.facebook.com/omakanesh/) - Uni only
-- Fisherman's friend - Drops
 - Toro Popcorn
 - [The Gold Green](http://www.thegoldgreenthailand.com/#fruit) - Dried fruits
 - ทอฟฟี่นมแสงไทย
+
+### Misc
+
+- [Omakanesh](https://www.facebook.com/omakanesh/) - Uni only
+- Fisherman's friend - Drops
 - [Dever Energy Gel](https://deverenergygel.com/shop/) - Energy gel
-- ~~[Kaew](https://www.kaew.co.th/product) - Crispy coconut rolls~~
 
 ## Legal
 

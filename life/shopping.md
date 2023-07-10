@@ -6,21 +6,11 @@
 
 #### To-evaluate
 
-- [Akaliko](https://akaliko.co.th/)
-- [AMPHAN](https://www.amphancraft.com/th)
-- [Anona](https://www.anonathailand.com)
-- [BLITH](https://shopee.co.th/shop/309249088/search?page=0&shopCollection=101315921)
-- [donna-chang](https://donna-chang.co.th/)
-- [hibi](https://hibi-jp.com/en/)
 - [Malapinn](http://malapinn.com/)
 - [NUAYNARD](https://www.nuaynardhandcraft.com/)
 - [PAÑPURI](https://www.panpuri.com/th)
-- [Peylaa](http://peylaa.com)
 - [Reunrom](https://www.reunrom.com)
 - [Sabai-arom](https://sabai-arom.com/)
-- [Thaniya](https://thaniya1988.com/scent-library/)
-- [Wax Valley Candle Co.](https://happeningandfriends.com/shop/waxvalley?lang=th)
-- [ยักษียักษา](https://www.facebook.com/yaksriyaksaa/)
 
 ### Bath
 
@@ -50,6 +40,7 @@
 
 - [Bangkok Tactical](https://www.bangkoktactical.com/)
 - [jweep](htthps://www.jweep.co/) - Experimental garments.
+- [Labrador](https://shoplabrador.com/)
 - [TANKstore](https://www.e-tankstore.com/)
 - [tathata](ttps://tathatabrand.com/)
 
