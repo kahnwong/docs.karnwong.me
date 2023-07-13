@@ -36,7 +36,7 @@ kubectl config get-contexts
 kubectl config rename-context default k3s_pi
 
 # restart deployment
-kubectl rollout restart deploy
+kubectl rollout restart deploy $DEPLOYMENT_NAME
 ```
 
 ## Packages
