@@ -90,6 +90,17 @@ docker run \
     --timeline=TRUE > stats.html
 ```
 
+### Remove large files from git history
+
+<https://stackoverflow.com/a/61602985>
+
+```bash
+wget https://raw.githubusercontent.com/newren/git-filter-repo/main/git-filter-repo
+
+python3 git-filter-repo --analyze
+python3 git-filter-repo --invert-paths --path-match $PATH
+```
+
 ## Resources
 
 ### General
