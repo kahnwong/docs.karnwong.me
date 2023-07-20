@@ -65,7 +65,6 @@ DEGREE = KM / 111.319
 ### Visualizations
 
 - [kepler.gl](https://kepler.gl/demo) - A data-agnostic, high-performance web-based application for visual exploration of large-scale geolocation data sets.
-- [cartoframes](https://github.com/CartoDB/cartoframes) - CARTO Python package for data scientists.
 
 ### Misc
 

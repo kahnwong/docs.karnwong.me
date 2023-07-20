@@ -26,3 +26,9 @@ outline: deep
 - [Dropbox Engineering Career Framework](https://dropbox.github.io/dbx-career-framework/)
 - [Engineering Ladders](http://www.engineeringladders.com/)
 - [Software Development/Leadership Ladder](https://docs.google.com/spreadsheets/d/1k4sO6pyCl_YYnf0PAXSBcX776rNcTjSOqDxZ5SDty-4/edit#gid=0)
+
+## Tests
+
+- [Leadership Styles Quiz](https://www.leadershipiq.com/blogs/leadershipiq/36533569-quiz-whats-your-leadership-style)
+- [Cultural Profile](https://hbr.org/2014/08/whats-your-cultural-profile)
+- [TypeFinder Personality Test](https://www.truity.com/test/type-finder-personality-test-new)

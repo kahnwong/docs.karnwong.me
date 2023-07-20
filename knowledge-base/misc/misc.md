@@ -46,3 +46,9 @@ for google calendar: `https://apidata.googleusercontent.com/caldav/v2/$calendarI
 - [list.community](https://list.community) - List.community is an easy way to browse curated lists on GitHub.
 - [Privacy Guides](https://privacyguides.org)
 - [European Alternatives](https://european-alternatives.eu/)
+
+## Sourcegraph
+
+```bash
+(content: $KEYWORD1) (content: $KEYWORD2)
+```

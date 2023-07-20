@@ -164,6 +164,7 @@ export default defineConfig({
               text: "Platform Engineering",
               link: "knowledge-base/ops/platform-engineering",
             },
+            { text: "DevSecOps", link: "knowledge-base/ops/devsecops" },
             { text: "FinOps", link: "knowledge-base/ops/finops" },
             { text: "SecretOps", link: "knowledge-base/ops/secretops" },
             {

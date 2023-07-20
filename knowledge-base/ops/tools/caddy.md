@@ -49,3 +49,4 @@ intranet.example.com {
 ### Resources
 
 - [Public and internal caddy network setup](https://mrkaran.dev/posts/exposing-services-self-hosting/)
+- [Setup CORS in Caddy 2](https://kalnytskyi.com/posts/setup-cors-caddy-2/)

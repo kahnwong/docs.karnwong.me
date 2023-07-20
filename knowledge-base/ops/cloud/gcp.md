@@ -23,6 +23,8 @@ outline: deep
 - [Analyze IAM policies](https://cloud.google.com/policy-intelligence/docs/analyze-iam-policies)
 - [Overview of role recommendations](https://cloud.google.com/policy-intelligence/docs/role-recommendations-overview)
 
+Differences between iam_binding and iam_member: `binding` revokes any other members from the role to which it applies, whereas `member` just adds a member alongside existing members.
+
 ### Networking
 
 - [Shared VPC](https://cloud.google.com/vpc/docs/shared-vpc)
