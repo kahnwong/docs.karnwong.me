@@ -28,7 +28,7 @@ on:
       - ".github/dependabot.yml"
 
 concurrency:
-  group: environment-${{ github.ref }}
+  group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:

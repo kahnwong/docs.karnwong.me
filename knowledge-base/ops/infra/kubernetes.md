@@ -22,6 +22,10 @@ k3s kubectl config view --raw # copy this to ~/.kube/config on your local machin
 ```bash
 # restart deployment
 kubectl rollout restart deploy $DEPLOYMENT_NAME
+
+# referencing service hostname from within cluster
+## see: https://stackoverflow.com/a/55650127
+`<service.name>.<namespace name>.svc.cluster.local` or `<service.name>.<namespace name>`
 ```
 
 ## Packages

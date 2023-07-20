@@ -9,8 +9,9 @@ Notes:
 ### Vendors
 
 - [Chita Organic](https://www.chitaorganicfood.co.th/category)
-- [Organic Pavillion](https://shopee.co.th/organicpavilion)
 - [Lemon Farm](https://www.lemonfarm.com/th/online-product.html)
+- [Organic Pavillion](https://shopee.co.th/organicpavilion)
+- [Tropicana](https://tropicanaoil.com/en/product-category/grocery-product)
 - [ZVOF](https://www.facebook.com/ZvofCereal/)
 
 ### Flour
