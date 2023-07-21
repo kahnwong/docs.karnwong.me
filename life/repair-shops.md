@@ -59,7 +59,15 @@ LineID : @HoukandBank
 
 ## Headphones
 
-- [B_Rabbithifi](https://www.facebook.com/B.RabbitHiEnd/)
+### [B_Rabbithifi](https://www.facebook.com/B.RabbitHiEnd/)
+
+```
+ว่าที่ร้อยตรี บุญชัย ชลคาร
+ห้างหุ้นส่วนจำกัด บี แรบบิท ไฮไฟ
+555 ศูนย์การค้า เดอะ พาลาเดียม เวิลด์ ช้อปปิ้ง ชั้น5 ห้อง IT5-06
+ถนนราชปรารภ แขวงมักกะสัน เขตราชเทวี จ.กรุงเทพฯ 10400
+Tel:086-7505667 /02-2529578
+```
 
 ### Sennheiser
 
