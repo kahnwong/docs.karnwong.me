@@ -4,6 +4,8 @@
 
 ### Aroma
 
+- [Homhom Nourishing](https://www.facebook.com/homHOM.THofficial/)
+
 #### To-evaluate
 
 - [Malapinn](http://malapinn.com/)
@@ -11,6 +13,7 @@
 - [PAÑPURI](https://www.panpuri.com/th)
 - [Reunrom](https://www.reunrom.com)
 - [Sabai-arom](https://sabai-arom.com/)
+- [Prem Product](https://premproduct.com/)
 
 ### Bath
 
@@ -92,6 +95,10 @@
 - [Lukyang](https://www.lukyang.com/)
 - [Pana objects](http://www.pana-objects.com)
 - [The Wood's Tale](https://www.thewoodstale.com)
+
+## Home & Kitchen
+
+- [Na Nawa Ceramic](https://www.facebook.com/nanawaceramic/)
 
 ## Healthcare
 
