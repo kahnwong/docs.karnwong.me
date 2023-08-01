@@ -38,7 +38,11 @@ GRANT EXECUTE ON all functions IN SCHEMA public TO user;
 SELECT usename,datname,count(*)
 FROM pg_stat_activity
 GROUP BY usename,datname;
+```
 
+with runtime
+
+```sql
 SELECT pid, datname, usename, query_start, now() - query_start as runtime, query
 FROM pg_stat_activity
 ORDER BY runtime;
@@ -57,7 +61,7 @@ FROM pg_stat_activity;
 -- full stats
 SELECT relname, seq_scan, n_live_tup, n_dead_tup, n_tup_del, last_autovacuum, last_autoanalyze, autovacuum_count, autovacuum_count FROM pg_stat_user_tables;
 
- see alive/dead row count
+-- see alive/dead row count
 SELECT n_live_tup, n_dead_tup, relname FROM pg_stat_all_tables;
 
 -- prune dead rows
@@ -118,7 +122,7 @@ ORDER BY
 ## Collation
 
 ```bash
-th_TH.UTF-8 # Thai
+CREATE DATABASE $your_database_name LC_COLLATE='th_TH.utf8' LC_CTYPE='th_TH.utf8' TEMPLATE=template0;
 ```
 
 ### Backup and restore

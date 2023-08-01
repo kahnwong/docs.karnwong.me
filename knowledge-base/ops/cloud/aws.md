@@ -48,6 +48,15 @@ sort @timestamp desc |
 limit 100
 ```
 
+Get stats
+
+```sql
+fields @message
+| filter strcontains(@message, "lon")
+| parse @message 'lon' as @lon |
+| stats count(@lon) as QUERY_COUNT
+```
+
 ### EC2
 
 - [unused-amis.sh](https://gist.github.com/ilpianista/a8dfe8f7042d61abb8524571be910403)

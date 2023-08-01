@@ -15,12 +15,22 @@ terraformer import aws --resources=api_gateway --connect=true --regions=ap-south
 terraform state replace-provider -auto-approve registry.terraform.io/-/aws hashicorp/aws
 ```
 
+### Import block
+
+```hcl
+import {
+  to = google_container_cluster.auto
+  id = "asia-southeast1/autopilot-cluster-1"
+}
+```
+
+```bash
+terraform plan -generate-config-out=generated_resources.tf
+```
+
 ## Tools
 
 - [driftctl](https://github.com/cloudskiff/driftctl) - Detect, track and alert on infrastructure drift.
-- [terragrunt](https://terragrunt.gruntwork.io/docs/getting-started/quick-start/) - Terragrunt is a thin wrapper that provides extra tools for keeping your configurations DRY, working with multiple Terraform modules, and managing remote state.
-- [tfrefactor](https://github.com/craftvscruft/tfrefactor) - Automated refactoring for Terraform.
-- [tfadd](https://github.com/magodo/tfadd) - Generate valid Terraform configuration from state.
 - [Pluralith](https://pluralith.com/) - Visualize Terraform infrastructure.
 
 ### Linters

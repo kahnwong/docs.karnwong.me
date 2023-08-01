@@ -20,142 +20,119 @@ gh repo-delete vilmibm/deleteme
 ### Template
 
 ```yaml
+---
+name: Build and deploy to K8s
 on:
   push:
-    branches: [master]
-    paths-ignore:
-      - "README.md"
-      - ".github/dependabot.yml"
-
+    branches: [master, dev] # [TODO] if `dev` or `uat`, set it to another namespace
+  paths-ignore:
+  - "README.md"
+  - ".github/dependabot.yml"
+  pull_request: # [TODO] remove
+  workflow_dispatch:
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
-
+    group: ${{ github.workflow }}-${{ github.ref }}
+    cancel-in-progress: true
+env:
+  HARBOR_REGISTRY: registry.example.com
+  HARBOR_REPOSITORY: project/service
 jobs:
   build:
-    env:
-      ECR_REPOSITORY: fava
-
-    permissions:
-      id-token: write
-      contents: read
-
     runs-on: ubuntu-latest
     steps:
+      # ---------------- build & push ---------------- #
       - uses: actions/checkout@v3
-
-      - name: Set up QEMU
-        uses: docker/setup-qemu-action@v2
+      - name: Login to Docker Hub # [TODO] change me
+        uses: docker/login-action@v2
+        with:
+          registry: ${{ env.HARBOR_REGISTRY }}
+          username: ${{ secrets.HARBOR_USERNAME }}
+          password: ${{ secrets.HARBOR_PASSWORD }}
       - name: Set up Docker Buildx
+        id: buildx
         uses: docker/setup-buildx-action@v2
-
+        with:
+          install: true
+      - name: Cache Docker layers
+        uses: actions/cache@v2
+        with:
+          path: /tmp/.buildx-cache
+          key: ${{ runner.os }}-buildx-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-buildx
       - name: Extract metadata (tags, labels) for Docker
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ${{ steps.login-ecr.outputs.registry }}/${{ env.ECR_REPOSITORY }}
+          images: ${{ env.HARBOR_REGISTRY }}/${{ env.HARBOR_REPOSITORY }}
           tags: |
             type=raw,value={{sha}}
             type=raw,value=latest
-
-      - name: Build, tag, and push image to Amazon ECR
-        uses: docker/build-push-action@v3
+      - name: Build, tag, and push image to Harbor
+        uses: docker/build-push-action@v4
         with:
           context: .
-          platforms: linux/amd64,linux/arm64
+          builder: ${{ steps.buildx.outputs.name }}
+          file: Dockerfile.v2
           push: true
+          target: deploy
           tags: ${{ steps.meta.outputs.tags }}
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
-```
-
-### Cookbook
-
-#### Run locally built image
-
-```yaml
-- name: Build Docker image
-  uses: docker/build-push-action@v3
-  with:
-    context: .
-    push: false
-    tags: $IMAGE_NAME:$TAG
-    load: true
-    cache-from: type=gha
-    cache-to: type=gha,mode=max
-```
-
-#### Docker tags
-
-```yaml
-- name: Create docker image tags
-  id: meta
-  run: |
-    latest_tag=${{ steps.login-ecr.outputs.registry }}/${{ env.ECR_REPOSITORY }}:latest
-    short_sha_tag=${{ steps.login-ecr.outputs.registry }}/${{ env.ECR_REPOSITORY }}:${GITHUB_SHA::7}
-    tags=$latest_tag,$short_sha_tag
-
-    echo "short_sha_tag=$short_sha_tag" >> $GITHUB_OUTPUT
-    echo "tags=$tags" >> $GITHUB_OUTPUT
-    tags: ${{ steps.meta.outputs.tags }}
-```
-
-#### Run matrix on directory
-
-From pre-defined set of directories
-
-```yaml
-jobs:
-  terraform:
-    name: "Terraform"
+          cache-from: type=local,src=/tmp/.buildx-cache
+          cache-to: type=local,mode=max,dest=/tmp/.buildx-cache-new
+          provenance: false
+      - name: Move cache
+        run: |
+          rm -rf /tmp/.buildx-cache
+          mv /tmp/.buildx-cache-new /tmp/.buildx-cache
+  deploy:
     runs-on: ubuntu-latest
+    needs: build
     strategy:
-      fail-fast: false
+      fail-fast: true
       matrix:
-        path:
-          - github/github
-          - github/github-ext
-          - tfe/workspace
-
+        company:
+          - foo
+          - bar
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Setup Terraform
-        uses: hashicorp/setup-terraform@v2
+      # ---------------- deploy ---------------- #
+      - uses: actions/checkout@v3
+      - uses: DeterminateSystems/nix-installer-action@main
+      - uses: DeterminateSystems/magic-nix-cache-action@main
+      - run: |
+          nix-shell -p kubernetes-helm
+          nix-shell -p kubectl
+      - name: Tailscale
+        uses: tailscale/github-action@v2
         with:
-          cli_config_credentials_token: ${{ secrets.TF_API_TOKEN }}
-
-      - name: Terraform Format
-        id: fmt
+          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
+          tags: tag:ci
+      - name: Export kubeconfig
         run: |
-          cd environments/${{ matrix.path }}
-          terraform fmt -check
-
-      - name: Terraform Init
-        id: init
+          mkdir -p $HOME/.kube
+          echo -n '${{ secrets.KUBECONFIG_BASE64 }}' | base64 --decode > $HOME/.kube/config
+          chmod 600 $HOME/.kube/config
+      - name: Create GITHUB_SHA_SHORT
+        id: meta
         run: |
-          cd environments/${{ matrix.path }}
-          terraform init
-```
-
-From a command output
-
-```yaml
-on: pull_request
-jobs:
-  collect_dirs:
-    runs-on: ubuntu-latest
-    outputs:
-      dirs: ${{ steps.dirs.outputs.dirs }}
-    steps:
-      - uses: actions/checkout@v2
-      - id: dirs
-        run: echo "::set-output name=dirs::$(ls -d environments/**/* | jq --raw-input --slurp --compact-output 'split("\n")[:-1]')"
-  infracost:
-    runs-on: ubuntu-latest
-    needs: collect_dirs
-    strategy:
-      matrix:
-        dir: ${{ fromJson(needs.collect_dirs.outputs.dirs) }}
+          echo "github_sha_short=${GITHUB_SHA::7}" >> $GITHUB_OUTPUT
+      - name: Update values.yaml
+        uses: fjogeleit/yaml-update-action@main
+        with:
+          valueFile: ./helm/${{ matrix.company }}.yaml
+          propertyPath: tag
+          value: ${{ steps.meta.outputs.github_sha_short }}
+          commitChange: false
+      - name: Helm install / upgrade
+        working-directory: ./helm
+        run: |
+          cat ${{ matrix.company }}.yaml
+          helm install ${{ matrix.company }}-backend ./chart --values ${{ matrix.company }}.yaml --namespace ${{ matrix.company }} \
+            || helm upgrade ${{ matrix.company }}-backend ./chart --values ${{ matrix.company }}.yaml --namespace ${{ matrix.company }}
+      - name: Health check
+        run: |
+          while [ "$(kubectl get deploy ${{ matrix.company }}-backend --namespace ${{ matrix.company }} -o json | jq .status.readyReplicas==.status.replicas)" != "true" ]; do
+            sleep 5
+            echo "Waiting for deployment ${{ matrix.company }} to be ready."
+          done
 ```
