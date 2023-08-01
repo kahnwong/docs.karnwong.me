@@ -244,6 +244,7 @@ export default defineConfig({
                   text: "SQL Server",
                   link: "knowledge-base/ops/tools/sqlserver",
                 },
+                { text: "Tailscale", link: "knowledge-base/ops/tools/tailscale" },
                 { text: "Misc", link: "knowledge-base/ops/tools/misc" },
               ],
             },
