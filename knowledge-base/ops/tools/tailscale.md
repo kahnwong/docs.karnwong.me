@@ -2,6 +2,8 @@
 outline: deep
 ---
 
+# Tailscale
+
 ## Tailscale tunnel setup
 
 Config via Tailscale UI
