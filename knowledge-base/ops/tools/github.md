@@ -10,7 +10,12 @@ outline: deep
 
 ```bash
 gh alias set repo-delete 'api -X DELETE "repos/$1"'
-gh repo-delete vilmibm/deleteme
+```
+
+### Transfer repo ownership alias
+
+```bash
+gh alias set transfer 'api repos/$1/transfer -f new_owner=$2'
 ```
 
 ## Github Actions

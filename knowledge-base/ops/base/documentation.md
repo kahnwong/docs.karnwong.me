@@ -6,6 +6,7 @@
 ## Badges
 
 - [For the badge](https://forthebadge.com/)
+- [GitHub Profile Badges](https://home.aveek.io/GitHub-Profile-Badges/)
 
 ## Diagrams
 

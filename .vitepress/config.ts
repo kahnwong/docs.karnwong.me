@@ -63,7 +63,13 @@ export default defineConfig({
                   text: "psycopg2",
                   link: "knowledge-base/data/tools/psycopg2",
                 },
-
+                {
+                  text: "Data Engineering",
+                  collapsed: true,
+                  items: [
+                    { text: "Dagster", link: "knowledge-base/data/tools/data-engineering/dagster" },
+                  ],
+                },
                 {
                   text: "Data Science",
                   collapsed: true,

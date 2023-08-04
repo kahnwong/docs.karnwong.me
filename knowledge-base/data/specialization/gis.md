@@ -39,6 +39,19 @@ DEGREE = KM / 111.319
 | EPSG:3857  | GOOGLE                          | Meter  |
 | ESPG:32647 | WGS84 / UTM zone 47N - THAILAND | Meter  |
 
+### Bounding Box
+
+- <https://wiki.openstreetmap.org/wiki/Bounding_Box>
+
+```bash
+| Target                 | Value      |
+| ---------------------- | ---------- |
+| left topmost point     | xmin, ymin |
+| right bottommost point | xmax, ymax |
+| top rightmost point    | xmax, ymin |
+| left bottommost point  | xmin, ymax |
+```
+
 ## Data
 
 - [geoBoundaries](https://www.geoboundaries.org/)

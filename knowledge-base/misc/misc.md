@@ -24,6 +24,10 @@ outline: deep
 
 for google calendar: `https://apidata.googleusercontent.com/caldav/v2/$calendarID/events`
 
+## Dev Tools
+
+- [IT Tools - Handy online tools for developers](https://it-tools.tech/)
+
 ## Emoji packs
 
 - [Slackmojis](https://slackmojis.com)
@@ -37,13 +41,11 @@ for google calendar: `https://apidata.googleusercontent.com/caldav/v2/$calendarI
 
 ## Linux
 
-- [The LiveCD List](https://livecdlist.com)
 - [Ventoy](https://ventoy.net/en/index.html) - A New Bootable USB Solution.
 
 ## List
 
 - [Free for developers](https://free-for.dev/#/)
-- [list.community](https://list.community) - List.community is an easy way to browse curated lists on GitHub.
 - [Privacy Guides](https://privacyguides.org)
 - [European Alternatives](https://european-alternatives.eu/)
 

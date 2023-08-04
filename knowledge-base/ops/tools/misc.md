@@ -32,3 +32,8 @@ Bulk remove iTerm2 color schemes
 
 - [MyNixOS](https://mynixos.com/) - Build and share reproducible software environments with Nix and NixOS.
 - [Zero to Nix](https://zero-to-nix.com/) - An unofficial, opinionated, gentle introduction to Nix.
+
+## GeoIP
+
+- <http://ip-api.com/json/$IP>
+- [IP2Location](https://github.com/chrislim2888/ip2location-python)

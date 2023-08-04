@@ -45,6 +45,7 @@ Notes:
 - [Nimnim](https://www.nimnimnoodle.com) - TBA
 - [Perfect Earth](https://perfectearthfoods.in.th/)
 - [FairD](https://www.facebook.com/FairD.OrganicFairtrade/)
+- [Good Earth Rice](https://www.goodearthrice.com/)
 - ~~Mama (เส้นเล็กรสน้ำยาปู)~~
 
 ### Rice

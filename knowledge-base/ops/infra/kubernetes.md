@@ -26,11 +26,23 @@ kubectl rollout restart deploy $DEPLOYMENT_NAME
 # referencing service hostname from within cluster
 ## see: https://stackoverflow.com/a/55650127
 `<service.name>.<namespace name>.svc.cluster.local` or `<service.name>.<namespace name>`
+
+# reverse `kubectl apply`
+kubectl delete -f <filename>
 ```
+
+## Useful links
+
+- [Pull an Image from a Private Registry](https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/)
+- [Emptying the finalizers for a namespace that will not delete](https://fabianlee.org/2022/03/08/kubernetes-emptying-the-finalizers-for-a-namespace-that-will-not-delete/)
 
 ## Packages
 
 - [Artifact Hub](https://artifacthub.io/) - Find, install and publish Kubernetes packages.
+
+## Database Operators
+
+- [CloudNativePG](https://github.com/cloudnative-pg/cloudnative-pg)
 
 ## Monitoring & Observability
 
