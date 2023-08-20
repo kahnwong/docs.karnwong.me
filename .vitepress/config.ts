@@ -204,25 +204,12 @@ export default defineConfig({
               ],
             },
             {
-              text: "Infra",
-              collapsed: true,
-              items: [
-                {
-                  text: "Kubernetes",
-                  link: "knowledge-base/ops/infra/kubernetes",
-                },
-                { text: "Packer", link: "knowledge-base/ops/infra/packer" },
-                {
-                  text: "Terraform",
-                  link: "knowledge-base/ops/infra/terraform",
-                },
-              ],
-            },
-            {
               text: "Unix",
               collapsed: true,
               items: [
+
                 { text: "Unix", link: "knowledge-base/ops/unix/unix" },
+                { text: "Bash", link: "knowledge-base/ops/unix/bash" },
                 {
                   text: "Compression",
                   link: "knowledge-base/ops/unix/compression",
@@ -236,21 +223,50 @@ export default defineConfig({
             },
             {
               text: "Tools",
-              collapsed: true,
+              collapsed: false,
               items: [
-                { text: "Apache2", link: "knowledge-base/ops/tools/apache2" },
-                { text: "Caddy", link: "knowledge-base/ops/tools/caddy" },
-                { text: "Docker", link: "knowledge-base/ops/tools/docker" },
+                {
+                  text: "Containers",
+                  collapsed: false,
+                  items: [
+                    {
+                      text: "Kubernetes",
+                      link: "knowledge-base/ops/tools/containers/kubernetes",
+                    },
+                    { text: "Docker", link: "knowledge-base/ops/tools/containers/docker" },
+                    { text: "Harbor", link: "knowledge-base/ops/tools/containers/harbor" },
+                    { text: "OpenLens", link: "knowledge-base/ops/tools/containers/openlens" },
+                  ],
+                },
+                {
+                  text: "Databases",
+                  collapsed: true,
+                  items: [
+                    { text: "Postgres", link: "knowledge-base/ops/tools/databases/postgres" },
+                    {
+                      text: "SQL Server",
+                      link: "knowledge-base/ops/tools/databases/sqlserver",
+                    },
+                  ],
+                },
+                {
+                  text: "Networking",
+                  collapsed: true,
+                  items: [
+                    { text: "Apache2", link: "knowledge-base/ops/tools/networking/apache2" },
+                    { text: "Caddy", link: "knowledge-base/ops/tools/networking/caddy" },
+                    { text: "Tailscale", link: "knowledge-base/ops/tools/networking/tailscale" },
+                  ],
+                },
+                { text: "Packer", link: "knowledge-base/ops/tools/packer" },
+                {
+                  text: "Terraform",
+                  link: "knowledge-base/ops/tools/terraform",
+                },
                 { text: "Git", link: "knowledge-base/ops/tools/git" },
                 { text: "GitHub", link: "knowledge-base/ops/tools/github" },
-                { text: "Harbor", link: "knowledge-base/ops/tools/harbor" },
                 { text: "Neovim", link: "knowledge-base/ops/tools/neovim" },
-                { text: "Postgres", link: "knowledge-base/ops/tools/postgres" },
-                {
-                  text: "SQL Server",
-                  link: "knowledge-base/ops/tools/sqlserver",
-                },
-                { text: "Tailscale", link: "knowledge-base/ops/tools/tailscale" },
+
                 { text: "Misc", link: "knowledge-base/ops/tools/misc" },
               ],
             },

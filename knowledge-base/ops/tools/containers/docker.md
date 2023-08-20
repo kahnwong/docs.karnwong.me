@@ -84,6 +84,23 @@ RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then ARCHITECTURE=amd64; elif [ "$
     && rm $FILENAME
 ```
 
+### nix-build with docker
+
+```dockerfile
+# --------------- builder --------------- #
+# https://github.com/nodejs/docker-node/issues/1335 -- node image can't do yarn install with linux/arm64
+# FROM node:18 AS builder
+
+FROM nixos/nix:latest AS builder
+
+# https://github.com/NixOS/nix/issues/5258
+RUN echo 'filter-syscalls = false' > /etc/nix/nix.conf
+RUN nix-channel --update
+RUN nix-env -iA nixpkgs.nodejs_18 \
+    && nix-env -iA nixpkgs.yarn
+# ------------
+```
+
 ### Import base Dockerfile
 
 ```dockerfile
@@ -92,6 +109,16 @@ RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then ARCHITECTURE=amd64; elif [ "$
 INCLUDE+ Dockerfile.base
 
 RUN whatever
+```
+
+## buildx
+
+```bash
+docker buildx build --platform linux/amd64 -t python-base .
+docker buildx build --platform linux/arm64 -t python-base .
+
+# with provenance disabled
+docker buildx build --provenance false --platform linux/arm64 -t python-base .
 ```
 
 ## docker-compose

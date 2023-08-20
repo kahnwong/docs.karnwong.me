@@ -141,3 +141,13 @@ jobs:
             echo "Waiting for deployment ${{ matrix.company }} to be ready."
           done
 ```
+
+### Snippets
+
+#### Ignore dependabot PRs
+
+```yaml
+ jobs:
+   pre-commit:
+     if: github.actor != 'dependabot[bot]'
+  ```

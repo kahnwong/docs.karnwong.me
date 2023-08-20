@@ -8,16 +8,16 @@ outline: deep
 
 ### [terraformer](https://github.com/GoogleCloudPlatform/terraformer)
 
-```bash
-# https://github.com/GoogleCloudPlatform/terraformer/blob/master/docs/aws.md
+<https://github.com/GoogleCloudPlatform/terraformer/blob/master/docs/aws.md>
 
+```bash
 terraformer import aws --resources=api_gateway --connect=true --regions=ap-southeast-1
 terraform state replace-provider -auto-approve registry.terraform.io/-/aws hashicorp/aws
 ```
 
 ### Import block
 
-```hcl
+```terraform
 import {
   to = google_container_cluster.auto
   id = "asia-southeast1/autopilot-cluster-1"
@@ -28,15 +28,11 @@ import {
 terraform plan -generate-config-out=generated_resources.tf
 ```
 
-## Tools
+### [cf-terraforming](https://github.com/cloudflare/cf-terraforming)
 
-- [driftctl](https://github.com/cloudskiff/driftctl) - Detect, track and alert on infrastructure drift.
-- [Pluralith](https://pluralith.com/) - Visualize Terraform infrastructure.
-
-### Linters
-
-- [tflint](https://github.com/terraform-linters/tflint) - A Pluggable Terraform Linter.
-- [tfsec](https://github.com/aquasecurity/tfsec/) - A static analysis security scanner for your Terraform code.
+```bash
+cf-terraforming generate -t $TOKEN -z $ZONE --resource-type cloudflare_record > importing-example.tf
+```
 
 ### Visualizations
 
@@ -55,6 +51,40 @@ terraform state mv \
     aws_iam_role.a \
     aws_iam_role.a
 terraform state push dev.tfstate
+```
+
+### multi-variable for for-each
+
+<https://developer.hashicorp.com/terraform/language/functions/flatten>
+
+```terraform
+locals {
+  # flatten ensures that this local value is a flat list of objects, rather
+  # than a list of lists of objects.
+  network_subnets = flatten([
+    for network_key, network in var.networks : [
+      for subnet_key, subnet in network.subnets : {
+        network_key = network_key
+        subnet_key  = subnet_key
+        network_id  = aws_vpc.example[network_key].id
+        cidr_block  = subnet.cidr_block
+      }
+    ]
+  ])
+}
+
+resource "aws_subnet" "example" {
+  # local.network_subnets is a list, so we must now project it into a map
+  # where each key is unique. We'll combine the network and subnet keys to
+  # produce a single unique key per instance.
+  for_each = {
+    for subnet in local.network_subnets : "${subnet.network_key}.${subnet.subnet_key}" => subnet
+  }
+
+  vpc_id            = each.value.network_id
+  availability_zone = each.value.subnet_key
+  cidr_block        = each.value.cidr_block
+}
 ```
 
 ## Resources

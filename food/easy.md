@@ -77,3 +77,13 @@ For the honey Dijon vinaigrette
 อ้อ ขอเวลาอีกครึ่งชั่วโมงค่ะ แล้วซุปหัวหอมร้อนๆ จะพร้อมให้คุณชิม
 ป.ล. จริงๆ แล้ว ควรโรยพาสลีย์สับค่ะ แต่พูไม่มี พูปลูกโรสแมรี่ไว้ เลยเด็ดมาแต่งชามเสียหน่อย 55
 ```
+
+## Chicken Soup
+
+- bring 4 cups of water to a boil
+- add ribs, meat, carrots, potatoes, onions
+- simmer one hour
+- add greens and a few beaten eggs
+- continue simmer for 10 minutes
+
+served with pasta, rice, glass noodles or eat plain. season with oyster sauce, soy sauce, salt and pepper to taste

@@ -98,10 +98,11 @@ SELECT pg_terminate_backend(${PID});
 ### Find most used tables
 
 ```sql
-SELECT schemaname, relname, seq_scan, idx_scan
+SELECT schemaname, relname,
+       COALESCE(seq_scan, 0) + COALESCE(idx_scan, 0) nr_accesses
 FROM pg_stat_all_tables
-ORDER BY COALESCE(seq_scan, 0) + COALESCE(idx_scan, 0) DESC
-LIMIT 5;
+WHERE schemaname='public'
+ORDER BY 3 DESC NULLS LAST;
 ```
 
 ### Get table size
@@ -134,8 +135,8 @@ $ psql --host HOST --port 5432 --username USERNAME -d DB_NAME < BACKUP.sql
 
 ## another variant
 # compression rate: 10x
-$ pg_dump -Fc -c -h HOST -U USERNAME -d DB_NAME > OUTFILE.sql.gz
-$ pg_restore -h HOST -U USERNAME -d DB_NAME -C -c BACKUP.sql.gz
+$ pg_dump --host $HOST --port $PORT --username $USERNAME --dbname $DBNAME -t $TABLE_NAME -Fc -f $FILENAME.bin
+$ pg_restore --host $HOST --port $PORT --username $USERNAME --dbname $DBNAME --no-owner --no-privileges  $FILENAME.bin
 ```
 
 ## PSQL

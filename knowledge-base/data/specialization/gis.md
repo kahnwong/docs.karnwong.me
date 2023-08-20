@@ -63,6 +63,18 @@ DEGREE = KM / 111.319
 - [MapTiler Data](https://data.maptiler.com/downloads/planet/)
 - [OpenMapTiles](https://openmaptiles.org/) - World maps you can self-host - powered by free OpenStreetMap vector tiles and open-source software.
 
+```yaml
+OpenStreetMap: http://tile.openstreetmap.org/{z}/{x}/{y}.png
+Google Maps: https://mt1.google.com/vt/lyrs=r&x={x}&y={y}&z={z}
+Google Roads: https://mt1.google.com/vt/lyrs=h&x={x}&y={y}&z={z}
+Google Satellite: https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}
+Google Hybrid: https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}
+Google Terrain Only: https://mt1.google.com/vt/lyrs=t&x={x}&y={y}&z={z}
+Google Terrain: https://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z}
+Google Traffic: https://mt1.google.com/vt/lyrs=m@221097413,traffic&x={x}&y={y}&z={z}
+Carto Light: http://d.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png
+```
+
 ## Tools
 
 ### Indexing
