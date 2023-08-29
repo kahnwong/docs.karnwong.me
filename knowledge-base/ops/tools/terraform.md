@@ -17,7 +17,7 @@ terraform state replace-provider -auto-approve registry.terraform.io/-/aws hashi
 
 ### Import block
 
-```terraform
+```hcl
 import {
   to = google_container_cluster.auto
   id = "asia-southeast1/autopilot-cluster-1"
@@ -57,7 +57,7 @@ terraform state push dev.tfstate
 
 <https://developer.hashicorp.com/terraform/language/functions/flatten>
 
-```terraform
+```hcl
 locals {
   # flatten ensures that this local value is a flat list of objects, rather
   # than a list of lists of objects.
