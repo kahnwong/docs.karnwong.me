@@ -53,6 +53,25 @@ kubectl delete -f <filename>
 - [kOps](https://github.com/kubernetes/kops) - The easiest way to get a production grade Kubernetes cluster up and running.
 - [Talos Linux](https://www.talos.dev/) - The Kubernetes Operating System.
 
+## Helm
+
+```bash
+# packaging helm chart
+
+helm package $CHART
+helm registry login $REGISTRY_URL -u $USER
+helm push demo-0.1.0.tgz oci://$REGISTRY_URL/$REPO
+
+# usage
+helm install <my-release> oci://$REGISTRY_URL/$REPO/$NAME:$VERSION
+```
+
+## Tools
+
+- [kwok](https://github.com/kubernetes-sigs/kwok/) - Kubernetes WithOut Kubelet - Simulates thousands of Nodes and Clusters.
+- [distroless](https://github.com/GoogleContainerTools/distroless) - 🥑 Language focused docker images, minus the operating system.
+- [pluto](https://github.com/FairwindsOps/pluto) - A cli tool to help discover deprecated apiVersions in Kubernetes.
+
 ## Resources
 
 - [Learn Kubernetes with Google](https://learnkubernetes.withgoogle.com/)

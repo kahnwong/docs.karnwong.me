@@ -15,6 +15,16 @@ setup:
  pip install -e .
 ```
 
+## Load env
+
+```python
+# pip install python-dotenv
+
+import yaml
+
+load_dotenv()
+```
+
 ## Exception
 
 ### Print stacktrace

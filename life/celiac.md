@@ -12,6 +12,7 @@ Notes:
 | Chocolate    | [Pana Organic](https://pana-organic.com)                                    |
 | Chocolate    | [Siamaya Chocolate](https://siamayachocolate.com)                           |
 | Chocolate    | Enjoy Life                                                                  |
+| Chocolate    | [Kad Kokoa](https://kadkokoa.co/collections/all/inclusions-chocolate)       |
 | Flour        | [Opan](https://www.opanfood.com/product.html)                               |
 | Flour        | [Tasuko by Ubonsunflowers](https://www.tasukobyubonsunflower.com/)          |
 | Ice cream    | [Ize Coco](http://www.izecoco.com/product.html)                             |

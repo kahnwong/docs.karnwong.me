@@ -36,6 +36,9 @@ git diff --cached
 
 # checkout file from another branch
 git checkout $REVISION -- $FILENAME
+
+# clone specific branch with only latest revision
+git clone --depth <depth> -b <branch> <repo_url>
 ```
 
 ### Submodule
