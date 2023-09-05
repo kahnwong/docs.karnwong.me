@@ -20,14 +20,9 @@ outline: deep
 
 ## Resources
 
-### Algorithms
-
 - [Interactive Gaussian Process Visualization](http://www.infinitecuriosity.org/vizgp/)
 - [MLU-EXPLAIN](https://mlu-explain.github.io/) - Visual explanations of core machine learning concepts.
 - [R2D3](http://www.r2d3.us) - A visual introduction to machine learning.
 - [Simulated Annealing](https://github.com/skylergrammer/SimulatedAnnealing)
 - [The Illustrated Machine Learning](https://illustrated-machine-learning.github.io/index.html)
-
-### Management
-
 - [Introduction to Machine Learning Interviews](https://huyenchip.com/ml-interviews-book/)

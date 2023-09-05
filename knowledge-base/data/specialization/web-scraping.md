@@ -26,7 +26,7 @@ Content-Type: application/json
 
 ## Tools
 
-- [curlconverter](https://curl.trillworks.com) - convert curl commands to Python, JavaScript, PHP, R, Go, Rust, Dart, JSON, Ansible, Elixir.
+- [curlconverter](https://curlconverter.com/) - convert curl commands to Python, JavaScript, PHP, R, Go, Rust, Dart, JSON, Ansible, Elixir.
 - [ratelimiter](https://github.com/RazerM/ratelimiter) - Simple Python module providing rate limiting.
 
 ## Resources

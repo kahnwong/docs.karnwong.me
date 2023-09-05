@@ -4,15 +4,7 @@ outline: deep
 
 # Jupyter
 
-## Jupyter magic
-
-### Autocomplete
-
-```python
-!pip install jupyterlab_tabnine
-```
-
-### Auto formatting
+## Auto formatting
 
 ```python
 !pip install jupyter-black
@@ -20,14 +12,14 @@ outline: deep
 %load_ext jupyter_black
 ```
 
-### Auto refresh module
+## Auto refresh module
 
 ```python
 %load_ext autoreload
 %autoreload 2
 ```
 
-### Display JSON
+## Display JSON
 
 ```python
 from IPython.display import JSON
@@ -40,26 +32,11 @@ JSON(
 )
 ```
 
-### Load environment variables
+## Load environment variables
 
 ```python
 !pip install python-dotenv
 
 %load_ext dotenv
 %dotenv
-```
-
-## Logging
-
-```python
-import logging
-import sys
-
-logging.basicConfig(
-    format="%(asctime)s | %(levelname)s : %(message)s",
-    level=logging.INFO,
-    stream=sys.stdout,
-)
-
-logging.info("Hello world!")
 ```

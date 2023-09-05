@@ -87,10 +87,6 @@ export default defineConfig({
                   collapsed: true,
                   items: [
                     {
-                      text: "Folium",
-                      link: "knowledge-base/data/tools/gis/folium",
-                    },
-                    {
                       text: "GDAL",
                       link: "knowledge-base/data/tools/gis/gdal",
                     },
