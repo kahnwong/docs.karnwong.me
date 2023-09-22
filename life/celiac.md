@@ -8,7 +8,6 @@ Notes:
 
 | Category     | Vendor                                                                      |
 | ------------ | --------------------------------------------------------------------------- |
-| Chocolate    | [Kanvela](https://www.kanvelachocolate.com/)                                |
 | Chocolate    | [Pana Organic](https://pana-organic.com)                                    |
 | Chocolate    | [Siamaya Chocolate](https://siamayachocolate.com)                           |
 | Chocolate    | Enjoy Life                                                                  |
