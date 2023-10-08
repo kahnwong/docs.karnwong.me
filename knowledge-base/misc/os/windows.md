@@ -11,3 +11,4 @@ In Windows 10. Go to credential manager (click start and type "credential manage
 ## Utilities
 
 - [Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
+- [Mido](https://github.com/ElliotKillick/Mido) - The Secure Microsoft Windows Downloader

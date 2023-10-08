@@ -33,6 +33,14 @@ Bulk remove iTerm2 color schemes
 - [MyNixOS](https://mynixos.com/) - Build and share reproducible software environments with Nix and NixOS.
 - [Zero to Nix](https://zero-to-nix.com/) - An unofficial, opinionated, gentle introduction to Nix.
 
+### Avoid macOS updates to destroy nix
+
+```bash
+if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
+  source '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
+fi
+```
+
 ## GeoIP
 
 - <http://ip-api.com/json/$IP>

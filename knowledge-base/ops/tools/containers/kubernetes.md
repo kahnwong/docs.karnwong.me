@@ -10,6 +10,10 @@ outline: deep
 # curl -sfL https://get.k3s.io | sh -
 curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC="server --disable traefik" sh # so it frees up port 80 and 443
 
+## register a worker node
+# get NODE_TOKEN via `/var/lib/rancher/k3s/server/node-token`
+curl -sfL https://get.k3s.io | K3S_URL=https://myserver:6443 K3S_TOKEN=mynodetoken sh -
+
 # export kubeconfig
 k3s kubectl config view --raw # copy this to ~/.kube/config on your local machine
 
@@ -71,6 +75,7 @@ helm install <my-release> oci://$REGISTRY_URL/$REPO/$NAME:$VERSION
 - [kwok](https://github.com/kubernetes-sigs/kwok/) - Kubernetes WithOut Kubelet - Simulates thousands of Nodes and Clusters.
 - [distroless](https://github.com/GoogleContainerTools/distroless) - 🥑 Language focused docker images, minus the operating system.
 - [pluto](https://github.com/FairwindsOps/pluto) - A cli tool to help discover deprecated apiVersions in Kubernetes.
+- [Helm Playground](https://helm-playground.com/)
 
 ## Resources
 

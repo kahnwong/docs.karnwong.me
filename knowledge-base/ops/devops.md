@@ -11,6 +11,7 @@ outline: deep
 ## Tools
 
 - [Crontab.guru](https://crontab.guru/) - An easy to use editor for crontab schedules.
+- [Should I Deploy Today?](https://shouldideploy.today/)
 
 ## Resources
 

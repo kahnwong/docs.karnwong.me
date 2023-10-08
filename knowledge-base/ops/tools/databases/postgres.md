@@ -161,10 +161,10 @@ $ pg_restore --host $HOST --port $PORT --username $USERNAME --dbname $DBNAME --n
 psql -h HOST -d DB_NAME -U USER
 
 # export to csv
-psql -U user -d db_name -c "Copy (Select * From foo_table LIMIT 10) To STDOUT With CSV HEADER DELIMITER E'\t';" > foo_data.tsv
-
-# export from pgcli
 db> \copy (SELECT  * FROM district_boundary) TO '~/Downloads/file.tsv' WITH (FORMAT CSV, HEADER, DELIMITER E'\t')
+
+# export stdout to file
+db> \o out.txt
 ```
 
 ## Troubleshooting

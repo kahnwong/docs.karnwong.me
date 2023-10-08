@@ -8,6 +8,10 @@ outline: deep
 - [GitLab Handbook: Leadership: 1-1](https://about.gitlab.com/handbook/leadership/1-1/)
 - [re:work](https://rework.withgoogle.com/) - A collection of practices, research, and ideas from Google and others to help you put people first.
 
+## Teambuilding
+
+- [Which BADge do you deserve?](https://www.firefly.ai/badges-of-honor) - We all make mistakes - some worse than others.  Let's acknowledge our shared imperfections and find humor in them. Together we can foster a culture that celebrates our humanity and the lessons learned from our errors.
+
 ## 1-on-1
 
 1. Enjoy work?
@@ -26,6 +30,7 @@ outline: deep
 - [Dropbox Engineering Career Framework](https://dropbox.github.io/dbx-career-framework/)
 - [Engineering Ladders](http://www.engineeringladders.com/)
 - [Software Development/Leadership Ladder](https://docs.google.com/spreadsheets/d/1k4sO6pyCl_YYnf0PAXSBcX776rNcTjSOqDxZ5SDty-4/edit#gid=0)
+- [A Senior Engineer's CheckList](https://littleblah.com/post/2019-09-01-senior-engineer-checklist/)
 
 ## Tests
 
