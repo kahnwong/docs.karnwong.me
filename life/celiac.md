@@ -8,6 +8,7 @@ Notes:
 
 | Category     | Vendor                                                                      |
 | ------------ | --------------------------------------------------------------------------- |
+| Canned Fish  | [King Oscar](https://www.kingoscar.com/faq/)                                |
 | Chocolate    | [Pana Organic](https://pana-organic.com)                                    |
 | Chocolate    | [Siamaya Chocolate](https://siamayachocolate.com)                           |
 | Chocolate    | Enjoy Life                                                                  |

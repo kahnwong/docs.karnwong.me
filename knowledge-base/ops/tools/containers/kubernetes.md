@@ -48,6 +48,10 @@ kubectl delete -f <filename>
 
 - [CloudNativePG](https://github.com/cloudnative-pg/cloudnative-pg)
 
+## Networking
+
+- [Cilium](https://cilium.io/) - Cloud Native, eBPF-based Networking, Observability, and Security.
+
 ## Monitoring & Observability
 
 - [Coroot](https://github.com/coroot/coroot) - Coroot is an open-source eBPF-based observability tool that turns telemetry data into actionable insights, helping you identify and resolve application issues quickly.
