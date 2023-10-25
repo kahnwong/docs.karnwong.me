@@ -7,6 +7,7 @@ outline: deep
 - [Design Sprints](https://designsprintkit.withgoogle.com/) - Transform the way your team works.
 - [GitLab Handbook: Leadership: 1-1](https://about.gitlab.com/handbook/leadership/1-1/)
 - [re:work](https://rework.withgoogle.com/) - A collection of practices, research, and ideas from Google and others to help you put people first.
+- [Ten Conditions for Change](https://www.sparkwave.tech/conditions-for-change/)
 
 ## Teambuilding
 

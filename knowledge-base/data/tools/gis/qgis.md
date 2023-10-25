@@ -24,3 +24,7 @@ mamba install -c conda-forge qgis libgdal-arrow-parquet -n qgis
 pyenv shell mambaforge-22.9.0-3
 mamba run -n qgis qgis
 ```
+
+## Useful Links
+
+- [Invalid geometry reasons](https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#types-of-error-messages-and-their-meanings)

@@ -6,6 +6,8 @@ outline: deep
 
 ## Tailscale tunnel setup
 
+<https://tailscale.com/kb/1068/acl-tags/?q=acl%20tag>
+
 Config via Tailscale UI
 
 ```bash
