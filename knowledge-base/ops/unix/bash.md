@@ -111,7 +111,9 @@ done
 ### Run script every x interval
 
 ```bash
-while true; do
+while true;
+do
     echo "hello";
     sleep 300; # 5 minutes
+done;
 ```
