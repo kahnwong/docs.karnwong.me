@@ -13,6 +13,7 @@ outline: deep
 
 - [Regions and zones](https://cloud.google.com/compute/docs/regions-zones)
 - [GCP List of API Services](https://gist.github.com/coryodaniel/13eaee16a87a7fdca5e738123216862a)
+- [GCP organization policies](https://registry.terraform.io/modules/terraform-google-modules/org-policy/google/latest)
 
 ## Services
 
@@ -42,6 +43,23 @@ Differences between iam_binding and iam_member: `binding` revokes any other memb
 ### GKE
 
 - [GKE API permissions](https://cloud.google.com/kubernetes-engine/docs/reference/api-permissions)
+
+## Cookbooks
+
+### Set up cloud-sql-proxy
+
+```bash
+brew install --cask google-cloud-sdk
+gcloud auth application-default login
+
+# see Releases for other versions
+URL="https://storage.googleapis.com/cloud-sql-connectors/cloud-sql-proxy/v2.6.1"
+curl "$URL/cloud-sql-proxy.darwin.arm64" -o cloud-sql-proxy
+chmod +x cloud-sql-proxy
+sudo mv cloud-sql-proxy /usr/local/bin/
+
+cloud-sql-proxy --port <INTERNAL> <INSTANCE_CONNECTION_NAME>
+```
 
 ## Resources
 

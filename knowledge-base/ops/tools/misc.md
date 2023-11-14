@@ -36,10 +36,18 @@ Bulk remove iTerm2 color schemes
 
 ### Avoid macOS updates to destroy nix
 
+`$HOME/.zshrc`
+
 ```bash
 if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
   source '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
 fi
+```
+
+### Try out a package
+
+```bash
+nix-shell -p kubeshark
 ```
 
 ## GeoIP

@@ -35,19 +35,6 @@ kubectl rollout restart deploy $DEPLOYMENT_NAME
 kubectl delete -f <filename>
 ```
 
-## Useful links
-
-- [Pull an Image from a Private Registry](https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/)
-- [Emptying the finalizers for a namespace that will not delete](https://fabianlee.org/2022/03/08/kubernetes-emptying-the-finalizers-for-a-namespace-that-will-not-delete/)
-
-## Packages
-
-- [Artifact Hub](https://artifacthub.io/) - Find, install and publish Kubernetes packages.
-
-## Database Operators
-
-- [CloudNativePG](https://github.com/cloudnative-pg/cloudnative-pg)
-
 ## Networking
 
 - [Cilium](https://cilium.io/) - Cloud Native, eBPF-based Networking, Observability, and Security.
@@ -56,16 +43,11 @@ kubectl delete -f <filename>
 
 - [Coroot](https://github.com/coroot/coroot) - Coroot is an open-source eBPF-based observability tool that turns telemetry data into actionable insights, helping you identify and resolve application issues quickly.
 
-## Distribution
-
-- [kOps](https://github.com/kubernetes/kops) - The easiest way to get a production grade Kubernetes cluster up and running.
-- [Talos Linux](https://www.talos.dev/) - The Kubernetes Operating System.
-
 ## Helm
 
-```bash
-# packaging helm chart
+### Packaging helm chart
 
+```bash
 helm package $CHART
 helm registry login $REGISTRY_URL -u $USER
 helm push demo-0.1.0.tgz oci://$REGISTRY_URL/$REPO
@@ -74,14 +56,80 @@ helm push demo-0.1.0.tgz oci://$REGISTRY_URL/$REPO
 helm install <my-release> oci://$REGISTRY_URL/$REPO/$NAME:$VERSION
 ```
 
+## ArgoCD
+
+```bash
+kubectl create namespace argocd
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+
+argocd admin initial-password -n argocd
+argocd login <ARGOCD_SERVER>
+```
+
+## Cookbooks
+
+### Pulling image from private registry
+
+```hcl
+resource "kubernetes_secret" "harbor_config" {
+  for_each = local.namespaces
+
+  metadata {
+    name      = "harbor-cfg"
+    namespace = each.key
+  }
+
+  type = "kubernetes.io/dockerconfigjson"
+
+  data = {
+    ".dockerconfigjson" = jsonencode({
+      auths = {
+        "${var.registry_server}" = {
+          "username" = var.registry_username
+          "password" = var.registry_password
+          "auth"     = base64encode("${var.registry_username}:${var.registry_password}")
+        }
+      }
+    })
+  }
+}
+```
+
+In deployment specs, add:
+
+```yaml
+      containers:
+      imagePullSecrets:
+        - name: harbor-cfg
+```
+
+### Emptying the finalizers for a namespace that will not delete
+
+<https://fabianlee.org/2022/03/08/kubernetes-emptying-the-finalizers-for-a-namespace-that-will-not-delete/>
+
+```bash
+export NAMESPACE=
+kubectl get ns $NAMESPACE -o json | jq '.spec.finalizers = []' | kubectl replace --raw "/api/v1/namespaces/$NAMESPACE/finalize" -f -
+```
+
+### Local dev Kubernetes setup
+
+<https://k3d.io/>
+
+```bash
+
+k3d cluster create mycluster
+k3d cluster delete mycluster
+```
+
 ## Tools
 
-- [kwok](https://github.com/kubernetes-sigs/kwok/) - Kubernetes WithOut Kubelet - Simulates thousands of Nodes and Clusters.
 - [distroless](https://github.com/GoogleContainerTools/distroless) - 🥑 Language focused docker images, minus the operating system.
 - [pluto](https://github.com/FairwindsOps/pluto) - A cli tool to help discover deprecated apiVersions in Kubernetes.
-- [Helm Playground](https://helm-playground.com/)
+- [Kubeshark](https://github.com/kubeshark/kubeshark) - Wireshark for Kubernetes.
 
 ## Resources
 
 - [Learn Kubernetes with Google](https://learnkubernetes.withgoogle.com/)
 - [Kubernetes Tutorials](https://kubernetes.io/docs/tutorials/)
+- [Helm Playground](https://helm-playground.com/)

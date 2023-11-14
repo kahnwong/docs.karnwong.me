@@ -229,9 +229,10 @@ export default defineConfig({
                       text: "Kubernetes",
                       link: "knowledge-base/ops/tools/containers/kubernetes",
                     },
+                    { text: "OpenLens", link: "knowledge-base/ops/tools/containers/openlens" },
                     { text: "Docker", link: "knowledge-base/ops/tools/containers/docker" },
                     { text: "Harbor", link: "knowledge-base/ops/tools/containers/harbor" },
-                    { text: "OpenLens", link: "knowledge-base/ops/tools/containers/openlens" },
+                    { text: "BuildKit", link: "knowledge-base/ops/tools/containers/buildkit" },
                   ],
                 },
                 {
@@ -411,6 +412,7 @@ export default defineConfig({
         { text: "Food", link: "food/food" },
         { text: "Easy", link: "food/easy" },
         { text: "Desserts", link: "food/desserts" },
+        { text: "Drinks", link: "food/drinks" },
       ],
     },
 

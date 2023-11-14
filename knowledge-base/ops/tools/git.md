@@ -39,6 +39,9 @@ git checkout $REVISION -- $FILENAME
 
 # clone specific branch with only latest revision
 git clone --depth <depth> -b <branch> <repo_url>
+
+# check out empty worktree
+git worktree add -b test3 --track master
 ```
 
 ### Submodule

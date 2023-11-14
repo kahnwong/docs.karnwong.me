@@ -25,7 +25,7 @@ wget --recursive --no-parent -w 3 --random-wait -c -i urls.txt
 
 ```bash
 # create SSH key
-ssh-keygen -b 2048 -t rsa
+ssh-keygen -t ed25519
 
 # SSH config
 Host github.com

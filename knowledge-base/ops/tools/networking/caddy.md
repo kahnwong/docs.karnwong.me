@@ -9,7 +9,9 @@ outline: deep
 /var/lib/caddy/.local/share/caddy
 ```
 
-## Basic auth
+## Cookbooks
+
+### Basic auth
 
 ```bash
 # create password hash
@@ -25,7 +27,7 @@ site.example.com {
 }
 ```
 
-## Filter IP
+### Filter IP
 
 ```python title="Caddyfile"
 # https://gist.github.com/morph027/b771fb579c36ae550ebb2764581a1d0e
@@ -46,7 +48,19 @@ intranet.example.com {
 }
 ```
 
-### Resources
+### SPA
+
+```javascript
+:80 {
+ # https://caddy.community/t/how-to-serve-spa-applications-with-caddy-v2/8761/2
+ try_files {path} /
+ encode gzip
+ root * /app/dist/spa
+ file_server
+}
+```
+
+## Resources
 
 - [Public and internal caddy network setup](https://mrkaran.dev/posts/exposing-services-self-hosting/)
 - [Setup CORS in Caddy 2](https://kalnytskyi.com/posts/setup-cors-caddy-2/)

@@ -90,6 +90,9 @@ aws s3 cp s3://data/ . --recursive --exclude "*" --include "2016-08*"
 
 # sync
 aws s3 sync s3://S3PATH/ . --dryrun
+
+# interacting with a public bucket
+aws s3 ls s3://overturemaps-us-west-2/release/2023-10-19-alpha.0/theme=places/type=place/ --no-sign-request
 ```
 
 ## Maintenance
