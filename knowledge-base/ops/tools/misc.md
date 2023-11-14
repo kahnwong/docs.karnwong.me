@@ -42,6 +42,12 @@ if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
 fi
 ```
 
+### Try out a package
+
+```bash
+nix-shell -p kubeshark
+```
+
 ## GeoIP
 
 - <http://ip-api.com/json/$IP>
