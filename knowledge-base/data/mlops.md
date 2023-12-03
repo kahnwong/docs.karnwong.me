@@ -13,6 +13,7 @@ outline: deep
 ## Resources
 
 - [The Big Dictionary of MLOps](https://www.hopsworks.ai/mlops-dictionary)
+- [ML Ops: Machine Learning Operations](https://ml-ops.org/)
 
 ### Governance
 

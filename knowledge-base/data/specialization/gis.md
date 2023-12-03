@@ -57,6 +57,8 @@ DEGREE = KM / 111.319
 - [geoBoundaries](https://www.geoboundaries.org/)
 - [OpenStreetMap Data Extracts](http://download.geofabrik.de/index.html)
 - [Overture Maps](https://overturemaps.org/)
+- [Source Cooperative - geoparquet](https://beta.source.coop/repositories/?tags=geoparquet)
+- [Protomaps](https://protomaps.com/)
 
 ### Tile
 

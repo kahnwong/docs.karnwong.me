@@ -424,6 +424,45 @@ spark-submit --deploy-mode cluster s3://<PATH TO FILE>/sparky.py
 echo 'sc.getConf.get("spark.home")' | spark-shell
 ```
 
+## Sedona
+
+```python
+from sedona.spark import SedonaContext
+
+config = (
+    SedonaContext.builder()
+    .config(
+        "spark.jars.packages",
+        "org.apache.sedona:sedona-spark-shaded-3.4_2.12:1.4.1,"
+        "org.datasyslab:geotools-wrapper:1.4.0-28.2",
+    )
+    .getOrCreate()
+)
+
+sedona = SedonaContext.create(config)
+
+
+## read geoparquet
+df = sedona.read.format("geoparquet").load("data/example.parquet")
+
+
+## spatial query
+df.createOrReplaceTempView("df")
+sedona.sql(
+    """
+SELECT *, ST_GeoHash(geometry, 5) as geohash
+FROM df
+ORDER BY geohash
+    """
+).show()
+
+## polygon from point
+ST_Intersects(ST_Point(l.longitude, l.latitude), ST_GeomFromWKT(geometry))
+
+## find surrounding points within x radius
+ST_Distance( ST_Point(df.LON, df.LAT), ST_Point(poi.longitude, poi.latitude) ) <= 100/1000/111.319 -- 100 meter in degrees
+```
+
 ## Cookbook
 
 ### Generate fake data

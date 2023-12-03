@@ -11,6 +11,7 @@ outline: deep
 - [Kind Engineering: How To Engineer Kindness](https://kind.engineering/) -
 - [Linguistic Antipatterns](https://www.linguistic-antipatterns.com/) - This is a website to teach you to identify and fix linguistic antipatterns in your code.
 - [Naming Conventions](https://www.elastic.co/guide/en/beats/devguide/current/event-conventions.html)
+- [The XY Problem](https://xyproblem.info/)
 
 ## Algorithms
 
@@ -20,6 +21,11 @@ outline: deep
 ## System design
 
 - [Architecture Notes](https://architecturenotes.co/)
+- [System Design 101](https://github.com/ByteByteGoHq/system-design-101)
+
+## Mathematics
+
+- [TheoremDex](https://thmdex.org/) - An Index of Mathematical Definitions, Results, and Conjectures.
 
 ## Tools
 

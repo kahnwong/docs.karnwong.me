@@ -8,6 +8,7 @@ outline: deep
 - [GitLab Handbook: Leadership: 1-1](https://about.gitlab.com/handbook/leadership/1-1/)
 - [re:work](https://rework.withgoogle.com/) - A collection of practices, research, and ideas from Google and others to help you put people first.
 - [Ten Conditions for Change](https://www.sparkwave.tech/conditions-for-change/)
+- [Spotify’s Failed #SquadGoals](https://www.jeremiahlee.com/posts/failed-squad-goals/)
 
 ## Teambuilding
 

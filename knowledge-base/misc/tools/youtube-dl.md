@@ -66,6 +66,9 @@ youtube-dl -a list
 
 # Subtitles
 --all-subs
+
+# with cookies
+--cookies cookies.txt
 ```
 
 ## Config

@@ -7,6 +7,7 @@ outline: deep
 ## Tools
 
 - [PyViz](https://pyviz.org/overviews/index.html)
+- [Vizro](https://github.com/mckinsey/vizro) - Vizro is a toolkit for creating modular data visualization applications.
 
 ## Resources
 

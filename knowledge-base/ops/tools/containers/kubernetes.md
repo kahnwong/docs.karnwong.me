@@ -35,9 +35,11 @@ kubectl rollout restart deploy $DEPLOYMENT_NAME
 kubectl delete -f <filename>
 ```
 
-## Networking
+## Add-Ons
 
 - [Cilium](https://cilium.io/) - Cloud Native, eBPF-based Networking, Observability, and Security.
+- [Knative](https://knative.dev/docs/) - Open-Source Enterprise-level solution to build Serverless and Event Driven Applications.
+- [kserve](https://github.com/kserve/kserve) - Standardized Serverless ML Inference Platform on Kubernetes.
 
 ## Monitoring & Observability
 
@@ -127,6 +129,7 @@ k3d cluster delete mycluster
 - [distroless](https://github.com/GoogleContainerTools/distroless) - 🥑 Language focused docker images, minus the operating system.
 - [pluto](https://github.com/FairwindsOps/pluto) - A cli tool to help discover deprecated apiVersions in Kubernetes.
 - [Kubeshark](https://github.com/kubeshark/kubeshark) - Wireshark for Kubernetes.
+- [cosign](https://github.com/sigstore/cosign) - Container signing.
 
 ## Resources
 
