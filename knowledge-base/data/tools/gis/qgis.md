@@ -14,6 +14,7 @@ Geoparquet is available if installed with this method.
 
 ```bash
 pyenv install mambaforge-22.9.0-3
+pyenv shell mambaforge-22.9.0-3
 mamba create -n qgis
 mamba install -c conda-forge qgis libgdal-arrow-parquet -n qgis
 ```
