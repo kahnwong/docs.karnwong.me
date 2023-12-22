@@ -13,16 +13,16 @@ outline: deep
 Geoparquet is available if installed with this method.
 
 ```bash
-pyenv install mambaforge-22.9.0-3
-pyenv shell mambaforge-22.9.0-3
+pyenv install miniforge3-23.3.1-1
+pyenv shell miniforge3-23.3.1-1
 mamba create -n qgis
-mamba install -c conda-forge qgis libgdal-arrow-parquet -n qgis
+mamba install -c conda-forge qgis==3.30.0 libgdal-arrow-parquet -n qgis # need to pin qgis to prevent libqt5keychain error
 ```
 
 ### Usage
 
 ```bash
-pyenv shell mambaforge-22.9.0-3
+pyenv shell miniforge3-23.3.1-1
 mamba run -n qgis qgis
 ```
 
