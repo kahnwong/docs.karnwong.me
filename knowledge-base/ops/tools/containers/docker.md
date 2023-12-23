@@ -52,6 +52,18 @@ docker volume create --name hello
 docker run -d -v hello:/container/path/for/volume container_image my_command
 ```
 
+## Buildx
+
+```bash
+docker buildx create --use
+docker buildx build --platform linux/amd64,linux/arm64 --push -t $IMAGE_URI .
+
+# cleanup
+docker context ls
+docker context rm $CONTEXT_NAME
+```
+
+
 ## Dockerfile
 
 ### Boilerplate
