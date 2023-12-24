@@ -3,6 +3,10 @@
 - [VitePress](https://vitepress.dev/) - Vite & Vue Powered Static Site Generator.
 - [Docusaurus OpenAPI Doc Generator](https://github.com/PaloAltoNetworks/docusaurus-openapi-docs) - 🦝 OpenAPI plugin for generating API reference docs in Docusaurus v2.
 
+# Linters
+
+- [Vale](https://github.com/errata-ai/vale) - A markup-aware linter for prose built with speed and extensibility in mind.
+
 ## Badges
 
 - [For the badge](https://forthebadge.com/)
