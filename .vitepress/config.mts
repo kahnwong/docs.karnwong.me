@@ -8,6 +8,14 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Fringe Division",
   description: "Personal docs",
+
+  markdown: {
+    theme: {
+      light: 'solarized-light',
+      dark: 'one-dark-pro'
+    }
+  },
+
   themeConfig: {
     nav: [
       {
