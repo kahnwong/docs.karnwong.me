@@ -458,16 +458,16 @@ export default defineConfig({
   // google analytics
   head: [
     [
-      "script",
-      {
-        async: true,
-        src: "https://www.googletagmanager.com/gtag/js?id=G-M6K7QN1CF6",
-      },
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-M6K7QN1CF6' }
     ],
     [
-      "script",
+      'script',
       {},
-      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-M6K7QN1CF6');",
-    ],
-  ],
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-M6K7QN1CF6');`
+    ]
+  ]
 });
