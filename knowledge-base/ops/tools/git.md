@@ -116,6 +116,7 @@ python3 git-filter-repo --invert-paths --path-match $PATH
 - [Git guide](https://github.com/dbt-labs/corp/blob/main/git-guide.md)
 - [Oh Shit, Git!?!](https://ohshitgit.com)
 - [GitHub Skills](https://skills.github.com/)
+- [Every engineer should understand git reflog](https://graphite.dev/blog/every-engineer-should-understand-git-reflog)
 
 ### Development flow
 
