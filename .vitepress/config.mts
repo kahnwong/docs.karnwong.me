@@ -333,17 +333,23 @@ export default defineConfig({
                       text: "PDF",
                       link: "knowledge-base/programming/python/cookbook/pdf",
                     },
+                  ],
+                },
+                {
+                  text: "Libraries",
+                  collapsed: true,
+                  items: [
                     {
                       text: "pytest",
-                      link: "knowledge-base/programming/python/cookbook/pytest",
+                      link: "knowledge-base/programming/python/libraries/pytest",
                     },
                     {
                       text: "termcolor",
-                      link: "knowledge-base/programming/python/cookbook/termcolor",
+                      link: "knowledge-base/programming/python/libraries/termcolor",
                     },
                     {
                       text: "YAML",
-                      link: "knowledge-base/programming/python/cookbook/yaml",
+                      link: "knowledge-base/programming/python/libraries/yaml",
                     },
                   ],
                 },

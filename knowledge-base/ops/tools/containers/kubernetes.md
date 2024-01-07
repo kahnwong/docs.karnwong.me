@@ -136,3 +136,4 @@ k3d cluster delete mycluster
 - [Learn Kubernetes with Google](https://learnkubernetes.withgoogle.com/)
 - [Kubernetes Tutorials](https://kubernetes.io/docs/tutorials/)
 - [Helm Playground](https://helm-playground.com/)
+- [OperatorHub](https://operatorhub.io/)

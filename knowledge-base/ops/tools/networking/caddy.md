@@ -11,6 +11,37 @@ outline: deep
 
 ## Cookbooks
 
+### Template
+
+```bash
+example.com
+
+root * /var/www
+
+# Serve precompressed files if present
+file_server /downloads/* {
+ precompressed gzip zstd br
+}
+
+# Compress everything else that would benefit
+encode zstd gzip
+
+# Static site using database as file system
+file_server /database/* {
+ fs sqlite data.sql
+}
+
+# Static site embedded within the Caddy binary
+file_server /embedded/* {
+ fs embedded
+}
+
+# (Range/Etag/etc. all work without extra config)
+
+# Serve static site with directory listings
+file_server browse
+```
+
 ### Basic auth
 
 ```bash
@@ -29,7 +60,7 @@ site.example.com {
 
 ### Filter IP
 
-```python title="Caddyfile"
+```bash
 # https://gist.github.com/morph027/b771fb579c36ae550ebb2764581a1d0e
 
 intranet.example.com {
@@ -50,7 +81,7 @@ intranet.example.com {
 
 ### SPA
 
-```javascript
+```bash
 :80 {
  # https://caddy.community/t/how-to-serve-spa-applications-with-caddy-v2/8761/2
  try_files {path} /

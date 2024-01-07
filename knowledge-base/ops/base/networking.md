@@ -22,10 +22,14 @@ outline: deep
 ## Tools
 
 - [CanYouSeeMe](https://canyouseeme.org) - Open Port Check Tool.
-- [Fast.com](https://fast.com/) - How fast is your download speed? In seconds, FAST.com's simple Internet speed test will estimate your ISP speed.
 - [geonet](https://geonet.shodan.io/) - Run Network Tools from Multiple Geographic Locations
 - [Global Response Time Checker](https://checker.ddosify.com/)
 - [ngrok](https://ngrok.com/) - ngrok allows you to expose a web server running on your local machine to the internet. Just tell ngrok what port your web server is listening on.
+
+### Speedtest
+
+- [Fast.com](https://fast.com/) - How fast is your download speed? In seconds, FAST.com's simple Internet speed test will estimate your ISP speed.
+- [Internet Speed Test](https://speed.cloudflare.com/)
 
 ## Cookbooks
 

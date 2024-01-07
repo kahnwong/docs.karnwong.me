@@ -126,3 +126,4 @@ python3 git-filter-repo --invert-paths --path-match $PATH
 
 - [Code Review Guidelines for Data Science Teams](https://tdhopper.com/blog/code-review-guidelines)
 - [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
+- [Tuple’s Pair Programming Guide](https://tuple.app/pair-programming-guide/)

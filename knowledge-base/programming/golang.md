@@ -4,6 +4,12 @@ outline: deep
 
 # Golang
 
+## Reduce binary size
+
+```bash
+go build -ldflags="-s -w" <your-package>
+```
+
 ## Resources
 
 - [Convert JSON to Go struct](https://mholt.github.io/json-to-go/)

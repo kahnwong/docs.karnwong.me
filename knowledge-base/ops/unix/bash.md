@@ -117,3 +117,9 @@ do
     sleep 300; # 5 minutes
 done;
 ```
+
+## xargs
+
+```bash
+ls file_* | xargs -J {} mv {} temp/
+```

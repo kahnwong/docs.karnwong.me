@@ -12,6 +12,7 @@ outline: deep
 - [Linguistic Antipatterns](https://www.linguistic-antipatterns.com/) - This is a website to teach you to identify and fix linguistic antipatterns in your code.
 - [Naming Conventions](https://www.elastic.co/guide/en/beats/devguide/current/event-conventions.html)
 - [The XY Problem](https://xyproblem.info/)
+- [How To Ask Questions The Smart Way](http://catb.org/~esr/faqs/smart-questions.html)
 
 ## Algorithms
 

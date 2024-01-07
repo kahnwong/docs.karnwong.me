@@ -22,6 +22,7 @@ gh alias set transfer 'api repos/$1/transfer -f new_owner=$2'
 
 - [GitHub Actions Virtual Environments](https://github.com/actions/virtual-environments)
 - [Paths Changes Filter](https://github.com/dorny/paths-filter) - Conditionally run actions based on files modified by PR, feature branch or pushed commits.
+- [git-auto-commit Action](https://github.com/stefanzweifel/git-auto-commit-action)
 
 ### Template
 

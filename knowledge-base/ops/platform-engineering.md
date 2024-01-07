@@ -7,6 +7,10 @@ outline: deep
 - [Developer Experience Knowledge Base](https://developerexperience.io/)
 - [DevRel Resources](https://devrelresourc.es/#devrel-activities-international-developer-relations)
 
+# Libraries
+
+- [huh](https://github.com/charmbracelet/huh) - Build terminal forms and prompts 🤷🏻‍♀️.
+
 ## Tools
 
 - [Platform engineering ROI calculator](https://humanitec.com/roi)

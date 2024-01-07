@@ -14,9 +14,10 @@
 
 ## Diagrams
 
-- [diagrams](https://github.com/mingrammer/diagrams) - 🎨 Diagram as Code for prototyping cloud system architectures.
 - [Eraser](https://app.tryeraser.com/all) - An all-in-one ideation tool for distributed teams.
+- [diagrams](https://github.com/mingrammer/diagrams) - 🎨 Diagram as Code for prototyping cloud system architectures.
 - [markwhen](https://github.com/mark-when/markwhen) - Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, links, locations, and more.
+- [mermaid](https://mermaid.live/edit)
 - [swimlanes](https://swimlanes.io) - A simple online tool for creating sequence diagrams.
 - [tldraw](https://www.tldraw.com/) - A tiny little drawing app.
 
