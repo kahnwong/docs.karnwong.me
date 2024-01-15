@@ -16,6 +16,8 @@ outline: deep
 # 0.0.0.0 legy-gslb.line-apps.com.akadns.net
 # 0.0.0.0 legy-gslb.line.naver.jp
 0.0.0.0 nelo2-col.linecorp.com
+0.0.0.0 lap-click.tr.line.me
+0.0.0.0 legy-sg-addr.line.naver.jp
 ```
 
 ## CalDAV
