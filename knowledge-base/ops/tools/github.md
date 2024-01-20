@@ -18,6 +18,12 @@ gh alias set repo-delete 'api -X DELETE "repos/$1"'
 gh alias set transfer 'api repos/$1/transfer -f new_owner=$2'
 ```
 
+### Set Actions secrets
+
+```bash
+gh secret set -f .env
+```
+
 ## Github Actions
 
 - [GitHub Actions Virtual Environments](https://github.com/actions/virtual-environments)
