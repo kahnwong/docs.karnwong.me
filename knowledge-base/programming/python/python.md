@@ -48,6 +48,17 @@ jq -r '.default | to_entries[] | .key + .value.version ' Pipfile.lock > requirem
 pipenv install -r requirements.txt
 ```
 
+### poetry
+
+#### Include `src` folder
+
+```toml
+[tool.poetry]
+packages = [
+    {include = "src"}
+]
+```
+
 ## Tools
 
 - [grequests](https://github.com/spyoungtech/grequests) - GRequests: Asynchronous Requests.
