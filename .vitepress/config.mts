@@ -271,7 +271,7 @@ export default defineConfig({
                 { text: "Git", link: "knowledge-base/ops/tools/git" },
                 { text: "GitHub", link: "knowledge-base/ops/tools/github" },
                 { text: "Neovim", link: "knowledge-base/ops/tools/neovim" },
-
+                { text: "sops", link: "knowledge-base/ops/tools/sops" },
                 { text: "Misc", link: "knowledge-base/ops/tools/misc" },
               ],
             },
