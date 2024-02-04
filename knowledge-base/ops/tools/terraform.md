@@ -87,6 +87,43 @@ resource "aws_subnet" "example" {
 }
 ```
 
+### array of dict structs
+
+```hcl
+locals {
+  task_info = [
+    {
+      name       = "mlflow"
+      task_role  = aws_iam_role.task.arn
+      caddy_port = 8001
+      domain     = "mlflow.example.com"
+    }
+  ]
+}
+locals {
+  info_dict     = { for o in local.task_info : o.name => o }
+  service_names = toset(local.task_info[*].name)
+}
+
+resource "aws_ecs_task_definition" "this" {
+  for_each = local.service_names
+  family   = each.key
+
+  container_definitions = templatefile("./templates/${each.value}_task_definition.tpl.json", {
+    log_group       = aws_cloudwatch_log_group.awslogs.name
+    ecs_secrets_arn = aws_secretsmanager_secret.secrets.arn
+  })
+
+  task_role_arn      = local.info_dict[each.key]["task_role"]
+  execution_role_arn = aws_iam_role.task.arn
+
+  tags = {
+    managedBy = "org/infra"
+    Project   = "data-platform"
+  }
+}
+```
+
 ## Resources
 
 - [How Terraform Works: A Visual Intro](https://betterprogramming.pub/how-terraform-works-a-visual-intro-6328cddbe067)

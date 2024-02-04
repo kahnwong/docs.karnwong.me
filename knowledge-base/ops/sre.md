@@ -7,6 +7,7 @@ outline: deep
 ## Monitoring
 
 - [jota-cert-checker](https://github.com/juliojsb/jota-cert-checker) - Check SSL certificate expiration date of a list of sites.
+- [gatus](https://gatus.io/) - Automated developer-oriented status page.
 - [ntfy](https://ntfy.sh/) - ntfy (pronounce: notify) is a simple HTTP-based pub-sub notification service. It allows you to send notifications to your phone or desktop via scripts from any computer, entirely without signup, cost or setup.
 
 ## Profiling

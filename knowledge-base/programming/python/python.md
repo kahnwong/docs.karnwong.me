@@ -38,7 +38,7 @@ pyenv virtualenv 3.8.0 my-data-project
 pyenv local my-data-project
 ```
 
-### pipenv
+### pipenv (legacy, don't use this)
 
 ```bash
 # pipenv to requirements.txt
@@ -49,6 +49,23 @@ pipenv install -r requirements.txt
 ```
 
 ### poetry
+
+```bash
+# init project
+poetry init
+
+# add deps
+poetry add $package
+
+# add dev dependencies
+poetry add $package --group dev
+
+# activate venv
+poetry shell
+
+# specify python version
+poetry env use 3.11 # normally it picks up global python via pyenv
+```
 
 #### Include `src` folder
 
