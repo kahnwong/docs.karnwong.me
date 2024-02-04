@@ -411,7 +411,6 @@ export default defineConfig({
       "/life/": [
         { text: "Celiac", link: "life/celiac" },
         { text: "Repair Shops", link: "life/repair-shops" },
-        { text: "Shopping", link: "life/shopping" },
         {
           text: "Gaming",
           collapsed: true,
