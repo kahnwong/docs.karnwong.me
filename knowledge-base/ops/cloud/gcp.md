@@ -50,6 +50,15 @@ Differences between iam_binding and iam_member: `binding` revokes any other memb
 
 ## Cookbooks
 
+### gcloud login
+
+```bash
+gcloud auth login
+gcloud auth login --update-adc
+gcloud config configurations list
+gcloud config configurations activate $ACCOUNT_NAME
+```
+
 ### Set up cloud-sql-proxy
 
 ```bash

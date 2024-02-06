@@ -33,12 +33,6 @@ CAA example.com 0 issuewild amazon.com
 
 #### Commands
 
-```bash
-gcloud auth login
-gcloud config configurations list
-gcloud config configurations activate $ACCOUNT_NAME
-```
-
 ### Cloudwatch
 
 ```sql
