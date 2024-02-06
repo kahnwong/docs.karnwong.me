@@ -55,6 +55,7 @@ Differences between iam_binding and iam_member: `binding` revokes any other memb
 ```bash
 gcloud auth login
 gcloud auth login --update-adc
+gcloud config set account $ACCOUNT_NAME
 gcloud config configurations list
 gcloud config configurations activate $ACCOUNT_NAME
 ```
