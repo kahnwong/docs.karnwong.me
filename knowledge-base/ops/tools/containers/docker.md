@@ -58,11 +58,13 @@ docker run -d -v hello:/container/path/for/volume container_image my_command
 docker buildx create --use
 docker buildx build --platform linux/amd64,linux/arm64 --push -t $IMAGE_URI .
 
+# with provenance disabled
+docker buildx build --provenance false --platform linux/arm64 -t python-base .
+
 # cleanup
 docker context ls
 docker context rm $CONTEXT_NAME
 ```
-
 
 ## Dockerfile
 
@@ -151,16 +153,6 @@ COPY --from=builder /opt/build/package.json ./
 
 EXPOSE 3000
 CMD [ "yarn", "start", "-H", "0.0.0.0" ]
-```
-
-## buildx
-
-```bash
-docker buildx build --platform linux/amd64 -t python-base .
-docker buildx build --platform linux/arm64 -t python-base .
-
-# with provenance disabled
-docker buildx build --provenance false --platform linux/arm64 -t python-base .
 ```
 
 ## docker-compose

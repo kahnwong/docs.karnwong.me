@@ -26,3 +26,4 @@ outline: deep
 - [Simulated Annealing](https://github.com/skylergrammer/SimulatedAnnealing)
 - [The Illustrated Machine Learning](https://illustrated-machine-learning.github.io/index.html)
 - [Introduction to Machine Learning Interviews](https://huyenchip.com/ml-interviews-book/)
+- [Feature Engineering A-Z](https://feaz-book.com/)

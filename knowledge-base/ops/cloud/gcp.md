@@ -81,3 +81,4 @@ cloud-sql-proxy --port <INTERNAL> <INSTANCE_CONNECTION_NAME>
 - [Google Cloud Skills Boost Catalog](https://www.cloudskillsboost.google/catalog)
 - [google-cloud-4-words](https://github.com/priyankavergadia/google-cloud-4-words)
 - [GCPSketchnote](https://github.com/priyankavergadia/GCPSketchnote)
+- [Google Cloud Architecture Framework](https://cloud.google.com/architecture/framework)

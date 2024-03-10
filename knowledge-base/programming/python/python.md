@@ -76,6 +76,21 @@ packages = [
 ]
 ```
 
+#### Cookbook
+
+```bash
+# remove lock file
+find ~/.cache/pypoetry -name '*.lock' -type f -delete
+
+## or
+poetry env remove --all
+poetry cache clear --all .
+rm -rf $(poetry config cache-dir)/artifacts
+
+# keyring not working correctly on Ubuntu
+export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring
+```
+
 ## Tools
 
 - [grequests](https://github.com/spyoungtech/grequests) - GRequests: Asynchronous Requests.
@@ -89,3 +104,5 @@ packages = [
 - [Python Readiness](https://pyreadiness.org/) - Python support graph for specific Python versions for the most popular Python packages!
 - [CodingBat](https://codingbat.com/python) - Python exercises.
 - [pyroad](https://github.com/amaargiru/pyroad) - Detailed Python developer roadmap.
+- [Python Readiness](https://pyreadiness.org) - Python support graph for specific Python versions for the most popular Python packages!
+- [Breaking Packages in Python](https://dagster.io/blog/python-breaking-packages) - An exposé of the nooks and crannies of Python’s modules and packages.

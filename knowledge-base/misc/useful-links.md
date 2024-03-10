@@ -70,6 +70,10 @@
 - [80days](https://eightydays.me/) - Booking Eurotrips made easy.
 - [Ultimate Travel Packing List](https://www.budgetdirect.com.au/interactives/packinglist/)
 
+## Weather
+
+- [Merry Sky](https://merrysky.net)
+
 ## Misc
 
 - [Awesome STEAM](https://awesomesteam.org/) - An awesome list of everything STEAM.

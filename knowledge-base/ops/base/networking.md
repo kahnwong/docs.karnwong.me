@@ -9,6 +9,7 @@ outline: deep
 - [deSEC](https://desec.io) - Modern DNS Hosting for Everyone.
 - [DuckDNS](https://www.duckdns.org)
 - [mess with dns](https://messwithdns.net/) - DNS playground.
+- [Cloudflare DDNS Updater](https://github.com/K0p1-Git/cloudflare-ddns-updater/blob/main/cloudflare-template.sh)
 
 ### Blocklist
 
@@ -17,6 +18,7 @@ outline: deep
 
 ## VPN
 
+- [headscale](https://headscale.net/) - Open source, self-hosted implementation of the Tailscale control server.
 - [tailscale](https://tailscale.com/download/linux) - The easiest, most secure way to use WireGuard and 2FA.
 
 ## Tools

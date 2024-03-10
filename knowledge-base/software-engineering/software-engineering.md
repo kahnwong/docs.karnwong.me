@@ -23,6 +23,7 @@ outline: deep
 
 - [Architecture Notes](https://architecturenotes.co/)
 - [System Design 101](https://github.com/ByteByteGoHq/system-design-101)
+- [Architects Dont Code](https://wiki.c2.com/?ArchitectsDontCode=)
 
 ## Mathematics
 
