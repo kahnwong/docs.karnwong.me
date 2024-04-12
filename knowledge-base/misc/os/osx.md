@@ -24,3 +24,7 @@ sudo xattr -rd com.apple.quarantine /Applications/Coherence\ Pro.app
 ```bash
 killall bird
 ```
+
+or
+
+<https://apple.stackexchange.com/questions/434190/icloud-stuck-on-uploading-x-items-y-of-y-monterey-12-1/454761#454761>

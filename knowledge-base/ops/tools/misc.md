@@ -6,13 +6,6 @@ outline: deep
 
 ## fish
 
-### Setup
-
-```
-brew install fish
-curl -fsSL https://starship.rs/install.sh | bash
-```
-
 ### fish_config
 
 <https://github.com/fish-shell/fish-shell/issues/1916>
@@ -28,6 +21,12 @@ curl -fsSL https://starship.rs/install.sh | bash
 - [IP2Location](https://github.com/chrislim2888/ip2location-python)
 
 ## Nix
+
+### Installer
+
+- [The Determinate Nix Installer](https://github.com/DeterminateSystems/nix-installer)
+
+### Resources
 
 - [MyNixOS](https://mynixos.com/) - Build and share reproducible software environments with Nix and NixOS.
 - [Zero to Nix](https://zero-to-nix.com/) - An unofficial, opinionated, gentle introduction to Nix.
@@ -52,3 +51,7 @@ nix-shell -p kubeshark
 ## Proxmox
 
 - [Proxmox VE Helper-Scripts](https://tteck.github.io/Proxmox/)
+
+## Misc
+
+- [magika](https://github.com/google/magika/) - Detect file content types with deep learning.

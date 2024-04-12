@@ -24,7 +24,8 @@ project = gpd.GeoDataFrame(project, crs=crs, geometry=geometry)
 ### Change projection
 
 ```python
-gdf.to_crs("epsg:3395")
+geometry = [Point(xy) for xy in zip(input_df.longitude, input_df.latitude)]
+input_df = gpd.GeoDataFrame(input_df, geometry=geometry).set_crs(epsg=4326)
 ```
 
 ### Read

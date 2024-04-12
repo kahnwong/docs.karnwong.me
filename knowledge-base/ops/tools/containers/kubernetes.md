@@ -12,7 +12,8 @@ curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC="server --disable traefik" sh # 
 
 ## register a worker node
 # get NODE_TOKEN via `/var/lib/rancher/k3s/server/node-token`
-curl -sfL https://get.k3s.io | K3S_URL=https://myserver:6443 K3S_TOKEN=mynodetoken sh -
+export NODE_TOKEN=
+curl -sfL https://get.k3s.io | K3S_URL=https://myserver:6443 K3S_TOKEN="$NODE_TOKEN" sh -
 
 # export kubeconfig
 k3s kubectl config view --raw # copy this to ~/.kube/config on your local machine
@@ -114,6 +115,12 @@ export NAMESPACE=
 kubectl get ns $NAMESPACE -o json | jq '.spec.finalizers = []' | kubectl replace --raw "/api/v1/namespaces/$NAMESPACE/finalize" -f -
 ```
 
+### Force delete ghost pods
+
+```bash
+kubectl delete pods <pod> --grace-period=0 --force
+```
+
 ### Local dev Kubernetes setup
 
 <https://k3d.io/>
@@ -130,6 +137,8 @@ k3d cluster delete mycluster
 - [pluto](https://github.com/FairwindsOps/pluto) - A cli tool to help discover deprecated apiVersions in Kubernetes.
 - [Kubeshark](https://github.com/kubeshark/kubeshark) - Wireshark for Kubernetes.
 - [cosign](https://github.com/sigstore/cosign) - Container signing.
+- [kubetail](https://github.com/kubetail-org/kubetail) - Web-based, real-time log viewer for Kubernetes.
+- [Falco](https://falco.org/) - Detect security threats in real time.
 
 ## Resources
 

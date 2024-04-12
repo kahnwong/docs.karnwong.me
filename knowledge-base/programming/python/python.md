@@ -97,6 +97,7 @@ export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring
 - [icecream](https://github.com/gruns/icecream) - 🍦 Never use print() to debug again.
 - [memray](https://github.com/bloomberg/memray) - Memray is a memory profiler for Python.
 - [moto](https://github.com/spulec/moto) - A library that allows you to easily mock out tests based on AWS infrastructure.
+- [readability](https://github.com/buriy/python-readability) - fast python port of arc90's readability tool, updated to match latest readability.js!
 - [typer](https://github.com/tiangolo/typer) - Typer, build great CLIs. Easy to code. Based on Python type hints.
 
 ## Resources

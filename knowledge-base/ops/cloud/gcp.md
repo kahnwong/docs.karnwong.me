@@ -48,6 +48,14 @@ Differences between iam_binding and iam_member: `binding` revokes any other memb
 - [VPC peering](https://cloud.google.com/vpc/docs/vpc-peering)
 - [Subnets](https://cloud.google.com/vpc/docs/subnets)
 
+### Logging
+
+Filter by principal
+
+```bash
+protoPayload.authenticationInfo.principalEmail="xxxx@xxxx.com"
+```
+
 ## Cookbooks
 
 ### gcloud login

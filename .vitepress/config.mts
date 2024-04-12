@@ -43,6 +43,7 @@ export default defineConfig({
               link: "knowledge-base/data/data-engineering",
             },
             { text: "Data Science", link: "knowledge-base/data/data-science" },
+            { text: "LLM", link: "knowledge-base/data/llm" },
             { text: "MLOps", link: "knowledge-base/data/mlops" },
             {
               text: "Specialization",

@@ -16,3 +16,4 @@ outline: deep
 - [The DevOps Security Checklist Redux](https://www.goldfiglabs.com/guide/devops-security-checklist/)
 - [The SaaS CTO Security Checklist Redux](https://www.goldfiglabs.com/guide/saas-cto-security-checklist/)
 - [The Cloud Native Wiki](https://www.aquasec.com/cloud-native-academy/)
+- [The Copenhagen Book](https://thecopenhagenbook.com/server-side-tokens)

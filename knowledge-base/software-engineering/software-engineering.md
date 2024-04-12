@@ -13,6 +13,7 @@ outline: deep
 - [Naming Conventions](https://www.elastic.co/guide/en/beats/devguide/current/event-conventions.html)
 - [The XY Problem](https://xyproblem.info/)
 - [How To Ask Questions The Smart Way](http://catb.org/~esr/faqs/smart-questions.html)
+- [How To Write Unmaintainable Code](https://github.com/Droogans/unmaintainable-code)
 
 ## Algorithms
 

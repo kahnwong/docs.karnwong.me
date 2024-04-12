@@ -9,6 +9,7 @@ outline: deep
 - [evidence](https://evidence.dev/) - Evidence is an open source publishing tool for modern data teams. Build polished data products with just SQL and markdown.
 - [redash](https://redash.io/) - Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data.
 - [streamlit](https://github.com/streamlit/streamlit) - Streamlit — The fastest way to build data apps in Python.
+- [Observable](https://observablehq.com/)
 
 ## Machine Learning
 

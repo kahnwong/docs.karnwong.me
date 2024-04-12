@@ -18,6 +18,7 @@ outline: deep
 - [DevOps Roadmap](https://roadmap.sh/devops)
 - [DontBreakDebian](https://wiki.debian.org/DontBreakDebian) - Advice For New Users On Not Breaking Their Debian System
 - [System Administrator's Guide](https://docs.rockylinux.org/books/admin_guide/01-presentation/)
+- [Linux crisis tools](https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html)
 
 ### Hiring
 
