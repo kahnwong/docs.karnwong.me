@@ -209,5 +209,4 @@ cat local_file.sh | docker exec -i container_name bash
 ## Resources
 
 - [composerize](https://www.composerize.com) - docker run asdlksjfksdf > docker-composerize up.
-- [contains.dev](https://contains.dev/) - Explore your images, view their files, layers and dependencies.
 - [The Compose Specification](https://github.com/compose-spec/compose-spec/blob/master/spec.md) - The Compose specification establishes a standard for the definition of multi-container platform-agnostic applications.

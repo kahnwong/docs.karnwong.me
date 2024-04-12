@@ -27,12 +27,6 @@ curl -fsSL https://starship.rs/install.sh | bash
 - <http://ip-api.com/json/$IP>
 - [IP2Location](https://github.com/chrislim2888/ip2location-python)
 
-## iTerm
-
-Bulk remove iTerm2 color schemes
-
-<https://gist.github.com/kecebongsoft/11312110>
-
 ## Nix
 
 - [MyNixOS](https://mynixos.com/) - Build and share reproducible software environments with Nix and NixOS.

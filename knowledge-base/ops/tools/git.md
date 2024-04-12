@@ -112,7 +112,6 @@ python3 git-filter-repo --invert-paths --path-match $PATH
 
 ### General
 
-- [Git Explorer](https://gitexplorer.com)
 - [Git guide](https://github.com/dbt-labs/corp/blob/main/git-guide.md)
 - [Oh Shit, Git!?!](https://ohshitgit.com)
 - [GitHub Skills](https://skills.github.com/)

@@ -93,6 +93,6 @@ intranet.example.com {
 
 ## Resources
 
-- [Public and internal caddy network setup](https://mrkaran.dev/posts/exposing-services-self-hosting/)
+- [Public and internal caddy network setup](https://mrkaran.dev/posts/exposing-services/)
 - [Setup CORS in Caddy 2](https://kalnytskyi.com/posts/setup-cors-caddy-2/)
 - [Error pages](https://github.com/tarampampam/error-pages) - 🚧 Pretty server's error pages in the docker image & git repository (for traefik, k8s, nginx and so on).

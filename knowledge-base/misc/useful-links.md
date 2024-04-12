@@ -51,7 +51,6 @@
 ## Movies
 
 - [Pretentious-O-Meter](http://pretentious-o-meter.co.uk/)
-- [Movieo](https://movieo.me/)
 
 ## Podcasts
 
@@ -61,7 +60,6 @@
 ## Reading
 
 - [Ebook Reader for web](https://www.loudreader.com/)
-- [reddit2kindle](https://reddit2kindle.com/) - Send reddit directly to your kindle
 - [PDFCombo](https://apps.apple.com/us/app/pdfcombo/id1030461463?mt=12)
 
 ## Travel
@@ -91,7 +89,6 @@
 
 - [10 Minute Mail](https://10minutemail.com/)
 - [Emaildrop](https://www.emaildrop.io/)
-- [MiniMail](https://minimail.eu.org/) - Another disposable email
 
 ## Languages
 
