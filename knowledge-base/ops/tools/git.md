@@ -71,12 +71,21 @@ git-clean - Remove untracked files from the working tree
 -X - Remove only files ignored by Git.
 ```
 
-### get total additions and deletions on a given branch for an given author in git
+### Get total additions and deletions on a given branch for an given author in git
 
 ```bash
 git log --author=$USER --shortstat $BRANCH | \
 awk '/^ [0-9]/ { f += $1; i += $4; d += $6 } \
 END { printf("%d files changed, %d insertions(+), %d deletions(-)", f, i, d) }'
+```
+
+### Export git log to CSV
+
+<https://git-scm.com/docs/pretty-formats>
+
+```bash
+echo sha, contributor, date, message > log.csv
+git log --date=local --pretty=format:'%h, %an, %ad, "%s"' >> log.csv
 ```
 
 ## Tools

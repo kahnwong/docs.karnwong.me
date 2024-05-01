@@ -68,6 +68,13 @@ gcloud config configurations list
 gcloud config configurations activate $ACCOUNT_NAME
 ```
 
+### Set PROJECT_ID from environment variable
+
+```bash
+GOOGLE_CLOUD_PROJECT=foo
+GOOGLE_CLOUD_QUOTA_PROJECT=bar
+```
+
 ### Set up cloud-sql-proxy
 
 ```bash

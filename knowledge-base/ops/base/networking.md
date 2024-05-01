@@ -16,6 +16,10 @@ outline: deep
 - [The Big Blocklist Collection](https://firebog.net)
 - [FB_Whitelist](https://github.com/zlatco/FB_Whitelist) - A Host file to whitelist as little as possible for Facebook and Messenger, while still making them usable!
 
+## Protocols
+
+- [IPv6 Cheat Sheet](https://github.com/onemarcfifty/cheat-sheets/blob/main/networking/ipv6.md)
+
 ## VPN
 
 - [headscale](https://headscale.net/) - Open source, self-hosted implementation of the Tailscale control server.

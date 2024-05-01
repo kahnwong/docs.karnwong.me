@@ -203,6 +203,7 @@ export default defineConfig({
               text: "Cloud",
               collapsed: true,
               items: [
+                { text: "Cloud", link: "knowledge-base/ops/cloud/cloud" },
                 { text: "AWS", link: "knowledge-base/ops/cloud/aws" },
                 { text: "GCP", link: "knowledge-base/ops/cloud/gcp" },
                 { text: "Vendors", link: "knowledge-base/ops/cloud/vendors" },

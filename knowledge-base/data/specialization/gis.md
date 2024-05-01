@@ -65,6 +65,7 @@ DEGREE = KM / 111.319
 - [CartoDB/basemap-styles](https://github.com/CartoDB/basemap-styles)
 - [MapTiler Data](https://data.maptiler.com/downloads/planet/)
 - [OpenMapTiles](https://openmaptiles.org/) - World maps you can self-host - powered by free OpenStreetMap vector tiles and open-source software.
+- [Protomaps](https://protomaps.com/) - A free and open source map of the world.
 
 ```yaml
 OpenStreetMap: http://tile.openstreetmap.org/{z}/{x}/{y}.png

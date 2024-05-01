@@ -8,6 +8,13 @@ outline: deep
 
 - [Spell Checking in Nvim](https://jdhao.github.io/2019/04/29/nvim_spell_check/)
 
+## Cookbooks
+
+```bash
+# comment / uncomment
+enter `VISUAL` mode, select a block then `gc`
+```
+
 ## Resources
 
 - [neovimcraft](https://neovimcraft.com/) - Search through our curated list of neovim plugins.

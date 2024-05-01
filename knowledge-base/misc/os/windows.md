@@ -12,6 +12,10 @@ In Windows 10. Go to credential manager (click start and type "credential manage
 
 - <https://community.tp-link.com/en/home/forum/topic/170070>
 
+## Windows on Macbook
+
+- <https://fgimian.github.io/blog/2016/03/12/installing-windows-10-on-a-mac-without-bootcamp/>
+
 ## Utilities
 
 - [Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
