@@ -11,9 +11,10 @@ outline: deep
 curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC="server --disable traefik" sh # so it frees up port 80 and 443
 
 ## register a worker node
-# get NODE_TOKEN via `/var/lib/rancher/k3s/server/node-token`
+# get NODE_TOKEN via `cat /var/lib/rancher/k3s/server/node-token`
+export K3S_URL=https://myserver:6443
 export NODE_TOKEN=
-curl -sfL https://get.k3s.io | K3S_URL=https://myserver:6443 K3S_TOKEN="$NODE_TOKEN" sh -
+curl -sfL https://get.k3s.io | K3S_URL="$K3S_URL" K3S_TOKEN="$NODE_TOKEN" sh -
 
 # export kubeconfig
 k3s kubectl config view --raw # copy this to ~/.kube/config on your local machine
