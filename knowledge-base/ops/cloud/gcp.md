@@ -68,6 +68,14 @@ gcloud config configurations list
 gcloud config configurations activate $ACCOUNT_NAME
 ```
 
+#### on colab
+
+```python
+from google.colab import auth
+
+auth.authenticate_user()
+```
+
 ### Set PROJECT_ID from environment variable
 
 ```bash
@@ -88,6 +96,12 @@ chmod +x cloud-sql-proxy
 sudo mv cloud-sql-proxy /usr/local/bin/
 
 cloud-sql-proxy --port <INTERNAL> <INSTANCE_CONNECTION_NAME>
+```
+
+### Get bearer token
+
+```bash
+gcloud auth print-identity-token
 ```
 
 ## Resources

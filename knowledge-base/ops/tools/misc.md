@@ -31,6 +31,7 @@ outline: deep
 - [MyNixOS](https://mynixos.com/) - Build and share reproducible software environments with Nix and NixOS.
 - [Zero to Nix](https://zero-to-nix.com/) - An unofficial, opinionated, gentle introduction to Nix.
 - [NixOS & Flakes Book](https://nixos-and-flakes.thiscute.world/)
+- [nix.dev](https://nix.dev/) - Official documentation for the Nix ecosystem.
 
 ### Avoid macOS updates to destroy nix
 

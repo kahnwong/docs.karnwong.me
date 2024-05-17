@@ -20,6 +20,10 @@ outline: deep
 - [Layers of Bitcoin](https://layers.trudi.group/)
 - [Awesome Identifiers](https://adileo.github.io/awesome-identifiers/) - Pick the best database primary key.
 
+## Databases
+
+- [Common DB schema change mistakes](https://postgres.ai/blog/20220525-common-db-schema-change-mistakes)
+
 ## System design
 
 - [Architecture Notes](https://architecturenotes.co/)
@@ -29,7 +33,12 @@ outline: deep
 ## Mathematics
 
 - [TheoremDex](https://thmdex.org/) - An Index of Mathematical Definitions, Results, and Conjectures.
+- [Calculus Made Easy](https://calculusmadeeasy.org/)
 
 ## Tools
 
 - [Makefile Tutorial](https://makefiletutorial.com/)
+
+## Resources
+
+- [DevTerms](https://devterms.io/) - A crowdsourced dictionary for developers. Find definitions for all sorts of technical terms, programming jargon, and more!
