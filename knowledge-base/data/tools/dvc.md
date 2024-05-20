@@ -17,15 +17,13 @@ outline: deep
 dvc init
 
 # add storage backend remote
-dvc remote add \
-    -d storage s3://dvc-playground/dvc-playground
+dvc remote add -d $REMOTE_NAME s3://dvc-playground/dvc-playground
 
 # set aws profile
-dvc remote modify storage profile ${AWS_PROFILE}
+dvc remote modify $REMOTE_NAME profile ${AWS_PROFILE}
 
 # commit changes
-git commit .dvc/config \
-    -m "Configure remote storage"
+git commit .dvc/config -m "Configure remote storage"
 ```
 
 ## Usage
@@ -50,8 +48,7 @@ git commit data/recent-stacks.csv.dvc -m "Dataset updates"
 dvc pull
 
 # list checkin-ed files via dvc
-dvc list https://github.com/kahnwong/dvc-playground \
-    data
+dvc list . $PATH
 
 # download data from another repo
 dvc get https://github.com/iterative/dataset-registry \
