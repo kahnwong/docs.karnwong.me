@@ -6,6 +6,6 @@
   },
   "dependencies": {
     "sitemap": "^7.1.1",
-    "vitepress": "^1.1.0"
+    "vitepress": "^1.2.2"
   }
 }
