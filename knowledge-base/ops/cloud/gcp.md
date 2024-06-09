@@ -8,6 +8,7 @@ outline: deep
 
 - [GCPinstances.info](https://gcpinstances.doit-intl.com/)
 - [DB Cost](https://www.dbcost.com/) - The Simple AWS RDS and Google Cloud SQL Instance Pricing Sheet.
+- [Google Cloud Pricing Calculator](https://cloud.google.com/products/calculator?hl=en)
 
 ## Administration
 

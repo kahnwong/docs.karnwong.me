@@ -424,7 +424,37 @@ spark-submit --deploy-mode cluster s3://<PATH TO FILE>/sparky.py
 echo 'sc.getConf.get("spark.home")' | spark-shell
 ```
 
-## Sedona
+## JARs
+
+### AWS
+
+```python
+from pyspark.sql import SparkSession
+
+def init_spark() -> SparkSession:
+    config = (
+        SparkSession.builder()
+        .config(
+            "spark.jars.packages",
+            "org.apache.hadoop:hadoop-aws:3.3.4,"
+            "com.amazonaws:aws-java-sdk-core:1.12.725,"
+            "com.amazonaws:aws-java-sdk-dynamodb:1.12.725,"
+            "com.amazonaws:aws-java-sdk-s3:1.12.725,"
+            "com.amazonaws:aws-java-sdk:1.12.725",
+        )
+        .config(
+            "fs.s3a.aws.credentials.provider",
+            "org.apache.hadoop.fs.s3a.AnonymousAWSCredentialsProvider",
+        )
+        .config("spark.executor.memory", "8g")
+        .config("spark.driver.memory", "8g")
+        .getOrCreate()
+    )
+```
+
+## Extensions
+
+### Sedona
 
 ```python
 from sedona.spark import SedonaContext

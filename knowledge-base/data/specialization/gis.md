@@ -91,6 +91,10 @@ Carto Light: http://d.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png
 - [tileserver-gl](https://github.com/maptiler/tileserver-gl) - Vector and raster maps with GL styles. Server side rendering by MapLibre GL Native. Map tile server for MapLibre GL JS, Android, iOS, Leaflet, OpenLayers, GIS via WMTS, etc.
 - [QGIS server](https://docs.qgis.org/3.28/en/docs/server_manual/index.html)
 
+### bbox
+
+- [Bounding Box Tool](https://boundingbox.klokantech.com/) - Metadata Enrichment for Catalogue Records by Visually Selecting Geographic Coordinates (Latitude / Longitude) for Maps.
+
 ### Visualizations
 
 - [kepler.gl](https://kepler.gl/demo) - A data-agnostic, high-performance web-based application for visual exploration of large-scale geolocation data sets.
