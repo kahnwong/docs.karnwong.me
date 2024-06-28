@@ -14,10 +14,10 @@ datetime.now(timezone("Asia/Bangkok"))
 datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 # from string
-datetime.strptime(datetime.now(), "%Y-%m-%d")
+datetime.strptime("2022-01-01", "%Y-%m-%d")
 
 # from epoch timestamp
-datetime.fromtimestamp(1347517370 / 1000)  # /1000 in case of ValueError
+datetime.fromtimestamp(1347517370 / 1000)
 ```
 
 ## Generate day bound

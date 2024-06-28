@@ -6,10 +6,12 @@ outline: deep
 
 ## Load env
 
-```python
-# pip install python-dotenv
+```bash
+pip install python-dotenv
+```
 
-import yaml
+```python
+from dotenv import load_dotenv
 
 load_dotenv()
 ```
@@ -47,7 +49,7 @@ list(set(keep_keys) - set(input_keys))
 [data[x : x + 100] for x in range(0, len(data), 100)]
 ```
 
-## I/O
+## CSV
 
 ```python
 # read CSV as dict
@@ -57,8 +59,6 @@ with open("params.csv", "r") as csvfile:
 ```
 
 ## Logging
-
-### Default
 
 ```python
 import logging
@@ -83,43 +83,6 @@ def init_logger(name: str, level: int = logging.INFO):
 from python_api_template.utils.log import init_logger
 
 logger = init_logger(__name__)
-```
-
-### AWS Lambda
-
-#### powertools
-
-```python
-from aws_lambda_powertools import Logger
-
-logger = Logger()  # Sets service via env var
-# OR logger = Logger(service="example")
-```
-
-#### built-in logger
-
-```python
-import logging
-
-# https://stackoverflow.com/questions/37703609/using-python-logging-with-aws-lambda
-if logging.getLogger().hasHandlers():
-    # The Lambda environment pre-configures a handler logging to stderr. If a handler is already configured,
-    # `.basicConfig` does not execute. Thus we set the level directly.
-    logger = logging.getLogger()
-    logger.setLevel(logging.INFO)
-    print("lambda log")
-else:
-    logger = logging.getLogger(__name__)
-    handler = logging.StreamHandler()
-
-    formatter = logging.Formatter(
-        "%(asctime)s - [%(levelname)s] - %(name)s - %(message)s"
-    )
-    handler.setFormatter(formatter)
-    logger.addHandler(handler)
-
-    logger.setLevel(logging.INFO)
-    print("local log")
 ```
 
 ## Regex

@@ -331,16 +331,20 @@ export default defineConfig({
                       text: "Parallel Processing",
                       link: "knowledge-base/programming/python/cookbook/parallel-processing",
                     },
-                    {
-                      text: "PDF",
-                      link: "knowledge-base/programming/python/cookbook/pdf",
-                    },
                   ],
                 },
                 {
-                  text: "Libraries",
+                  text: "Tools",
                   collapsed: true,
                   items: [
+                    {
+                      text: "poetry",
+                      link: "knowledge-base/programming/python/tools/poetry",
+                    },
+                    {
+                      text: "pyenv",
+                      link: "knowledge-base/programming/python/tools/pyenv",
+                    },
                     {
                       text: "pytest",
                       link: "knowledge-base/programming/python/tools/pytest",
