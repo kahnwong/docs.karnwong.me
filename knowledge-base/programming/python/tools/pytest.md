@@ -7,7 +7,12 @@ outline: deep
 ## Setup
 
 ```bash
-# pip install pytest pytest-cov pytest-xdist
+pip install pytest pytest-cov pytest-xdist
+```
+
+## Usage
+
+```bash
 
 pipenv run pytest -n auto --cov-report html --cov=./
 pipenv run pytest -n auto --cov-report term-missing --cov=./
@@ -39,7 +44,7 @@ events = events[:5]  # comment this out to enable all testcases
 # Tests
 ################################
 # need to manually delete the file if you want to clear existing logs
-output = open("log.json", "a")
+output = open("logs.ndjson", "a")
 
 
 @pytest.mark.parametrize("event", events)

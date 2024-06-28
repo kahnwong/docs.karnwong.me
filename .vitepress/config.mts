@@ -343,15 +343,11 @@ export default defineConfig({
                   items: [
                     {
                       text: "pytest",
-                      link: "knowledge-base/programming/python/libraries/pytest",
-                    },
-                    {
-                      text: "termcolor",
-                      link: "knowledge-base/programming/python/libraries/termcolor",
+                      link: "knowledge-base/programming/python/tools/pytest",
                     },
                     {
                       text: "YAML",
-                      link: "knowledge-base/programming/python/libraries/yaml",
+                      link: "knowledge-base/programming/python/tools/yaml",
                     },
                   ],
                 },
