@@ -71,13 +71,58 @@ export default defineConfig({
                 },
               ]
             },
+            {
+              text: "MLOps",
+              collapsed: true,
+              items: [
+                { text: "MLOps", link: "knowledge-base/data/mlops/mlops" },
+                {
+                  text: "Tools",
+                  collapsed: true,
+                  items: [
+                    { text: "DVC", link: "knowledge-base/data/mlops/tools/dvc" },
+                  ],
+                },
+              ]
+            },
             { text: "LLM", link: "knowledge-base/data/llm" },
-            { text: "MLOps", link: "knowledge-base/data/mlops" },
             {
               text: "Specialization",
               collapsed: true,
               items: [
-                { text: "GIS", link: "knowledge-base/data/specialization/gis" },
+                {
+                  text: "GIS",
+                  collapsed: true,
+                  items: [
+                    { text: "GIS", link: "knowledge-base/data/specialization/gis/gis" },
+                    {
+                      text: "Tools",
+                      collapsed: true,
+                      items: [
+                        {
+                          text: "GDAL",
+                          link: "knowledge-base/data/specialization/gis/tools/gdal",
+                        },
+                        {
+                          text: "GeoPandas",
+                          link: "knowledge-base/data/specialization/gis/tools/geopandas",
+                        },
+                        {
+                          text: "PostGIS",
+                          link: "knowledge-base/data/specialization/gis/tools/postgis",
+                        },
+                        {
+                          text: "QGIS",
+                          link: "knowledge-base/data/specialization/gis/tools/qgis",
+                        },
+                        {
+                          text: "Shapely",
+                          link: "knowledge-base/data/specialization/gis/tools/shapely",
+                        },
+                      ],
+                    },
+                  ]
+                },
                 { text: "NLP", link: "knowledge-base/data/specialization/nlp" },
                 {
                   text: "Visualization",
@@ -93,38 +138,9 @@ export default defineConfig({
               text: "Tools",
               collapsed: true,
               items: [
-                { text: "DVC", link: "knowledge-base/data/tools/dvc" },
-
-
                 {
                   text: "psycopg2",
                   link: "knowledge-base/data/tools/psycopg2",
-                },
-                {
-                  text: "GIS",
-                  collapsed: true,
-                  items: [
-                    {
-                      text: "GDAL",
-                      link: "knowledge-base/data/tools/gis/gdal",
-                    },
-                    {
-                      text: "GeoPandas",
-                      link: "knowledge-base/data/tools/gis/geopandas",
-                    },
-                    {
-                      text: "PostGIS",
-                      link: "knowledge-base/data/tools/gis/postgis",
-                    },
-                    {
-                      text: "QGIS",
-                      link: "knowledge-base/data/tools/gis/qgis",
-                    },
-                    {
-                      text: "Shapely",
-                      link: "knowledge-base/data/tools/gis/shapely",
-                    },
-                  ],
                 },
                 {
                   text: "Web Scraping",
