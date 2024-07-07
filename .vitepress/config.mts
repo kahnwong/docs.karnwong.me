@@ -40,8 +40,18 @@ export default defineConfig({
           items: [
             {
               text: "Data Engineering",
-              link: "knowledge-base/data/data-engineering",
+              items: [
+                { text: "Data Engineering", link: "knowledge-base/data/data-engineering/data-engineering" },
+                {
+                  text: "Tools",
+                  collapsed: true,
+                  items: [
+                    { text: "Dagster", link: "knowledge-base/data/data-engineering/tools/dagster" },
+                  ],
+                },
+              ]
             },
+
             { text: "Data Science", link: "knowledge-base/data/data-science" },
             { text: "LLM", link: "knowledge-base/data/llm" },
             { text: "MLOps", link: "knowledge-base/data/mlops" },
@@ -71,13 +81,6 @@ export default defineConfig({
                 {
                   text: "psycopg2",
                   link: "knowledge-base/data/tools/psycopg2",
-                },
-                {
-                  text: "Data Engineering",
-                  collapsed: true,
-                  items: [
-                    { text: "Dagster", link: "knowledge-base/data/tools/data-engineering/dagster" },
-                  ],
                 },
                 {
                   text: "Data Science",
