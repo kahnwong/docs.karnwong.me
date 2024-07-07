@@ -48,6 +48,10 @@ export default defineConfig({
                   collapsed: true,
                   items: [
                     { text: "Dagster", link: "knowledge-base/data/data-engineering/tools/dagster" },
+                    {
+                      text: "psycopg2",
+                      link: "knowledge-base/data/data-engineering/tools/psycopg2",
+                    },
                   ],
                 },
               ]
@@ -130,7 +134,28 @@ export default defineConfig({
                 },
                 {
                   text: "Web Scraping",
-                  link: "knowledge-base/data/specialization/web-scraping",
+                  collapsed: true,
+                  items: [
+                    { text: "Web Scraping", link: "knowledge-base/data/specialization/web-scraping/web-scraping" },
+                    {
+                      text: "Tools",
+                      collapsed: true,
+                      items: [
+                        {
+                          text: "requests",
+                          link: "knowledge-base/data/specialization/web-scraping/tools/requests",
+                        },
+                        {
+                          text: "Selenium",
+                          link: "knowledge-base/data/specialization/web-scraping/tools/selenium",
+                        },
+                        {
+                          text: "Scrapy",
+                          link: "knowledge-base/data/specialization/web-scraping/tools/scrapy",
+                        },
+                      ],
+                    },
+                  ]
                 },
               ],
             },
@@ -138,28 +163,6 @@ export default defineConfig({
               text: "Tools",
               collapsed: true,
               items: [
-                {
-                  text: "psycopg2",
-                  link: "knowledge-base/data/tools/psycopg2",
-                },
-                {
-                  text: "Web Scraping",
-                  collapsed: true,
-                  items: [
-                    {
-                      text: "requests",
-                      link: "knowledge-base/data/tools/web-scraping/requests",
-                    },
-                    {
-                      text: "Selenium",
-                      link: "knowledge-base/data/tools/web-scraping/selenium",
-                    },
-                    {
-                      text: "Scrapy",
-                      link: "knowledge-base/data/tools/web-scraping/scrapy",
-                    },
-                  ],
-                },
                 {
                   text: "Wrangling",
                   collapsed: true,

@@ -47,14 +47,12 @@ yield scrapy.Request(
 ```python title="formdata"
 yield scrapy.FormRequest(
     url=url,
-    method='GET',
+    method="GET",
     dont_filter=True,
     formdata=payload,
-    meta={
-        'facetFilters': facetFilter,
-        'numericFilters': numericFilter
-    },
-    callback=self.get_each_page)
+    meta={"facetFilters": facetFilter, "numericFilters": numericFilter},
+    callback=self.get_each_page,
+)
 ```
 
 #### POST
@@ -71,10 +69,7 @@ yield scrapy.Request(
 
 ```python title="formdata"
 yield scrapy.FormRequest(
-    'api.example.com',
-    callback=self.parse,
-    method='POST',
-    formdata=params
+    "api.example.com", callback=self.parse, method="POST", formdata=params
 )
 ```
 
