@@ -260,7 +260,6 @@ export default defineConfig({
                   text: "Networking",
                   collapsed: true,
                   items: [
-                    { text: "Apache2", link: "knowledge-base/ops/tools/networking/apache2" },
                     { text: "Caddy", link: "knowledge-base/ops/tools/networking/caddy" },
                     { text: "Tailscale", link: "knowledge-base/ops/tools/networking/tailscale" },
                   ],

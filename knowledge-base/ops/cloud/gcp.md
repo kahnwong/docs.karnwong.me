@@ -57,7 +57,7 @@ Filter by principal
 protoPayload.authenticationInfo.principalEmail="xxxx@xxxx.com"
 ```
 
-## Cookbooks
+## Cookbook
 
 ### gcloud login
 

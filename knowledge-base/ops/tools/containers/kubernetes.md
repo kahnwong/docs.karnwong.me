@@ -70,7 +70,7 @@ argocd admin initial-password -n argocd
 argocd login <ARGOCD_SERVER>
 ```
 
-## Cookbooks
+## Cookbook
 
 ### Pulling image from private registry
 

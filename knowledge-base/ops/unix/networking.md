@@ -11,15 +11,6 @@ outline: deep
 sudo ifconfig wlan0 down
 ```
 
-## wget
-
-```bash
-# download from file
-wget -i links.txt
-
-# recursive crawl
-wget --recursive --no-parent -w 3 --random-wait -c -i urls.txt
-```
 
 ## ssh
 
@@ -47,17 +38,3 @@ ssh -L 5000:targethost:5000 NAME@TUNNEL_HOST
 ssh-add --apple-use-keychain $KEY_PATH
 ```
 
-## Cookbook
-
-### check internet speed via terminal
-
-```bash
-curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
-```
-
-### plot IP location on map
-
-```bash
-
-host spotify.com | iponmap -c
-```

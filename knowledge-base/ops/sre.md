@@ -14,7 +14,7 @@ outline: deep
 
 - [pyroscope](https://github.com/grafana/pyroscope) - Continuous Profiling Platform. Debug performance issues down to a single line of code .
 
-### Cookbooks
+### Cookbook
 
 #### OTEL with Python
 

@@ -8,7 +8,7 @@ outline: deep
 
 - [Spell Checking in Nvim](https://jdhao.github.io/2019/04/29/nvim_spell_check/)
 
-## Cookbooks
+## Cookbook
 
 ```bash
 # comment / uncomment

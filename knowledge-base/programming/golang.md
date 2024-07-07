@@ -13,7 +13,7 @@ outline: deep
 - [godotenv](https://github.com/joho/godotenv) - A Go port of Ruby's dotenv library (Loads environment variables from .env files)
 - [huh](https://github.com/charmbracelet/huh) - Build terminal forms and prompts 🤷🏻‍♀️
 
-## Cookbooks
+## Cookbook
 
 ### Reduce binary size
 

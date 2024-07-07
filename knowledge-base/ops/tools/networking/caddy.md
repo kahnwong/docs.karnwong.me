@@ -9,7 +9,7 @@ outline: deep
 /var/lib/caddy/.local/share/caddy
 ```
 
-## Cookbooks
+## Cookbook
 
 ### Template
 
@@ -18,7 +18,7 @@ example.com
 
 root * /var/www
 
-# Serve precompressed files if present
+# Serve pre-compressed files if present
 file_server /downloads/* {
  precompressed gzip zstd br
 }
