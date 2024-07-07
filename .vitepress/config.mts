@@ -51,8 +51,24 @@ export default defineConfig({
                 },
               ]
             },
-
-            { text: "Data Science", link: "knowledge-base/data/data-science" },
+            {
+              text: "Data Science",
+              items: [
+                { text: "Data Science", link: "knowledge-base/data/data-science/data-science" },
+                {
+                  text: "Tools",
+                  collapsed: true,
+                  items: [
+                    { text: "Jupyter", link: "knowledge-base/data/data-science/tools/jupyter" },
+                    {
+                      text: "Matplotlib / Seaborn",
+                      link: "knowledge-base/data/data-science/tools/matplotlib-seaborn",
+                    },
+                    { text: "Sklearn", link: "knowledge-base/data/data-science/tools/sklearn" },
+                  ],
+                },
+              ]
+            },
             { text: "LLM", link: "knowledge-base/data/llm" },
             { text: "MLOps", link: "knowledge-base/data/mlops" },
             {
@@ -81,18 +97,6 @@ export default defineConfig({
                 {
                   text: "psycopg2",
                   link: "knowledge-base/data/tools/psycopg2",
-                },
-                {
-                  text: "Data Science",
-                  collapsed: true,
-                  items: [
-                    { text: "Jupyter", link: "knowledge-base/data/tools/data-science/jupyter" },
-                    {
-                      text: "Matplotlib / Seaborn",
-                      link: "knowledge-base/data/tools/data-science/matplotlib-seaborn",
-                    },
-                    { text: "Sklearn", link: "knowledge-base/data/tools/data-science/sklearn" },
-                  ],
                 },
                 {
                   text: "GIS",
