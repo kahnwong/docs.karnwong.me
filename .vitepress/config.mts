@@ -40,6 +40,7 @@ export default defineConfig({
           items: [
             {
               text: "Data Engineering",
+              collapsed: true,
               items: [
                 { text: "Data Engineering", link: "knowledge-base/data/data-engineering/data-engineering" },
                 {
@@ -53,6 +54,7 @@ export default defineConfig({
             },
             {
               text: "Data Science",
+              collapsed: true,
               items: [
                 { text: "Data Science", link: "knowledge-base/data/data-science/data-science" },
                 {
