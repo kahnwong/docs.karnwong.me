@@ -11,7 +11,6 @@ outline: deep
 sudo ifconfig wlan0 down
 ```
 
-
 ## ssh
 
 ```bash
@@ -37,4 +36,3 @@ ssh -L 5000:targethost:5000 NAME@TUNNEL_HOST
 # add key to ssh-agent
 ssh-add --apple-use-keychain $KEY_PATH
 ```
-

@@ -121,6 +121,7 @@ region.assign(key=1).merge(property_type.assign(key=1), on="key").drop("key", ax
 ## apply lambda
 df_page_paths[df_page_paths["pagePath"].apply(lambda x: "?" in x and x[:2] != "/?")]
 
+
 ## apply where IN=2 col and OUT=2 col
 def rule(row):
     lat, lon = utm.to_latlon(row["X"], row["Y"], 45, "K")

@@ -70,7 +70,19 @@ export default defineConfig({
                       text: "Matplotlib / Seaborn",
                       link: "knowledge-base/data/data-science/tools/matplotlib-seaborn",
                     },
+                    {
+                      text: "NumPy",
+                      link: "knowledge-base/data/data-science/tools/numpy",
+                    },
+                    {
+                      text: "Pandas",
+                      link: "knowledge-base/data/data-science/tools/pandas",
+                    },
                     { text: "Sklearn", link: "knowledge-base/data/data-science/tools/sklearn" },
+                    {
+                      text: "SQL",
+                      link: "knowledge-base/data/data-science/tools/sql",
+                    },
                   ],
                 },
               ]
@@ -167,21 +179,10 @@ export default defineConfig({
                   text: "Wrangling",
                   collapsed: true,
                   items: [
-                    {
-                      text: "NumPy",
-                      link: "knowledge-base/data/tools/wrangling/numpy",
-                    },
-                    {
-                      text: "Pandas",
-                      link: "knowledge-base/data/tools/wrangling/pandas",
-                    },
+
                     {
                       text: "PySpark",
                       link: "knowledge-base/data/tools/wrangling/pyspark",
-                    },
-                    {
-                      text: "SQL",
-                      link: "knowledge-base/data/tools/wrangling/sql",
                     },
                   ],
                 },

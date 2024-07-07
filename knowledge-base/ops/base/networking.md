@@ -16,7 +16,6 @@ outline: deep
 
 - [IPv6 Cheat Sheet](https://github.com/onemarcfifty/cheat-sheets/blob/main/networking/ipv6.md)
 
-
 ## Tools
 
 - [CanYouSeeMe](https://canyouseeme.org) - Open Port Check Tool.
