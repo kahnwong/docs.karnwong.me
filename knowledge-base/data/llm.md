@@ -5,7 +5,7 @@ outline: deep
 # LLM
 
 | Model Name                                 | Developer  |
-|--------------------------------------------|------------|
+| ------------------------------------------ | ---------- |
 | [DBRX](https://github.com/databricks/dbrx) | Databricks |
 | [Gemma](https://ai.google.dev/gemma)       | Google     |
 
@@ -17,7 +17,7 @@ outline: deep
 ## Models
 
 | Creator    | Name                      | Hugging Face                                                         | Ollama                                                      |
-|------------|---------------------------|----------------------------------------------------------------------|-------------------------------------------------------------|
+| ---------- | ------------------------- | -------------------------------------------------------------------- | ----------------------------------------------------------- |
 | Snowflake  | snowflake-arctic-embed    | [HF](https://huggingface.co/Snowflake/snowflake-arctic-embed-l)      | [Ollama](https://ollama.com/library/snowflake-arctic-embed) |
 | Snowflake  | snowflake-arctic-instruct | [HF](https://huggingface.co/Snowflake/snowflake-arctic-instruct)     |                                                             |
 | MotherDuck | duckdb-nsql               | [HF](https://huggingface.co/motherduckdb/DuckDB-NSQL-7B-v0.1)        | [Ollama](https://ollama.com/library/duckdb-nsql)            |

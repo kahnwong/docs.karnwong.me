@@ -1,8 +1,6 @@
 {
   "index_name": "fringe-division",
-   "start_urls": [
-    "https://docs.karnwong.me"
-  ],
+  "start_urls": ["https://docs.karnwong.me"],
   "allowed_domains": ["docs.karnwong.me"],
   "selectors": {
     "lvl0": {

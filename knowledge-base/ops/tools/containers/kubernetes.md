@@ -102,9 +102,9 @@ resource "kubernetes_secret" "harbor_config" {
 In deployment specs, add:
 
 ```yaml
-      containers:
-      imagePullSecrets:
-        - name: harbor-cfg
+containers:
+imagePullSecrets:
+  - name: harbor-cfg
 ```
 
 ### Emptying the finalizers for a namespace that will not delete

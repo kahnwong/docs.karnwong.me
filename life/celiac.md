@@ -63,18 +63,18 @@ Notes:
 
 | Brand                                                                        | Location | Details   |
 | ---------------------------------------------------------------------------- | -------- | --------- |
-| [Adagio Teas](https://www.adagio.com)                                        | 🇺🇸     | ALL 👍   |
-| [Basilur](https://www.basilurtea.com/)                                       | 🇱🇰     | ALL 👍   |
-| Dilmah                                                                       | 🇹🇭     | ALL 👍   |
-| [Harney & Sons](https://harneyteasthailand.com)                              | 🇹🇭     | ALL 👍   |
+| [Adagio Teas](https://www.adagio.com)                                        | 🇺🇸       | ALL 👍    |
+| [Basilur](https://www.basilurtea.com/)                                       | 🇱🇰       | ALL 👍    |
+| Dilmah                                                                       | 🇹🇭       | ALL 👍    |
+| [Harney & Sons](https://harneyteasthailand.com)                              | 🇹🇭       | ALL 👍    |
 | [Matchazuki](https://matchazuki.com)                                         |          |           |
-| [Monsoon Tea](https://monsoontea.co.th)                                      | 🇹🇭     | ALL 👍   |
-| [Nepali Tea Traders](https://www.nepaliteatraders.com/collections/black-tea) | 🇳🇵     |           |
-| [Siam Mandalay](https://www.facebook.com/SiamMandalayHealthandWellness/)     | 🇹🇭     | ALL 👍   |
-| [Suwirun](http://www.suwirunteashop.com/)                                    | 🇹🇭     | ALL 👍   |
-| [Tea Village](https://tea-village.com)                                       | 🇹🇭     |           |
-| [Teaside](https://tea-side.com/)                                             | 🇹🇭     |           |
-| [ร้านชาสุขใจ](https://www.facebook.com/ChaSookJai)                           | 🇹🇭     | partially |
+| [Monsoon Tea](https://monsoontea.co.th)                                      | 🇹🇭       | ALL 👍    |
+| [Nepali Tea Traders](https://www.nepaliteatraders.com/collections/black-tea) | 🇳🇵       |           |
+| [Siam Mandalay](https://www.facebook.com/SiamMandalayHealthandWellness/)     | 🇹🇭       | ALL 👍    |
+| [Suwirun](http://www.suwirunteashop.com/)                                    | 🇹🇭       | ALL 👍    |
+| [Tea Village](https://tea-village.com)                                       | 🇹🇭       |           |
+| [Teaside](https://tea-side.com/)                                             | 🇹🇭       |           |
+| [ร้านชาสุขใจ](https://www.facebook.com/ChaSookJai)                           | 🇹🇭       | partially |
 
 ## Resources
 

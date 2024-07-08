@@ -39,13 +39,13 @@ on:
   push:
     branches: [master, dev] # [TODO] if `dev` or `uat`, set it to another namespace
   paths-ignore:
-  - "README.md"
-  - ".github/dependabot.yml"
+    - "README.md"
+    - ".github/dependabot.yml"
   pull_request: # [TODO] remove
   workflow_dispatch:
 concurrency:
-    group: ${{ github.workflow }}-${{ github.ref }}
-    cancel-in-progress: true
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 env:
   HARBOR_REGISTRY: registry.example.com
   HARBOR_REPOSITORY: project/service
@@ -155,7 +155,7 @@ jobs:
 #### Ignore dependabot PRs
 
 ```yaml
- jobs:
-   pre-commit:
-     if: github.actor != 'dependabot[bot]'
-  ```
+jobs:
+  pre-commit:
+    if: github.actor != 'dependabot[bot]'
+```

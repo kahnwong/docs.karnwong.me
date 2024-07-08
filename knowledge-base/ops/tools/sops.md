@@ -7,7 +7,7 @@
 Config Location
 
 | OS    | Path                                                            |
-|-------|-----------------------------------------------------------------|
+| ----- | --------------------------------------------------------------- |
 | Linux | `~/.config/sops/age/keys.txt`                                   |
 | Mac   | `/Users/kahnwong/Library/Application Support/sops/age/keys.txt` |
 

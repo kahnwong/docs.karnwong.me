@@ -1,6 +1,7 @@
 ---
 outline: deep
 ---
+
 # Bash
 
 ## Flow control

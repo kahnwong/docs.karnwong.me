@@ -12,7 +12,7 @@ outline: deep
 
 ## Teambuilding
 
-- [Which BADge do you deserve?](https://www.firefly.ai/badges-of-honor) - We all make mistakes - some worse than others.  Let's acknowledge our shared imperfections and find humor in them. Together we can foster a culture that celebrates our humanity and the lessons learned from our errors.
+- [Which BADge do you deserve?](https://www.firefly.ai/badges-of-honor) - We all make mistakes - some worse than others. Let's acknowledge our shared imperfections and find humor in them. Together we can foster a culture that celebrates our humanity and the lessons learned from our errors.
 
 ## 1-on-1
 

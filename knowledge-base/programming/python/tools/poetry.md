@@ -31,15 +31,24 @@ packages = [
 ## pre-commit config for subfolders
 
 ```yaml
-  - repo: https://github.com/python-poetry/poetry
-    rev: 1.7.1
-    hooks:
-      - id: poetry-check
-        args: ["-C", "./app"]
-      - id: poetry-lock
-        args: ["-C", "./app"]
-      - id: poetry-export
-        args: ["-C", "./app", "--without-hashes", "-f", "requirements.txt", "-o", "requirements.txt"]
+- repo: https://github.com/python-poetry/poetry
+  rev: 1.7.1
+  hooks:
+    - id: poetry-check
+      args: ["-C", "./app"]
+    - id: poetry-lock
+      args: ["-C", "./app"]
+    - id: poetry-export
+      args:
+        [
+          "-C",
+          "./app",
+          "--without-hashes",
+          "-f",
+          "requirements.txt",
+          "-o",
+          "requirements.txt",
+        ]
 ```
 
 ## Remove lock file

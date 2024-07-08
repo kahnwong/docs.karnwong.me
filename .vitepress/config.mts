@@ -1,5 +1,5 @@
 import { defineConfig } from "vitepress";
-import { generateSidebar } from 'vitepress-sidebar';
+import { generateSidebar } from "vitepress-sidebar";
 // import { createWriteStream } from "node:fs";
 // import { resolve } from "node:path";
 // import { SitemapStream } from "sitemap";
@@ -12,9 +12,9 @@ export default defineConfig({
 
   markdown: {
     theme: {
-      light: 'solarized-light',
-      dark: 'one-dark-pro'
-    }
+      light: "solarized-light",
+      dark: "one-dark-pro",
+    },
   },
 
   themeConfig: {
@@ -43,32 +43,42 @@ export default defineConfig({
               text: "Data Engineering",
               collapsed: true,
               items: [
-                { text: "Data Engineering", link: "knowledge-base/data/data-engineering/data-engineering" },
+                {
+                  text: "Data Engineering",
+                  link: "knowledge-base/data/data-engineering/data-engineering",
+                },
                 {
                   text: "Tools",
                   collapsed: true,
                   items: [
-                    { text: "Dagster", link: "knowledge-base/data/data-engineering/tools/dagster" },
+                    {
+                      text: "Dagster",
+                      link: "knowledge-base/data/data-engineering/tools/dagster",
+                    },
                     {
                       text: "psycopg2",
                       link: "knowledge-base/data/data-engineering/tools/psycopg2",
                     },
                   ],
-
-
                 },
-              ]
+              ],
             },
             {
               text: "Data Science",
               collapsed: true,
               items: [
-                { text: "Data Science", link: "knowledge-base/data/data-science/data-science" },
+                {
+                  text: "Data Science",
+                  link: "knowledge-base/data/data-science/data-science",
+                },
                 {
                   text: "Tools",
                   collapsed: true,
                   items: [
-                    { text: "Jupyter", link: "knowledge-base/data/data-science/tools/jupyter" },
+                    {
+                      text: "Jupyter",
+                      link: "knowledge-base/data/data-science/tools/jupyter",
+                    },
                     {
                       text: "Matplotlib / Seaborn",
                       link: "knowledge-base/data/data-science/tools/matplotlib-seaborn",
@@ -81,14 +91,17 @@ export default defineConfig({
                       text: "Pandas",
                       link: "knowledge-base/data/data-science/tools/pandas",
                     },
-                    { text: "Sklearn", link: "knowledge-base/data/data-science/tools/sklearn" },
+                    {
+                      text: "Sklearn",
+                      link: "knowledge-base/data/data-science/tools/sklearn",
+                    },
                     {
                       text: "SQL",
                       link: "knowledge-base/data/data-science/tools/sql",
                     },
                   ],
                 },
-              ]
+              ],
             },
             {
               text: "MLOps",
@@ -99,10 +112,13 @@ export default defineConfig({
                   text: "Tools",
                   collapsed: true,
                   items: [
-                    { text: "DVC", link: "knowledge-base/data/mlops/tools/dvc" },
+                    {
+                      text: "DVC",
+                      link: "knowledge-base/data/mlops/tools/dvc",
+                    },
                   ],
                 },
-              ]
+              ],
             },
             { text: "LLM", link: "knowledge-base/data/llm" },
             {
@@ -113,7 +129,10 @@ export default defineConfig({
                   text: "GIS",
                   collapsed: true,
                   items: [
-                    { text: "GIS", link: "knowledge-base/data/specialization/gis/gis" },
+                    {
+                      text: "GIS",
+                      link: "knowledge-base/data/specialization/gis/gis",
+                    },
                     {
                       text: "Tools",
                       collapsed: true,
@@ -140,7 +159,7 @@ export default defineConfig({
                         },
                       ],
                     },
-                  ]
+                  ],
                 },
                 { text: "NLP", link: "knowledge-base/data/specialization/nlp" },
                 {
@@ -151,7 +170,10 @@ export default defineConfig({
                   text: "Web Scraping",
                   collapsed: true,
                   items: [
-                    { text: "Web Scraping", link: "knowledge-base/data/specialization/web-scraping/web-scraping" },
+                    {
+                      text: "Web Scraping",
+                      link: "knowledge-base/data/specialization/web-scraping/web-scraping",
+                    },
                     {
                       text: "Tools",
                       collapsed: true,
@@ -170,7 +192,7 @@ export default defineConfig({
                         },
                       ],
                     },
-                  ]
+                  ],
                 },
               ],
             },
@@ -182,7 +204,6 @@ export default defineConfig({
                   text: "Wrangling",
                   collapsed: true,
                   items: [
-
                     {
                       text: "PySpark",
                       link: "knowledge-base/data/tools/wrangling/pyspark",
@@ -211,9 +232,18 @@ export default defineConfig({
               text: "Specialization",
               collapsed: true,
               items: [
-                { text: "DevSecOps", link: "knowledge-base/ops/specialization/devsecops" },
-                { text: "FinOps", link: "knowledge-base/ops/specialization/finops" },
-                { text: "SecretOps", link: "knowledge-base/ops/specialization/secretops" },
+                {
+                  text: "DevSecOps",
+                  link: "knowledge-base/ops/specialization/devsecops",
+                },
+                {
+                  text: "FinOps",
+                  link: "knowledge-base/ops/specialization/finops",
+                },
+                {
+                  text: "SecretOps",
+                  link: "knowledge-base/ops/specialization/secretops",
+                },
               ],
             },
             {
@@ -245,7 +275,6 @@ export default defineConfig({
               text: "Unix",
               collapsed: true,
               items: [
-
                 { text: "Unix", link: "knowledge-base/ops/unix/unix" },
                 { text: "Bash", link: "knowledge-base/ops/unix/bash" },
                 {
@@ -271,17 +300,32 @@ export default defineConfig({
                       text: "Kubernetes",
                       link: "knowledge-base/ops/tools/containers/kubernetes",
                     },
-                    { text: "OpenLens", link: "knowledge-base/ops/tools/containers/openlens" },
-                    { text: "Docker", link: "knowledge-base/ops/tools/containers/docker" },
-                    { text: "Harbor", link: "knowledge-base/ops/tools/containers/harbor" },
-                    { text: "BuildKit", link: "knowledge-base/ops/tools/containers/buildkit" },
+                    {
+                      text: "OpenLens",
+                      link: "knowledge-base/ops/tools/containers/openlens",
+                    },
+                    {
+                      text: "Docker",
+                      link: "knowledge-base/ops/tools/containers/docker",
+                    },
+                    {
+                      text: "Harbor",
+                      link: "knowledge-base/ops/tools/containers/harbor",
+                    },
+                    {
+                      text: "BuildKit",
+                      link: "knowledge-base/ops/tools/containers/buildkit",
+                    },
                   ],
                 },
                 {
                   text: "Databases",
                   collapsed: true,
                   items: [
-                    { text: "Postgres", link: "knowledge-base/ops/tools/databases/postgres" },
+                    {
+                      text: "Postgres",
+                      link: "knowledge-base/ops/tools/databases/postgres",
+                    },
                     {
                       text: "SQL Server",
                       link: "knowledge-base/ops/tools/databases/sqlserver",
@@ -292,8 +336,14 @@ export default defineConfig({
                   text: "Networking",
                   collapsed: true,
                   items: [
-                    { text: "Caddy", link: "knowledge-base/ops/tools/networking/caddy" },
-                    { text: "Tailscale", link: "knowledge-base/ops/tools/networking/tailscale" },
+                    {
+                      text: "Caddy",
+                      link: "knowledge-base/ops/tools/networking/caddy",
+                    },
+                    {
+                      text: "Tailscale",
+                      link: "knowledge-base/ops/tools/networking/tailscale",
+                    },
                   ],
                 },
                 { text: "Packer", link: "knowledge-base/ops/tools/packer" },
@@ -429,11 +479,10 @@ export default defineConfig({
             {
               text: "Tools",
               collapsed: true,
-              items:
-              generateSidebar({
-                                scanStartPath: '/knowledge-base/misc/tools',
-                                useTitleFromFileHeading: true,
-                              })
+              items: generateSidebar({
+                scanStartPath: "/knowledge-base/misc/tools",
+                useTitleFromFileHeading: true,
+              }),
             },
             { text: "Useful Links", link: "knowledge-base/misc/useful-links" },
             { text: "Misc", link: "knowledge-base/misc/misc" },
@@ -447,15 +496,15 @@ export default defineConfig({
           text: "Gaming",
           collapsed: true,
           items: generateSidebar({
-              scanStartPath: '/life/gaming',
-              useTitleFromFileHeading: true,
-            })
+            scanStartPath: "/life/gaming",
+            useTitleFromFileHeading: true,
+          }),
         },
       ],
       "/food/": generateSidebar({
-        scanStartPath: '/food',
+        scanStartPath: "/food",
         useTitleFromFileHeading: true,
-      })
+      }),
     },
 
     socialLinks: [{ icon: "github", link: "https://github.com/kahnwong/docs" }],
@@ -492,16 +541,19 @@ export default defineConfig({
   // google analytics
   head: [
     [
-      'script',
-      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-M6K7QN1CF6' }
+      "script",
+      {
+        async: "",
+        src: "https://www.googletagmanager.com/gtag/js?id=G-M6K7QN1CF6",
+      },
     ],
     [
-      'script',
+      "script",
       {},
       `window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-M6K7QN1CF6');`
-    ]
-  ]
+      gtag('config', 'G-M6K7QN1CF6');`,
+    ],
+  ],
 });
