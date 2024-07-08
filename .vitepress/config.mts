@@ -54,6 +54,8 @@ export default defineConfig({
                       link: "knowledge-base/data/data-engineering/tools/psycopg2",
                     },
                   ],
+
+
                 },
               ]
             },
@@ -427,12 +429,11 @@ export default defineConfig({
             {
               text: "Tools",
               collapsed: true,
-              items: [
-                { text: "FFMPEG", link: "knowledge-base/misc/tools/ffmpeg" },
-                { text: "Pandoc", link: "knowledge-base/misc/tools/pandoc" },
-                { text: "youtube-dl", link: "knowledge-base/misc/tools/youtube-dl" },
-
-              ],
+              items:
+              generateSidebar({
+                                scanStartPath: '/knowledge-base/misc/tools',
+                                useTitleFromFileHeading: true,
+                              })
             },
             { text: "Useful Links", link: "knowledge-base/misc/useful-links" },
             { text: "Misc", link: "knowledge-base/misc/misc" },
