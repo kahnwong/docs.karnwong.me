@@ -469,12 +469,10 @@ export default defineConfig({
             {
               text: "OS",
               collapsed: true,
-              items: [
-                { text: "Android", link: "knowledge-base/misc/os/android" },
-                { text: "Linux", link: "knowledge-base/misc/os/linux" },
-                { text: "OSX", link: "knowledge-base/misc/os/osx" },
-                { text: "Windows", link: "knowledge-base/misc/os/windows" },
-              ],
+              items: generateSidebar({
+                scanStartPath: "/knowledge-base/misc/os",
+                useTitleFromFileHeading: true,
+              }),
             },
             {
               text: "Tools",
