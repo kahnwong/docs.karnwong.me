@@ -50,16 +50,11 @@ export default defineConfig({
                 {
                   text: "Tools",
                   collapsed: true,
-                  items: [
-                    {
-                      text: "Dagster",
-                      link: "knowledge-base/data/data-engineering/tools/dagster",
-                    },
-                    {
-                      text: "psycopg2",
-                      link: "knowledge-base/data/data-engineering/tools/psycopg2",
-                    },
-                  ],
+                  items: generateSidebar({
+                    scanStartPath:
+                      "/knowledge-base/data/data-engineering/tools",
+                    useTitleFromFileHeading: true,
+                  }),
                 },
               ],
             },
@@ -74,32 +69,10 @@ export default defineConfig({
                 {
                   text: "Tools",
                   collapsed: true,
-                  items: [
-                    {
-                      text: "Jupyter",
-                      link: "knowledge-base/data/data-science/tools/jupyter",
-                    },
-                    {
-                      text: "Matplotlib / Seaborn",
-                      link: "knowledge-base/data/data-science/tools/matplotlib-seaborn",
-                    },
-                    {
-                      text: "NumPy",
-                      link: "knowledge-base/data/data-science/tools/numpy",
-                    },
-                    {
-                      text: "Pandas",
-                      link: "knowledge-base/data/data-science/tools/pandas",
-                    },
-                    {
-                      text: "Sklearn",
-                      link: "knowledge-base/data/data-science/tools/sklearn",
-                    },
-                    {
-                      text: "SQL",
-                      link: "knowledge-base/data/data-science/tools/sql",
-                    },
-                  ],
+                  items: generateSidebar({
+                    scanStartPath: "/knowledge-base/data/data-science/tools",
+                    useTitleFromFileHeading: true,
+                  }),
                 },
               ],
             },
@@ -136,28 +109,11 @@ export default defineConfig({
                     {
                       text: "Tools",
                       collapsed: true,
-                      items: [
-                        {
-                          text: "GDAL",
-                          link: "knowledge-base/data/specialization/gis/tools/gdal",
-                        },
-                        {
-                          text: "GeoPandas",
-                          link: "knowledge-base/data/specialization/gis/tools/geopandas",
-                        },
-                        {
-                          text: "PostGIS",
-                          link: "knowledge-base/data/specialization/gis/tools/postgis",
-                        },
-                        {
-                          text: "QGIS",
-                          link: "knowledge-base/data/specialization/gis/tools/qgis",
-                        },
-                        {
-                          text: "Shapely",
-                          link: "knowledge-base/data/specialization/gis/tools/shapely",
-                        },
-                      ],
+                      items: generateSidebar({
+                        scanStartPath:
+                          "/knowledge-base/data/specialization/gis/tools",
+                        useTitleFromFileHeading: true,
+                      }),
                     },
                   ],
                 },
