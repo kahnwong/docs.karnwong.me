@@ -445,11 +445,10 @@ export default defineConfig({
         {
           text: "Gaming",
           collapsed: true,
-          items: [
-            { text: "Skyrim Mod List", link: "life/gaming/skyrim-mod-list" },
-            { text: "The Sims 4", link: "life/gaming/thesims4" },
-            { text: "Witcher 3", link: "life/gaming/witcher3" },
-          ],
+          items: generateSidebar({
+              scanStartPath: '/life/gaming',
+              useTitleFromFileHeading: true,
+            })
         },
       ],
       "/food/": generateSidebar({
