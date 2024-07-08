@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import { generateSidebar } from 'vitepress-sidebar';
 // import { createWriteStream } from "node:fs";
 // import { resolve } from "node:path";
 // import { SitemapStream } from "sitemap";
@@ -451,12 +452,10 @@ export default defineConfig({
           ],
         },
       ],
-      "/food/": [
-        { text: "Food", link: "food/food" },
-        { text: "Easy", link: "food/easy" },
-        { text: "Desserts", link: "food/desserts" },
-        { text: "Drinks", link: "food/drinks" },
-      ],
+      "/food/": generateSidebar({
+        scanStartPath: '/food',
+        useTitleFromFileHeading: true,
+      })
     },
 
     socialLinks: [{ icon: "github", link: "https://github.com/kahnwong/docs" }],
