@@ -399,42 +399,19 @@ export default defineConfig({
                 {
                   text: "Cookbook",
                   collapsed: true,
-                  items: [
-                    {
-                      text: "Cookbook",
-                      link: "knowledge-base/programming/python/cookbook/cookbook",
-                    },
-                    {
-                      text: "datetime",
-                      link: "knowledge-base/programming/python/cookbook/datetime",
-                    },
-                    {
-                      text: "Parallel Processing",
-                      link: "knowledge-base/programming/python/cookbook/parallel-processing",
-                    },
-                  ],
+                  items: generateSidebar({
+                    scanStartPath:
+                      "/knowledge-base/programming/python/cookbook",
+                    useTitleFromFileHeading: true,
+                  }),
                 },
                 {
                   text: "Tools",
                   collapsed: true,
-                  items: [
-                    {
-                      text: "poetry",
-                      link: "knowledge-base/programming/python/tools/poetry",
-                    },
-                    {
-                      text: "pyenv",
-                      link: "knowledge-base/programming/python/tools/pyenv",
-                    },
-                    {
-                      text: "pytest",
-                      link: "knowledge-base/programming/python/tools/pytest",
-                    },
-                    {
-                      text: "YAML",
-                      link: "knowledge-base/programming/python/tools/yaml",
-                    },
-                  ],
+                  items: generateSidebar({
+                    scanStartPath: "/knowledge-base/programming/python/tools",
+                    useTitleFromFileHeading: true,
+                  }),
                 },
               ],
             },
@@ -447,24 +424,10 @@ export default defineConfig({
             {
               text: "Desktop Apps",
               collapsed: true,
-              items: [
-                {
-                  text: "Calibre",
-                  link: "knowledge-base/misc/desktop-apps/calibre",
-                },
-                {
-                  text: "Foobar",
-                  link: "knowledge-base/misc/desktop-apps/foobar",
-                },
-                {
-                  text: "gpodder",
-                  link: "knowledge-base/misc/desktop-apps/gpodder",
-                },
-                {
-                  text: "MP3Tag",
-                  link: "knowledge-base/misc/desktop-apps/mp3tag",
-                },
-              ],
+              items: generateSidebar({
+                scanStartPath: "/knowledge-base/misc/desktop-apps",
+                useTitleFromFileHeading: true,
+              }),
             },
             {
               text: "OS",
