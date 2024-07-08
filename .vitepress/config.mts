@@ -93,7 +93,6 @@ export default defineConfig({
                 },
               ],
             },
-            { text: "LLM", link: "knowledge-base/data/llm" },
             {
               text: "Specialization",
               collapsed: true,
@@ -117,7 +116,20 @@ export default defineConfig({
                     },
                   ],
                 },
-                { text: "NLP", link: "knowledge-base/data/specialization/nlp" },
+                {
+                  text: "NLP",
+                  collapsed: true,
+                  items: [
+                    {
+                      text: "NLP",
+                      link: "knowledge-base/data/specialization/nlp/nlp",
+                    },
+                    {
+                      text: "LLM",
+                      link: "knowledge-base/data/specialization/nlp/llm",
+                    },
+                  ],
+                },
                 {
                   text: "Visualization",
                   link: "knowledge-base/data/specialization/visualization",
