@@ -180,10 +180,6 @@ export default defineConfig({
                 },
               ],
             },
-            {
-              text: "Misc",
-              link: "knowledge-base/data/misc",
-            },
           ],
         },
         {
