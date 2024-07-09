@@ -131,10 +131,6 @@ export default defineConfig({
                   ],
                 },
                 {
-                  text: "Visualization",
-                  link: "knowledge-base/data/specialization/visualization",
-                },
-                {
                   text: "Web Scraping",
                   collapsed: true,
                   items: [
@@ -145,36 +141,11 @@ export default defineConfig({
                     {
                       text: "Tools",
                       collapsed: true,
-                      items: [
-                        {
-                          text: "requests",
-                          link: "knowledge-base/data/specialization/web-scraping/tools/requests",
-                        },
-                        {
-                          text: "Selenium",
-                          link: "knowledge-base/data/specialization/web-scraping/tools/selenium",
-                        },
-                        {
-                          text: "Scrapy",
-                          link: "knowledge-base/data/specialization/web-scraping/tools/scrapy",
-                        },
-                      ],
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              text: "Tools",
-              collapsed: true,
-              items: [
-                {
-                  text: "Wrangling",
-                  collapsed: true,
-                  items: [
-                    {
-                      text: "PySpark",
-                      link: "knowledge-base/data/tools/wrangling/pyspark",
+                      items: generateSidebar({
+                        scanStartPath:
+                          "/knowledge-base/data/specialization/web-scraping/tools",
+                        useTitleFromFileHeading: true,
+                      }),
                     },
                   ],
                 },
@@ -186,135 +157,75 @@ export default defineConfig({
           text: "Ops",
           collapsed: false,
           items: [
-            { text: "DevOps", link: "knowledge-base/ops/devops" },
+            {
+              text: "DevOps",
+              collapsed: true,
+              items: generateSidebar({
+                scanStartPath: "/knowledge-base/ops/devops",
+                useTitleFromFileHeading: true,
+              }),
+            },
             { text: "SRE", link: "knowledge-base/ops/sre" },
             {
               text: "Platform Engineering",
               link: "knowledge-base/ops/platform-engineering",
             },
             {
-              text: "Specialization",
-              collapsed: true,
-              items: [
-                {
-                  text: "DevSecOps",
-                  link: "knowledge-base/ops/specialization/devsecops",
-                },
-                {
-                  text: "FinOps",
-                  link: "knowledge-base/ops/specialization/finops",
-                },
-                {
-                  text: "SecretOps",
-                  link: "knowledge-base/ops/specialization/secretops",
-                },
-              ],
-            },
-            {
-              text: "Base",
-              collapsed: true,
-              items: [
-                {
-                  text: "Documentation",
-                  link: "knowledge-base/ops/base/documentation",
-                },
-                {
-                  text: "Networking",
-                  link: "knowledge-base/ops/base/networking",
-                },
-                { text: "Security", link: "knowledge-base/ops/base/security" },
-              ],
-            },
-            {
               text: "Cloud",
               collapsed: true,
-              items: [
-                { text: "Cloud", link: "knowledge-base/ops/cloud/cloud" },
-                { text: "AWS", link: "knowledge-base/ops/cloud/aws" },
-                { text: "GCP", link: "knowledge-base/ops/cloud/gcp" },
-                { text: "Vendors", link: "knowledge-base/ops/cloud/vendors" },
-              ],
+              items: generateSidebar({
+                scanStartPath: "/knowledge-base/ops/cloud",
+                useTitleFromFileHeading: true,
+              }),
             },
             {
-              text: "Unix",
+              text: "Linux",
               collapsed: true,
-              items: [
-                { text: "Unix", link: "knowledge-base/ops/unix/unix" },
-                { text: "Bash", link: "knowledge-base/ops/unix/bash" },
-                {
-                  text: "Compression",
-                  link: "knowledge-base/ops/unix/compression",
-                },
-                {
-                  text: "Networking",
-                  link: "knowledge-base/ops/unix/networking",
-                },
-                { text: "System", link: "knowledge-base/ops/unix/system" },
-              ],
+              items: generateSidebar({
+                scanStartPath: "/knowledge-base/ops/linux",
+                useTitleFromFileHeading: true,
+              }),
             },
             {
               text: "Tools",
               collapsed: false,
               items: [
                 {
+                  text: "Infrastructure",
+                  collapsed: true,
+                  items: generateSidebar({
+                    scanStartPath: "/knowledge-base/ops/tools/infrastructure",
+                    useTitleFromFileHeading: true,
+                  }),
+                },
+                {
                   text: "Containers",
                   collapsed: false,
-                  items: [
-                    {
-                      text: "Kubernetes",
-                      link: "knowledge-base/ops/tools/containers/kubernetes",
-                    },
-                    {
-                      text: "OpenLens",
-                      link: "knowledge-base/ops/tools/containers/openlens",
-                    },
-                    {
-                      text: "Docker",
-                      link: "knowledge-base/ops/tools/containers/docker",
-                    },
-                    {
-                      text: "Harbor",
-                      link: "knowledge-base/ops/tools/containers/harbor",
-                    },
-                  ],
+                  items: generateSidebar({
+                    scanStartPath: "/knowledge-base/ops/tools/containers",
+                    useTitleFromFileHeading: true,
+                  }),
                 },
                 {
                   text: "Databases",
                   collapsed: true,
-                  items: [
-                    {
-                      text: "Postgres",
-                      link: "knowledge-base/ops/tools/databases/postgres",
-                    },
-                    {
-                      text: "SQL Server",
-                      link: "knowledge-base/ops/tools/databases/sqlserver",
-                    },
-                  ],
+                  items: generateSidebar({
+                    scanStartPath: "/knowledge-base/ops/tools/databases",
+                    useTitleFromFileHeading: true,
+                  }),
                 },
                 {
                   text: "Networking",
                   collapsed: true,
-                  items: [
-                    {
-                      text: "Caddy",
-                      link: "knowledge-base/ops/tools/networking/caddy",
-                    },
-                    {
-                      text: "Tailscale",
-                      link: "knowledge-base/ops/tools/networking/tailscale",
-                    },
-                  ],
-                },
-                { text: "Packer", link: "knowledge-base/ops/tools/packer" },
-                {
-                  text: "Terraform",
-                  link: "knowledge-base/ops/tools/terraform",
+                  items: generateSidebar({
+                    scanStartPath: "/knowledge-base/ops/tools/networking",
+                    useTitleFromFileHeading: true,
+                  }),
                 },
                 { text: "Git", link: "knowledge-base/ops/tools/git" },
                 { text: "GitHub", link: "knowledge-base/ops/tools/github" },
                 { text: "Neovim", link: "knowledge-base/ops/tools/neovim" },
-                { text: "sops", link: "knowledge-base/ops/tools/sops" },
+                { text: "Nix", link: "knowledge-base/ops/tools/nix" },
                 { text: "Misc", link: "knowledge-base/ops/tools/misc" },
               ],
             },

@@ -13,6 +13,11 @@ outline: deep
 
 - [TabNet](https://github.com/dreamquark-ai/tabnet) - PyTorch implementation of TabNet paper.
 
+## Visualization
+
+- [PyViz](https://pyviz.org/overviews/index.html)
+- [Vizro](https://github.com/mckinsey/vizro) - Vizro is a toolkit for creating modular data visualization applications.
+
 ## Tools
 
 - [handcals](https://github.com/connorferster/handcalcs) - Python library for converting Python calculations into rendered latex.
@@ -26,3 +31,4 @@ outline: deep
 - [The Illustrated Machine Learning](https://illustrated-machine-learning.github.io/index.html)
 - [Introduction to Machine Learning Interviews](https://huyenchip.com/ml-interviews-book/)
 - [Feature Engineering A-Z](https://feaz-book.com/)
+- [Dashboard Design Patterns](https://dashboarddesignpatterns.github.io/)
