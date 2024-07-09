@@ -4,10 +4,9 @@ outline: deep
 
 # LLM
 
-| Model Name                                 | Developer  |
-| ------------------------------------------ | ---------- |
-| [DBRX](https://github.com/databricks/dbrx) | Databricks |
-| [Gemma](https://ai.google.dev/gemma)       | Google     |
+## Catalog
+
+- [Replicate](https://replicate.com/explore)
 
 ## Tools
 
@@ -16,12 +15,15 @@ outline: deep
 
 ## Models
 
-| Creator    | Name                      | Hugging Face                                                         | Ollama                                                      |
-| ---------- | ------------------------- | -------------------------------------------------------------------- | ----------------------------------------------------------- |
-| Snowflake  | snowflake-arctic-embed    | [HF](https://huggingface.co/Snowflake/snowflake-arctic-embed-l)      | [Ollama](https://ollama.com/library/snowflake-arctic-embed) |
-| Snowflake  | snowflake-arctic-instruct | [HF](https://huggingface.co/Snowflake/snowflake-arctic-instruct)     |                                                             |
-| MotherDuck | duckdb-nsql               | [HF](https://huggingface.co/motherduckdb/DuckDB-NSQL-7B-v0.1)        | [Ollama](https://ollama.com/library/duckdb-nsql)            |
-| SCB 10X    | typhoon-1.5-8b-instruct   | [HF](https://huggingface.co/scb10x/llama-3-typhoon-v1.5-8b-instruct) |                                                             |
+| Creator    | Name                                 | Hugging Face                                                         | Ollama                                                      |
+| ---------- | ------------------------------------ | -------------------------------------------------------------------- | ----------------------------------------------------------- |
+| Snowflake  | snowflake-arctic-embed               | [HF](https://huggingface.co/Snowflake/snowflake-arctic-embed-l)      | [Ollama](https://ollama.com/library/snowflake-arctic-embed) |
+| Snowflake  | snowflake-arctic-instruct            | [HF](https://huggingface.co/Snowflake/snowflake-arctic-instruct)     |                                                             |
+| MotherDuck | duckdb-nsql                          | [HF](https://huggingface.co/motherduckdb/DuckDB-NSQL-7B-v0.1)        | [Ollama](https://ollama.com/library/duckdb-nsql)            |
+| SCB 10X    | typhoon-1.5-8b-instruct              | [HF](https://huggingface.co/scb10x/llama-3-typhoon-v1.5-8b-instruct) |                                                             |
+| Google     | [Gemma](https://ai.google.dev/gemma) |                                                                      |                                                             |
+| Google     | PaliGemma                            | [HF](https://huggingface.co/google/paligemma-3b-pt-224)              |                                                             |
+| Lumi       | Viking                               | [HF](https://huggingface.co/LumiOpen/Viking-7B)                      |                                                             |
 
 ## Resources
 

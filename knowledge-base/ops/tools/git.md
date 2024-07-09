@@ -88,6 +88,12 @@ echo sha, contributor, date, message > log.csv
 git log --date=local --pretty=format:'%h, %an, %ad, "%s"' >> log.csv
 ```
 
+## SSH signing on Windows
+
+<https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement>
+
+If still encounter issues, use git for windows installer and config openssh executable.
+
 ## Tools
 
 - [git-summary](https://github.com/MirkoLedda/git-summary) - Summarizes multiple git repository status within a directory.

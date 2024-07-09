@@ -4,9 +4,10 @@ outline: deep
 
 # Android
 
-## Installers
+## Tools
 
 - [OpenAndroidInstaller](https://openandroidinstaller.org/#getting-started)
+- [Universal Android Debloater GUI](https://github.com/0x192/universal-android-debloater)
 
 ## [APKTool](https://ibotpeaches.github.io/Apktool/documentation)
 

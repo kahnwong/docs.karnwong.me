@@ -60,6 +60,7 @@
 ## Weather
 
 - [Merry Sky](https://merrysky.net)
+- [Open Meteo](https://open-meteo.com/)
 
 ## Misc
 

@@ -18,6 +18,7 @@ pip3 install pyspark
 ## Resources
 
 - [PySpark Style Guide](https://github.com/palantir/pyspark-style-guide)
+- [Arrow-optimized Python UDFs in Apache Spark™ 3.5](https://www.databricks.com/blog/arrow-optimized-python-udfs-apache-sparktm-35)
 
 ## Dummy dataframe
 

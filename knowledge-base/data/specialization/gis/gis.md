@@ -107,3 +107,4 @@ Carto Light: http://d.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png
 ## Resources
 
 - [Geocomputation with Python](https://py.geocompx.org/)
+- [Cloud-Optimized Geospatial Formats Guide](https://guide.cloudnativegeo.org)
