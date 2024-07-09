@@ -121,7 +121,6 @@ python3 git-filter-repo --invert-paths --path-match $PATH
 
 ### General
 
-- [Git guide](https://github.com/dbt-labs/corp/blob/main/git-guide.md)
 - [Oh Shit, Git!?!](https://ohshitgit.com)
 - [GitHub Skills](https://skills.github.com/)
 - [Every engineer should understand git reflog](https://graphite.dev/blog/every-engineer-should-understand-git-reflog)
@@ -133,6 +132,5 @@ python3 git-filter-repo --invert-paths --path-match $PATH
 
 ### Code Review
 
-- [Code Review Guidelines for Data Science Teams](https://tdhopper.com/blog/code-review-guidelines)
 - [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
 - [Tuple’s Pair Programming Guide](https://tuple.app/pair-programming-guide/)

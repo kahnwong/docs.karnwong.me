@@ -280,10 +280,6 @@ export default defineConfig({
                       text: "Harbor",
                       link: "knowledge-base/ops/tools/containers/harbor",
                     },
-                    {
-                      text: "BuildKit",
-                      link: "knowledge-base/ops/tools/containers/buildkit",
-                    },
                   ],
                 },
                 {

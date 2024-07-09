@@ -15,11 +15,6 @@ outline: deep
   `ssh -L 8000:localhost:8000 user@host`
 - opening my browser to the link referenced in the temp file.
 
-## GeoIP
-
-- <http://ip-api.com/json/$IP>
-- [IP2Location](https://github.com/chrislim2888/ip2location-python)
-
 ## Nix
 
 ### Installer

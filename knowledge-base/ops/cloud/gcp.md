@@ -6,7 +6,6 @@ outline: deep
 
 ## Pricing
 
-- [GCPinstances.info](https://gcpinstances.doit-intl.com/)
 - [DB Cost](https://www.dbcost.com/) - The Simple AWS RDS and Google Cloud SQL Instance Pricing Sheet.
 - [Google Cloud Pricing Calculator](https://cloud.google.com/products/calculator?hl=en)
 
@@ -14,7 +13,6 @@ outline: deep
 
 - [Regions and zones](https://cloud.google.com/compute/docs/regions-zones)
 - [GCP List of API Services](https://gist.github.com/coryodaniel/13eaee16a87a7fdca5e738123216862a)
-- [GCP organization policies](https://registry.terraform.io/modules/terraform-google-modules/org-policy/google/latest)
 
 ## Services
 
@@ -36,12 +34,12 @@ outline: deep
 
 ### IAM
 
-- [Viewing effective IAM policies](https://cloud.google.com/asset-inventory/docs/view-effective-iam-policies)
 - [IAM basic and predefined roles reference](https://cloud.google.com/iam/docs/understanding-roles)
-- [Analyze IAM policies](https://cloud.google.com/policy-intelligence/docs/analyze-iam-policies)
-- [Overview of role recommendations](https://cloud.google.com/policy-intelligence/docs/role-recommendations-overview)
 
-Differences between iam_binding and iam_member: `binding` revokes any other members from the role to which it applies, whereas `member` just adds a member alongside existing members.
+Differences between iam_binding and iam_member:
+
+- `binding` revokes any other members from the role to which it applies
+- `member` just adds a member alongside existing members.
 
 ### Networking
 

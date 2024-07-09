@@ -1,9 +1,6 @@
 # Documentation
 
-- [VitePress](https://vitepress.dev/) - Vite & Vue Powered Static Site Generator.
-- [Docusaurus OpenAPI Doc Generator](https://github.com/PaloAltoNetworks/docusaurus-openapi-docs) - 🦝 OpenAPI plugin for generating API reference docs in Docusaurus v2.
-
-# Linters
+## Linters
 
 - [Vale](https://github.com/errata-ai/vale) - A markup-aware linter for prose built with speed and extensibility in mind.
 
@@ -14,7 +11,6 @@
 
 ## Diagrams
 
-- [Eraser](https://app.tryeraser.com/all) - An all-in-one ideation tool for distributed teams.
 - [diagrams](https://github.com/mingrammer/diagrams) - 🎨 Diagram as Code for prototyping cloud system architectures.
 - [markwhen](https://github.com/mark-when/markwhen) - Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, links, locations, and more.
 - [mermaid](https://mermaid.live/edit)
@@ -24,4 +20,3 @@
 ## Presentation
 
 - [sli.dev](https://sli.dev) - Presentation Slides for Developers.
-- [marp](https://marp.app/) - Markdown Presentation Ecosystem.

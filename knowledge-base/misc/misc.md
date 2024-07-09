@@ -59,8 +59,6 @@ for google calendar: `https://apidata.googleusercontent.com/caldav/v2/$calendarI
 
 - [restreamer](https://github.com/datarhei/restreamer)
 
-## Sourcegraph
+## References
 
-```bash
-(content: $KEYWORD1) (content: $KEYWORD2)
-```
+- [endoflife.date](https://endoflife.date/) - endoflife.date is a community-maintained project to document end-of-life dates, and support lifecycles of various products.

@@ -4,10 +4,6 @@
 
 - [The Ultimate Headphones Test](https://www.audiocheck.net/soundtests_headphones.php) - This page helps you evaluate headphones (or earphones) and determine which one offers the best performance when comparing different pairs.
 
-## Background noise
-
-- [I Miss My Bar](http://imissmybar.com/)
-
 ## Browser Games
 
 - [Play Snake on Google Maps](https://snake.googlemaps.com/)
@@ -60,13 +56,6 @@
 ## Reading
 
 - [Ebook Reader for web](https://www.loudreader.com/)
-- [PDFCombo](https://apps.apple.com/us/app/pdfcombo/id1030461463?mt=12)
-
-## Travel
-
-- [Rome2rio](https://www.rome2rio.com/) - Discover how to get anywhere by searching plane, train, bus, car and ferry routes.
-- [80days](https://eightydays.me/) - Booking Eurotrips made easy.
-- [Ultimate Travel Packing List](https://www.budgetdirect.com.au/interactives/packinglist/)
 
 ## Weather
 
@@ -74,21 +63,12 @@
 
 ## Misc
 
-- [Awesome STEAM](https://awesomesteam.org/) - An awesome list of everything STEAM.
-- [endoflife.date](https://endoflife.date/) - endoflife.date is a community-maintained project to document end-of-life dates, and support lifecycles of various products.
 - [ExitReviews](https://www.exitreviews.com/) - Learn how long products last, where they break, and how to fix them.
-- [hunter](https://hunter.io) - Hunter lets you find professional email addresses in seconds and connect with the people that matter for your business.
 - [Insanely Useful Websites](https://www.insanelyusefulwebsites.com/)
-- [Monkeytype](https://monkeytype.com) - Monkeytype is a minimalistic typing test, featuring many test modes, an account system to save your typing speed history and user configurable features like themes, a smooth caret and more.
 - [Notion style avatar generator](http://cvbox.org/)
 - [Omni Calculator](https://www.omnicalculator.com)
 - [Sputnik Music](https://www.sputnikmusic.com/) - Music Reviews, Music News.
 - [Untools](https://untools.co/) - Collection of thinking tools and frameworks to help you solve problems, make decisions and understand systems.
-
-### Disposable emails
-
-- [10 Minute Mail](https://10minutemail.com/)
-- [Emaildrop](https://www.emaildrop.io/)
 
 ## Languages
 

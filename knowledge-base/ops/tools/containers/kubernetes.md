@@ -49,6 +49,14 @@ kubectl delete -f <filename>
 
 ## Helm
 
+### Charts
+
+- [OperatorHub](https://operatorhub.io/)
+
+### Resources
+
+- [Helm Playground](https://helm-playground.com/)
+
 ### Packaging helm chart
 
 ```bash
@@ -145,7 +153,5 @@ k3d cluster delete mycluster
 
 - [Learn Kubernetes with Google](https://learnkubernetes.withgoogle.com/)
 - [Kubernetes Tutorials](https://kubernetes.io/docs/tutorials/)
-- [Helm Playground](https://helm-playground.com/)
-- [OperatorHub](https://operatorhub.io/)
 - [Kubernetes Failure Stories](https://k8s.af/)
 - [The Kubenomicon](https://kubenomicon.com/)

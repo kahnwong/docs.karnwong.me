@@ -80,6 +80,12 @@ split -l 300 file.txt new
 split -b 500m httpd.log
 ```
 
+## xargs
+
+```bash
+ls file_* | xargs -J {} mv {} temp/
+```
+
 ## Cookbook
 
 ### Generate random number
@@ -117,10 +123,4 @@ do
     echo "hello";
     sleep 300; # 5 minutes
 done;
-```
-
-## xargs
-
-```bash
-ls file_* | xargs -J {} mv {} temp/
 ```
