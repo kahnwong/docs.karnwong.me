@@ -43,6 +43,10 @@ outline: deep
 - [System Design 101](https://github.com/ByteByteGoHq/system-design-101)
 - [Architects Dont Code](https://wiki.c2.com/?ArchitectsDontCode=)
 
+## Handbook
+
+- [Resend](https://resend.com/handbook)
+
 ## Tools
 
 - [Makefile Tutorial](https://makefiletutorial.com/)

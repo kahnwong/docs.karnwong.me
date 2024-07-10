@@ -12,6 +12,7 @@ outline: deep
 
 - [ollama](https://github.com/ollama/ollama) - Get up and running with Llama 3, Mistral, Gemma, and other large language
   models.
+- [TokenCost](https://github.com/AgentOps-AI/tokencost) - Easy token price estimates for 400+ LLMs. TokenOps
 
 ## Models
 

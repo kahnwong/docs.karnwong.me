@@ -99,6 +99,7 @@ If still encounter issues, use git for windows installer and config openssh exec
 - [git-summary](https://github.com/MirkoLedda/git-summary) - Summarizes multiple git repository status within a directory.
 - [gource](https://gource.io/) - Software projects are displayed by Gource as an animated tree with the root directory of the project at its centre. Directories appear as branches with files as leaves. Developers can be seen working on the tree at the times they contributed to the project.
 - [git-filter-repo](https://github.com/newren/git-filter-repo/) - Quickly rewrite git repository history (filter-branch replacement).
+- [git-cliff](https://git-cliff.org/) - A highly customizable changelog generator ⛰️
 
 ### Visualize
 

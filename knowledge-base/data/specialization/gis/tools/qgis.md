@@ -26,6 +26,13 @@ pyenv shell miniforge3-23.3.1-1
 mamba run -n qgis qgis
 ```
 
+## Add pmtiles
+
+```bash
+v = QgsVectorLayer("/vsicurl/https://pycsw.nina.no/media/maps/sources/30/02_Fritidsbebyggelse.pmtiles", "layer", "ogr")
+QgsProject.instance().addMapLayer(v)
+```
+
 ## Useful Links
 
 - [Invalid geometry reasons](https://docs.qgis.org/testing/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#types-of-error-messages-and-their-meanings)
