@@ -403,6 +403,46 @@ from pyspark.sql import SparkSession
 )
 ```
 
+### Clickhouse
+
+```python
+spark = (
+    SparkSession.builder.appName("Pyspark playground")
+    .config("spark.executor.memory", "16g")
+    .config("spark.driver.memory", "16g")
+    .config("spark.jars.packages", "com.github.housepower:clickhouse-spark-runtime-3.4_2.12:0.7.3,com.clickhouse:clickhouse-jdbc:0.6.2,org.apache.httpcomponents.client5:httpclient5:5.3.1")
+    .getOrCreate()
+)
+
+uri = "jdbc:clickhouse://localhost:8123/clickhouse"
+
+### read
+(
+    spark.read.format('jdbc')
+    .option('url', uri)
+    .option('dbtable',"nyc_taxi")
+    .option('user',"clickhouse")
+    .option('password',"clickhousepassword")
+    .option('driver',"com.clickhouse.jdbc.ClickHouseDriver")
+    .load()
+)
+
+### write
+(
+    df.write.format("jdbc")
+    .option("url", uri)
+    .option("dbtable", "nyc_taxi") # [TODO] change me
+    .option("user", "clickhouse")
+    .option("password", "clickhousepassword")
+    .option("driver", "com.clickhouse.jdbc.ClickHouseDriver")
+    .option("createTableOptions", "engine=MergeTree() order by tpep_pickup_datetime")
+    .option("truncate", "true")
+    .option("numPartitions", 6)
+    .mode("overwrite")
+    .save()
+)
+```
+
 ## spark-submit
 
 ```bash
