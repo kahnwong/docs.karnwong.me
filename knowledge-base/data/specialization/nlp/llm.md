@@ -25,6 +25,7 @@ outline: deep
 | Google     | [Gemma](https://ai.google.dev/gemma) |                                                                      |                                                             |
 | Google     | PaliGemma                            | [HF](https://huggingface.co/google/paligemma-3b-pt-224)              |                                                             |
 | Lumi       | Viking                               | [HF](https://huggingface.co/LumiOpen/Viking-7B)                      |                                                             |
+| KBTG       | THaLLE                               | [HF](https://huggingface.co/KBTG-Labs/THaLLE-0.1-7B-fa)              |                                                             |
 
 ## Resources
 
