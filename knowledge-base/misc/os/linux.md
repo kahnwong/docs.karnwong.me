@@ -39,3 +39,7 @@ wifis:
 ```bash
 sudo update-alternatives --config editor
 ```
+
+## Resources
+
+- [partitioning disk for dual boot](https://askubuntu.com/a/1314343)
