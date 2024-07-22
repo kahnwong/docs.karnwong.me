@@ -5,7 +5,7 @@
     "preview": "vitepress preview"
   },
   "dependencies": {
-    "sitemap": "^7.1.1",
+    "sitemap": "^8.0.0",
     "vitepress": "^1.2.3"
   },
   "devDependencies": {
