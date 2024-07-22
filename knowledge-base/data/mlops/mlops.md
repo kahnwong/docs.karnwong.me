@@ -14,6 +14,7 @@ outline: deep
 
 - [The Big Dictionary of MLOps](https://www.hopsworks.ai/mlops-dictionary)
 - [ML Ops: Machine Learning Operations](https://ml-ops.org/)
+- [Production Data Science](https://github.com/FilippoBovo/production-data-science/)
 
 ### Governance
 

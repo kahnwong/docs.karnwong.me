@@ -301,6 +301,14 @@ export default defineConfig({
               }),
             },
             {
+              text: "Devices",
+              collapsed: true,
+              items: generateSidebar({
+                scanStartPath: "/knowledge-base/misc/devices",
+                useTitleFromFileHeading: true,
+              }),
+            },
+            {
               text: "OS",
               collapsed: true,
               items: generateSidebar({
