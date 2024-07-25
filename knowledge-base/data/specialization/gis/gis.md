@@ -85,7 +85,8 @@ Carto Light: http://d.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png
 ### Indexing
 
 - [h3](https://github.com/uber/h3) - Hexagonal hierarchical geospatial indexing system.
-- [h3-viewer](https://github.com/clupasq/h3-viewer) - View Uber H3 Hexagons on a map.
+  - [h3-viewer](https://github.com/clupasq/h3-viewer) - View Uber H3 Hexagons on a map.
+  - [https://github.com/uber/h3-py](https://github.com/uber/h3-py)
 
 ### Server
 
