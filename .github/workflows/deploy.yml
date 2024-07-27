@@ -9,6 +9,10 @@ concurrency:
   group: environment-${{ github.ref }}
   cancel-in-progress: true
 
+env:
+  PROJECT_NAME: docs
+  BUILD_DIR: .vitepress/dist
+
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -31,13 +35,11 @@ jobs:
         run: yarn build
       # ---------- publish ----------
       - name: Publish to Cloudflare Pages
-        uses: cloudflare/pages-action@1
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID}}
-          projectName: docs
-          directory: .vitepress/dist
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy ${{ env.BUILD_DIR }} --project-name=${{ env.PROJECT_NAME }}
 
   create-index:
     runs-on: ubuntu-latest
