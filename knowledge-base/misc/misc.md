@@ -61,3 +61,11 @@ for google calendar: `https://apidata.googleusercontent.com/caldav/v2/$calendarI
 ## References
 
 - [endoflife.date](https://endoflife.date/) - endoflife.date is a community-maintained project to document end-of-life dates, and support lifecycles of various products.
+
+## Logitech G502 default DPIs
+
+On Linux with Piper to map key buttons, need to use onboard profile.
+
+```bash
+800-1600-3200-6400
+```

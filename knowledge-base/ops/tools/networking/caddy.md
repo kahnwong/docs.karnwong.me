@@ -9,6 +9,10 @@ outline: deep
 /var/lib/caddy/.local/share/caddy
 ```
 
+## Forward Auth
+
+<https://docs.goauthentik.io/docs/providers/proxy/server_caddy>
+
 ## Cookbook
 
 ### Template
