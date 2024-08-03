@@ -16,6 +16,7 @@ outline: deep
 - [huh](https://github.com/charmbracelet/huh) - Build terminal forms and prompts 🤷🏻‍♀️
 - [requests](github.com/carlmjohnson/requests) - HTTP requests for Gophers
 - [sops](https://pkg.go.dev/github.com/getsops/sops/v3)
+- [viper](https://github.com/spf13/viper) - Go configuration with fangs
 - [zerolog](https://github.com/rs/zerolog) - Zero Allocation JSON Logger
 
 ## Cookbook
