@@ -20,6 +20,10 @@ pip3 install pyspark
 - [PySpark Style Guide](https://github.com/palantir/pyspark-style-guide)
 - [Arrow-optimized Python UDFs in Apache Spark™ 3.5](https://www.databricks.com/blog/arrow-optimized-python-udfs-apache-sparktm-35)
 
+## Add-Ons
+
+- [DataFusion Comet](https://datafusion.apache.org/comet/user-guide/installation.html)
+
 ## Dummy dataframe
 
 ```python
