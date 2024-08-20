@@ -378,8 +378,8 @@ export default defineConfig({
   //   await new Promise((r) => writeStream.on("finish", r));
   // },
 
-  // google analytics
   head: [
+    // google analytics
     [
       "script",
       {
@@ -394,6 +394,15 @@ export default defineConfig({
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-M6K7QN1CF6');`,
+    ],
+    // plausible
+    [
+      "script",
+      {
+        defer: "",
+        "data-domain": "docs.karnwong.me",
+        src: "https://plausible.karnwong.me/js/script.js",
+      },
     ],
   ],
 });
