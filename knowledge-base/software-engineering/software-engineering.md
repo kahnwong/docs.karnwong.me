@@ -8,6 +8,7 @@ outline: deep
 
 - [The XY Problem](https://xyproblem.info/)
 - [How To Ask Questions The Smart Way](http://catb.org/~esr/faqs/smart-questions.html)
+- [How to (and how not to) design REST APIs](https://github.com/stickfigure/blog/wiki/How-to-%28and-how-not-to%29-design-REST-APIs)
 
 ## Algorithms
 

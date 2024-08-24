@@ -36,3 +36,5 @@ go build -ldflags="-s -w" <your-package>
 - [Convert JSON to Go struct](https://mholt.github.io/json-to-go/)
 - [golang styleguide](https://google.github.io/styleguide/go/)
 - [Uber Go Style Guide](https://github.com/uber-go/guide/blob/master/style.md)
+- [Errors in Go](https://miparnisariblog.wordpress.com/2024/07/28/errors-in-go/)
+- [Go by Example](https://gobyexample.com/)

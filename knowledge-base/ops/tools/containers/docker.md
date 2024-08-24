@@ -210,3 +210,4 @@ cat local_file.sh | docker exec -i container_name bash
 
 - [composerize](https://www.composerize.com) - docker run asdlksjfksdf > docker-composerize up.
 - [The Compose Specification](https://github.com/compose-spec/compose-spec/blob/master/spec.md) - The Compose specification establishes a standard for the definition of multi-container platform-agnostic applications.
+- [Disable buildkit](https://stackoverflow.com/a/66839653)
