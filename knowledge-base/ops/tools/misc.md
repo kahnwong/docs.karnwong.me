@@ -19,6 +19,15 @@ outline: deep
 
 - [Proxmox VE Helper-Scripts](https://tteck.github.io/Proxmox/)
 
+### Config
+
+```bash
+CIDR: 192.168.1.70/28
+GATEWAY: 192.168.1.1
+
+CIDR for another node: 192.168.1.80/30
+```
+
 ## Misc
 
 - [magika](https://github.com/google/magika/) - Detect file content types with deep learning.
