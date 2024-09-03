@@ -11,6 +11,6 @@
   "devDependencies": {
     "lint-staged": "^15.2.10",
     "prettier": "3.3.3",
-    "vitepress-sidebar": "^1.25.0"
+    "vitepress-sidebar": "^1.25.3"
   }
 }
