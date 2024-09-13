@@ -1,5 +1,9 @@
 # Rust
 
+## Frameworks
+
+- [axum](https://github.com/tokio-rs/axum) - Ergonomic and modular web framework built with Tokio, Tower, and Hyper
+
 ## Resources
 
 - [Rust Language Cheat Sheet](https://cheats.rs/)

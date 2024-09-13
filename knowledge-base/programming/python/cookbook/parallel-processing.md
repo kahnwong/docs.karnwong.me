@@ -4,6 +4,9 @@ outline: deep
 
 # Parallel processing
 
+- IO bound jobs -> `multiprocessing.pool.ThreadPool`
+- CPU bound jobs -> `multiprocessing.Pool`
+
 ## Threading
 
 ```python
@@ -26,6 +29,12 @@ def f(x):  # function BEFORE Pool
 
 p = Pool(5)
 p.map(f, [1, 2, 3])
+
+
+## for multiple parameters
+payload = [(document_id, index, i) for index, i in enumerate(files)]
+p = Pool(4)
+texts = p.starmap(utils.pdf_to_text, payload)
 ```
 
 ## Subprocess
