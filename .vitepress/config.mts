@@ -286,6 +286,7 @@ export default defineConfig({
                 },
               ],
             },
+            { text: "Rust", link: "knowledge-base/programming/rust" },
           ],
         },
         {
