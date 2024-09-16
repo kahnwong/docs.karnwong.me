@@ -25,3 +25,17 @@ uv add --optional $group $package
 uv sync
 uv lock --upgrade
 ```
+
+## Install current project as package
+
+`pyproject.toml`
+
+```toml
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+```
+
+```bash
+uv pip install -e .
+```
