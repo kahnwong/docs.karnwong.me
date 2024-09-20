@@ -21,6 +21,12 @@ outline: deep
 sudo update-alternatives --config editor
 ```
 
+### Install CUDA
+
+```bash
+sudo apt install nvidia-cudnn nvidia-cuda-toolkit
+```
+
 ## Resources
 
 - [partitioning disk for dual boot](https://askubuntu.com/a/1314343)

@@ -24,6 +24,9 @@ uv add --optional $group $package
 # deps update
 uv sync
 uv lock --upgrade
+
+# export to requirements.txt
+uv pip compile pyproject.toml -o requirements.txt
 ```
 
 ## Install current project as package
