@@ -37,7 +37,7 @@ outline: deep
 
 ## Handbook
 
-- [Resend](https://resend.com/handbook)
+- [Handbook Directory](https://handbook.directory/)
 - [Tech Interview Handbook](https://www.techinterviewhandbook.org/)
 
 ## Tools

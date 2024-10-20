@@ -11,6 +11,7 @@ outline: deep
 ## Utilities
 
 - [SimpleScreenRecorder](https://www.maartenbaert.be/simplescreenrecorder/#download)
+- [puddletag](https://docs.puddletag.net/)
 
 ## Cookbook
 

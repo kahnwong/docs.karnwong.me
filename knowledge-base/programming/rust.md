@@ -12,6 +12,7 @@ rustup self uninstall
 - [axum](https://github.com/tokio-rs/axum) - Ergonomic and modular web framework built with Tokio, Tower, and Hyper
 - [ort](https://ort.pyke.io/) - Rust binding for ONNX runtime
 - [sqlx](https://github.com/launchbadge/sqlx) - The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, and SQLite
+- [pingora](https://github.com/cloudflare/pingora) - A library for building fast, reliable and evolvable network services
 
 ## Are We $X Yet
 
