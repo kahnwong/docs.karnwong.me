@@ -1,12 +1,22 @@
 # Rust
 
-## Frameworks
+## Rustup
+
+```bash
+rustup install stable
+rustup self uninstall
+```
+
+## Libraries / Frameworks
 
 - [axum](https://github.com/tokio-rs/axum) - Ergonomic and modular web framework built with Tokio, Tower, and Hyper
+- [ort](https://ort.pyke.io/) - Rust binding for ONNX runtime
+- [sqlx](https://github.com/launchbadge/sqlx) - The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, and SQLite
 
 ## Are We $X Yet
 
 - <https://www.arewewebyet.org/>
+- <https://www.arewelearningyet.com/>
 
 ## Resources
 

@@ -11,23 +11,18 @@ outline: deep
 - [How to (and how not to) design REST APIs](https://github.com/stickfigure/blog/wiki/How-to-%28and-how-not-to%29-design-REST-APIs)
 - [no hello](https://nohello.net/en/)
 
-## Algorithms
+## System design
 
-- [Layers of Bitcoin](https://layers.trudi.group/)
-- [Awesome Identifiers](https://adileo.github.io/awesome-identifiers/) - Pick the best database primary key.
+- [System Design 101](https://github.com/ByteByteGoHq/system-design-101)
+- [Architects Dont Code](https://wiki.c2.com/?ArchitectsDontCode=)
+
+## Migration
+
+- [Common DB schema change mistakes](https://postgres.ai/blog/20220525-common-db-schema-change-mistakes)
 
 ## Collaboration
 
 - [Kind Engineering: How To Engineer Kindness](https://kind.engineering/)
-
-## Databases
-
-- [Common DB schema change mistakes](https://postgres.ai/blog/20220525-common-db-schema-change-mistakes)
-
-## Mathematics
-
-- [TheoremDex](https://thmdex.org/) - An Index of Mathematical Definitions, Results, and Conjectures.
-- [Calculus Made Easy](https://calculusmadeeasy.org/)
 
 ## Naming
 
@@ -40,14 +35,10 @@ outline: deep
 - [Cognitive Load Developer's Handbook](https://github.com/zakirullin/cognitive-load)
 - [How To Write Unmaintainable Code](https://github.com/Droogans/unmaintainable-code)
 
-## System design
-
-- [System Design 101](https://github.com/ByteByteGoHq/system-design-101)
-- [Architects Dont Code](https://wiki.c2.com/?ArchitectsDontCode=)
-
 ## Handbook
 
 - [Resend](https://resend.com/handbook)
+- [Tech Interview Handbook](https://www.techinterviewhandbook.org/)
 
 ## Tools
 

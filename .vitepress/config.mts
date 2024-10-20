@@ -234,25 +234,10 @@ export default defineConfig({
         {
           text: "Software Engineering",
           collapsed: true,
-          items: [
-            {
-              text: "Software Engineering",
-              link: "knowledge-base/software-engineering/software-engineering",
-            },
-            {
-              text: "Web Development",
-              link: "knowledge-base/software-engineering/web-development",
-            },
-            {
-              text: "Product Development",
-              link: "knowledge-base/software-engineering/product-development",
-            },
-            { text: "UI", link: "knowledge-base/software-engineering/ux-ui" },
-            {
-              text: "Management",
-              link: "knowledge-base/software-engineering/management",
-            },
-          ],
+          items: generateSidebar({
+            scanStartPath: "/knowledge-base/software-engineering",
+            useTitleFromFileHeading: true,
+          }),
         },
         {
           text: "Programming",

@@ -40,3 +40,7 @@ outline: deep
 - [Leadership Styles Quiz](https://www.leadershipiq.com/blogs/leadershipiq/36533569-quiz-whats-your-leadership-style)
 - [Cultural Profile](https://hbr.org/2014/08/whats-your-cultural-profile)
 - [TypeFinder Personality Test](https://www.truity.com/test/type-finder-personality-test-new)
+
+## Tools
+
+- [IdeaBoardz](https://ideaboardz.com) - Retro board

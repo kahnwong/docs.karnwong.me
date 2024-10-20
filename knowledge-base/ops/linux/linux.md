@@ -1,9 +1,5 @@
 # Linux
 
-## Linux on Macbook
-
-- [troubleshooting not waking up after closing the lid](https://askubuntu.com/a/1020883)
-
 ## Utilities
 
 - [Chmod Calculator](https://chmod-calculator.com/)

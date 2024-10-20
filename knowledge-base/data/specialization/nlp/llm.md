@@ -13,6 +13,7 @@ outline: deep
 - [ollama](https://github.com/ollama/ollama) - Get up and running with Llama 3, Mistral, Gemma, and other large language
   models.
 - [TokenCost](https://github.com/AgentOps-AI/tokencost) - Easy token price estimates for 400+ LLMs. TokenOps
+- [mistral.rs](https://github.com/EricLBuehler/mistral.rs) - Blazingly fast LLM inference
 
 ## Models
 
@@ -26,6 +27,10 @@ outline: deep
 | Google     | PaliGemma                            | [HF](https://huggingface.co/google/paligemma-3b-pt-224)              |                                                             |
 | Lumi       | Viking                               | [HF](https://huggingface.co/LumiOpen/Viking-7B)                      |                                                             |
 | KBTG       | THaLLE                               | [HF](https://huggingface.co/KBTG-Labs/THaLLE-0.1-7B-fa)              |                                                             |
+
+## Demo
+
+- [Neo4j LLM Knowledge Graph Builder](https://neo4j.com/labs/genai-ecosystem/llm-graph-builder/)
 
 ## Resources
 
