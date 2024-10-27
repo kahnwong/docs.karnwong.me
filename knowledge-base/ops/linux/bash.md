@@ -124,3 +124,13 @@ do
     sleep 300; # 5 minutes
 done;
 ```
+
+### Append multi-line to file
+
+```bash
+cat <<EOF >>$FILE
+foo
+bar
+baz
+EOF
+```
