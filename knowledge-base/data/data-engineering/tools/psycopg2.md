@@ -20,6 +20,7 @@ conn = psycopg2.connect(
 )
 
 cur = conn.cursor(cursor_factory=RealDictCursor)
+# or `POSTGRES_URI = f"postgresql:///{POSTGRES_DBNAME}?host={POSTGRES_HOSTNAME}&user={POSTGRES_USERNAME}&password={POSTGRES_PASSWORD}&port={POSTGRES_PORT}&sslmode=disable"`
 
 
 def query(QUERY: str):

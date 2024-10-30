@@ -244,6 +244,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: "Golang", link: "knowledge-base/programming/golang" },
+            { text: "Node", link: "knowledge-base/programming/node" },
             {
               text: "Python",
               collapsed: true,

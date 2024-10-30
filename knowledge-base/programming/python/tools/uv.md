@@ -42,3 +42,7 @@ build-backend = "hatchling.build"
 ```bash
 uv pip install -e .
 ```
+
+## References
+
+- [uv - docker](https://docs.astral.sh/uv/guides/integration/docker/#installing-requirements)

@@ -19,9 +19,14 @@ rustup self uninstall
 - <https://www.arewewebyet.org/>
 - <https://www.arewelearningyet.com/>
 
+## Branding
+
+- [Rustacean.net: Home of Ferris the Crab](https://rustacean.net/)
+
 ## Resources
 
 - [Rust Language Cheat Sheet](https://cheats.rs/)
 - [The Rust Programming Language](https://doc.rust-lang.org/book/)
 - [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/)
 - [Minimizing Rust Binary Size](https://github.com/johnthagen/min-sized-rust)
+- [rustlings](https://github.com/rust-lang/rustlings) - 🦀 Small exercises to get you used to reading and writing Rust code!

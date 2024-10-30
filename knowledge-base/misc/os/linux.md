@@ -37,3 +37,7 @@ sudo apt install nvidia-cudnn nvidia-cuda-toolkit
 ## Resources
 
 - [partitioning disk for dual boot](https://askubuntu.com/a/1314343)
+
+## References
+
+- [ProtonDB](https://www.protondb.com/) - Gaming know-how from the Linux and Steam Deck community
