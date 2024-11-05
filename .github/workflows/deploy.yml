@@ -51,7 +51,7 @@ jobs:
           time: "5s"
 
       - uses: actions/checkout@v4
-      - name: Index docusaurus
+      - name: Index vitepress
         run: |
           docker run \
             -e APPLICATION_ID=${{ secrets.ALGOLIA_APPLICATION_ID }} \
