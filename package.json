@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "sitemap": "^8.0.0",
-    "vitepress": "^1.4.5"
+    "vitepress": "^1.5.0"
   },
   "devDependencies": {
     "lint-staged": "^15.2.10",
