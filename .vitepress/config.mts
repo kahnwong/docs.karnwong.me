@@ -41,11 +41,9 @@ export default defineConfig({
       "/knowledge-base/": [
         {
           text: "Data",
-          collapsed: false,
           items: [
             {
               text: "Data Engineering",
-              collapsed: true,
               items: [
                 {
                   text: "Data Engineering",
@@ -64,7 +62,6 @@ export default defineConfig({
             },
             {
               text: "Data Science",
-              collapsed: true,
               items: [
                 {
                   text: "Data Science",
@@ -82,7 +79,6 @@ export default defineConfig({
             },
             {
               text: "MLOps",
-              collapsed: true,
               items: [
                 { text: "MLOps", link: "knowledge-base/data/mlops/mlops" },
                 {
@@ -99,11 +95,9 @@ export default defineConfig({
             },
             {
               text: "Specialization",
-              collapsed: true,
               items: [
                 {
                   text: "GIS",
-                  collapsed: true,
                   items: [
                     {
                       text: "GIS",
@@ -122,7 +116,6 @@ export default defineConfig({
                 },
                 {
                   text: "NLP",
-                  collapsed: true,
                   items: [
                     {
                       text: "NLP",
@@ -136,7 +129,6 @@ export default defineConfig({
                 },
                 {
                   text: "Web Scraping",
-                  collapsed: true,
                   items: [
                     {
                       text: "Web Scraping",
@@ -159,11 +151,9 @@ export default defineConfig({
         },
         {
           text: "Ops",
-          collapsed: false,
           items: [
             {
               text: "DevOps",
-              collapsed: true,
               items: generateSidebar({
                 scanStartPath: "/knowledge-base/ops/devops",
                 useTitleFromFileHeading: true,
@@ -176,7 +166,6 @@ export default defineConfig({
             },
             {
               text: "Cloud",
-              collapsed: true,
               items: generateSidebar({
                 scanStartPath: "/knowledge-base/ops/cloud",
                 useTitleFromFileHeading: true,
@@ -184,7 +173,6 @@ export default defineConfig({
             },
             {
               text: "Linux",
-              collapsed: true,
               items: generateSidebar({
                 scanStartPath: "/knowledge-base/ops/linux",
                 useTitleFromFileHeading: true,
@@ -192,11 +180,9 @@ export default defineConfig({
             },
             {
               text: "Tools",
-              collapsed: false,
               items: [
                 {
                   text: "Infrastructure",
-                  collapsed: true,
                   items: generateSidebar({
                     scanStartPath: "/knowledge-base/ops/tools/infrastructure",
                     useTitleFromFileHeading: true,
@@ -204,7 +190,6 @@ export default defineConfig({
                 },
                 {
                   text: "Containers",
-                  collapsed: false,
                   items: generateSidebar({
                     scanStartPath: "/knowledge-base/ops/tools/containers",
                     useTitleFromFileHeading: true,
@@ -212,7 +197,6 @@ export default defineConfig({
                 },
                 {
                   text: "Databases",
-                  collapsed: true,
                   items: generateSidebar({
                     scanStartPath: "/knowledge-base/ops/tools/databases",
                     useTitleFromFileHeading: true,
@@ -220,7 +204,6 @@ export default defineConfig({
                 },
                 {
                   text: "Networking",
-                  collapsed: true,
                   items: generateSidebar({
                     scanStartPath: "/knowledge-base/ops/tools/networking",
                     useTitleFromFileHeading: true,
@@ -237,7 +220,6 @@ export default defineConfig({
         },
         {
           text: "Software Engineering",
-          collapsed: true,
           items: generateSidebar({
             scanStartPath: "/knowledge-base/software-engineering",
             useTitleFromFileHeading: true,
@@ -245,13 +227,11 @@ export default defineConfig({
         },
         {
           text: "Programming",
-          collapsed: true,
           items: [
             { text: "Golang", link: "knowledge-base/programming/golang" },
             { text: "Node", link: "knowledge-base/programming/node" },
             {
               text: "Python",
-              collapsed: true,
               items: [
                 {
                   text: "Python",
@@ -281,7 +261,6 @@ export default defineConfig({
         },
         {
           text: "Misc",
-          collapsed: true,
           items: [
             {
               text: "Desktop Apps",
@@ -301,7 +280,6 @@ export default defineConfig({
             },
             {
               text: "OS",
-              collapsed: true,
               items: generateSidebar({
                 scanStartPath: "/knowledge-base/misc/os",
                 useTitleFromFileHeading: true,
@@ -325,7 +303,6 @@ export default defineConfig({
         { text: "Repair Shops", link: "life/repair-shops" },
         {
           text: "Gaming",
-          collapsed: true,
           items: generateSidebar({
             scanStartPath: "/life/gaming",
             useTitleFromFileHeading: true,
