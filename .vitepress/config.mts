@@ -10,6 +10,10 @@ export default defineConfig({
   title: "Fringe Division",
   description: "Personal docs",
 
+  sitemap: {
+    hostname: 'https://docs.karnwong.me'
+  },
+
   markdown: {
     theme: {
       light: "solarized-light",
@@ -345,25 +349,6 @@ export default defineConfig({
       },
     },
   },
-
-  // // https://github.com/vuejs/vitepress/issues/520#issuecomment-1566062351
-  // transformHtml: (_, id, { pageData }) => {
-  //   if (!/[\\/]404\.html$/.test(id))
-  //     links.push({
-  //       url: pageData.relativePath.replace(/((^|\/)index)?\.md$/, "$2"),
-  //       lastmod: pageData.lastUpdated,
-  //     });
-  // },
-  // buildEnd: async ({ outDir }) => {
-  //   const sitemap = new SitemapStream({
-  //     hostname: "https://docs.karnwong.me/",
-  //   });
-  //   const writeStream = createWriteStream(resolve(outDir, "sitemap.xml"));
-  //   sitemap.pipe(writeStream);
-  //   links.forEach((link) => sitemap.write(link));
-  //   sitemap.end();
-  //   await new Promise((r) => writeStream.on("finish", r));
-  // },
 
   head: [
     // google analytics
