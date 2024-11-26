@@ -10,6 +10,7 @@ outline: deep
 - [How To Ask Questions The Smart Way](http://catb.org/~esr/faqs/smart-questions.html)
 - [How to (and how not to) design REST APIs](https://github.com/stickfigure/blog/wiki/How-to-%28and-how-not-to%29-design-REST-APIs)
 - [no hello](https://nohello.net/en/)
+- [nocode](https://github.com/kelseyhightower/nocode) - The best way to write secure and reliable applications. Write nothing; deploy nowhere.
 
 ## System design
 

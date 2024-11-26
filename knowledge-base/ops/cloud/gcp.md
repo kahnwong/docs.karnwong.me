@@ -75,6 +75,19 @@ from google.colab import auth
 auth.authenticate_user()
 ```
 
+#### in docker
+
+```yaml
+  backend:
+    build: backend
+    ports:
+      - 8000:8000
+    environment:
+       GOOGLE_APPLICATION_CREDENTIALS: /opt/application_default_credentials.json
+    volumes:
+      - ~/.config/gcloud/application_default_credentials.json:/opt/application_default_credentials.json
+```
+
 ### Set PROJECT_ID from environment variable
 
 ```bash
