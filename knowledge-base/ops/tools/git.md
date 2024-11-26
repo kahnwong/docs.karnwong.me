@@ -47,6 +47,10 @@ git worktree add -b test3 --track master
 ### Submodule
 
 ```bash
+# add submodule
+git submodule add git@github.com:kahnwong/hugo-PaperMod.git themes/PaperMod
+git submodule update --init --recursive
+
 # update submodule
 git submodule foreach git pull origin master
 
@@ -142,3 +146,4 @@ python3 git-filter-repo --invert-paths --path-match $PATH
 
 - [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
 - [Tuple’s Pair Programming Guide](https://tuple.app/pair-programming-guide/)
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) - A specification for adding human and machine readable meaning to commit messages
