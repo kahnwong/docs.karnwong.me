@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "lint-staged": "^15.2.10",
-    "prettier": "3.3.3",
+    "prettier": "3.4.1",
     "vitepress-sidebar": "^1.29.0"
   }
 }
