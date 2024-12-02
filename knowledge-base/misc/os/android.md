@@ -49,6 +49,9 @@ adb shell pm clear com.android.providers.contacts
 for %f in (*.apk) do adb install "%f"
 ```
 
+## Apps
+- [syncthing](https://github.com/Catfriend1/syncthing-android)
+
 ## Fixes
 
 ### Android bluetooth keyboard pairing

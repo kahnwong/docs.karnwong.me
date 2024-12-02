@@ -11,6 +11,10 @@ outline: deep
 - [How to (and how not to) design REST APIs](https://github.com/stickfigure/blog/wiki/How-to-%28and-how-not-to%29-design-REST-APIs)
 - [no hello](https://nohello.net/en/)
 - [nocode](https://github.com/kelseyhightower/nocode) - The best way to write secure and reliable applications. Write nothing; deploy nowhere.
+- [Don't ask to ask, just ask](https://dontasktoask.com/)
+- [Short, Self Contained, Correct (Compilable), Example](https://sscce.org/)
+- [itdidnt.work](https://itdidnt.work/)
+- [Floating Point Math](https://0.30000000000000004.com/)
 
 ## System design
 

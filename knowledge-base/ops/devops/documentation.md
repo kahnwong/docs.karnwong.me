@@ -1,5 +1,7 @@
 # Documentation
 
+## Markup
+- [typst](https://github.com/typst/typst) - A new markup-based typesetting system that is powerful and easy to learn.
 ## Linters
 
 - [Vale](https://github.com/errata-ai/vale) - A markup-aware linter for prose built with speed and extensibility in mind.

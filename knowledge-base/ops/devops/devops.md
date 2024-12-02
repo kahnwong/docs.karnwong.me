@@ -8,10 +8,15 @@ outline: deep
 
 - [command-not-found](https://command-not-found.com)
 
+## Feature Flags
+
+- [Open Feature](https://openfeature.dev/)
+
 ## Tools
 
 - [Crontab.guru](https://crontab.guru/) - An easy to use editor for crontab schedules.
 - [Should I Deploy Today?](https://shouldideploy.today/)
+- [Deploy ดีไหม?](https://deploydeemai.today/)
 - [Testcontainers](https://testcontainers.com/) - Unit tests with real dependencies
 
 ## Resources

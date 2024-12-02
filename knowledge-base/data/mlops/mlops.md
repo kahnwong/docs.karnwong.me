@@ -12,9 +12,11 @@ outline: deep
 
 ## Resources
 
-- [The Big Dictionary of MLOps](https://www.hopsworks.ai/mlops-dictionary)
 - [ML Ops: Machine Learning Operations](https://ml-ops.org/)
+- [Open Platform for Enterprise AI](https://opea-project.github.io/latest/index.html)
 - [Production Data Science](https://github.com/FilippoBovo/production-data-science/)
+- [The Big Dictionary of MLOps](https://www.hopsworks.ai/mlops-dictionary)
+- [The State of Open Source AI](https://book.premai.io/state-of-open-source-ai)
 
 ### Governance
 
