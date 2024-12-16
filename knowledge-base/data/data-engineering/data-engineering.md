@@ -15,6 +15,7 @@ outline: deep
 - [Data Engineer Roadmap](https://github.com/datastacktv/data-engineer-roadmap)
 - [Data Mesh Architecture](https://www.datamesh-architecture.com/)
 - [Gently Down the Stream](https://www.gentlydownthe.stream/) - A gentle introduction to Apache Kafka.
+- [Data Engineering Vault](https://www.ssp.sh/brain/data-engineering/)
 
 ### Glossary
 

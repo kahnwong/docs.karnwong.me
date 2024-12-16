@@ -40,46 +40,22 @@ kubectl create job --from=cronjob/$CRONJOB_NAME $JOB_NAME -n $NAMESPACE
 kubectl delete -f <filename>
 ```
 
+## Distributions
+
+- [kairos](https://kairos.io/) - Transform your Linux system and preferred Kubernetes distribution into a secure bootable image for your edge devices.
+
 ## Add-Ons
 
 - [Cilium](https://cilium.io/) - Cloud Native, eBPF-based Networking, Observability, and Security.
 - [Knative](https://knative.dev/docs/) - Open-Source Enterprise-level solution to build Serverless and Event Driven Applications.
+- [KubeVirt](https://kubevirt.io/) - Building a virtualization API for Kubernetes
 - [kserve](https://github.com/kserve/kserve) - Standardized Serverless ML Inference Platform on Kubernetes.
+- [kube-green](https://kube-green.dev/) - An operator to reduce CO2 footprint of your clusters
 
 ## Monitoring & Observability
 
 - [Coroot](https://github.com/coroot/coroot) - Coroot is an open-source eBPF-based observability tool that turns telemetry data into actionable insights, helping you identify and resolve application issues quickly.
 
-## Helm
-
-### Charts
-
-- [OperatorHub](https://operatorhub.io/)
-
-### Resources
-
-- [Helm Playground](https://helm-playground.com/)
-
-### Packaging helm chart
-
-```bash
-helm package $CHART
-helm registry login $REGISTRY_URL -u $USER
-helm push demo-0.1.0.tgz oci://$REGISTRY_URL/$REPO
-
-# usage
-helm install <my-release> oci://$REGISTRY_URL/$REPO/$NAME:$VERSION
-```
-
-## ArgoCD
-
-```bash
-kubectl create namespace argocd
-kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
-
-argocd admin initial-password -n argocd
-argocd login <ARGOCD_SERVER>
-```
 
 ## Cookbook
 

@@ -257,6 +257,7 @@ export default defineConfig({
               ],
             },
             { text: "Rust", link: "knowledge-base/programming/rust" },
+            { text: "WASM", link: "knowledge-base/programming/wasm" },
           ],
         },
         {

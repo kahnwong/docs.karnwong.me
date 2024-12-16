@@ -6,9 +6,11 @@ outline: deep
 
 ## Libraries
 
-- [clipboard](https://github.com/golang-design/clipboard) - 📋 cross-platform clipboard package that supports accessing text and image in Go (macOS/Linux/Windows/Android/iOS)
+- [clipboard](https://github.com/atotto/clipboard)
+- [clipboard-image](https://github.com/skanehira/clipboard-image)
 - [cobra](https://github.com/spf13/cobra) - A Commander for modern Go CLI interactions
 - [color](https://github.com/fatih/color) - Color package for Go
+- [expr](https://github.com/expr-lang/expr) - Expression language and expression evaluation for Go
 - [go-querystring](https://github.com/google/go-querystring) - go-querystring is Go library for encoding structs into URL query strings
 - [godotenv](https://github.com/joho/godotenv) - A Go port of Ruby's dotenv library (Loads environment variables from .env files)
 - [gofiber](https://github.com/gofiber/fiber/v2) - ⚡️ Express inspired web framework written in Go
@@ -17,6 +19,7 @@ outline: deep
 - [requests](https://github.com/carlmjohnson/requests) - HTTP requests for Gophers
 - [sops](https://pkg.go.dev/github.com/getsops/sops/v3)
 - [viper](https://github.com/spf13/viper) - Go configuration with fangs
+- [watermill](https://github.com/ThreeDotsLabs/watermill) - Building event-driven applications the easy way in Go
 - [zerolog](https://github.com/rs/zerolog) - Zero Allocation JSON Logger
 
 ## Cookbook

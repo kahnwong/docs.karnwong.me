@@ -6,6 +6,10 @@
 - [No Secrets! 🤫](https://sourcegraph-community.github.io/no-secrets/) - Find secrets in your GitHub repo.
 - [teller](https://github.com/tellerops/teller) - Cloud native secrets management for developers - never leave your command line for secrets.
 
+## Scanners
+
+- [cloudfox](https://github.com/BishopFox/cloudfox) - Automating situational awareness for cloud penetration tests.
+
 ## Resources
 
 - [OAuth 2.0 Simplified](https://www.oauth.com/)
