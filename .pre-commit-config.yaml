@@ -14,12 +14,8 @@ repos:
       - id: detect-private-key
       - id: fix-byte-order-marker
       - id: mixed-line-ending
-  - repo: https://github.com/asottile/blacken-docs
-    rev: 1.18.0
-    hooks:
-      - id: blacken-docs
-        additional_dependencies: [black==23.12.1]
   - repo: https://github.com/kahnwong/pre-commit
-    rev: "00af229"
+    rev: "d4610d0"
     hooks:
       - id: yarn-prettier
+      - id: mdsf

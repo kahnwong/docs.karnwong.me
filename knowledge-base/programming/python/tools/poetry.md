@@ -23,9 +23,7 @@ poetry env use 3.11 # normally it picks up global python via pyenv
 
 ```toml
 [tool.poetry]
-packages = [
-    {include = "src"}
-]
+packages = [{ include = "src" }]
 ```
 
 ## pre-commit config for subfolders

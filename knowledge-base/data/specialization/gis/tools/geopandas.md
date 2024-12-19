@@ -9,8 +9,8 @@ outline: deep
 ### Create gdf from df
 
 ```python
-import pandas as pd
 import geopandas as gpd
+import pandas as pd
 from shapely.geometry import Point
 
 project = pd.read_csv("project.csv")

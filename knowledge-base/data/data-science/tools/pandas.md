@@ -52,9 +52,10 @@ writer.save()
 ## Ignore warnings
 
 ```python
-from pandas.errors import DtypeWarning
-from pandas.core.common import SettingWithCopyWarning
 import warnings
+
+from pandas.core.common import SettingWithCopyWarning
+from pandas.errors import DtypeWarning
 
 warnings.simplefilter(action="ignore", category=DtypeWarning)
 warnings.simplefilter(action="ignore", category=SettingWithCopyWarning)

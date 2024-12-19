@@ -25,7 +25,7 @@ with open(filename, "wb") as file_obj:
 ## Extract params from url
 
 ```python
-from urllib.parse import urlsplit, parse_qs
+from urllib.parse import parse_qs, urlsplit
 
 url = "http://www.example.org/default.html?ct=32&op=92&item=98"
 query = urlsplit(url).query

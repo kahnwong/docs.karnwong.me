@@ -78,6 +78,7 @@ resource_url = dvc.api.get_url(
 
 # load data
 import pickle
+
 import dvc.api.read as dvc_read
 
 model = pickle.loads(

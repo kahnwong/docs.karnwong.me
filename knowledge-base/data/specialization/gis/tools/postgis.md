@@ -16,16 +16,21 @@ CREATE EXTENSION postgis;
 
 ```sql
 -- use `ST_GeomFromText` for `WKT`
-ALTER TABLE province ADD COLUMN geom geometry(Point, 4326);
+ALTER TABLE province
+ADD COLUMN geom geometry (Point, 4326);
 
 UPDATE province
-SET geom = ST_SetSRID(
-    ST_MakePoint(
-        cast(longitude AS DOUBLE PRECISION),
-        cast(latitude AS DOUBLE PRECISION)
-        ),
-    4326)
-WHERE latitude IS NOT NULL AND longitude IS NOT NULL;
+SET
+  geom = ST_SetSRID (
+    ST_MakePoint (
+      cast(longitude AS DOUBLE PRECISION),
+      cast(latitude AS DOUBLE PRECISION)
+    ),
+    4326
+  )
+WHERE
+  latitude IS NOT NULL
+  AND longitude IS NOT NULL;
 ```
 
 ### Cast projection unit to meter
@@ -62,8 +67,12 @@ AS distance_from_holy_land
 ### Count points in polygon
 
 ```sql
-SELECT boundary.gid, count(points.geom) AS totale
-FROM boundary LEFT JOIN points
-ON ST_CONTAINS(boundary.geom,points.geom)
-GROUP BY boundary.gid;
+SELECT
+  boundary.gid,
+  count(points.geom) AS totale
+FROM
+  boundary
+  LEFT JOIN points ON ST_CONTAINS (boundary.geom, points.geom)
+GROUP BY
+  boundary.gid;
 ```

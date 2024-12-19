@@ -9,72 +9,102 @@ outline: deep
 ### SELECT, FROM, LIMIT
 
 ```sql
-SELECT *
-FROM crm
-LIMIT 10;
+SELECT
+  *
+FROM
+  crm
+LIMIT
+  10;
 ```
 
 ### WHERE
 
 ```sql
-SELECT *
-FROM crm
-WHERE register_date > '2020-01-01'
-LIMIT 10;
+SELECT
+  *
+FROM
+  crm
+WHERE
+  register_date > '2020-01-01'
+LIMIT
+  10;
 ```
 
 ### AND
 
 ```sql
-SELECT *
-FROM crm
-WHERE register_date > '2020-01-01'
-    AND is_priority=true
-LIMIT 10;
+SELECT
+  *
+FROM
+  crm
+WHERE
+  register_date > '2020-01-01'
+  AND is_priority = true
+LIMIT
+  10;
 ```
 
 ### IN
 
 ```sql
-SELECT user_id, last_activity, segment
-FROM crm
-WHERE segment in ('foo', 'bar');
+SELECT
+  user_id,
+  last_activity,
+  segment
+FROM
+  crm
+WHERE
+  segment in ('foo', 'bar');
 ```
 
 ### ORDER BY
 
 ```sql
-SELECT *
-FROM crm
-WHERE register_date > '2020-01-01'
-ORDER BY register_date
-LIMIT 10;
+SELECT
+  *
+FROM
+  crm
+WHERE
+  register_date > '2020-01-01'
+ORDER BY
+  register_date
+LIMIT
+  10;
 ```
 
 ### DISTINCT
 
 ```sql
-SELECT DISTINCT(segment)
-FROM crm;
+SELECT DISTINCT
+  (segment)
+FROM
+  crm;
 ```
 
 ### JOIN (+ inner, left, right)
 
 ```sql
-SELECT *
-FROM products as p
-JOIN stock as s
- ON p.product_id=s.product_id
-LIMIT 10;
+SELECT
+  *
+FROM
+  products as p
+  JOIN stock as s ON p.product_id = s.product_id
+LIMIT
+  10;
 ```
 
 ### GROUP BY, AVG, COUNT, SUM, MIN, MAX, AS
 
 ```sql
-SELECT segment, AVG(stayonpage) AS avg_stayonpage
-FROM crm
-GROUP BY segment
-LIMIT 10;
+SELECT
+  segment,
+  AVG(stayonpage) AS avg_stayonpage
+FROM
+  crm
+GROUP BY
+  segment
+LIMIT
+  10;
 ```
 
 ## Transformations
@@ -94,7 +124,8 @@ WHERE date_created < (NOW() - '3 months'::interval)::TEXT
 
 ```sql
 -- rename table
-ALTER TABLE OG_NAME rename TO NEW_NAME;
+ALTER TABLE OG_NAME
+rename TO NEW_NAME;
 ```
 
 ## CTE
@@ -102,28 +133,31 @@ ALTER TABLE OG_NAME rename TO NEW_NAME;
 A common table expression is a temporary result set which you can reference within another SQL statement including SELECT, INSERT, UPDATE or DELETE.
 
 ```sql
-WITH cte_film AS (
+WITH
+  cte_film AS (
     SELECT
-        film_id,
-        title,
-        (CASE
-            WHEN length < 30 THEN 'Short'
-            WHEN length < 90 THEN 'Medium'
-            ELSE 'Long'
-        END) length
+      film_id,
+      title,
+      (
+        CASE
+          WHEN length < 30 THEN 'Short'
+          WHEN length < 90 THEN 'Medium'
+          ELSE 'Long'
+        END
+      ) length
     FROM
-        film
-)
+      film
+  )
 SELECT
-    film_id,
-    title,
-    length
+  film_id,
+  title,
+  length
 FROM
-    cte_film
+  cte_film
 WHERE
-    length = 'Long'
+  length = 'Long'
 ORDER BY
-    title;
+  title;
 ```
 
 ## Resources

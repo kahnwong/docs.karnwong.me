@@ -25,10 +25,10 @@ joblib.dump(MODEL, FILENAME)
 ## Visualize dataset cluster via t-nse
 
 ```python
-from sklearn.manifold import TSNE
-import seaborn as sns
-
 import warnings
+
+import seaborn as sns
+from sklearn.manifold import TSNE
 
 warnings.simplefilter(action="ignore")
 

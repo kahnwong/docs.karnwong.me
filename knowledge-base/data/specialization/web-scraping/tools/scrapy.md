@@ -105,9 +105,8 @@ class JsonWriterPipeline:
 ```python
 # middleware.py
 
-from scrapy.http import HtmlResponse
-
 import cloudscraper
+from scrapy.http import HtmlResponse
 
 
 class ProjectDownloaderMiddleware:

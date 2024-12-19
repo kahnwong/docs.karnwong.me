@@ -43,16 +43,15 @@ df = spark.createDataFrame(
 ```python
 import pyspark.sql.functions as F
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import coalesce
-from pyspark.sql.functions import col
-from pyspark.sql.functions import lit
-from pyspark.sql.functions import when
-from pyspark.sql.types import DoubleType
-from pyspark.sql.types import IntegerType
-from pyspark.sql.types import StringType
-from pyspark.sql.types import StructField
-from pyspark.sql.types import StructType
-from pyspark.sql.types import TimestampType
+from pyspark.sql.functions import coalesce, col, lit, when
+from pyspark.sql.types import (
+    DoubleType,
+    IntegerType,
+    StringType,
+    StructField,
+    StructType,
+    TimestampType,
+)
 from pyspark.sql.window import Window
 
 spark = (
@@ -184,9 +183,10 @@ F.to_json(c)
 # convert to list
 df.select("mvv").rdd.flatMap(lambda x: x).collect()
 
+import pyspark.sql.functions as F
+
 # udf
 from pyspark.sql.functions import udf
-import pyspark.sql.functions as F
 from pyspark.sql.types import StringType
 
 
@@ -381,9 +381,9 @@ uri = "jdbc:postgresql://host.docker.internal:5432/postgres"
 ```python
 import os
 
-os.environ[
-    "PYSPARK_SUBMIT_ARGS"
-] = '--packages "org.mongodb.spark:mongo-spark-connector_2.11:2.4.2" pyspark-shell'
+os.environ["PYSPARK_SUBMIT_ARGS"] = (
+    '--packages "org.mongodb.spark:mongo-spark-connector_2.11:2.4.2" pyspark-shell'
+)
 
 from pyspark.sql import SparkSession
 
@@ -414,7 +414,10 @@ spark = (
     SparkSession.builder.appName("Pyspark playground")
     .config("spark.executor.memory", "16g")
     .config("spark.driver.memory", "16g")
-    .config("spark.jars.packages", "com.github.housepower:clickhouse-spark-runtime-3.4_2.12:0.7.3,com.clickhouse:clickhouse-jdbc:0.6.2,org.apache.httpcomponents.client5:httpclient5:5.3.1")
+    .config(
+        "spark.jars.packages",
+        "com.github.housepower:clickhouse-spark-runtime-3.4_2.12:0.7.3,com.clickhouse:clickhouse-jdbc:0.6.2,org.apache.httpcomponents.client5:httpclient5:5.3.1",
+    )
     .getOrCreate()
 )
 
@@ -422,12 +425,12 @@ uri = "jdbc:clickhouse://localhost:8123/clickhouse"
 
 ### read
 (
-    spark.read.format('jdbc')
-    .option('url', uri)
-    .option('dbtable',"nyc_taxi")
-    .option('user',"clickhouse")
-    .option('password',"clickhousepassword")
-    .option('driver',"com.clickhouse.jdbc.ClickHouseDriver")
+    spark.read.format("jdbc")
+    .option("url", uri)
+    .option("dbtable", "nyc_taxi")
+    .option("user", "clickhouse")
+    .option("password", "clickhousepassword")
+    .option("driver", "com.clickhouse.jdbc.ClickHouseDriver")
     .load()
 )
 
@@ -435,7 +438,7 @@ uri = "jdbc:clickhouse://localhost:8123/clickhouse"
 (
     df.write.format("jdbc")
     .option("url", uri)
-    .option("dbtable", "nyc_taxi") # [TODO] change me
+    .option("dbtable", "nyc_taxi")  # [TODO] change me
     .option("user", "clickhouse")
     .option("password", "clickhousepassword")
     .option("driver", "com.clickhouse.jdbc.ClickHouseDriver")
@@ -475,6 +478,7 @@ echo 'sc.getConf.get("spark.home")' | spark-shell
 
 ```python
 from pyspark.sql import SparkSession
+
 
 def init_spark() -> SparkSession:
     config = (
