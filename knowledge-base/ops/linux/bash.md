@@ -83,7 +83,7 @@ split -b 500m httpd.log
 ## xargs
 
 ```bash
-ls file_* | xargs -J {} mv {} temp/
+fd md | xargs -I {} topydo add @refactor {}
 ```
 
 ## Cookbook

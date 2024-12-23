@@ -95,6 +95,72 @@ intranet.example.com {
 }
 ```
 
+## Caddy with Cloudflare Plugin
+
+```bash
+sudo apt install golang-go -y
+go install github.com/caddyserver/xcaddy/cmd/xcaddy@latest
+~/go/bin/xcaddy build --with github.com/caddy-dns/cloudflare
+sudo mv caddy /usr/bin/
+
+sudo groupadd --system caddy
+sudo useradd --system \
+    --gid caddy \
+    --create-home \
+    --home-dir /var/lib/caddy \
+    --shell /usr/sbin/nologin \
+    --comment "Caddy web server" \
+    caddy
+```
+
+Paste this in `sudo vi /etc/systemd/system/caddy.service`
+
+```toml
+# caddy.service
+#
+# For using Caddy with a config file.
+#
+# Make sure the ExecStart and ExecReload commands are correct
+# for your installation.
+#
+# See https://caddyserver.com/docs/install for instructions.
+#
+# WARNING: This service does not use the --resume flag, so if you
+# use the API to make changes, they will be overwritten by the
+# Caddyfile next time the service is restarted. If you intend to
+# use Caddy's API to configure it, add the --resume flag to the
+# `caddy run` command or use the caddy-api.service file instead.
+
+[Unit]
+Description=Caddy
+Documentation=https://caddyserver.com/docs/
+After=network.target network-online.target
+Requires=network-online.target
+
+[Service]
+User=caddy
+Group=caddy
+ExecStart=/usr/bin/caddy run --environ --config /etc/caddy/Caddyfile
+ExecReload=/usr/bin/caddy reload --config /etc/caddy/Caddyfile
+TimeoutStopSec=5s
+LimitNOFILE=1048576
+LimitNPROC=512
+PrivateTmp=true
+ProtectSystem=full
+AmbientCapabilities=CAP_NET_BIND_SERVICE
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Start service via
+
+```bash
+sudo systemctl daemon-reload
+sudo systemctl enable caddy
+sudo systemctl start caddy
+```
+
 ## Resources
 
 - [Public and internal caddy network setup](https://mrkaran.dev/posts/exposing-services/)

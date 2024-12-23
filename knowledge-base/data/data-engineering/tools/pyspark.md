@@ -173,6 +173,7 @@ F.greatest(a["one"], a["two"], a["three"])
 F.regexp_replace(trim(lower(col(col_name))), regex_str, "")
 
 # explode array
+## also works: explode_outer
 df.withColumn("tmp", F.explode("tmp")).select(
     *df.columns, col("tmp.a"), col("tmp.b"), col("tmp.c")
 )
