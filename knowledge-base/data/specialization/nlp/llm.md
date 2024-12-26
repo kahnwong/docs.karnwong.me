@@ -35,3 +35,4 @@ outline: deep
 ## Resources
 
 - [LLM Pricing](https://www.botgenuity.com/tools/llm-pricing)
+- [LLM Explorer](https://llm.extractum.io/list/?small)

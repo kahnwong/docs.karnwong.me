@@ -134,3 +134,4 @@ k3d cluster delete mycluster
 - [Kubernetes Tutorials](https://kubernetes.io/docs/tutorials/)
 - [Kubernetes Failure Stories](https://k8s.af/)
 - [The Kubenomicon](https://kubenomicon.com/)
+- [Kubernetes Spec Explorer](https://kubespec.dev/)

@@ -20,3 +20,7 @@
 - [Hacking The Cloud](https://hackingthe.cloud/) - Hacking the cloud is an encyclopedia of the attacks/tactics/techniques that offensive security professionals can use on their next cloud exploitation adventure. The goal is to share this knowledge with the security community to better defend cloud native technologies.
 - [SLSA](https://slsa.dev/) - Supply-chain Levels for Software Artifacts
 - [The twelve-factor app](https://12factor.net/)
+
+## References
+
+- [SSO Tax](https://ssotax.org/)

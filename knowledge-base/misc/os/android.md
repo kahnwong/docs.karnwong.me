@@ -4,6 +4,14 @@ outline: deep
 
 # Android
 
+## OSes / ROMs
+
+- [PostmarketOS](https://postmarketos.org/)
+
+## Package Managers
+
+- [Obtainium](https://github.com/ImranR98/Obtainium) - Get Android app updates straight from the source.
+
 ## Tools
 
 - [OpenAndroidInstaller](https://openandroidinstaller.org/#getting-started)
@@ -59,3 +67,6 @@ for %f in (*.apk) do adb install "%f"
 <https://www.reddit.com/r/GooglePixelC/comments/5resoy/keyboard_no_longer_pairing/dk5dr4v/>
 
 It sounds dumb and fake, but if you connect the tablet to the keyboard and then hold `Left Shift + P + A + I + R` at the same time for 2 seconds it fixes the issue and allows you to pair the keyboard! I found the fix posted on Reddit so make sure to thank the user.
+
+## References
+- [Bootloader Unlock: Wall of Shame](https://github.com/melontini/bootloader-unlock-wall-of-shame)

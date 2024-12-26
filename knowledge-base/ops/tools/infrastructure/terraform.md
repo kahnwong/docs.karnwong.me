@@ -21,6 +21,12 @@ cf-terraforming generate -t $TOKEN -z $ZONE --resource-type cloudflare_record > 
 
 ## Cookbook
 
+### Force re-create resources
+
+```bash
+terraform apply -replace=aws_lightsail_instance_public_ports.myserver-sig-public-ports
+```
+
 ### Migrate Terraform remote tfstates
 
 ```bash

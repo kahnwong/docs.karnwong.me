@@ -22,6 +22,10 @@ outline: deep
 - [troubleshooting not waking up after closing the lid](https://askubuntu.com/a/1020883)
 - [FacetimeHD linux driver](https://github.com/patjak/facetimehd/wiki)
 
+#### T2 Mac Devices
+
+- [Wi-Fi and Bluetooth](https://wiki.t2linux.org/guides/wifi-bluetooth/) - Download `firmware.sh` and execute it
+
 ### Set default editor
 
 ```bash
