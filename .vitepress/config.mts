@@ -337,21 +337,13 @@ export default defineConfig({
         src: "https://www.googletagmanager.com/gtag/js?id=G-M6K7QN1CF6",
       },
     ],
-    [
-      "script",
-      {},
-      `window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-M6K7QN1CF6');`,
-    ],
-    // plausible
+    // umami
     [
       "script",
       {
         defer: "",
-        "data-domain": "docs.karnwong.me",
-        src: "https://plausible.karnwong.me/js/script.js",
+        "data-website-id": "de65e38c-cfb9-4709-a04c-9a85f3d88ba6",
+        src: "https://umami.karnwong.me/script.js",
       },
     ],
   ],
