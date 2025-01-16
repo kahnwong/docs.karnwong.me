@@ -9,7 +9,7 @@
     "vitepress": "^1.5.0"
   },
   "devDependencies": {
-    "lint-staged": "^15.2.10",
+    "lint-staged": "^15.4.0",
     "prettier": "3.4.2",
     "vitepress-sidebar": "^1.29.0"
   }
