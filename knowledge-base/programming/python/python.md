@@ -18,6 +18,9 @@ apt-get install build-essential g++ gcc libbz2-dev libc-dev liblzma-dev libncurs
 - [memray](https://github.com/bloomberg/memray) - Memray is a memory profiler for Python.
 - [readability](https://github.com/buriy/python-readability) - fast python port of arc90's readability tool, updated to match latest readability.js!
 
+## Code Quality
+- [tach](https://docs.gauge.sh/getting-started/getting-started) - A Python tool to enforce dependencies.
+
 ## Resources
 
 - [Python Readiness](https://pyreadiness.org/) - Python support graph for specific Python versions for the most popular Python packages!

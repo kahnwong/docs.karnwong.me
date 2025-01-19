@@ -10,6 +10,12 @@
 
 - [cloudfox](https://github.com/BishopFox/cloudfox) - Automating situational awareness for cloud penetration tests.
 
+## Authentication
+
+- [JSON Web Tokens](https://jwt.io/)
+- [OpenID Connect Playground](https://openidconnect.net/)
+- [Web Authentication (WebAuthn) Credential and Login Demo](https://webauthn.me/)
+
 ## Resources
 
 - [OAuth 2.0 Simplified](https://www.oauth.com/)

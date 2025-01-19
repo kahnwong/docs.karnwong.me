@@ -15,6 +15,9 @@ outline: deep
 - [TokenCost](https://github.com/AgentOps-AI/tokencost) - Easy token price estimates for 400+ LLMs. TokenOps
 - [mistral.rs](https://github.com/EricLBuehler/mistral.rs) - Blazingly fast LLM inference
 
+## Status Pages
+- [IsMyAIDown](https://ismyaidown.com/)
+
 ## Models
 
 | Creator    | Name                                 | Hugging Face                                                         | Ollama                                                      |
