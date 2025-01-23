@@ -25,8 +25,9 @@ rustup self uninstall
 
 ## Resources
 
-- [Rust Language Cheat Sheet](https://cheats.rs/)
-- [The Rust Programming Language](https://doc.rust-lang.org/book/)
-- [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/)
+- [Comprehensive Rust](https://google.github.io/comprehensive-rust/)
 - [Minimizing Rust Binary Size](https://github.com/johnthagen/min-sized-rust)
+- [Rust Language Cheat Sheet](https://cheats.rs/)
+- [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/)
+- [The Rust Programming Language](https://doc.rust-lang.org/book/)
 - [rustlings](https://github.com/rust-lang/rustlings) - 🦀 Small exercises to get you used to reading and writing Rust code!

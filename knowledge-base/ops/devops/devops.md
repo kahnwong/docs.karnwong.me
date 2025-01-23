@@ -11,6 +11,7 @@ outline: deep
 ## Feature Flags
 
 - [Open Feature](https://openfeature.dev/)
+- [Flatsmith](https://docs.flagsmith.com/integrations/terraform) - Feature Flag backend with Terraform Integration
 
 ## Tools
 

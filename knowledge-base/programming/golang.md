@@ -10,6 +10,7 @@ outline: deep
 - [clipboard](https://github.com/atotto/clipboard)
 - [cobra](https://github.com/spf13/cobra) - A Commander for modern Go CLI interactions
 - [color](https://github.com/fatih/color) - Color package for Go
+- [conc](https://github.com/sourcegraph/conc) - Better structured concurrency for go
 - [dockertest](https://github.com/ory/dockertest) - Write better integration tests! Dockertest helps you boot up ephermal docker images for your Go tests with minimal work.
 - [expr](https://github.com/expr-lang/expr) - Expression language and expression evaluation for Go
 - [go-querystring](https://github.com/google/go-querystring) - go-querystring is Go library for encoding structs into URL query strings

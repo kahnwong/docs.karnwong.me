@@ -58,6 +58,7 @@ for %f in (*.apk) do adb install "%f"
 ```
 
 ## Apps
+- [Organic Maps](https://organicmaps.app/) - Offline Hike, Bike, Trails and Navigation
 - [syncthing](https://github.com/Catfriend1/syncthing-android)
 
 ## Fixes

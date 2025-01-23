@@ -87,6 +87,8 @@ aws s3 sync s3://S3PATH/ . --dryrun
 aws s3 ls s3://overturemaps-us-west-2/release/2023-10-19-alpha.0/theme=places/type=place/ --no-sign-request
 ```
 
+- [mountpoint-s3](https://github.com/awslabs/mountpoint-s3) - A simple, high-throughput file client for mounting an Amazon S3 bucket as a local file system.
+
 ## Maintenance
 
 - [aws-nuke](https://github.com/rebuy-de/aws-nuke)
