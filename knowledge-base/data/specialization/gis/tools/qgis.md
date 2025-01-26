@@ -8,22 +8,13 @@ outline: deep
 
 <https://gis.stackexchange.com/questions/390193/guide-on-configuring-wfs-on-qgis-server>
 
-## Install M1-native build
+## Install ARM Mac build
 
 Geoparquet is available if installed with this method.
 
 ```bash
-pyenv install miniforge3-23.3.1-1
-pyenv shell miniforge3-23.3.1-1
-mamba create -n qgis
-mamba install -c conda-forge qgis==3.30.0 libgdal-arrow-parquet -n qgis # need to pin qgis to prevent libqt5keychain error
-```
-
-### Usage
-
-```bash
-pyenv shell miniforge3-23.3.1-1
-mamba run -n qgis qgis
+curl -fsSL https://pixi.sh/install.sh | bash
+pixi global install qgis
 ```
 
 ## Add pmtiles
