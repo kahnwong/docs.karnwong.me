@@ -16,3 +16,7 @@ outline: deep
 # Sort by Year
 %album artist% - $sub(9999,$year(%date%)) - %album% - %discnumber% - %tracknumber% - %title%
 ```
+
+## Set default playlist view sort
+
+Columns UI Filters = Preferences > Display > Columns UI > Filters > Behaviour tab > 'Sort tracks...'
