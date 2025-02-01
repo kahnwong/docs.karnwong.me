@@ -257,6 +257,7 @@ export default defineConfig({
               ],
             },
             { text: "Rust", link: "knowledge-base/programming/rust" },
+            { text: "Vue", link: "knowledge-base/programming/vue" },
             { text: "WASM", link: "knowledge-base/programming/wasm" },
           ],
         },
@@ -268,14 +269,6 @@ export default defineConfig({
               collapsed: true,
               items: generateSidebar({
                 scanStartPath: "/knowledge-base/misc/desktop-apps",
-                useTitleFromFileHeading: true,
-              }),
-            },
-            {
-              text: "Devices",
-              collapsed: true,
-              items: generateSidebar({
-                scanStartPath: "/knowledge-base/misc/devices",
                 useTitleFromFileHeading: true,
               }),
             },

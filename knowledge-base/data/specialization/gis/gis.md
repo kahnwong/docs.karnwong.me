@@ -101,8 +101,13 @@ Carto Light: http://d.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png
 
 - [kepler.gl](https://kepler.gl/demo) - A data-agnostic, high-performance web-based application for visual exploration of large-scale geolocation data sets.
 
+### Web
+
+- [openlayers](https://github.com/openlayers/openlayers) - High-performance, feature-packed library for creating interactive maps on the web
+
 ### Misc
 
+- [Kart](https://docs.kartproject.org/en/latest/index.html) - Distributed version-control for geospatial and tabular data.
 - [prettymaps](https://github.com/marceloprates/prettymaps) - A small set of Python functions to draw pretty maps from OpenStreetMap data. Based on osmnx, matplotlib and shapely libraries.
 
 ## Resources

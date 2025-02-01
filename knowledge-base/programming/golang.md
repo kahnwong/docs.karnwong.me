@@ -6,22 +6,40 @@ outline: deep
 
 ## Libraries
 
-- [clipboard-image](https://github.com/skanehira/clipboard-image)
-- [clipboard](https://github.com/atotto/clipboard)
+### Frameworks
+
+- [expr](https://github.com/expr-lang/expr) - Expression language and expression evaluation for Go
+
+
+### CLI
+
 - [cobra](https://github.com/spf13/cobra) - A Commander for modern Go CLI interactions
 - [color](https://github.com/fatih/color) - Color package for Go
+- [huh](https://github.com/charmbracelet/huh) - Build terminal forms and prompts 🤷🏻‍♀️
+- [progressbar](https://github.com/schollz/progressbar) - A really basic thread-safe progress bar for Golang applications
+- [viper](https://github.com/spf13/viper) - Go configuration with fangs
+
+### Backend
+
+- [gofiber](https://github.com/gofiber/fiber/v2) - ⚡️ Express inspired web framework written in Go
+- [requests](https://github.com/carlmjohnson/requests) - HTTP requests for Gophers
+- [watermill](https://github.com/ThreeDotsLabs/watermill) - Building event-driven applications the easy way in Go
+
+
+### Systems
+- [clipboard-image](https://github.com/skanehira/clipboard-image)
+- [clipboard](https://github.com/atotto/clipboard)
 - [conc](https://github.com/sourcegraph/conc) - Better structured concurrency for go
+- [gopsutil](https://github.com/shirou/gopsutil) - psutil for golang
+
+### Testing
 - [dockertest](https://github.com/ory/dockertest) - Write better integration tests! Dockertest helps you boot up ephermal docker images for your Go tests with minimal work.
-- [expr](https://github.com/expr-lang/expr) - Expression language and expression evaluation for Go
+
+### Utilities
+
 - [go-querystring](https://github.com/google/go-querystring) - go-querystring is Go library for encoding structs into URL query strings
 - [godotenv](https://github.com/joho/godotenv) - A Go port of Ruby's dotenv library (Loads environment variables from .env files)
-- [gofiber](https://github.com/gofiber/fiber/v2) - ⚡️ Express inspired web framework written in Go
-- [gopsutil](https://github.com/shirou/gopsutil) - psutil for golang
-- [huh](https://github.com/charmbracelet/huh) - Build terminal forms and prompts 🤷🏻‍♀️
-- [requests](https://github.com/carlmjohnson/requests) - HTTP requests for Gophers
 - [sops](https://pkg.go.dev/github.com/getsops/sops/v3)
-- [viper](https://github.com/spf13/viper) - Go configuration with fangs
-- [watermill](https://github.com/ThreeDotsLabs/watermill) - Building event-driven applications the easy way in Go
 - [zerolog](https://github.com/rs/zerolog) - Zero Allocation JSON Logger
 
 ## Cookbook

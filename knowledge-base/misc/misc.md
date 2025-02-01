@@ -48,15 +48,6 @@ for google calendar: `https://apidata.googleusercontent.com/caldav/v2/$calendarI
 
 - [Ventoy](https://ventoy.net/en/index.html) - A New Bootable USB Solution.
 
-## List
-
-- [Free for developers](https://free-for.dev/#/)
-- [Privacy Guides](https://privacyguides.org)
-- [European Alternatives](https://european-alternatives.eu/)
-
-## Multimedia Systems
-
-- [restreamer](https://github.com/datarhei/restreamer)
 
 ## References
 
@@ -69,3 +60,18 @@ On Linux with Piper to map key buttons, need to use onboard profile.
 ```bash
 800-1600-3200-6400
 ```
+
+## Ereader
+
+### Kobo
+
+- [One-Click Install Packages for KOReader & Plato](https://www.mobileread.com/forums/showthread.php?t=314220)
+
+### Pocketbook
+
+- [Pocketbook Miniflux](https://github.com/JuanJakobo/Pocketbook-Miniflux-Reader)
+
+### koreader
+
+- [koreader](http://koreader.rocks/)
+- [koreader syncthing](https://github.com/jasonchoimtt/koreader-syncthing)

@@ -16,6 +16,7 @@
 - [Pilaf](https://en.wikipedia.org/wiki/Pilaf)
 - [Pupusa](https://en.m.wikipedia.org/wiki/Pupusa)
 - [Sütlü Nuriye](https://en.wikipedia.org/wiki/S%C3%BCtl%C3%BC_Nuriye)
+- [Ohn no khao swè](https://en.wikipedia.org/wiki/Ohn_no_khao_sw%C3%A8)
 
 ## Cookbook
 

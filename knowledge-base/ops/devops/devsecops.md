@@ -1,20 +1,31 @@
 # DevSecOps
 
-## Tools
-
-- [trivy](https://github.com/aquasecurity/trivy) - Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues and hard-coded secrets, also cloud infrastructure as well.
-- [No Secrets! 🤫](https://sourcegraph-community.github.io/no-secrets/) - Find secrets in your GitHub repo.
-- [teller](https://github.com/tellerops/teller) - Cloud native secrets management for developers - never leave your command line for secrets.
-
-## Scanners
-
-- [cloudfox](https://github.com/BishopFox/cloudfox) - Automating situational awareness for cloud penetration tests.
-
 ## Authentication
 
 - [JSON Web Tokens](https://jwt.io/)
 - [OpenID Connect Playground](https://openidconnect.net/)
 - [Web Authentication (WebAuthn) Credential and Login Demo](https://webauthn.me/)
+
+## Data Management
+
+- [shredos.x86_64](https://github.com/PartialVolume/shredos.x86_64) - Shredos Disk Eraser 64 bit for all Intel 64 bit processors as well as processors from AMD and other vendors which make compatible 64 bit chips. ShredOS - Secure disk erasure/wipe
+
+## Hacking
+
+- [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) - A list of useful payloads and bypass for Web Application Security and Pentest/CTF
+
+## Linters
+
+- [trivy](https://github.com/aquasecurity/trivy) - Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues and hard-coded secrets, also cloud infrastructure as well.
+
+## Secrets
+- [No Secrets! 🤫](https://sourcegraph-community.github.io/no-secrets/) - Find secrets in your GitHub repo.
+- [teller](https://github.com/tellerops/teller) - Cloud native secrets management for developers - never leave your command line for secrets.
+
+## Tools
+- [Nepenthes](https://zadzmo.org/code/nepenthes/) - This is a tarpit intended to catch web crawlers. Specifically, it's targetting crawlers that scrape data for LLM's - but really, like the plants it is named after, it'll eat just about anything that finds it's way inside.
+- [cloudfox](https://github.com/BishopFox/cloudfox) - Automating situational awareness for cloud penetration tests.
+- [gitsign](https://github.com/sigstore/gitsign) - Keyless Git signing using Sigstore
 
 ## Resources
 

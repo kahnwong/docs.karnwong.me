@@ -11,22 +11,9 @@
 - [slither.io](http://slither.io/)
 - [snake.io](https://snake.io/)
 
-## Devices
+## Finance
 
-- [Phone Sized](https://phonesized.com/) - Phone size comparison website, allowing users to visually compare sizes of mobile phones and tablet devices side by side or stacked up one on top of the other.
-- [Product Chart](https://www.productchart.com/)
-- [WillMyPhoneWork](https://willmyphonework.net/) - Check 2G, 3G, and 4G LTE Network Frequency Compatibility for a Smartphone, Tablet, and Mobile Device in any Country and Mobile Network Carrier.
-- [USB Cheat Sheet](https://fabiensanglard.net/usbcheat/index.html)
-- [AnySwitch](https://www.anyswitch.xyz/) - Find your next favorite linear, tactile, and clicky mechanical key switch!
-
-## EDC
-
-- [KnifeGeek](https://www.knifegeek.io)
-
-## Gadgets
-
-- [koreader](https://github.com/koreader/koreader/wiki/Installation-on-Kobo-devices)
-- [Kindle Jailbreak](https://www.mobileread.com/forums/showthread.php?t=323419)
+- [Financial Freedom Calculator](https://maybefinance.com/tools/financial-freedom-calculator)
 
 ### Rockbox
 
@@ -53,9 +40,6 @@
 - [GetRSSFeed](https://getrssfeed.com)
 - [Rephonic](https://rephonic.com/graph) - Explore the Podcast Audience Graph. Find Similar Podcasts.
 
-## Reading
-
-- [Ebook Reader for web](https://www.loudreader.com/)
 
 ## Weather
 
