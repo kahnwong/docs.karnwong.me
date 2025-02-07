@@ -1422,6 +1422,11 @@ property-information@^6.0.0:
   resolved "https://registry.yarnpkg.com/property-information/-/property-information-6.5.0.tgz#6212fbb52ba757e92ef4fb9d657563b933b7ffec"
   integrity sha512-PgTgs/BlvHxOu8QuEN7wi5A0OmXaBcHpmCSTehcs6Uuu9IkDIEo13Hy7n898RHfrQ49vKCoGeWZSaAK01nwVig==
 
+qsu@^1.6.4:
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/qsu/-/qsu-1.6.4.tgz#268ce1aa211d3942eb4723502c96a2616cd138c9"
+  integrity sha512-4PRyFDQhfvz/Np+W2dRJ96bna3Zfby/XOxum9R6hdkA3k8WLHwzcrpJ2lL/zeUYbJJu6ODpKxefJavHk0oCVIw==
+
 regex-recursion@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/regex-recursion/-/regex-recursion-5.1.1.tgz#5a73772d18adbf00f57ad097bf54171b39d78f8b"
@@ -1743,12 +1748,13 @@ vite@^5.4.14:
     fsevents "~2.3.3"
 
 vitepress-sidebar@^1.29.0:
-  version "1.30.2"
-  resolved "https://registry.yarnpkg.com/vitepress-sidebar/-/vitepress-sidebar-1.30.2.tgz#b3962bfcbd0094010466ce1f80077b5e5b5e5ec1"
-  integrity sha512-5NWULe+lMGcair5z23Oapp4+sOSVwpUEj7s2JwZzb9T4pUbY6EumbSPZlY7q+h3vApnaYn4psVAzsalSKBJ/Xg==
+  version "1.31.0"
+  resolved "https://registry.yarnpkg.com/vitepress-sidebar/-/vitepress-sidebar-1.31.0.tgz#5d5eb6cb59e970520698c2b461fdc24d6dee76df"
+  integrity sha512-ctdALc8ptXsD0HuOYMM8xjUu3lSBfHGJJZYtKYuixvjhL+q/AipLeSvsvwfUEhDIwRyi46HQlSa/7XsevVA/Mg==
   dependencies:
     glob "10.4.5"
     gray-matter "4.0.3"
+    qsu "^1.6.4"
 
 vitepress@^1.5.0:
   version "1.6.3"
