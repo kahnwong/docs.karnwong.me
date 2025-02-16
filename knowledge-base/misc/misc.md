@@ -58,7 +58,7 @@ for google calendar: `https://apidata.googleusercontent.com/caldav/v2/$calendarI
 On Linux with Piper to map key buttons, need to use onboard profile.
 
 ```bash
-800-1600-3200-6400
+800-1600-2400-3200-6400
 ```
 
 ## Ereader
