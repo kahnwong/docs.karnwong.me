@@ -92,6 +92,14 @@ echo sha, contributor, date, message > log.csv
 git log --date=local --pretty=format:'%h, %an, %ad, "%s"' >> log.csv
 ```
 
+### Shallow clone with fast push
+
+<https://stackoverflow.com/questions/66431436/pushing-to-github-after-a-shallow-clone-is-horribly-slow>
+
+```bash
+git clone $repo --depth 2
+```
+
 ## SSH signing on Windows
 
 <https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement>

@@ -15,6 +15,7 @@ outline: deep
 - [Short, Self Contained, Correct (Compilable), Example](https://sscce.org/)
 - [itdidnt.work](https://itdidnt.work/)
 - [Floating Point Math](https://0.30000000000000004.com/)
+- [Software Folklore](https://beza1e1.tuxen.de/lore/)
 
 ## System design
 

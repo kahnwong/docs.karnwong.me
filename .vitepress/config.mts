@@ -257,6 +257,7 @@ export default defineConfig({
               ],
             },
             { text: "Rust", link: "knowledge-base/programming/rust" },
+            { text: "Typescript", link: "knowledge-base/programming/typescript" },
             { text: "Vue", link: "knowledge-base/programming/vue" },
             { text: "WASM", link: "knowledge-base/programming/wasm" },
           ],
