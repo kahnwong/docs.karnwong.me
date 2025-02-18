@@ -2,5 +2,6 @@
 
 ## Runtimes
 
-- [wasm3](https://github.com/wasm3) - 🚀 A fast WebAssembly interpreter and the most universal WASM runtime - For embedded devices
-- [wasmtime](https://github.com/bytecodealliance/wasmtime) - A lightweight WebAssembly runtime that is fast, secure, and standards-compliant - General purpose
+- [wasmcloud](https://wasmcloud.com/) - Build, manage, and scale Wasm apps across any cloud, K8s, or edge
+- [wasmer](https://github.com/wasmerio/wasmer) - For executing wasm from various languages
+- [wasmtime](https://github.com/bytecodealliance/wasmtime) - For running wasm apps as cli
