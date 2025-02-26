@@ -1,4 +1,4 @@
-# Repair shops
+# Repair / Claim
 
 ## Apple
 
@@ -83,3 +83,8 @@ Tel. 02-046-0488
 Fax. 02-048-04991
 02 853 9508
 ```
+
+
+## Super Lock
+
+<https://docs.google.com/forms/d/1QyWGOa2GZCblDsMLlSjlS_1onRSvy9WiYqC1atEcXSs/viewform?edit_requested=true>

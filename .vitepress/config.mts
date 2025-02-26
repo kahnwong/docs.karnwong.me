@@ -295,7 +295,7 @@ export default defineConfig({
       ],
       "/life/": [
         { text: "Celiac", link: "life/celiac" },
-        { text: "Repair Shops", link: "life/repair-shops" },
+        { text: "Repair / Claim", link: "life/repair-claim" },
         {
           text: "Gaming",
           items: generateSidebar({
